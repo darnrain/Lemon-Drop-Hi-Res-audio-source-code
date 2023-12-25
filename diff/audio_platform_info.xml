@@ -25,22 +25,45 @@
 <!-- OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN -->
 <!-- IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.                          -->
 <audio_platform_info>
+
+	<!-- Lemon Drop Hi-Res start of mods -->
+
     <acdb_ids>
-        <device name="SND_DEVICE_IN_UNPROCESSED_HEADSET_MIC" acdb_id="63"/>
+        <device name="SND_DEVICE_IN_PROCESSED_HEADSET_MIC" acdb_id="63"/>
         <device name="SND_DEVICE_OUT_SPEAKER" acdb_id="14"/>
         <device name="SND_DEVICE_OUT_SPEAKER_PROTECTED" acdb_id="101"/>
-        <device name="SND_DEVICE_IN_UNPROCESSED_MIC" acdb_id="143"/>
-        <device name="SND_DEVICE_IN_UNPROCESSED_STEREO_MIC" acdb_id="144"/>
-        <device name="SND_DEVICE_IN_UNPROCESSED_THREE_MIC" acdb_id="145"/>
-        <device name="SND_DEVICE_IN_UNPROCESSED_QUAD_MIC" acdb_id="146"/>
-        <device name="SND_DEVICE_IN_THREE_MIC" acdb_id="1110"/>
+        <device name="SND_DEVICE_IN_PROCESSED_MIC" acdb_id="143"/>
+        <device name="SND_DEVICE_IN_PROCESSED_STEREO_MIC" acdb_id="144"/>
+        <device name="SND_DEVICE_IN_PROCESSED_THREE_MIC" acdb_id="145"/>
+        <device name="SND_DEVICE_IN_PROCESSED_QUAD_MIC" acdb_id="146"/>
+        <device name="SND_DEVICE_IN_PROCESSED_THREE_MIC" acdb_id="1110"/>
     </acdb_ids>
-    <bit_width_configs>
-        <device name="SND_DEVICE_OUT_SPEAKER" bit_width="24"/>
-    </bit_width_configs>
+
+	<!-- Lemon Drop Hi-Res end of mods -->
+
+	<!-- Lemon Drop Hi-Res start of mods -->
+
+	<!-- deleting these lines will allow the DAC -->
+	<!-- to output directly to headphones without -->
+	<!-- going through the mixer that will downsample the audio -->
+
+	<!-- Deleted -->
+    	<!-- <bit_width_configs> -->
+    	<!--     <device name="SND_DEVICE_OUT_SPEAKER" bit_width="24" /> -->
+    	<!-- </bit_width_configs> -->
+
+	<!-- Lemon Drop Hi-Res end of mods -->
+
+	<!-- Lemon Drop Hi-Res start of mods -->
+
+	<!-- changed 0 to 1 -->
     <native_configs>
-        <feature name="NATIVE_AUDIO_44.1" codec_support="0"/>
+        <feature name="NATIVE_AUDIO_44.1" codec_support="1" />
     </native_configs>
+    <config_params>
+
+	<!-- Lemon Drop Hi-Res end of mods -->
+
     <config_params>
         <param key="spkr_1_tz_name" value="wsatz.13"/>
         <!-- In the below value string, first parameter indicates size -->
@@ -49,6 +72,21 @@
     </config_params>
     <backend_names>
         <device name="SND_DEVICE_OUT_HEADPHONES" backend="headphones" interface="SLIMBUS_6_RX" />
+
+	<!-- Lemon Drop Hi-Res start of mods -->
+
+	<!-- added -->
+        <device name="SND_DEVICE_LGE_OUT_BLUETOOTH_16BIT" backend="bluetooth-16bit" interface="SLIMBUS_7_RX" />
+        <device name="SND_DEVICE_LGE_OUT_BLUETOOTH_24BIT" backend="bluetooth-24bit" interface="SLIMBUS_8_RX" />
+        <device name="SND_DEVICE_LGE_OUT_HEADPHONE_16BIT" backend="headphone-16bit" interface="SLIMBUS_9_RX" />
+        <device name="SND_DEVICE_LGE_OUT_HEADPHONE_16BIT_ADVANCED" backend="headphone-16bit" interface="SLIMBUS_9_RX" />
+        <device name="SND_DEVICE_LGE_OUT_HEADPHONE_16BIT_AUX" backend="headphone-16bit" interface="SLIMBUS_9_RX" />
+        <device name="SND_DEVICE_LGE_OUT_HEADPHONE_24BIT" backend="headphone-24bit" interface="SLIMBUS_10_RX" />
+        <device name="SND_DEVICE_LGE_OUT_HEADPHONE_24BIT_ADVANCED" backend="headphone-24bit" interface="SLIMBUS_10_RX" />
+        <device name="SND_DEVICE_LGE_OUT_HEADPHONE_24BIT_AUX" backend="headphone-24bit" interface="SLIMBUS_10_RX" />
+
+	<!-- Lemon Drop Hi-Res end of mods -->
+
         <device name="SND_DEVICE_OUT_LINE" backend="headphones" interface="SLIMBUS_6_RX" />
         <device name="SND_DEVICE_OUT_SPEAKER_AND_HEADPHONES" backend="speaker-and-headphones" interface="SLIMBUS_0_RX-and-SLIMBUS_6_RX" />
         <device name="SND_DEVICE_OUT_SPEAKER_AND_LINE" backend="speaker-and-headphones" interface="SLIMBUS_0_RX-and-SLIMBUS_6_RX" />
@@ -60,15 +98,29 @@
         <device name="SND_DEVICE_OUT_VOICE_LINE" backend="headphones" interface="SLIMBUS_6_RX" />
         <device name="SND_DEVICE_OUT_VOICE_TTY_FULL_HEADPHONES" backend="headphones" interface="SLIMBUS_6_RX" />
         <device name="SND_DEVICE_OUT_VOICE_TTY_VCO_HEADPHONES" backend="headphones" interface="SLIMBUS_6_RX" />
-        <device name="SND_DEVICE_LGE_OUT_HEADPHONES_ADVANCED_44_1" backend="headphones-44.1" interface="SLIMBUS_6_RX" />
-        <device name="SND_DEVICE_LGE_OUT_HEADPHONES_AUX_44_1" backend="headphones-44.1" interface="SLIMBUS_6_RX" />
+
+	<!-- Lemon Drop Hi-Res start of mods -->
+
+	<!-- Deleted -->
+        <!-- <device name="SND_DEVICE_LGE_OUT_HEADPHONES_ADVANCED_44_1" backend="headphones-44.1" interface="SLIMBUS_6_RX" /> -->
+        <!-- <device name="SND_DEVICE_LGE_OUT_HEADPHONES_AUX_44_1" backend="headphones-44.1" interface="SLIMBUS_6_RX" /> -->
+
+	<!-- Lemon Drop Hi-Res end of mods -->
+
         <device name="SND_DEVICE_LGE_OUT_HEADPHONES_ADVANCED" backend="headphones" interface="SLIMBUS_6_RX" />
         <device name="SND_DEVICE_LGE_OUT_HEADPHONES_AUX" backend="headphones" interface="SLIMBUS_6_RX" />
         <device name="SND_DEVICE_LGE_OUT_VOICE_HEADPHONES_ADVANCED" backend="headphones" interface="SLIMBUS_6_RX" />
         <device name="SND_DEVICE_LGE_OUT_VOICE_HEADPHONES_AUX" backend="headphones" interface="SLIMBUS_6_RX" />
-        <device name="SND_DEVICE_LGE_OUT_HEADPHONE_24BIT" backend="headphones" interface="SLIMBUS_6_RX" />
-        <device name="SND_DEVICE_LGE_OUT_HEADPHONE_24BIT_ADVANCED" backend="headphones" interface="SLIMBUS_6_RX" />
-        <device name="SND_DEVICE_LGE_OUT_HEADPHONE_24BIT_AUX" backend="headphones" interface="SLIMBUS_6_RX" />
+
+	<!-- Lemon Drop Hi-Res start of mods -->
+
+	<!-- Deleted -->
+        <!-- <device name="SND_DEVICE_LGE_OUT_HEADPHONE_24BIT" backend="headphones" interface="SLIMBUS_6_RX" /> -->
+        <!-- <device name="SND_DEVICE_LGE_OUT_HEADPHONE_24BIT_ADVANCED" backend="headphones" interface="SLIMBUS_6_RX" /> -->
+        <!-- <device name="SND_DEVICE_LGE_OUT_HEADPHONE_24BIT_AUX" backend="headphones" interface="SLIMBUS_6_RX" /> -->
+
+	<!-- Lemon Drop Hi-Res end of mods -->
+
         <device name="SND_DEVICE_LGE_OUT_HEADPHONES_HIFI_DAC" backend="headphones tert-mi2s-headphones" interface="SEC_MI2S_RX" />
         <device name="SND_DEVICE_LGE_OUT_HEADPHONES_HIFI_DAC_ADVANCED" backend="headphones tert-mi2s-headphones" interface="SEC_MI2S_RX" />
         <device name="SND_DEVICE_LGE_OUT_HEADPHONES_HIFI_DAC_AUX" backend="headphones tert-mi2s-headphones" interface="SEC_MI2S_RX" />
