@@ -28,7 +28,7 @@
 	
 	<!-- Top of page -->
 	
-	<!-- Lemon Drop Hi-Res treble v121.3 -->
+	<!-- Lemon Drop Hi-Res treble v122.1 -->
 	
 	<!-- Proudly Made In America -->
 	<!-- Modded by Darnrain1 @XDA -->
@@ -62,7 +62,7 @@
 	
 	<!-- Search for: Lemon Drop -->
 	<!-- to view changes I have made -->
-
+	
 	<!-- Search for: QuadDAC -->
 	<!-- to view the QuadDAC settings -->
 	
@@ -90,9 +90,9 @@
 	<!-- SLIM_10_RX SLIM_10_TX = headphone-24bit aka wired headphones 24bit True Native Mode -->
 	
 	<!-- Lemon Drop Hi-Res start of initial mixer settings -->
-
+	
 	<!-- Lemon Drop Hi-Res start of True Native Mode initial mixer settings -->
-
+	
 <mixer>	
 	<ctl name="TX INT1 SPLINE MIX HPHL Native Switch" value="0" />
 	<ctl name="TX INT1 SPLINE MIX HPHL Switch" value="0" />
@@ -704,9 +704,9 @@
 	<ctl name="RX INT292 SPLINE MIX HI288 Switch" value="0" />
 	
 	<!-- Lemon Drop Hi-Res end of True Native Mode initial mixer settings -->
-
+	
 	<!-- Lemon Drop Hi-Res start of SLIM settings -->
-
+	
 	<ctl name="RX HPH Mode" value="ZERO" />
 	<ctl name="TX HPH Mode" value="ZERO" />
 	<ctl name="SLIM_0_TX Channels" value="ZERO" />
@@ -760,7 +760,7 @@
 	<ctl name="SLIM_10_RX Channels" value="ZERO" />
 	<ctl name="SLIM_10_RX SampleRate" value="ZERO" />
 	<ctl name="SLIM_10_RX Format" value="ZERO" />
-
+	
 	<!-- Lemon Drop Hi-Res end of SLIM settings -->
 	
 	<!-- Lemon Drop Hi-Res start of initial volume settings -->
@@ -841,7 +841,7 @@
 	<ctl name="EAR PA Gain" value="ZERO" />
 	
 	<!-- Lemon Drop Hi-Res end of initial misc settings -->
-
+	
 	<ctl name="HDMI Mixer MultiMedia1" value="0" />
 	<ctl name="HDMI Mixer MultiMedia2" value="0" />
 	<ctl name="HDMI Mixer MultiMedia3" value="0" />
@@ -905,36 +905,36 @@
 	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia16" value="0" />
 	<ctl name="SEC_TDM_TX_0 Audio Mixer MultiMedia5" value="0" />
 	<ctl name="SEC_TDM_RX_0 Audio Mixer MultiMedia5" value="0" />
-    <ctl name="SEC_TDM_TX_0 Channels" value="ZERO" />
+	<ctl name="SEC_TDM_TX_0 Channels" value="ZERO" />
 	<ctl name="SEC_TDM_TX_0 SampleRate" value="ZERO" />
-    <ctl name="SEC_TDM_TX_0 Format" value="ZERO" />
-    <ctl name="SEC_TDM_RX_0 Channels" value="ZERO" />
+	<ctl name="SEC_TDM_TX_0 Format" value="ZERO" />
+	<ctl name="SEC_TDM_RX_0 Channels" value="ZERO" />
 	<ctl name="SEC_TDM_RX_0 SampleRate" value="ZERO" />
-    <ctl name="SEC_TDM_RX_0 Format" value="ZERO" />
+	<ctl name="SEC_TDM_RX_0 Format" value="ZERO" />
 	<ctl name="SEC_TDM_TX_1 Audio Mixer MultiMedia1" value="0" />
 	<ctl name="SEC_TDM_RX_1 Audio Mixer MultiMedia1" value="0" />
-    <ctl name="SEC_TDM_TX_1 Channels" value="ZERO" />
+	<ctl name="SEC_TDM_TX_1 Channels" value="ZERO" />
 	<ctl name="SEC_TDM_TX_1 SampleRate" value="ZERO" />
-    <ctl name="SEC_TDM_TX_1 Format" value="ZERO" />
-    <ctl name="SEC_TDM_RX_1 Channels" value="ZERO" />
+	<ctl name="SEC_TDM_TX_1 Format" value="ZERO" />
+	<ctl name="SEC_TDM_RX_1 Channels" value="ZERO" />
 	<ctl name="SEC_TDM_RX_1 SampleRate" value="ZERO" />
-    <ctl name="SEC_TDM_RX_1 Format" value="ZERO" />
+	<ctl name="SEC_TDM_RX_1 Format" value="ZERO" />
 	<ctl name="SEC_TDM_TX_2 Audio Mixer MultiMedia5" value="0" />
 	<ctl name="SEC_TDM_RX_2 Audio Mixer MultiMedia5" value="0" />
-    <ctl name="SEC_TDM_TX_2 Channels" value="ZERO" />
+	<ctl name="SEC_TDM_TX_2 Channels" value="ZERO" />
 	<ctl name="SEC_TDM_TX_2 SampleRate" value="ZERO" />
-    <ctl name="SEC_TDM_TX_2 Format" value="ZERO" />
-    <ctl name="SEC_TDM_RX_2 Channels" value="ZERO" />
+	<ctl name="SEC_TDM_TX_2 Format" value="ZERO" />
+	<ctl name="SEC_TDM_RX_2 Channels" value="ZERO" />
 	<ctl name="SEC_TDM_RX_2 SampleRate" value="ZERO" />
-    <ctl name="SEC_TDM_RX_2 Format" value="ZERO" />
+	<ctl name="SEC_TDM_RX_2 Format" value="ZERO" />
 	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia3" value="0" />
 	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia3" value="0" />
-    <ctl name="SEC_TDM_TX_3 Channels" value="ZERO" />
+	<ctl name="SEC_TDM_TX_3 Channels" value="ZERO" />
 	<ctl name="SEC_TDM_TX_3 SampleRate" value="ZERO" />
-    <ctl name="SEC_TDM_TX_3 Format" value="ZERO" />
-    <ctl name="SEC_TDM_RX_3 Channels" value="ZERO" />
+	<ctl name="SEC_TDM_TX_3 Format" value="ZERO" />
+	<ctl name="SEC_TDM_RX_3 Channels" value="ZERO" />
 	<ctl name="SEC_TDM_RX_3 SampleRate" value="ZERO" />
-    <ctl name="SEC_TDM_RX_3 Format" value="ZERO" />
+	<ctl name="SEC_TDM_RX_3 Format" value="ZERO" />
 	<ctl name="SEC_MI2S_TX Audio Mixer MultiMedia1" value="0" />
 	<ctl name="SEC_MI2S_TX Audio Mixer MultiMedia2" value="0" />
 	<ctl name="SEC_MI2S_TX Audio Mixer MultiMedia3" value="0" />
@@ -1171,7 +1171,7 @@
 	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia14" value="0" />
 	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia15" value="0" />
 	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia16" value="0" />
-
+	
 	<!-- Lemon Drop Hi-Res start of Compander controls -->
 	
 	<ctl name="COMP1 Switch" value="0" />
@@ -1186,11 +1186,11 @@
 	<ctl name="COMP8 Switch" value="0" />
 	<ctl name="TX COMP8 Switch" value="0" />
 	<ctl name="RX COMP8 Switch" value="0" />
-
+	
 	<!-- Lemon Drop Hi-Res end of Compander controls -->
-
+	
 	<!-- Lemon Drop Hi-Res start DAC initialization code -->
-
+	
 	<ctl name="SpkrLeft COMP Switch" value="0" />
 	<ctl name="SpkrLeft BOOST Switch" value="0" />
 	<ctl name="SpkrLeft VISENSE Switch" value="0" />
@@ -1201,13 +1201,13 @@
 	<ctl name="SpkrRight VISENSE Switch" value="0" />
 	<ctl name="SpkrRight WSA PA Mute" value="0" />
 	<ctl name="SpkrRight SWR DAC_Port Switch" value="0" />
-
+	
 	<!-- Lemon Drop Hi-Res end DAC initialization code -->
-
+	
 	<!-- Lemon Drop Hi-Res end of initial mixer settings -->
-
+	
 	<!-- Lemon Drop Hi-Res start of True Native Mode function -->
-
+	
 	<path name="true-native-mode-HPH">
 	<ctl name="TX INT1 SPLINE MIX HPHL Native Switch" value="1" />
 	<ctl name="TX INT1 SPLINE MIX HPHL Switch" value="1" />
@@ -1821,9 +1821,9 @@
 	<ctl name="RX INT292 SPLINE MIX HI288 Native Switch" value="1" />
 	<ctl name="RX INT292 SPLINE MIX HI288 Switch" value="1" />
 	</path>
-
+	
 	<!-- Lemon Drop Hi-Res end of True Native Mode function -->
-
+	
 	<!-- Lemon Drop Hi-Res start of DAC initialization function -->
 	
 	<path name="speaker-mono-initialization-switch">
@@ -1851,9 +1851,9 @@
 	<ctl name="SpkrRight WSA PA Mute" value="0" />
 	<ctl name="SpkrRight SWR DAC_Port Switch" value="1" />
 	</path>
-
+	
 	<!-- Lemon Drop Hi-Res end of DAC initialization function -->
-
+	
 	<!-- Lemon Drop Hi-Res start of DAC tuning function -->
 	
 	<path name="subsidiary-headphone-bass-volume">
@@ -2040,9 +2040,9 @@
 	<ctl name="HDMI_RX Port Mixer MI2S_TX" value="0" />
 	<ctl name="SLIMBUS_0_RX Port Mixer SLIM_0_TX" value="0" />
 	<ctl name="SLIMBUS_6_RX Port Mixer SLIM_0_TX" value="0" />
-
+	
 	<!-- Lemon Drop Hi-Res start of mods -->
-
+	
 	<!-- Deleted -->
 	<!-- <ctl name="AUX_PCM_RX Audio Mixer MultiMedia1" value="0" /> -->
 	<!-- <ctl name="AUX_PCM_RX Audio Mixer MultiMedia4" value="0" /> -->
@@ -2055,9 +2055,9 @@
 	<!-- <ctl name="AUX_PCM_RX Audio Mixer MultiMedia14" value="0" /> -->
 	<!-- <ctl name="AUX_PCM_RX Audio Mixer MultiMedia15" value="0" /> -->
 	<!-- <ctl name="AUX_PCM_RX Audio Mixer MultiMedia16" value="0" /> -->
-
+	
 	<!-- Lemon Drop Hi-Res end of mods -->
-
+	
 	<ctl name="SLIMBUS_4_RX Audio Mixer MultiMedia1" value="0" />
 	<ctl name="SLIMBUS_4_RX Audio Mixer MultiMedia2" value="0" />
 	<ctl name="MultiMedia5 Mixer SLIM_0_TX" value="0" />
@@ -2078,9 +2078,9 @@
 	<ctl name="MultiMedia1 Mixer SLIM_4_TX" value="0" />
 	<ctl name="MultiMedia1 Mixer AUX_PCM_UL_TX" value="0" />
 	<ctl name="MultiMedia3 Mixer SLIM_0_TX" value="0" />
-
+	
 	<!-- Lemon Drop Hi-Res start of mods -->
-
+	
 	<!-- Deleted -->
 	<!-- <ctl name="HDMI Mixer MultiMedia1" value="0" /> -->
 	<!-- <ctl name="HDMI Mixer MultiMedia2" value="0" /> -->
@@ -2095,7 +2095,7 @@
 	<!-- <ctl name="HDMI Mixer MultiMedia14" value="0" /> -->
 	<!-- <ctl name="HDMI Mixer MultiMedia15" value="0" /> -->
 	<!-- <ctl name="HDMI Mixer MultiMedia16" value="0" /> -->
-
+	
 	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<!-- Lemon Drop Hi-Res start of mods -->
@@ -2604,7 +2604,7 @@
 	<ctl name="AFE_PCM_RX Audio Mixer MultiMedia3" value="0" />
 	
 	<!-- Lemon Drop Hi-Res start of mods -->
-
+	
 	<!-- Deleted -->
 	<!-- SEC MI2S HEADPHONE -->
 	<!-- <ctl name="SEC_MI2S_RX Audio Mixer MultiMedia1" value="0" /> -->
@@ -2637,7 +2637,7 @@
 	<!-- <ctl name="TERT_MI2S_RX Audio Mixer MultiMedia15" value="0" /> -->
 	<!-- <ctl name="TERT_MI2S_RX Audio Mixer MultiMedia16" value="0" /> -->
 	<!-- TERT MI2S A2DP OFFLOAD -->
-
+	
 	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<!-- SEC TDM HEADPHONE -->
@@ -2645,7 +2645,7 @@
 	<ctl name="SEC_TDM_RX_0 Data Format" value="0" />
 	
 	<!-- Lemon Drop Hi-Res start of mods -->
-
+	
 	<!-- Deleted -->
 	<!-- initial gian of headphones-hifi-dac -->
 	<!-- <ctl name="Es9018 Master Volume" value="0" /> -->
@@ -2751,14 +2751,14 @@
 	<path name="deep-buffer-playback hdmi" />
 	<path name="deep-buffer-playback" />
 	</path>
-
+	
 	<!-- Lemon Drop Hi-Res start of mods -->
 	
 	<path name="deep-buffer-playback bt-sco">
 	<ctl name="AUX_PCM_TX Audio Mixer MultiMedia1" value="1" />
 	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia1" value="1" />
 	</path>
-
+	
 	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<path name="deep-buffer-playback bt-sco-wb">
@@ -2837,14 +2837,14 @@
 	<path name="low-latency-playback hdmi">
 	<ctl name="HDMI Mixer MultiMedia5" value="1" />
 	</path>
-
+	
 	<!-- Lemon Drop Hi-Res start of mods -->
 	
 	<path name="low-latency-playback bt-sco">
 	<ctl name="AUX_PCM_TX Audio Mixer MultiMedia5" value="1" />
 	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia5" value="1" />
 	</path>
-
+	
 	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<path name="low-latency-playback bt-sco-wb">
@@ -2937,14 +2937,14 @@
 	<path name="audio-ull-playback hdmi">
 	<ctl name="HDMI Mixer MultiMedia3" value="1" />
 	</path>
-
+	
 	<!-- Lemon Drop Hi-Res start of mods -->
 	
 	<path name="audio-ull-playback bt-sco">
 	<ctl name="AUX_PCM_TX Audio Mixer MultiMedia3" value="1" />
 	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia3" value="1" />
 	</path>
-
+	
 	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<path name="audio-ull-playback bt-sco-wb">
@@ -3020,14 +3020,14 @@
 	<path name="compress-offload-playback hdmi">
 	<ctl name="HDMI Mixer MultiMedia4" value="1" />
 	</path>
-
+	
 	<!-- Lemon Drop Hi-Res start of mods -->
 	
 	<path name="compress-offload-playback bt-sco">
 	<ctl name="AUX_PCM_TX Audio Mixer MultiMedia4" value="1" />
 	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia4" value="1" />
 	</path>
-
+	
 	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<path name="compress-offload-playback bt-sco-wb">
@@ -3114,14 +3114,14 @@
 	<path name="compress-offload-playback2 hdmi">
 	<ctl name="HDMI Mixer MultiMedia7" value="1" />
 	</path>
-
+	
 	<!-- Lemon Drop Hi-Res start of mods -->
 	
 	<path name="compress-offload-playback2 bt-sco">
 	<ctl name="AUX_PCM_TX Audio Mixer MultiMedia7" value="1" />
 	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia7" value="1" />
 	</path>
-
+	
 	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<path name="compress-offload-playback2 bt-sco-wb">
@@ -3208,14 +3208,14 @@
 	<path name="compress-offload-playback3 hdmi">
 	<ctl name="HDMI Mixer MultiMedia10" value="1" />
 	</path>
-
+	
 	<!-- Lemon Drop Hi-Res start of mods -->
 	
 	<path name="compress-offload-playback3 bt-sco">
 	<ctl name="AUX_PCM_TX Audio Mixer MultiMedia10" value="1" />
 	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia10" value="1" />
 	</path>
-
+	
 	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<path name="compress-offload-playback3 bt-sco-wb">
@@ -3302,14 +3302,14 @@
 	<path name="compress-offload-playback4 hdmi">
 	<ctl name="HDMI Mixer MultiMedia11" value="1" />
 	</path>
-
+	
 	<!-- Lemon Drop Hi-Res start of mods -->
 	
 	<path name="compress-offload-playback4 bt-sco">
 	<ctl name="AUX_PCM_TX Audio Mixer MultiMedia11" value="1" />
 	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia11" value="1" />
 	</path>
-
+	
 	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<path name="compress-offload-playback4 bt-sco-wb">
@@ -3396,14 +3396,14 @@
 	<path name="compress-offload-playback5 hdmi">
 	<ctl name="HDMI Mixer MultiMedia12" value="1" />
 	</path>
-
+	
 	<!-- Lemon Drop Hi-Res start of mods -->
 	
 	<path name="compress-offload-playback5 bt-sco">
 	<ctl name="AUX_PCM_TX Audio Mixer MultiMedia12" value="1" />
 	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia12" value="1" />
 	</path>
-
+	
 	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<path name="compress-offload-playback5 bt-sco-wb">
@@ -3490,14 +3490,14 @@
 	<path name="compress-offload-playback6 hdmi">
 	<ctl name="HDMI Mixer MultiMedia13" value="1" />
 	</path>
-
+	
 	<!-- Lemon Drop Hi-Res start of mods -->
 	
 	<path name="compress-offload-playback6 bt-sco">
 	<ctl name="AUX_PCM_TX Audio Mixer MultiMedia13" value="1" />
 	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia13" value="1" />
 	</path>
-
+	
 	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<path name="compress-offload-playback6 bt-sco-wb">
@@ -3584,14 +3584,14 @@
 	<path name="compress-offload-playback7 hdmi">
 	<ctl name="HDMI Mixer MultiMedia14" value="1" />
 	</path>
-
+	
 	<!-- Lemon Drop Hi-Res start of mods -->
 	
 	<path name="compress-offload-playback7 bt-sco">
 	<ctl name="AUX_PCM_TX Audio Mixer MultiMedia14" value="1" />
 	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia14" value="1" />
 	</path>
-
+	
 	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<path name="compress-offload-playback7 bt-sco-wb">
@@ -3678,14 +3678,14 @@
 	<path name="compress-offload-playback8 hdmi">
 	<ctl name="HDMI Mixer MultiMedia15" value="1" />
 	</path>
-
+	
 	<!-- Lemon Drop Hi-Res start of mods -->
 	
 	<path name="compress-offload-playback8 bt-sco">
 	<ctl name="AUX_PCM_TX Audio Mixer MultiMedia15" value="1" />
 	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia15" value="1" />
 	</path>
-
+	
 	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<path name="compress-offload-playback8 bt-sco-wb">
@@ -3772,14 +3772,14 @@
 	<path name="compress-offload-playback9 hdmi">
 	<ctl name="HDMI Mixer MultiMedia16" value="1" />
 	</path>
-
+	
 	<!-- Lemon Drop Hi-Res start of mods -->
 	
 	<path name="compress-offload-playback9 bt-sco">
 	<ctl name="AUX_PCM_TX Audio Mixer MultiMedia16" value="1" />
 	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia16" value="1" />
 	</path>
-
+	
 	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<path name="compress-offload-playback9 bt-sco-wb">
@@ -4179,7 +4179,7 @@
 	<path name="incall-rec-uplink-and-downlink-compress headphones">
 	<path name="incall-rec-uplink-and-downlink-compress" />
 	</path>
-
+	
 	<!-- Lemon Drop Hi-Res start of mods -->
 	
 	<path name="hfp-sco">
@@ -4199,7 +4199,7 @@
 	<ctl name="MultiMedia6 Mixer SLIM_0_TX" value="1" />
 	<ctl name="SLIMBUS6_DL_HL Switch" value="1" />
 	</path>
-
+	
 	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<path name="hfp-sco-wb">
@@ -4481,7 +4481,7 @@
 	<path name="spkr-vi-record">
 	<ctl name="SLIM0_RX_VI_FB_LCH_MUX"  value="SLIM4_TX" />
 	</path>
-
+	
 	<!-- Lemon Drop Hi-Res start of mods -->
 	
 	<!-- TERT MI2S A2DP OFFLOAD start -->
@@ -4546,7 +4546,7 @@
 	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia16" value="1" />
 	</path>
 	<!-- TERT MI2S A2DP OFFLOAD end -->
-
+	
 	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<!-- TERT MI2S A2DP OFFLOAD AND SPEAKER COMBO start -->
@@ -5947,7 +5947,7 @@
 	
 	<path name="dual-audio">
 	</path>
-
+	
 	<!-- Lemon Drop Hi-Res start of mods -->
 	
 	<!-- SEC MI2S HEADPHONE begins -->
@@ -6011,7 +6011,7 @@
 	<ctl name="SEC_MI2S_TX Audio Mixer MultiMedia16" value="1" />
 	<ctl name="SEC_MI2S_RX Audio Mixer MultiMedia16" value="1" />
 	</path>
-
+	
 	<!-- Welcome to the Saber ESS 9218 QuadDAC -->
 	<!-- I have DAC 0 on mid-range -->
 	<!-- DAC 0 and 2 are treble -->
@@ -6022,38 +6022,38 @@
 	<path name="dop-playback tert-mi2s-headphones">
 	<ctl name="SEC_TDM_TX_0 Audio Mixer MultiMedia5" value="1" />
 	<ctl name="SEC_TDM_RX_0 Audio Mixer MultiMedia5" value="1" />
-    <ctl name="SEC_TDM_TX_0 Channels" value="Two" />
+	<ctl name="SEC_TDM_TX_0 Channels" value="Two" />
 	<ctl name="SEC_TDM_TX_0 SampleRate" value="KHZ_352P8" />
-    <ctl name="SEC_TDM_TX_0 Format" value="S32_LE" />
-    <ctl name="SEC_TDM_RX_0 Channels" value="Two" />
+	<ctl name="SEC_TDM_TX_0 Format" value="S32_LE" />
+	<ctl name="SEC_TDM_RX_0 Channels" value="Two" />
 	<ctl name="SEC_TDM_RX_0 SampleRate" value="KHZ_352P8" />
-    <ctl name="SEC_TDM_RX_0 Format" value="S32_LE" />
+	<ctl name="SEC_TDM_RX_0 Format" value="S32_LE" />
 	<ctl name="SEC_TDM_TX_1 Audio Mixer MultiMedia1" value="1" />
 	<ctl name="SEC_TDM_RX_1 Audio Mixer MultiMedia1" value="1" />
-    <ctl name="SEC_TDM_TX_1 Channels" value="Two" />
+	<ctl name="SEC_TDM_TX_1 Channels" value="Two" />
 	<ctl name="SEC_TDM_TX_1 SampleRate" value="KHZ_352P8" />
-    <ctl name="SEC_TDM_TX_1 Format" value="S32_LE" />
-    <ctl name="SEC_TDM_RX_1 Channels" value="Two" />
+	<ctl name="SEC_TDM_TX_1 Format" value="S32_LE" />
+	<ctl name="SEC_TDM_RX_1 Channels" value="Two" />
 	<ctl name="SEC_TDM_RX_1 SampleRate" value="KHZ_352P8" />
-    <ctl name="SEC_TDM_RX_1 Format" value="S32_LE" />
+	<ctl name="SEC_TDM_RX_1 Format" value="S32_LE" />
 	<ctl name="SEC_TDM_TX_2 Audio Mixer MultiMedia5" value="1" />
 	<ctl name="SEC_TDM_RX_2 Audio Mixer MultiMedia5" value="1" />
-    <ctl name="SEC_TDM_TX_2 Channels" value="Two" />
+	<ctl name="SEC_TDM_TX_2 Channels" value="Two" />
 	<ctl name="SEC_TDM_TX_2 SampleRate" value="KHZ_352P8" />
-    <ctl name="SEC_TDM_TX_2 Format" value="S32_LE" />
-    <ctl name="SEC_TDM_RX_2 Channels" value="Two" />
+	<ctl name="SEC_TDM_TX_2 Format" value="S32_LE" />
+	<ctl name="SEC_TDM_RX_2 Channels" value="Two" />
 	<ctl name="SEC_TDM_RX_2 SampleRate" value="KHZ_352P8" />
-    <ctl name="SEC_TDM_RX_2 Format" value="S32_LE" />
+	<ctl name="SEC_TDM_RX_2 Format" value="S32_LE" />
 	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia3" value="1" />
 	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia3" value="1" />
-    <ctl name="SEC_TDM_TX_3 Channels" value="Two" />
+	<ctl name="SEC_TDM_TX_3 Channels" value="Two" />
 	<ctl name="SEC_TDM_TX_3 SampleRate" value="KHZ_352P8" />
-    <ctl name="SEC_TDM_TX_3 Format" value="S32_LE" />
-    <ctl name="SEC_TDM_RX_3 Channels" value="Two" />
+	<ctl name="SEC_TDM_TX_3 Format" value="S32_LE" />
+	<ctl name="SEC_TDM_RX_3 Channels" value="Two" />
 	<ctl name="SEC_TDM_RX_3 SampleRate" value="KHZ_352P8" />
-    <ctl name="SEC_TDM_RX_3 Format" value="S32_LE" />
+	<ctl name="SEC_TDM_RX_3 Format" value="S32_LE" />
 	</path>
-
+	
 	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<path name="incall-music headphones tert-mi2s-headphones">

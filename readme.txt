@@ -16,7 +16,7 @@ Your welcome to look over all my notes in the mixer_paths_tasha.xml and audio_pl
 
 I programed everything to upsample audio played at 44.1kHz.
 
-I made three diffrent versions of Lemon Drop Hi-Res but only one souce code. To change the DAC modes search for: <path name="speaker-initialization-switch">
+I made two diffrent versions of Lemon Drop Hi-Res but only one souce code. To change the DAC modes search for: <path name="speaker-initialization-switch">
 
 
 treble
@@ -27,18 +27,6 @@ treble
 	<ctl name="SpkrLeft SWR DAC_Port Switch" value="1" />
 	<ctl name="SpkrRight COMP Switch" value="1" />
 	<ctl name="SpkrRight BOOST Switch" value="0" />
-	<ctl name="SpkrRight VISENSE Switch" value="0" />
-	<ctl name="SpkrRight WSA PA Mute" value="0" />
-	<ctl name="SpkrRight SWR DAC_Port Switch" value="1" />
-
-bass
-	<ctl name="SpkrLeft COMP Switch" value="1" />
-	<ctl name="SpkrLeft BOOST Switch" value="1" />
-	<ctl name="SpkrLeft VISENSE Switch" value="0" />
-	<ctl name="SpkrLeft WSA PA Mute" value="0" />
-	<ctl name="SpkrLeft SWR DAC_Port Switch" value="1" />
-	<ctl name="SpkrRight COMP Switch" value="1" />
-	<ctl name="SpkrRight BOOST Switch" value="1" />
 	<ctl name="SpkrRight VISENSE Switch" value="0" />
 	<ctl name="SpkrRight WSA PA Mute" value="0" />
 	<ctl name="SpkrRight SWR DAC_Port Switch" value="1" />
