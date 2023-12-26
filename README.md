@@ -9,7 +9,7 @@ I am just about finished with Lemon Drop Hi-Res, just adding the final touches. 
 My hope is to have people add this code to other Android phones, so everyone can experience what Hi-Res audio sounds like on there phone.<br>
 
 Why did I make Lemon Drop Hi-Res? I wanted a Hi-Res music player, but I didn't want to pay $2000.<br>
-I knew that the Lgv20 had the best DAC for 2016 Saber ESS 9218 DAC.<br>
+I knew that the Lgv20 had the best QuadDAC for 2016 Saber ESS 9218 DAC.<br>
 
 
 Lemon Drop Hi-Res True Native Mode Stock Oreo Rom for the H910 & most Lgv20 phones.<br>
