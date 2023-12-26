@@ -4,7 +4,7 @@ all files are located in
 
 I have calculated that a QuadDAC needs to have 288 mixer paths to function in True Native Mode. 144 on the headphone side and 144 on the speaker or DAC side for a total of 288. Each one mid-range, treble and bass requires 8 mixer paths to function. 8 X 3 = 24 for a QuadDAC you want to times that by six 24 X 6 = 144 then 144 X 2 = 288
 
-For a DAC that has 8 cores you would timex that by 12 and so on.
+For a DAC that has 8 cores you would times that by 12 and so on.
 
 The two main files that from my understanding that made this all possible would be 
 audio_platform_info.xml
