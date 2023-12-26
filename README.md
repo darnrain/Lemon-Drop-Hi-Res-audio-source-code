@@ -6,7 +6,7 @@
 ### With all 4 DACs enabled.
 ### A total of 8 channels in true stereo.
 
-Audio souce code for Lemon Drop Hi-Res v124.3<br>
+Audio souce code for Lemon Drop Hi-Res v125.1<br>
 Also need the build.prop tweaks for Hardware Offloaded Audio Processing.<br>
 
 If you find an error or a mistake I made in the mixer_paths file, please open an issue and let me know so it can be fixed, thank you. with over 6000 lines of code chance of an error or a mistake is high.<br>
