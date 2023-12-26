@@ -9,7 +9,6 @@ The diff directory I uploaded the original then the modded v122.1, that way you 
 I am just about finished with Lemon Drop Hi-Res, just adding the final touches. That's why I uploaded to GitHub at this time.<br>
 
 My hope is to have people add this code to other Android phones, so everyone can experience what Hi-Res audio sounds like on there phone.<br>
-The Android may need to have a Saber ESS DAC for True Native Mode to work.<br>
 
 Why did I make Lemon Drop Hi-Res? I wanted a Hi-Res music player, but I didn't want to pay $2000.<br>
 I knew that the Lgv20 had the best QuadDAC for 2016 Saber ESS 9218 DAC.<br>
