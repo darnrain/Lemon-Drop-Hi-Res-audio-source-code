@@ -9,6 +9,8 @@
 Audio souce code for Lemon Drop Hi-Res v124.3<br>
 Also need the build.prop tweaks for Hardware Offloaded Audio Processing.<br>
 
+If you find an error or a mistake I made, please open an issue and let me know so it can be fixed. Thank you, with over 6000 lines of code chance of an error is good.<br>
+
 How long did it take me? The build.prop tweaks been working on them on and off for a year, and programing the mixer_paths file for two months, or longer I lost track of time.<br>
 
 The diff directory I uploaded the original then the modded v122.1, that way you can look at the commits from gound zero.<br>
