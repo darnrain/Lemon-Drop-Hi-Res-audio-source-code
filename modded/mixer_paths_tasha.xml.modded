@@ -28,7 +28,7 @@
 	
 	<!-- Top of page -->
 	
-	<!-- Lemon Drop Hi-Res treble v123.1 -->
+	<!-- Lemon Drop Hi-Res treble v124.3 -->
 	
 	<!-- Proudly Made In America -->
 	<!-- Modded by Darnrain1 @XDA -->
@@ -65,6 +65,9 @@
 	
 	<!-- Search for: QuadDAC -->
 	<!-- to view the QuadDAC settings -->
+
+	<!-- Search for: Saber ESS 9128 DAC -->
+	<!-- to view the speaker settings aka DAC -->
 	
 	<!-- Search for: control center -->
 	<!-- to view main devices in True Native Mode -->
@@ -1826,21 +1829,11 @@
 	
 	<!-- Lemon Drop Hi-Res start of DAC initialization function -->
 	
-	<!-- Its best to enable everyting then program your settings -->
-	<!-- This will reset the DAC to make sure you have 100% volume levels -->
+	<!-- For a QuadDAC you want to use number 4 -->
+	<!-- To enable all 4 DACs -->
+	<!-- 0 = all 4 DACs off -->
 	
 	<path name="speaker-mono-initialization-switch">
-	<ctl name="SpkrLeft COMP Switch" value="1" />
-	<ctl name="SpkrLeft BOOST Switch" value="1" />
-	<ctl name="SpkrLeft VISENSE Switch" value="1" />
-	<ctl name="SpkrLeft WSA PA Mute" value="1" />
-	<ctl name="SpkrLeft SWR DAC_Port Switch" value="1" />
-	<ctl name="SpkrRight COMP Switch" value="1" />
-	<ctl name="SpkrRight BOOST Switch" value="1" />
-	<ctl name="SpkrRight VISENSE Switch" value="1" />
-	<ctl name="SpkrRight WSA PA Mute" value="1" />
-	<ctl name="SpkrRight SWR DAC_Port Switch" value="1" />
-	
 	<ctl name="SpkrLeft COMP Switch" value="1" />
 	<ctl name="SpkrLeft BOOST Switch" value="1" />
 	<ctl name="SpkrLeft VISENSE Switch" value="1" />
@@ -1854,27 +1847,16 @@
 	</path>
 	
 	<path name="speaker-initialization-switch">
-	<ctl name="SpkrLeft COMP Switch" value="1" />
-	<ctl name="SpkrLeft BOOST Switch" value="1" />
-	<ctl name="SpkrLeft VISENSE Switch" value="1" />
-	<ctl name="SpkrLeft WSA PA Mute" value="1" />
-	<ctl name="SpkrLeft SWR DAC_Port Switch" value="1" />
-	<ctl name="SpkrRight COMP Switch" value="1" />
-	<ctl name="SpkrRight BOOST Switch" value="1" />
-	<ctl name="SpkrRight VISENSE Switch" value="1" />
-	<ctl name="SpkrRight WSA PA Mute" value="1" />
-	<ctl name="SpkrRight SWR DAC_Port Switch" value="1" />
-	
-	<ctl name="SpkrLeft COMP Switch" value="1" />
+	<ctl name="SpkrLeft COMP Switch" value="4" />
 	<ctl name="SpkrLeft BOOST Switch" value="0" />
 	<ctl name="SpkrLeft VISENSE Switch" value="0" />
 	<ctl name="SpkrLeft WSA PA Mute" value="0" />
-	<ctl name="SpkrLeft SWR DAC_Port Switch" value="1" />
-	<ctl name="SpkrRight COMP Switch" value="1" />
+	<ctl name="SpkrLeft SWR DAC_Port Switch" value="4" />
+	<ctl name="SpkrRight COMP Switch" value="4" />
 	<ctl name="SpkrRight BOOST Switch" value="0" />
 	<ctl name="SpkrRight VISENSE Switch" value="0" />
 	<ctl name="SpkrRight WSA PA Mute" value="0" />
-	<ctl name="SpkrRight SWR DAC_Port Switch" value="1" />
+	<ctl name="SpkrRight SWR DAC_Port Switch" value="4" />
 	</path>
 	
 	<!-- Lemon Drop Hi-Res end of DAC initialization function -->
@@ -2677,6 +2659,8 @@
 	<!-- <ctl name="Es9018 AVC Volume" value="0" /> -->
 	<!-- <ctl name="Es9018 HEADSET TYPE" value="0" /> -->
 	<!-- <ctl name="Es9218 Bypass" value="0" /> -->
+
+	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<!-- These are audio route (FE to BE) specific mixer settings -->
 	<path name="gsm-mode">
@@ -4814,8 +4798,6 @@
 	<ctl name="HPHR Volume" value="16" />
 	<path name="speaker-initialization-switch" />
 	</path>
-	
-	<!-- 24bit offloaded internal speaker -->
 	
 	<path name="speaker-liquid">
 	<path name="true-native-mode-SPKR" />
