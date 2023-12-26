@@ -1,6 +1,6 @@
 ## Lemon Drop Hi-Res audio source code
-Audio souce code for Lemon Drop Hi-Res rom Lgv20 v121.3<br>
-Also need the build.prop tweaks to make everthing work<br>
+Audio souce code for Lemon Drop Hi-Res v121.3<br>
+Also need the build.prop tweaks for Hardware Offloaded Audio Processing.<br>
 
 The diff directory I uploaded the original, then uploaded the modded v122.1 that way you can look at the commits.<br>
 
