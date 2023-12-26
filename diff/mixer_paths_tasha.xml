@@ -28,14 +28,14 @@
 	
 	<!-- Top of page -->
 	
-	<!-- Lemon Drop Hi-Res treble v122.1 -->
+	<!-- Lemon Drop Hi-Res treble v123.1 -->
 	
 	<!-- Proudly Made In America -->
 	<!-- Modded by Darnrain1 @XDA -->
 	
 	<!-- I documented all modifications -->
 	<!-- I moved all lines to the left and tabed with sed commands -->
-	<!-- The order of the code matters a computer reads from top to bottom -->
+	<!-- The correct order of code is critical a computer reads from top to bottom -->
 	<!-- The INT commands need to be ran all at once for the same number -->
 	
 	<!-- Change all: "/> to: " /> -->
@@ -93,7 +93,7 @@
 	
 	<!-- Lemon Drop Hi-Res start of True Native Mode initial mixer settings -->
 	
-<mixer>	
+<mixer>
 	<ctl name="TX INT1 SPLINE MIX HPHL Native Switch" value="0" />
 	<ctl name="TX INT1 SPLINE MIX HPHL Switch" value="0" />
 	<ctl name="RX INT1 SPLINE MIX HPHL Native Switch" value="0" />
@@ -1826,7 +1826,21 @@
 	
 	<!-- Lemon Drop Hi-Res start of DAC initialization function -->
 	
+	<!-- Its best to enable everyting then program your settings -->
+	<!-- This will reset the DAC to make sure you have 100% volume levels -->
+	
 	<path name="speaker-mono-initialization-switch">
+	<ctl name="SpkrLeft COMP Switch" value="1" />
+	<ctl name="SpkrLeft BOOST Switch" value="1" />
+	<ctl name="SpkrLeft VISENSE Switch" value="1" />
+	<ctl name="SpkrLeft WSA PA Mute" value="1" />
+	<ctl name="SpkrLeft SWR DAC_Port Switch" value="1" />
+	<ctl name="SpkrRight COMP Switch" value="1" />
+	<ctl name="SpkrRight BOOST Switch" value="1" />
+	<ctl name="SpkrRight VISENSE Switch" value="1" />
+	<ctl name="SpkrRight WSA PA Mute" value="1" />
+	<ctl name="SpkrRight SWR DAC_Port Switch" value="1" />
+	
 	<ctl name="SpkrLeft COMP Switch" value="1" />
 	<ctl name="SpkrLeft BOOST Switch" value="1" />
 	<ctl name="SpkrLeft VISENSE Switch" value="1" />
@@ -1840,6 +1854,17 @@
 	</path>
 	
 	<path name="speaker-initialization-switch">
+	<ctl name="SpkrLeft COMP Switch" value="1" />
+	<ctl name="SpkrLeft BOOST Switch" value="1" />
+	<ctl name="SpkrLeft VISENSE Switch" value="1" />
+	<ctl name="SpkrLeft WSA PA Mute" value="1" />
+	<ctl name="SpkrLeft SWR DAC_Port Switch" value="1" />
+	<ctl name="SpkrRight COMP Switch" value="1" />
+	<ctl name="SpkrRight BOOST Switch" value="1" />
+	<ctl name="SpkrRight VISENSE Switch" value="1" />
+	<ctl name="SpkrRight WSA PA Mute" value="1" />
+	<ctl name="SpkrRight SWR DAC_Port Switch" value="1" />
+	
 	<ctl name="SpkrLeft COMP Switch" value="1" />
 	<ctl name="SpkrLeft BOOST Switch" value="0" />
 	<ctl name="SpkrLeft VISENSE Switch" value="0" />
