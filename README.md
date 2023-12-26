@@ -2,7 +2,7 @@
 Audio souce code for Lemon Drop Hi-Res v123.1<br>
 Also need the build.prop tweaks for Hardware Offloaded Audio Processing.<br>
 
-Update: I forgot add "Lemon Drop Hi-Res end of mods" on line 2680 in v123.1<br>
+Update: I forgot add "Lemon Drop Hi-Res end of mods" on line 2680 in the mixer_paths_tasha.xml v123.1<br>
 
 The diff directory I uploaded the original then the modded v122.1, that way you can look at the commits from gound zero.<br>
 
