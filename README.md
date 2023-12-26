@@ -8,4 +8,4 @@ I am still working on Lemon Drop Hi-Res for the most part I am adding the final 
 
 My hope is to have people add this code to other Android phones, so everyone can experiance what Hi-Res audio sounds like on there phone.
 
-Why did I make Lemon Drop Hi-Res? I wanted a Hi-Res music player, but I didn't want to pay $2000.
+Why did I make Lemon Drop Hi-Res? I wanted a Hi-Res music player, but I didn't want to pay $2000. I knew that the Lgv20 had the best DAC for 2016 Saber ESS 9218 DAC.
