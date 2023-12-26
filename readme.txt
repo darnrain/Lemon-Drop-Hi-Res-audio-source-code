@@ -20,27 +20,27 @@ I made two diffrent versions of Lemon Drop Hi-Res but only one souce code. To ch
 
 
 treble
-	<ctl name="SpkrLeft COMP Switch" value="1" />
+	<ctl name="SpkrLeft COMP Switch" value="4" />
 	<ctl name="SpkrLeft BOOST Switch" value="0" />
 	<ctl name="SpkrLeft VISENSE Switch" value="0" />
 	<ctl name="SpkrLeft WSA PA Mute" value="0" />
-	<ctl name="SpkrLeft SWR DAC_Port Switch" value="1" />
-	<ctl name="SpkrRight COMP Switch" value="1" />
+	<ctl name="SpkrLeft SWR DAC_Port Switch" value="4" />
+	<ctl name="SpkrRight COMP Switch" value="4" />
 	<ctl name="SpkrRight BOOST Switch" value="0" />
 	<ctl name="SpkrRight VISENSE Switch" value="0" />
 	<ctl name="SpkrRight WSA PA Mute" value="0" />
-	<ctl name="SpkrRight SWR DAC_Port Switch" value="1" />
+	<ctl name="SpkrRight SWR DAC_Port Switch" value="4" />
 
 bass+
-	<ctl name="SpkrLeft COMP Switch" value="1" />
-	<ctl name="SpkrLeft BOOST Switch" value="1" />
-	<ctl name="SpkrLeft VISENSE Switch" value="1" />
+	<ctl name="SpkrLeft COMP Switch" value="4" />
+	<ctl name="SpkrLeft BOOST Switch" value="4" />
+	<ctl name="SpkrLeft VISENSE Switch" value="4" />
 	<ctl name="SpkrLeft WSA PA Mute" value="0" />
-	<ctl name="SpkrLeft SWR DAC_Port Switch" value="1" />
-	<ctl name="SpkrRight COMP Switch" value="1" />
-	<ctl name="SpkrRight BOOST Switch" value="1" />
-	<ctl name="SpkrRight VISENSE Switch" value="1" />
+	<ctl name="SpkrLeft SWR DAC_Port Switch" value="4" />
+	<ctl name="SpkrRight COMP Switch" value="4" />
+	<ctl name="SpkrRight BOOST Switch" value="4" />
+	<ctl name="SpkrRight VISENSE Switch" value="4" />
 	<ctl name="SpkrRight WSA PA Mute" value="0" />
-	<ctl name="SpkrRight SWR DAC_Port Switch" value="1" />
+	<ctl name="SpkrRight SWR DAC_Port Switch" value="4" />
 
 
