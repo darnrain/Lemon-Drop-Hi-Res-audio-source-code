@@ -2,6 +2,8 @@
 Audio souce code for Lemon Drop Hi-Res v123.1<br>
 Also need the build.prop tweaks for Hardware Offloaded Audio Processing.<br>
 
+Update: I forgot add "Lemon Drop Hi-Res end of mods" on line 2680<br>
+
 The diff directory I uploaded the original then the modded v122.1, that way you can look at the commits from gound zero.<br>
 
 I am just about finished with Lemon Drop Hi-Res, just adding the final touches. That's why I uploaded to GitHub at this time.<br>
