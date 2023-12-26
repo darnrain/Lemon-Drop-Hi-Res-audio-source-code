@@ -4,7 +4,7 @@ Also need the build.prop tweaks for Hardware Offloaded Audio Processing.<br>
 
 The diff directory I uploaded the original, then uploaded the modded v122.1 that way you can look at the commits.<br>
 
-I am still working on Lemon Drop Hi-Res for the most part I am adding the final touches, that's why I uploaded to GitHub.<br>
+I am just about finished with Lemon Drop Hi-Res, just adding the final touches. That's why I uploaded to GitHub at this time.<br>
 
 My hope is to have people add this code to other Android phones, so everyone can experience what Hi-Res audio sounds like on there phone.<br>
 
