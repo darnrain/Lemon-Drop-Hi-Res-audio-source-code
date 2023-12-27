@@ -34,7 +34,7 @@
 	<!-- With all 4 DACs enabled. -->
 	<!-- A total of 8 channels in true stereo. -->
 	
-	<!-- Lemon Drop Hi-Res treble v125.1 -->
+	<!-- Lemon Drop Hi-Res treble v127.1 -->
 	
 	<!-- Proudly Made In America -->
 	<!-- Modded by Darnrain1 @XDA -->
@@ -4503,22 +4503,23 @@
 	</path>
 	
 	<!-- Lemon Drop Hi-Res start of mods -->
+	<!-- Changed order should be 1 5 3 4 7 -->
 	
 	<!-- TERT MI2S A2DP OFFLOAD start -->
-	
-	<path name="audio-ull-playback tert-mi2s-a2dp">
-	<ctl name="TERT_MI2S_TX Audio Mixer MultiMedia3" value="1" />
-	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia3" value="1" />
-	</path>
-	
+
 	<path name="deep-buffer-playback tert-mi2s-a2dp">
 	<ctl name="TERT_MI2S_TX Audio Mixer MultiMedia1" value="1" />
 	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia1" value="1" />
 	</path>
-	
+
 	<path name="low-latency-playback tert-mi2s-a2dp">
 	<ctl name="TERT_MI2S_TX Audio Mixer MultiMedia5" value="1" />
 	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia5" value="1" />
+	</path>
+	
+	<path name="audio-ull-playback tert-mi2s-a2dp">
+	<ctl name="TERT_MI2S_TX Audio Mixer MultiMedia3" value="1" />
+	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia3" value="1" />
 	</path>
 	
 	<path name="compress-offload-playback tert-mi2s-a2dp">
@@ -4568,22 +4569,25 @@
 	<!-- TERT MI2S A2DP OFFLOAD end -->
 	
 	<!-- Lemon Drop Hi-Res end of mods -->
+
+	<!-- Lemon Drop Hi-Res start of mods -->
+	<!-- Changed order -->
 	
 	<!-- TERT MI2S A2DP OFFLOAD AND SPEAKER COMBO start -->
-	
-	<path name="audio-ull-playback tert-mi2s-a2dp-and-speaker">
-	<path name="audio-ull-playback tert-mi2s-a2dp" />
-	<path name="audio-ull-playback" />
-	</path>
 	
 	<path name="deep-buffer-playback tert-mi2s-a2dp-and-speaker">
 	<path name="deep-buffer-playback tert-mi2s-a2dp" />
 	<path name="deep-buffer-playback" />
 	</path>
-	
+
 	<path name="low-latency-playback tert-mi2s-a2dp-and-speaker">
 	<path name="low-latency-playback tert-mi2s-a2dp" />
 	<path name="low-latency-playback" />
+	</path>
+
+	<path name="audio-ull-playback tert-mi2s-a2dp-and-speaker">
+	<path name="audio-ull-playback tert-mi2s-a2dp" />
+	<path name="audio-ull-playback" />
 	</path>
 	
 	<path name="compress-offload-playback tert-mi2s-a2dp-and-speaker">
@@ -5967,13 +5971,9 @@
 	</path>
 	
 	<!-- Lemon Drop Hi-Res start of mods -->
+	<!-- Changed order should be 1 5 3 4 7 -->
 	
 	<!-- SEC MI2S HEADPHONE begins -->
-	
-	<path name="audio-ull-playback headphones tert-mi2s-headphones">
-	<ctl name="SEC_MI2S_TX Audio Mixer MultiMedia3" value="1" />
-	<ctl name="SEC_MI2S_RX Audio Mixer MultiMedia3" value="1" />
-	</path>
 	
 	<path name="deep-buffer-playback headphones tert-mi2s-headphones">
 	<ctl name="SEC_MI2S_TX Audio Mixer MultiMedia1" value="1" />
@@ -5983,6 +5983,11 @@
 	<path name="low-latency-playback headphones tert-mi2s-headphones">
 	<ctl name="SEC_MI2S_TX Audio Mixer MultiMedia5" value="1" />
 	<ctl name="SEC_MI2S_RX Audio Mixer MultiMedia5" value="1" />
+	</path>
+
+	<path name="audio-ull-playback headphones tert-mi2s-headphones">
+	<ctl name="SEC_MI2S_TX Audio Mixer MultiMedia3" value="1" />
+	<ctl name="SEC_MI2S_RX Audio Mixer MultiMedia3" value="1" />
 	</path>
 	
 	<path name="compress-offload-playback headphones tert-mi2s-headphones">
@@ -6030,7 +6035,7 @@
 	<ctl name="SEC_MI2S_RX Audio Mixer MultiMedia16" value="1" />
 	</path>
 	
-	<!-- Welcome to the Saber ESS 9218 QuadDAC -->
+	<!-- Welcome to the Saber ESS 9218 QuadDAC direct output -->
 	<!-- I have DAC 0 on mid-range -->
 	<!-- DAC 0 and 2 are treble -->
 	<!-- DAC 1 is bass -->
