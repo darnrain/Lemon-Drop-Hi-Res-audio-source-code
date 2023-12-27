@@ -1,1 +1,0 @@
-I disconnected the DAC from the phones mixer, so its outputting directly to headphones and bluetooth. Wired headphones are outputing at 32bit 352.8kHz in 24bit mode, everything else is upsampled to 32bit 352.8kHz outputing at 16bit 44.1kHz or 24bit 44.1kHz. Wired headphones and bluetooth are all running in 100% True Native Mode, including the DAC.
