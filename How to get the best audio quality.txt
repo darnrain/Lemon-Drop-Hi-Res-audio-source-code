@@ -36,7 +36,7 @@ I disconnected the DAC from the phones mixer, so its outputting directly to head
 
 
 How do I setup Poweramp, for Lemon Drop Hi-Res?
-Open settings, Audio, Output, Hi-Res Output, Check mark Wired headset and bluetooth, then go into Wired headset and bluetooth settings and set the sample rate to 44.1kHz. Then go back, open OpenSL ES Output, check mark Speaker, open Speaker settings and check mark Float32 Sample Format. Then go back to Audio, Crossface, Face, and Gapless, under Preload Gapless Tracks, crank that up to the max 5000ms. Then go back to Audio, open Equalizer, uncheck Smooth Equalizer/Tone Gains. Then go back to Settings, Headset/Bluetooth, uncheck Resume On Wired Headset and Bluetooth. You want to be able to lower the volume first before music starts playing. Make sure DVC is enabled, that will enable the Deep Buffers, aka HW DAC bass.That’s it Lemon Drop Hi-Res will do the rest.
+Open settings, Audio, Output, Hi-Res Output, Check mark Wired headset and bluetooth, then go into Wired headset and bluetooth settings and set the sample rate to 44.1kHz. Then go back, open OpenSL ES Output, check mark Speaker, open Speaker settings and check mark Float32 Sample Format. Then go back to Audio, Crossface, Face, and Gapless, under Preload Gapless Tracks, make sure its at none 0ms. Then go back to Audio, open Equalizer, uncheck Smooth Equalizer/Tone Gains. Then go back to Settings, Headset/Bluetooth, uncheck Resume On Wired Headset and Bluetooth. You want to be able to lower the volume first before music starts playing. Make sure DVC is enabled, that will enable the Deep Buffers, aka HW DAC bass.That’s it Lemon Drop Hi-Res will do the rest.
 
 I like the profile HIFIMAN RE600, it works great with my Ankbit E600 headphones.
 
