@@ -8,7 +8,7 @@
 
 Audio souce code for Lemon Drop Hi-Res v126.2<br>
 And Enable System wide QuadDAC support v8.2 build.prop tweaks.<br>
-They both go hand and hand to increase the audio quality of the QuadDAC.<br>
+They both go hand and hand to increase the audio quality of the QuadDAC to the maximum.<br>
 
 If you find an error or a mistake I made in the mixer_paths file, please open an issue and let me know so it can be fixed, thank you. with over 6000 lines of code chance of an error or a mistake is high.<br>
 
