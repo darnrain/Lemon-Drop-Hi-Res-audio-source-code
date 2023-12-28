@@ -6,7 +6,10 @@
 ### With all 4 DACs enabled.
 ### A total of 8 channels in true stereo.
 
-Audio souce code for Lemon Drop Hi-Res v127.2<br>
+Lemon Drop Hi-Res development status: Active.<br>
+latest release: v127.2<br>
+
+Audio souce code for Lemon Drop Hi-Res<br>
 Enable System wide QuadDAC support v8.2 aka build.prop audio tweaks.<br>
 They both go hand and hand to increase the audio quality of the QuadDAC to the maximum.<br>
 
