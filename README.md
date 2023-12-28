@@ -9,6 +9,8 @@
 Lemon Drop Hi-Res development status: Active.<br>
 latest release: v131.1<br>
 
+Note: typo on line 6048 should say 	4 X 144 = 576 and times that by eight 8 x 576 = 4608 divide 4608 by 4 = 1152 per DAC total channels 4680 -->
+
 Audio souce code for Lemon Drop Hi-Res<br>
 Enable System wide QuadDAC support v8.2 aka build.prop audio tweaks.<br>
 They both go hand and hand to increase the audio quality of the QuadDAC to the maximum.<br>
