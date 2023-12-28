@@ -32,9 +32,9 @@
 	<!-- The Lgv20 was first with the Android Nougat operating system. -->
 	<!-- Now it's the first running in True Native Mode. -->
 	<!-- With all 4 DACs enabled. -->
-	<!-- A total of 8 channels in true stereo. -->
+	<!-- A total of 512 channels in true stereo. -->
 	
-	<!-- Lemon Drop Hi-Res treble v127.2 -->
+	<!-- Lemon Drop Hi-Res treble v128.1 -->
 	
 	<!-- Proudly Made In America -->
 	<!-- Modded by Darnrain1 @XDA -->
@@ -4795,8 +4795,8 @@
 	<ctl name="COMP8 Switch" value="1" />
 	<ctl name="TX COMP8 Switch" value="1" />
 	<ctl name="RX COMP8 Switch" value="1" />
-	<ctl name="SLIM_0_TX Channels" value="Two" />
-	<ctl name="SLIM_0_RX Channels" value="Two" />
+	<ctl name="SLIM_0_TX Channels" value="Onehundredtwentyeight" />
+	<ctl name="SLIM_0_RX Channels" value="Onehundredtwentyeight" />
 	<ctl name="SLIM_0_TX SampleRate" value="KHZ_352P8" />
 	<ctl name="SLIM_0_RX SampleRate" value="KHZ_352P8" />
 	<ctl name="SLIM_0_TX Format" value="PACKED_32B" />
@@ -5136,6 +5136,7 @@
 	</path>
 	
 	<path name="voice-speaker-fluid">
+	<ctl name="SLIM_0_TX Channels" value="One" />
 	<ctl name="SLIM_0_RX Channels" value="One" />
 	<ctl name="TX7 Digital Volume" value="84" />
 	<ctl name="TX7 Mix Digital Volume" value="84" />
@@ -6040,39 +6041,39 @@
 	<!-- DAC 1 bass -->
 	<!-- DAC 2 treble -->
 	<!-- DAC 3 mid-range -->
-	<!-- For a total of eight channels -->
+	<!-- For a total of 512 channels -->
 	<!-- My understanding is DAC 0 and 2 has more power -->
 	<!-- Could be thats the cores and 1 and 3 are the threads -->
 	
 	<path name="dop-playback tert-mi2s-headphones">
 	<ctl name="SEC_TDM_TX_0 Audio Mixer MultiMedia5" value="1" />
 	<ctl name="SEC_TDM_RX_0 Audio Mixer MultiMedia5" value="1" />
-	<ctl name="SEC_TDM_TX_0 Channels" value="Two" />
-	<ctl name="SEC_TDM_RX_0 Channels" value="Two" />
+	<ctl name="SEC_TDM_TX_0 Channels" value="Onehundredtwentyeight" />
+	<ctl name="SEC_TDM_RX_0 Channels" value="Onehundredtwentyeight" />
 	<ctl name="SEC_TDM_TX_0 SampleRate" value="KHZ_352P8" />
 	<ctl name="SEC_TDM_RX_0 SampleRate" value="KHZ_352P8" />
 	<ctl name="SEC_TDM_TX_0 Format" value="S32_LE" />
 	<ctl name="SEC_TDM_RX_0 Format" value="S32_LE" />
 	<ctl name="SEC_TDM_TX_1 Audio Mixer MultiMedia1" value="1" />
 	<ctl name="SEC_TDM_RX_1 Audio Mixer MultiMedia1" value="1" />
-	<ctl name="SEC_TDM_TX_1 Channels" value="Two" />
-	<ctl name="SEC_TDM_RX_1 Channels" value="Two" />
+	<ctl name="SEC_TDM_TX_1 Channels" value="Onehundredtwentyeight" />
+	<ctl name="SEC_TDM_RX_1 Channels" value="Onehundredtwentyeight" />
 	<ctl name="SEC_TDM_TX_1 SampleRate" value="KHZ_352P8" />
 	<ctl name="SEC_TDM_RX_1 SampleRate" value="KHZ_352P8" />
 	<ctl name="SEC_TDM_TX_1 Format" value="S32_LE" />
 	<ctl name="SEC_TDM_RX_1 Format" value="S32_LE" />
 	<ctl name="SEC_TDM_TX_2 Audio Mixer MultiMedia5" value="1" />
 	<ctl name="SEC_TDM_RX_2 Audio Mixer MultiMedia5" value="1" />
-	<ctl name="SEC_TDM_TX_2 Channels" value="Two" />
-	<ctl name="SEC_TDM_RX_2 Channels" value="Two" />
+	<ctl name="SEC_TDM_TX_2 Channels" value="Onehundredtwentyeight" />
+	<ctl name="SEC_TDM_RX_2 Channels" value="Onehundredtwentyeight" />
 	<ctl name="SEC_TDM_TX_2 SampleRate" value="KHZ_352P8" />
 	<ctl name="SEC_TDM_RX_2 SampleRate" value="KHZ_352P8" />
 	<ctl name="SEC_TDM_TX_2 Format" value="S32_LE" />
 	<ctl name="SEC_TDM_RX_2 Format" value="S32_LE" />
 	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia3" value="1" />
 	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia3" value="1" />
-	<ctl name="SEC_TDM_TX_3 Channels" value="Two" />
-	<ctl name="SEC_TDM_RX_3 Channels" value="Two" />
+	<ctl name="SEC_TDM_TX_3 Channels" value="Onehundredtwentyeight" />
+	<ctl name="SEC_TDM_RX_3 Channels" value="Onehundredtwentyeight" />
 	<ctl name="SEC_TDM_TX_3 SampleRate" value="KHZ_352P8" />
 	<ctl name="SEC_TDM_RX_3 SampleRate" value="KHZ_352P8" />
 	<ctl name="SEC_TDM_TX_3 Format" value="S32_LE" />
@@ -6305,8 +6306,8 @@
 	<ctl name="COMP2 Switch" value="1" />
 	<ctl name="TX COMP2 Switch" value="1" />
 	<ctl name="RX COMP2 Switch" value="1" />
-	<ctl name="SLIM_7_TX Channels" value="Two" />
-	<ctl name="SLIM_7_RX Channels" value="Two" />
+	<ctl name="SLIM_7_TX Channels" value="Onehundredtwentyeight" />
+	<ctl name="SLIM_7_RX Channels" value="Onehundredtwentyeight" />
 	<ctl name="SLIM_7_TX SampleRate" value="KHZ_44P1" />
 	<ctl name="SLIM_7_RX SampleRate" value="KHZ_44P1" />
 	<ctl name="SLIM_7_TX Format" value="S16_LE" />
@@ -6331,8 +6332,8 @@
 	<ctl name="COMP2 Switch" value="1" />
 	<ctl name="TX COMP2 Switch" value="1" />
 	<ctl name="RX COMP2 Switch" value="1" />
-	<ctl name="SLIM_8_TX Channels" value="Two" />
-	<ctl name="SLIM_8_RX Channels" value="Two" />
+	<ctl name="SLIM_8_TX Channels" value="Onehundredtwentyeight" />
+	<ctl name="SLIM_8_RX Channels" value="Onehundredtwentyeight" />
 	<ctl name="SLIM_8_TX SampleRate" value="KHZ_44P1" />
 	<ctl name="SLIM_8_RX SampleRate" value="KHZ_44P1" />
 	<ctl name="SLIM_8_TX Format" value="S24_LE" />
@@ -6357,8 +6358,8 @@
 	<ctl name="COMP2 Switch" value="1" />
 	<ctl name="TX COMP2 Switch" value="1" />
 	<ctl name="RX COMP2 Switch" value="1" />
-	<ctl name="SLIM_9_TX Channels" value="Two" />
-	<ctl name="SLIM_9_RX Channels" value="Two" />
+	<ctl name="SLIM_9_TX Channels" value="Onehundredtwentyeight" />
+	<ctl name="SLIM_9_RX Channels" value="Onehundredtwentyeight" />
 	<ctl name="SLIM_9_TX SampleRate" value="KHZ_44P1" />
 	<ctl name="SLIM_9_RX SampleRate" value="KHZ_44P1" />
 	<ctl name="SLIM_9_TX Format" value="S16_LE" />
@@ -6413,8 +6414,8 @@
 	<ctl name="COMP2 Switch" value="1" />
 	<ctl name="TX COMP2 Switch" value="1" />
 	<ctl name="RX COMP2 Switch" value="1" />
-	<ctl name="SLIM_10_TX Channels" value="Two" />
-	<ctl name="SLIM_10_RX Channels" value="Two" />
+	<ctl name="SLIM_10_TX Channels" value="Onehundredtwentyeight" />
+	<ctl name="SLIM_10_RX Channels" value="Onehundredtwentyeight" />
 	<ctl name="SLIM_10_TX SampleRate" value="KHZ_352P8" />
 	<ctl name="SLIM_10_RX SampleRate" value="KHZ_352P8" />
 	<ctl name="SLIM_10_TX Format" value="S32_LE" />
