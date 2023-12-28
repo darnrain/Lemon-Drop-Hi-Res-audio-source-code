@@ -32,9 +32,9 @@
 	<!-- The Lgv20 was first with the Android Nougat operating system. -->
 	<!-- Now it's the first running in True Native Mode. -->
 	<!-- With all 4 DACs enabled. -->
-	<!-- A total of 576 channels in true stereo. -->
+	<!-- A total of 2304 channels in true stereo. -->
 	
-	<!-- Lemon Drop Hi-Res treble v129.1 -->
+	<!-- Lemon Drop Hi-Res treble v130.2 -->
 	
 	<!-- Proudly Made In America -->
 	<!-- Modded by Darnrain1 @XDA -->
@@ -6041,39 +6041,42 @@
 	<!-- DAC 1 bass -->
 	<!-- DAC 2 treble -->
 	<!-- DAC 3 mid-range -->
-	<!-- For a total of 576 channels -->
+	<!-- For a total of 1728 channels -->
 	<!-- My understanding is DAC 0 and 2 has more power -->
 	<!-- Could be thats the cores and 1 and 3 are the threads -->
+	<!-- I have the DACs overclocked -->
+	<!-- There are 144 channels going to each DAC -->
+	<!-- 4 X 144 = 576 and times that by four 4 X 576 = 2304 channels total -->
 	
 	<path name="dop-playback tert-mi2s-headphones">
 	<ctl name="SEC_TDM_TX_0 Audio Mixer MultiMedia5" value="1" />
 	<ctl name="SEC_TDM_RX_0 Audio Mixer MultiMedia5" value="1" />
-	<ctl name="SEC_TDM_TX_0 Channels" value="Onehundredfortyfour" />
-	<ctl name="SEC_TDM_RX_0 Channels" value="Onehundredfortyfour" />
+	<ctl name="SEC_TDM_TX_0 Channels" value="Fivehundredseventysix" />
+	<ctl name="SEC_TDM_RX_0 Channels" value="Fivehundredseventysix" />
 	<ctl name="SEC_TDM_TX_0 SampleRate" value="KHZ_352P8" />
 	<ctl name="SEC_TDM_RX_0 SampleRate" value="KHZ_352P8" />
 	<ctl name="SEC_TDM_TX_0 Format" value="S32_LE" />
 	<ctl name="SEC_TDM_RX_0 Format" value="S32_LE" />
 	<ctl name="SEC_TDM_TX_1 Audio Mixer MultiMedia1" value="1" />
 	<ctl name="SEC_TDM_RX_1 Audio Mixer MultiMedia1" value="1" />
-	<ctl name="SEC_TDM_TX_1 Channels" value="Onehundredfortyfour" />
-	<ctl name="SEC_TDM_RX_1 Channels" value="Onehundredfortyfour" />
+	<ctl name="SEC_TDM_TX_1 Channels" value="Fivehundredseventysix" />
+	<ctl name="SEC_TDM_RX_1 Channels" value="Fivehundredseventysix" />
 	<ctl name="SEC_TDM_TX_1 SampleRate" value="KHZ_352P8" />
 	<ctl name="SEC_TDM_RX_1 SampleRate" value="KHZ_352P8" />
 	<ctl name="SEC_TDM_TX_1 Format" value="S32_LE" />
 	<ctl name="SEC_TDM_RX_1 Format" value="S32_LE" />
 	<ctl name="SEC_TDM_TX_2 Audio Mixer MultiMedia5" value="1" />
 	<ctl name="SEC_TDM_RX_2 Audio Mixer MultiMedia5" value="1" />
-	<ctl name="SEC_TDM_TX_2 Channels" value="Onehundredfortyfour" />
-	<ctl name="SEC_TDM_RX_2 Channels" value="Onehundredfortyfour" />
+	<ctl name="SEC_TDM_TX_2 Channels" value="Fivehundredseventysix" />
+	<ctl name="SEC_TDM_RX_2 Channels" value="Fivehundredseventysix" />
 	<ctl name="SEC_TDM_TX_2 SampleRate" value="KHZ_352P8" />
 	<ctl name="SEC_TDM_RX_2 SampleRate" value="KHZ_352P8" />
 	<ctl name="SEC_TDM_TX_2 Format" value="S32_LE" />
 	<ctl name="SEC_TDM_RX_2 Format" value="S32_LE" />
 	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia3" value="1" />
 	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia3" value="1" />
-	<ctl name="SEC_TDM_TX_3 Channels" value="Onehundredfortyfour" />
-	<ctl name="SEC_TDM_RX_3 Channels" value="Onehundredfortyfour" />
+	<ctl name="SEC_TDM_TX_3 Channels" value="Fivehundredseventysix" />
+	<ctl name="SEC_TDM_RX_3 Channels" value="Fivehundredseventysix" />
 	<ctl name="SEC_TDM_TX_3 SampleRate" value="KHZ_352P8" />
 	<ctl name="SEC_TDM_RX_3 SampleRate" value="KHZ_352P8" />
 	<ctl name="SEC_TDM_TX_3 Format" value="S32_LE" />
