@@ -6,7 +6,7 @@
 ### With all 4 DACs enabled.
 ### A total of 4608 channels in true stereo.
 
-Lemon Drop Hi-Res development status: Finished, I will fix any bugs.<br>
+Lemon Drop Hi-Res development status: Finished.<br>
 latest release: v135.1<br>
 
 Audio souce code for Lemon Drop Hi-Res<br>
