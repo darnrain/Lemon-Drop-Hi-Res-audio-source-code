@@ -31,7 +31,7 @@ Your welcome to look over all my notes in the mixer_paths_tasha.xml and audio_pl
 
 I programed everything to upsample audio played at 44.1kHz.
 
-I made two diffrent versions of Lemon Drop Hi-Res but only one souce code. To change the DAC modes search for: <path name="speaker-initialization-switch">
+I made four diffrent versions of Lemon Drop Hi-Res but only one souce code. To change the DAC modes search for: <path name="speaker-initialization-switch">
 
 
 treble
@@ -57,5 +57,101 @@ bass+
 	<ctl name="SpkrRight VISENSE Switch" value="4" />
 	<ctl name="SpkrRight WSA PA Mute" value="0" />
 	<ctl name="SpkrRight SWR DAC_Port Switch" value="4" />
+
+
+To change from the OC flavor or NOC flavor.
+
+	<!-- Welcome to the Saber ESS 9218 QuadDAC direct output -->
+	<!-- DAC 0 treble -->
+	<!-- DAC 1 bass -->
+	<!-- DAC 2 treble -->
+	<!-- DAC 3 mid-range -->
+	<!-- My understanding is DAC 0 and 2 has more power -->
+	<!-- That's why I have treble on 0 and 2 -->
+	<!-- There are 144 channels going to each DAC -->
+	<!-- 144 X 4 = 576 and times that by eight 576 X 8 = 4608 divide 4608 by 4 = 1152 per DAC total channels 4608 -->
+	
+	<path name="dop-playback tert-mi2s-headphones">
+	<ctl name="SEC_TDM_TX_0 Audio Mixer MultiMedia5" value="2" />
+	<ctl name="SEC_TDM_RX_0 Audio Mixer MultiMedia5" value="2" />
+	<ctl name="SEC_TDM_TX_0 Channels" value="Onethousandonehundredfiftytwo" />
+	<ctl name="SEC_TDM_RX_0 Channels" value="Onethousandonehundredfiftytwo" />
+	<ctl name="SEC_TDM_TX_0 SampleRate" value="KHZ_352P8" />
+	<ctl name="SEC_TDM_RX_0 SampleRate" value="KHZ_352P8" />
+	<ctl name="SEC_TDM_TX_0 Format" value="S32_LE" />
+	<ctl name="SEC_TDM_RX_0 Format" value="S32_LE" />
+	<ctl name="SEC_TDM_TX_1 Audio Mixer MultiMedia1" value="2" />
+	<ctl name="SEC_TDM_RX_1 Audio Mixer MultiMedia1" value="2" />
+	<ctl name="SEC_TDM_TX_1 Channels" value="Onethousandonehundredfiftytwo" />
+	<ctl name="SEC_TDM_RX_1 Channels" value="Onethousandonehundredfiftytwo" />
+	<ctl name="SEC_TDM_TX_1 SampleRate" value="KHZ_352P8" />
+	<ctl name="SEC_TDM_RX_1 SampleRate" value="KHZ_352P8" />
+	<ctl name="SEC_TDM_TX_1 Format" value="S32_LE" />
+	<ctl name="SEC_TDM_RX_1 Format" value="S32_LE" />
+	<ctl name="SEC_TDM_TX_2 Audio Mixer MultiMedia5" value="2" />
+	<ctl name="SEC_TDM_RX_2 Audio Mixer MultiMedia5" value="2" />
+	<ctl name="SEC_TDM_TX_2 Channels" value="Onethousandonehundredfiftytwo" />
+	<ctl name="SEC_TDM_RX_2 Channels" value="Onethousandonehundredfiftytwo" />
+	<ctl name="SEC_TDM_TX_2 SampleRate" value="KHZ_352P8" />
+	<ctl name="SEC_TDM_RX_2 SampleRate" value="KHZ_352P8" />
+	<ctl name="SEC_TDM_TX_2 Format" value="S32_LE" />
+	<ctl name="SEC_TDM_RX_2 Format" value="S32_LE" />
+	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia3" value="2" />
+	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia3" value="2" />
+	<ctl name="SEC_TDM_TX_3 Channels" value="Onethousandonehundredfiftytwo" />
+	<ctl name="SEC_TDM_RX_3 Channels" value="Onethousandonehundredfiftytwo" />
+	<ctl name="SEC_TDM_TX_3 SampleRate" value="KHZ_352P8" />
+	<ctl name="SEC_TDM_RX_3 SampleRate" value="KHZ_352P8" />
+	<ctl name="SEC_TDM_TX_3 Format" value="S32_LE" />
+	<ctl name="SEC_TDM_RX_3 Format" value="S32_LE" />
+	</path>
+
+
+
+	<!-- Welcome to the Saber ESS 9218 QuadDAC direct output -->
+	<!-- DAC 0 treble -->
+	<!-- DAC 1 bass -->
+	<!-- DAC 2 treble -->
+	<!-- DAC 3 mid-range -->
+	<!-- My understanding is DAC 0 and 2 has more power -->
+	<!-- That's why I have treble on 0 and 2 -->
+	<!-- There are 144 channels going to each DAC -->
+	<!-- 144 X 4 = 576 total channels -->
+	
+	<path name="dop-playback tert-mi2s-headphones">
+	<ctl name="SEC_TDM_TX_0 Audio Mixer MultiMedia5" value="2" />
+	<ctl name="SEC_TDM_RX_0 Audio Mixer MultiMedia5" value="2" />
+	<ctl name="SEC_TDM_TX_0 Channels" value="Onehundredfortyfour" />
+	<ctl name="SEC_TDM_RX_0 Channels" value="Onehundredfortyfour" />
+	<ctl name="SEC_TDM_TX_0 SampleRate" value="KHZ_352P8" />
+	<ctl name="SEC_TDM_RX_0 SampleRate" value="KHZ_352P8" />
+	<ctl name="SEC_TDM_TX_0 Format" value="S32_LE" />
+	<ctl name="SEC_TDM_RX_0 Format" value="S32_LE" />
+	<ctl name="SEC_TDM_TX_1 Audio Mixer MultiMedia1" value="2" />
+	<ctl name="SEC_TDM_RX_1 Audio Mixer MultiMedia1" value="2" />
+	<ctl name="SEC_TDM_TX_1 Channels" value="Onehundredfortyfour" />
+	<ctl name="SEC_TDM_RX_1 Channels" value="Onehundredfortyfour" />
+	<ctl name="SEC_TDM_TX_1 SampleRate" value="KHZ_352P8" />
+	<ctl name="SEC_TDM_RX_1 SampleRate" value="KHZ_352P8" />
+	<ctl name="SEC_TDM_TX_1 Format" value="S32_LE" />
+	<ctl name="SEC_TDM_RX_1 Format" value="S32_LE" />
+	<ctl name="SEC_TDM_TX_2 Audio Mixer MultiMedia5" value="2" />
+	<ctl name="SEC_TDM_RX_2 Audio Mixer MultiMedia5" value="2" />
+	<ctl name="SEC_TDM_TX_2 Channels" value="Onehundredfortyfour" />
+	<ctl name="SEC_TDM_RX_2 Channels" value="Onehundredfortyfour" />
+	<ctl name="SEC_TDM_TX_2 SampleRate" value="KHZ_352P8" />
+	<ctl name="SEC_TDM_RX_2 SampleRate" value="KHZ_352P8" />
+	<ctl name="SEC_TDM_TX_2 Format" value="S32_LE" />
+	<ctl name="SEC_TDM_RX_2 Format" value="S32_LE" />
+	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia3" value="2" />
+	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia3" value="2" />
+	<ctl name="SEC_TDM_TX_3 Channels" value="Onehundredfortyfour" />
+	<ctl name="SEC_TDM_RX_3 Channels" value="Onehundredfortyfour" />
+	<ctl name="SEC_TDM_TX_3 SampleRate" value="KHZ_352P8" />
+	<ctl name="SEC_TDM_RX_3 SampleRate" value="KHZ_352P8" />
+	<ctl name="SEC_TDM_TX_3 Format" value="S32_LE" />
+	<ctl name="SEC_TDM_RX_3 Format" value="S32_LE" />
+	</path>
+
 
 
