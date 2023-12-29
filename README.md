@@ -7,7 +7,7 @@
 ### A total of 4608 channels in true stereo.
 
 Lemon Drop Hi-Res development status: Active.<br>
-latest release: v134.1<br>
+latest release: v135.1<br>
 
 Audio souce code for Lemon Drop Hi-Res<br>
 Enable System wide QuadDAC support v8.2 aka build.prop audio tweaks.<br>
