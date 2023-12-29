@@ -34,7 +34,7 @@
 	<!-- With all 4 DACs enabled. -->
 	<!-- A total of 4608 channels in true stereo. -->
 	
-	<!-- Lemon Drop Hi-Res treble v133.1 -->
+	<!-- Lemon Drop Hi-Res treble v134.2 -->
 	
 	<!-- Proudly Made In America -->
 	<!-- Modded by Darnrain1 @XDA -->
@@ -2725,36 +2725,36 @@
 	<path name="deep-buffer-playback">
 	<path name="true-native-mode-SPKR" />
 	<path name="primary-bass-volume" />
-	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia1" value="1" />
-	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia1" value="1" />
+	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia1" value="2" />
+	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia1" value="2" />
 	</path>
 	
 	<path name="deep-buffer-playback bluetooth-16bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-bass-volume" />
-	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia1" value="1" />
-	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia1" value="1" />
+	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia1" value="2" />
+	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia1" value="2" />
 	</path>
 	
 	<path name="deep-buffer-playback bluetooth-24bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-bass-volume" />
-	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia1" value="1" />
-	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia1" value="1" />
+	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia1" value="2" />
+	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia1" value="2" />
 	</path>
 	
 	<path name="deep-buffer-playback headphone-16bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-bass-volume" />
-	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia1" value="1" />
-	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia1" value="1" />
+	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia1" value="2" />
+	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia1" value="2" />
 	</path>
 	
 	<path name="deep-buffer-playback headphone-24bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-bass-volume" />
-	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia1" value="1" />
-	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia1" value="1" />
+	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia1" value="2" />
+	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia1" value="2" />
 	</path>
 	
 	<!-- Lemon Drop Hi-Res end of mods -->
@@ -2816,36 +2816,36 @@
 	<path name="low-latency-playback">
 	<path name="true-native-mode-SPKR" />
 	<path name="primary-treble-volume" />
-	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia5" value="1" />
-	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia5" value="1" />
+	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia5" value="2" />
+	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia5" value="2" />
 	</path>
 	
 	<path name="low-latency-playback bluetooth-16bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-treble-volume" />
-	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia5" value="1" />
-	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia5" value="1" />
+	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia5" value="2" />
+	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia5" value="2" />
 	</path>
 	
 	<path name="low-latency-playback bluetooth-24bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-treble-volume" />
-	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia5" value="1" />
-	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia5" value="1" />
+	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia5" value="2" />
+	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia5" value="2" />
 	</path>
 	
 	<path name="low-latency-playback headphone-16bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-treble-volume" />
-	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia5" value="1" />
-	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia5" value="1" />
+	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia5" value="2" />
+	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia5" value="2" />
 	</path>
 	
 	<path name="low-latency-playback headphone-24bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-treble-volume" />
-	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia5" value="1" />
-	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia5" value="1" />
+	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia5" value="2" />
+	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia5" value="2" />
 	</path>
 	
 	<!-- Lemon Drop Hi-Res end of mods -->
@@ -2907,36 +2907,36 @@
 	<path name="audio-ull-playback">
 	<path name="true-native-mode-SPKR" />
 	<path name="primary-mid-range-volume" />
-	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia3" value="1" />
-	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia3" value="1" />
+	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia3" value="2" />
+	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia3" value="2" />
 	</path>
 	
 	<path name="audio-ull-playback bluetooth-16bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-mid-range-volume" />
-	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia3" value="1" />
-	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia3" value="1" />
+	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia3" value="2" />
+	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia3" value="2" />
 	</path>
 	
 	<path name="audio-ull-playback bluetooth-24bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-mid-range-volume" />
-	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia3" value="1" />
-	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia3" value="1" />
+	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia3" value="2" />
+	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia3" value="2" />
 	</path>
 	
 	<path name="audio-ull-playback headphone-16bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-mid-range-volume" />
-	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia3" value="1" />
-	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia3" value="1" />
+	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia3" value="2" />
+	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia3" value="2" />
 	</path>
 	
 	<path name="audio-ull-playback headphone-24bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-mid-range-volume" />
-	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia3" value="1" />
-	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia3" value="1" />
+	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia3" value="2" />
+	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia3" value="2" />
 	</path>
 	
 	<!-- Lemon Drop Hi-Res end of mods -->
@@ -2999,36 +2999,36 @@
 	<path name="compress-offload-playback">
 	<path name="true-native-mode-SPKR" />
 	<path name="primary-offload-volume" />
-	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia4" value="1" />
-	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia4" value="1" />
+	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia4" value="2" />
+	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia4" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback bluetooth-16bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-offload-volume" />
-	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia4" value="1" />
-	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia4" value="1" />
+	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia4" value="2" />
+	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia4" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback bluetooth-24bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-offload-volume" />
-	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia4" value="1" />
-	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia4" value="1" />
+	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia4" value="2" />
+	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia4" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback headphone-16bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-offload-volume" />
-	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia4" value="1" />
-	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia4" value="1" />
+	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia4" value="2" />
+	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia4" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback headphone-24bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-offload-volume" />
-	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia4" value="1" />
-	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia4" value="1" />
+	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia4" value="2" />
+	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia4" value="2" />
 	</path>
 	
 	<!-- Lemon Drop Hi-Res end of mods -->
@@ -3097,36 +3097,36 @@
 	<path name="compress-offload-playback2">
 	<path name="true-native-mode-SPKR" />
 	<path name="primary-offload-volume" />
-	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia7" value="1" />
-	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia7" value="1" />
+	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia7" value="2" />
+	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia7" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback2 bluetooth-16bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-offload-volume" />
-	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia7" value="1" />
-	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia7" value="1" />
+	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia7" value="2" />
+	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia7" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback2 bluetooth-24bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-offload-volume" />
-	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia7" value="1" />
-	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia7" value="1" />
+	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia7" value="2" />
+	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia7" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback2 headphone-16bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-offload-volume" />
-	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia7" value="1" />
-	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia7" value="1" />
+	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia7" value="2" />
+	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia7" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback2 headphone-24bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-offload-volume" />
-	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia7" value="1" />
-	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia7" value="1" />
+	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia7" value="2" />
+	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia7" value="2" />
 	</path>
 	
 	<!-- Lemon Drop Hi-Res end of mods -->
@@ -3191,36 +3191,36 @@
 	<path name="compress-offload-playback3">
 	<path name="true-native-mode-SPKR" />
 	<path name="primary-offload-volume" />
-	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia10" value="1" />
-	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia10" value="1" />
+	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia10" value="2" />
+	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia10" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback3 bluetooth-16bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-offload-volume" />
-	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia10" value="1" />
-	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia10" value="1" />
+	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia10" value="2" />
+	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia10" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback3 bluetooth-24bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-offload-volume" />
-	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia10" value="1" />
-	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia10" value="1" />
+	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia10" value="2" />
+	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia10" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback3 headphone-16bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-offload-volume" />
-	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia10" value="1" />
-	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia10" value="1" />
+	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia10" value="2" />
+	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia10" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback3 headphone-24bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-offload-volume" />
-	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia10" value="1" />
-	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia10" value="1" />
+	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia10" value="2" />
+	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia10" value="2" />
 	</path>
 	
 	<!-- Lemon Drop Hi-Res end of mods -->
@@ -3285,36 +3285,36 @@
 	<path name="compress-offload-playback4">
 	<path name="true-native-mode-SPKR" />
 	<path name="primary-offload-volume" />
-	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia11" value="1" />
-	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia11" value="1" />
+	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia11" value="2" />
+	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia11" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback4 bluetooth-16bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-offload-volume" />
-	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia11" value="1" />
-	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia11" value="1" />
+	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia11" value="2" />
+	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia11" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback4 bluetooth-24bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-offload-volume" />
-	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia11" value="1" />
-	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia11" value="1" />
+	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia11" value="2" />
+	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia11" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback4 headphone-16bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-offload-volume" />
-	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia11" value="1" />
-	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia11" value="1" />
+	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia11" value="2" />
+	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia11" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback4 headphone-24bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-offload-volume" />
-	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia11" value="1" />
-	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia11" value="1" />
+	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia11" value="2" />
+	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia11" value="2" />
 	</path>
 	
 	<!-- Lemon Drop Hi-Res end of mods -->
@@ -3379,36 +3379,36 @@
 	<path name="compress-offload-playback5">
 	<path name="true-native-mode-SPKR" />
 	<path name="primary-offload-volume" />
-	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia12" value="1" />
-	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia12" value="1" />
+	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia12" value="2" />
+	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia12" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback5 bluetooth-16bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-offload-volume" />
-	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia12" value="1" />
-	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia12" value="1" />
+	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia12" value="2" />
+	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia12" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback5 bluetooth-24bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-offload-volume" />
-	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia12" value="1" />
-	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia12" value="1" />
+	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia12" value="2" />
+	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia12" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback5 headphone-16bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-offload-volume" />
-	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia12" value="1" />
-	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia12" value="1" />
+	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia12" value="2" />
+	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia12" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback5 headphone-24bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-offload-volume" />
-	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia12" value="1" />
-	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia12" value="1" />
+	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia12" value="2" />
+	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia12" value="2" />
 	</path>
 	
 	<!-- Lemon Drop Hi-Res end of mods -->
@@ -3473,36 +3473,36 @@
 	<path name="compress-offload-playback6">
 	<path name="true-native-mode-SPKR" />
 	<path name="primary-offload-volume" />
-	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia13" value="1" />
-	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia13" value="1" />
+	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia13" value="2" />
+	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia13" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback6 bluetooth-16bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-offload-volume" />
-	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia13" value="1" />
-	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia13" value="1" />
+	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia13" value="2" />
+	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia13" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback6 bluetooth-24bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-offload-volume" />
-	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia13" value="1" />
-	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia13" value="1" />
+	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia13" value="2" />
+	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia13" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback6 headphone-16bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-offload-volume" />
-	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia13" value="1" />
-	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia13" value="1" />
+	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia13" value="2" />
+	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia13" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback6 headphone-24bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-offload-volume" />
-	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia13" value="1" />
-	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia13" value="1" />
+	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia13" value="2" />
+	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia13" value="2" />
 	</path>
 	
 	<!-- Lemon Drop Hi-Res end of mods -->
@@ -3567,36 +3567,36 @@
 	<path name="compress-offload-playback7">
 	<path name="true-native-mode-SPKR" />
 	<path name="primary-offload-volume" />
-	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia14" value="1" />
-	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia14" value="1" />
+	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia14" value="2" />
+	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia14" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback7 bluetooth-16bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-offload-volume" />
-	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia14" value="1" />
-	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia14" value="1" />
+	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia14" value="2" />
+	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia14" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback7 bluetooth-24bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-offload-volume" />
-	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia14" value="1" />
-	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia14" value="1" />
+	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia14" value="2" />
+	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia14" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback7 headphone-16bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-offload-volume" />
-	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia14" value="1" />
-	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia14" value="1" />
+	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia14" value="2" />
+	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia14" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback7 headphone-24bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-offload-volume" />
-	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia14" value="1" />
-	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia14" value="1" />
+	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia14" value="2" />
+	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia14" value="2" />
 	</path>
 	
 	<!-- Lemon Drop Hi-Res end of mods -->
@@ -3661,36 +3661,36 @@
 	<path name="compress-offload-playback8">
 	<path name="true-native-mode-SPKR" />
 	<path name="primary-offload-volume" />
-	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia15" value="1" />
-	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia15" value="1" />
+	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia15" value="2" />
+	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia15" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback8 bluetooth-16bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-offload-volume" />
-	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia15" value="1" />
-	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia15" value="1" />
+	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia15" value="2" />
+	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia15" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback8 bluetooth-24bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-offload-volume" />
-	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia15" value="1" />
-	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia15" value="1" />
+	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia15" value="2" />
+	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia15" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback8 headphone-16bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-offload-volume" />
-	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia15" value="1" />
-	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia15" value="1" />
+	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia15" value="2" />
+	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia15" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback8 headphone-24bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-offload-volume" />
-	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia15" value="1" />
-	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia15" value="1" />
+	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia15" value="2" />
+	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia15" value="2" />
 	</path>
 	
 	<!-- Lemon Drop Hi-Res end of mods -->
@@ -3755,36 +3755,36 @@
 	<path name="compress-offload-playback9">
 	<path name="true-native-mode-SPKR" />
 	<path name="primary-offload-volume" />
-	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia16" value="1" />
-	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia16" value="1" />
+	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia16" value="2" />
+	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia16" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback9 bluetooth-16bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-offload-volume" />
-	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia16" value="1" />
-	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia16" value="1" />
+	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia16" value="2" />
+	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia16" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback9 bluetooth-24bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-offload-volume" />
-	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia16" value="1" />
-	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia16" value="1" />
+	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia16" value="2" />
+	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia16" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback9 headphone-16bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-offload-volume" />
-	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia16" value="1" />
-	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia16" value="1" />
+	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia16" value="2" />
+	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia16" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback9 headphone-24bit">
 	<path name="true-native-mode-HPH" />
 	<path name="subsidiary-headphone-offload-volume" />
-	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia16" value="1" />
-	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia16" value="1" />
+	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia16" value="2" />
+	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia16" value="2" />
 	</path>
 	
 	<!-- Lemon Drop Hi-Res end of mods -->
@@ -4508,63 +4508,63 @@
 	<!-- TERT MI2S A2DP OFFLOAD start -->
 	
 	<path name="deep-buffer-playback tert-mi2s-a2dp">
-	<ctl name="TERT_MI2S_TX Audio Mixer MultiMedia1" value="1" />
-	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia1" value="1" />
+	<ctl name="TERT_MI2S_TX Audio Mixer MultiMedia1" value="2" />
+	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia1" value="2" />
 	</path>
 	
 	<path name="low-latency-playback tert-mi2s-a2dp">
-	<ctl name="TERT_MI2S_TX Audio Mixer MultiMedia5" value="1" />
-	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia5" value="1" />
+	<ctl name="TERT_MI2S_TX Audio Mixer MultiMedia5" value="2" />
+	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia5" value="2" />
 	</path>
 	
 	<path name="audio-ull-playback tert-mi2s-a2dp">
-	<ctl name="TERT_MI2S_TX Audio Mixer MultiMedia3" value="1" />
-	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia3" value="1" />
+	<ctl name="TERT_MI2S_TX Audio Mixer MultiMedia3" value="2" />
+	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia3" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback tert-mi2s-a2dp">
-	<ctl name="TERT_MI2S_TX Audio Mixer MultiMedia4" value="1" />
-	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia4" value="1" />
+	<ctl name="TERT_MI2S_TX Audio Mixer MultiMedia4" value="2" />
+	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia4" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback2 tert-mi2s-a2dp">
-	<ctl name="TERT_MI2S_TX Audio Mixer MultiMedia7" value="1" />
-	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia7" value="1" />
+	<ctl name="TERT_MI2S_TX Audio Mixer MultiMedia7" value="2" />
+	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia7" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback3 tert-mi2s-a2dp">
-	<ctl name="TERT_MI2S_TX Audio Mixer MultiMedia10" value="1" />
-	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia10" value="1" />
+	<ctl name="TERT_MI2S_TX Audio Mixer MultiMedia10" value="2" />
+	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia10" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback4 tert-mi2s-a2dp">
-	<ctl name="TERT_MI2S_TX Audio Mixer MultiMedia11" value="1" />
-	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia11" value="1" />
+	<ctl name="TERT_MI2S_TX Audio Mixer MultiMedia11" value="2" />
+	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia11" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback5 tert-mi2s-a2dp">
-	<ctl name="TERT_MI2S_TX Audio Mixer MultiMedia12" value="1" />
-	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia12" value="1" />
+	<ctl name="TERT_MI2S_TX Audio Mixer MultiMedia12" value="2" />
+	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia12" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback6 tert-mi2s-a2dp">
-	<ctl name="TERT_MI2S_TX Audio Mixer MultiMedia13" value="1" />
-	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia13" value="1" />
+	<ctl name="TERT_MI2S_TX Audio Mixer MultiMedia13" value="2" />
+	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia13" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback7 tert-mi2s-a2dp">
-	<ctl name="TERT_MI2S_TX Audio Mixer MultiMedia14" value="1" />
-	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia14" value="1" />
+	<ctl name="TERT_MI2S_TX Audio Mixer MultiMedia14" value="2" />
+	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia14" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback8 tert-mi2s-a2dp">
-	<ctl name="TERT_MI2S_TX Audio Mixer MultiMedia15" value="1" />
-	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia15" value="1" />
+	<ctl name="TERT_MI2S_TX Audio Mixer MultiMedia15" value="2" />
+	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia15" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback9 tert-mi2s-a2dp">
-	<ctl name="TERT_MI2S_TX Audio Mixer MultiMedia16" value="1" />
-	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia16" value="1" />
+	<ctl name="TERT_MI2S_TX Audio Mixer MultiMedia16" value="2" />
+	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia16" value="2" />
 	</path>
 	<!-- TERT MI2S A2DP OFFLOAD end -->
 	
@@ -5977,63 +5977,63 @@
 	<!-- SEC MI2S HEADPHONE begins -->
 	
 	<path name="deep-buffer-playback headphones tert-mi2s-headphones">
-	<ctl name="SEC_MI2S_TX Audio Mixer MultiMedia1" value="1" />
-	<ctl name="SEC_MI2S_RX Audio Mixer MultiMedia1" value="1" />
+	<ctl name="SEC_MI2S_TX Audio Mixer MultiMedia1" value="2" />
+	<ctl name="SEC_MI2S_RX Audio Mixer MultiMedia1" value="2" />
 	</path>
 	
 	<path name="low-latency-playback headphones tert-mi2s-headphones">
-	<ctl name="SEC_MI2S_TX Audio Mixer MultiMedia5" value="1" />
-	<ctl name="SEC_MI2S_RX Audio Mixer MultiMedia5" value="1" />
+	<ctl name="SEC_MI2S_TX Audio Mixer MultiMedia5" value="2" />
+	<ctl name="SEC_MI2S_RX Audio Mixer MultiMedia5" value="2" />
 	</path>
 	
 	<path name="audio-ull-playback headphones tert-mi2s-headphones">
-	<ctl name="SEC_MI2S_TX Audio Mixer MultiMedia3" value="1" />
-	<ctl name="SEC_MI2S_RX Audio Mixer MultiMedia3" value="1" />
+	<ctl name="SEC_MI2S_TX Audio Mixer MultiMedia3" value="2" />
+	<ctl name="SEC_MI2S_RX Audio Mixer MultiMedia3" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback headphones tert-mi2s-headphones">
-	<ctl name="SEC_MI2S_TX Audio Mixer MultiMedia4" value="1" />
-	<ctl name="SEC_MI2S_RX Audio Mixer MultiMedia4" value="1" />
+	<ctl name="SEC_MI2S_TX Audio Mixer MultiMedia4" value="2" />
+	<ctl name="SEC_MI2S_RX Audio Mixer MultiMedia4" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback2 headphones tert-mi2s-headphones">
-	<ctl name="SEC_MI2S_TX Audio Mixer MultiMedia7" value="1" />
-	<ctl name="SEC_MI2S_RX Audio Mixer MultiMedia7" value="1" />
+	<ctl name="SEC_MI2S_TX Audio Mixer MultiMedia7" value="2" />
+	<ctl name="SEC_MI2S_RX Audio Mixer MultiMedia7" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback3 headphones tert-mi2s-headphones">
-	<ctl name="SEC_MI2S_TX Audio Mixer MultiMedia10" value="1" />
-	<ctl name="SEC_MI2S_RX Audio Mixer MultiMedia10" value="1" />
+	<ctl name="SEC_MI2S_TX Audio Mixer MultiMedia10" value="2" />
+	<ctl name="SEC_MI2S_RX Audio Mixer MultiMedia10" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback4 headphones tert-mi2s-headphones">
-	<ctl name="SEC_MI2S_TX Audio Mixer MultiMedia11" value="1" />
-	<ctl name="SEC_MI2S_RX Audio Mixer MultiMedia11" value="1" />
+	<ctl name="SEC_MI2S_TX Audio Mixer MultiMedia11" value="2" />
+	<ctl name="SEC_MI2S_RX Audio Mixer MultiMedia11" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback5 headphones tert-mi2s-headphones">
-	<ctl name="SEC_MI2S_TX Audio Mixer MultiMedia12" value="1" />
-	<ctl name="SEC_MI2S_RX Audio Mixer MultiMedia12" value="1" />
+	<ctl name="SEC_MI2S_TX Audio Mixer MultiMedia12" value="2" />
+	<ctl name="SEC_MI2S_RX Audio Mixer MultiMedia12" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback6 headphones tert-mi2s-headphones">
-	<ctl name="SEC_MI2S_TX Audio Mixer MultiMedia13" value="1" />
-	<ctl name="SEC_MI2S_RX Audio Mixer MultiMedia13" value="1" />
+	<ctl name="SEC_MI2S_TX Audio Mixer MultiMedia13" value="2" />
+	<ctl name="SEC_MI2S_RX Audio Mixer MultiMedia13" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback7 headphones tert-mi2s-headphones">
-	<ctl name="SEC_MI2S_TX Audio Mixer MultiMedia14" value="1" />
-	<ctl name="SEC_MI2S_RX Audio Mixer MultiMedia14" value="1" />
+	<ctl name="SEC_MI2S_TX Audio Mixer MultiMedia14" value="2" />
+	<ctl name="SEC_MI2S_RX Audio Mixer MultiMedia14" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback8 headphones tert-mi2s-headphones">
-	<ctl name="SEC_MI2S_TX Audio Mixer MultiMedia15" value="1" />
-	<ctl name="SEC_MI2S_RX Audio Mixer MultiMedia15" value="1" />
+	<ctl name="SEC_MI2S_TX Audio Mixer MultiMedia15" value="2" />
+	<ctl name="SEC_MI2S_RX Audio Mixer MultiMedia15" value="2" />
 	</path>
 	
 	<path name="compress-offload-playback9 headphones tert-mi2s-headphones">
-	<ctl name="SEC_MI2S_TX Audio Mixer MultiMedia16" value="1" />
-	<ctl name="SEC_MI2S_RX Audio Mixer MultiMedia16" value="1" />
+	<ctl name="SEC_MI2S_TX Audio Mixer MultiMedia16" value="2" />
+	<ctl name="SEC_MI2S_RX Audio Mixer MultiMedia16" value="2" />
 	</path>
 	
 	<!-- Welcome to the Saber ESS 9218 QuadDAC direct output -->
@@ -6042,38 +6042,37 @@
 	<!-- DAC 2 treble -->
 	<!-- DAC 3 mid-range -->
 	<!-- My understanding is DAC 0 and 2 has more power -->
-	<!-- Could be thats the cores and 1 and 3 are the threads -->
-	<!-- I have the DACs overclocked -->
+	<!-- That's why I have treble on 0 and 2 -->
 	<!-- There are 144 channels going to each DAC -->
 	<!-- 144 X 4 = 576 and times that by eight 576 X 8 = 4608 divide 4608 by 4 = 1152 per DAC total channels 4608 -->
 	
 	<path name="dop-playback tert-mi2s-headphones">
-	<ctl name="SEC_TDM_TX_0 Audio Mixer MultiMedia5" value="1" />
-	<ctl name="SEC_TDM_RX_0 Audio Mixer MultiMedia5" value="1" />
+	<ctl name="SEC_TDM_TX_0 Audio Mixer MultiMedia5" value="2" />
+	<ctl name="SEC_TDM_RX_0 Audio Mixer MultiMedia5" value="2" />
 	<ctl name="SEC_TDM_TX_0 Channels" value="Onethousandonehundredfiftytwo" />
 	<ctl name="SEC_TDM_RX_0 Channels" value="Onethousandonehundredfiftytwo" />
 	<ctl name="SEC_TDM_TX_0 SampleRate" value="KHZ_352P8" />
 	<ctl name="SEC_TDM_RX_0 SampleRate" value="KHZ_352P8" />
 	<ctl name="SEC_TDM_TX_0 Format" value="S32_LE" />
 	<ctl name="SEC_TDM_RX_0 Format" value="S32_LE" />
-	<ctl name="SEC_TDM_TX_1 Audio Mixer MultiMedia1" value="1" />
-	<ctl name="SEC_TDM_RX_1 Audio Mixer MultiMedia1" value="1" />
+	<ctl name="SEC_TDM_TX_1 Audio Mixer MultiMedia1" value="2" />
+	<ctl name="SEC_TDM_RX_1 Audio Mixer MultiMedia1" value="2" />
 	<ctl name="SEC_TDM_TX_1 Channels" value="Onethousandonehundredfiftytwo" />
 	<ctl name="SEC_TDM_RX_1 Channels" value="Onethousandonehundredfiftytwo" />
 	<ctl name="SEC_TDM_TX_1 SampleRate" value="KHZ_352P8" />
 	<ctl name="SEC_TDM_RX_1 SampleRate" value="KHZ_352P8" />
 	<ctl name="SEC_TDM_TX_1 Format" value="S32_LE" />
 	<ctl name="SEC_TDM_RX_1 Format" value="S32_LE" />
-	<ctl name="SEC_TDM_TX_2 Audio Mixer MultiMedia5" value="1" />
-	<ctl name="SEC_TDM_RX_2 Audio Mixer MultiMedia5" value="1" />
+	<ctl name="SEC_TDM_TX_2 Audio Mixer MultiMedia5" value="2" />
+	<ctl name="SEC_TDM_RX_2 Audio Mixer MultiMedia5" value="2" />
 	<ctl name="SEC_TDM_TX_2 Channels" value="Onethousandonehundredfiftytwo" />
 	<ctl name="SEC_TDM_RX_2 Channels" value="Onethousandonehundredfiftytwo" />
 	<ctl name="SEC_TDM_TX_2 SampleRate" value="KHZ_352P8" />
 	<ctl name="SEC_TDM_RX_2 SampleRate" value="KHZ_352P8" />
 	<ctl name="SEC_TDM_TX_2 Format" value="S32_LE" />
 	<ctl name="SEC_TDM_RX_2 Format" value="S32_LE" />
-	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia3" value="1" />
-	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia3" value="1" />
+	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia3" value="2" />
+	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia3" value="2" />
 	<ctl name="SEC_TDM_TX_3 Channels" value="Onethousandonehundredfiftytwo" />
 	<ctl name="SEC_TDM_RX_3 Channels" value="Onethousandonehundredfiftytwo" />
 	<ctl name="SEC_TDM_TX_3 SampleRate" value="KHZ_352P8" />
