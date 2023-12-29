@@ -34,7 +34,7 @@
 	<!-- With all 4 DACs enabled. -->
 	<!-- A total of 4608 channels in true stereo. -->
 	
-	<!-- Lemon Drop Hi-Res treble v132.1 -->
+	<!-- Lemon Drop Hi-Res treble v133.1 -->
 	
 	<!-- Proudly Made In America -->
 	<!-- Modded by Darnrain1 @XDA -->
@@ -4789,12 +4789,12 @@
 	
 	<path name="speaker">
 	<path name="true-native-mode-SPKR" />
-	<ctl name="COMP7 Switch" value="4" />
-	<ctl name="TX COMP7 Switch" value="4" />
-	<ctl name="RX COMP7 Switch" value="4" />
-	<ctl name="COMP8 Switch" value="4" />
-	<ctl name="TX COMP8 Switch" value="4" />
-	<ctl name="RX COMP8 Switch" value="4" />
+	<ctl name="COMP7 Switch" value="2" />
+	<ctl name="TX COMP7 Switch" value="2" />
+	<ctl name="RX COMP7 Switch" value="2" />
+	<ctl name="COMP8 Switch" value="2" />
+	<ctl name="TX COMP8 Switch" value="2" />
+	<ctl name="RX COMP8 Switch" value="2" />
 	<ctl name="SLIM_0_TX Channels" value="Onehundredfortyfour" />
 	<ctl name="SLIM_0_RX Channels" value="Onehundredfortyfour" />
 	<ctl name="SLIM_0_TX SampleRate" value="KHZ_352P8" />
@@ -6302,12 +6302,12 @@
 	
 	<path name="bluetooth-16bit">
 	<path name="true-native-mode-HPH" />
-	<ctl name="COMP1 Switch" value="4" />
-	<ctl name="TX COMP1 Switch" value="4" />
-	<ctl name="RX COMP1 Switch" value="4" />
-	<ctl name="COMP2 Switch" value="4" />
-	<ctl name="TX COMP2 Switch" value="4" />
-	<ctl name="RX COMP2 Switch" value="4" />
+	<ctl name="COMP1 Switch" value="2" />
+	<ctl name="TX COMP1 Switch" value="2" />
+	<ctl name="RX COMP1 Switch" value="2" />
+	<ctl name="COMP2 Switch" value="2" />
+	<ctl name="TX COMP2 Switch" value="2" />
+	<ctl name="RX COMP2 Switch" value="2" />
 	<ctl name="SLIM_7_TX Channels" value="Onehundredfortyfour" />
 	<ctl name="SLIM_7_RX Channels" value="Onehundredfortyfour" />
 	<ctl name="SLIM_7_TX SampleRate" value="KHZ_44P1" />
@@ -6328,12 +6328,12 @@
 	
 	<path name="bluetooth-24bit">
 	<path name="true-native-mode-HPH" />
-	<ctl name="COMP1 Switch" value="4" />
-	<ctl name="TX COMP1 Switch" value="4" />
-	<ctl name="RX COMP1 Switch" value="4" />
-	<ctl name="COMP2 Switch" value="4" />
-	<ctl name="TX COMP2 Switch" value="4" />
-	<ctl name="RX COMP2 Switch" value="4" />
+	<ctl name="COMP1 Switch" value="2" />
+	<ctl name="TX COMP1 Switch" value="2" />
+	<ctl name="RX COMP1 Switch" value="2" />
+	<ctl name="COMP2 Switch" value="2" />
+	<ctl name="TX COMP2 Switch" value="2" />
+	<ctl name="RX COMP2 Switch" value="2" />
 	<ctl name="SLIM_8_TX Channels" value="Onehundredfortyfour" />
 	<ctl name="SLIM_8_RX Channels" value="Onehundredfortyfour" />
 	<ctl name="SLIM_8_TX SampleRate" value="KHZ_44P1" />
@@ -6354,12 +6354,12 @@
 	
 	<path name="headphone-16bit">
 	<path name="true-native-mode-HPH" />
-	<ctl name="COMP1 Switch" value="4" />
-	<ctl name="TX COMP1 Switch" value="4" />
-	<ctl name="RX COMP1 Switch" value="4" />
-	<ctl name="COMP2 Switch" value="4" />
-	<ctl name="TX COMP2 Switch" value="4" />
-	<ctl name="RX COMP2 Switch" value="4" />
+	<ctl name="COMP1 Switch" value="2" />
+	<ctl name="TX COMP1 Switch" value="2" />
+	<ctl name="RX COMP1 Switch" value="2" />
+	<ctl name="COMP2 Switch" value="2" />
+	<ctl name="TX COMP2 Switch" value="2" />
+	<ctl name="RX COMP2 Switch" value="2" />
 	<ctl name="SLIM_9_TX Channels" value="Onehundredfortyfour" />
 	<ctl name="SLIM_9_RX Channels" value="Onehundredfortyfour" />
 	<ctl name="SLIM_9_TX SampleRate" value="KHZ_44P1" />
@@ -6410,12 +6410,12 @@
 	
 	<path name="headphone-24bit">
 	<path name="true-native-mode-HPH" />
-	<ctl name="COMP1 Switch" value="4" />
-	<ctl name="TX COMP1 Switch" value="4" />
-	<ctl name="RX COMP1 Switch" value="4" />
-	<ctl name="COMP2 Switch" value="4" />
-	<ctl name="TX COMP2 Switch" value="4" />
-	<ctl name="RX COMP2 Switch" value="4" />
+	<ctl name="COMP1 Switch" value="2" />
+	<ctl name="TX COMP1 Switch" value="2" />
+	<ctl name="RX COMP1 Switch" value="2" />
+	<ctl name="COMP2 Switch" value="2" />
+	<ctl name="TX COMP2 Switch" value="2" />
+	<ctl name="RX COMP2 Switch" value="2" />
 	<ctl name="SLIM_10_TX Channels" value="Onehundredfortyfour" />
 	<ctl name="SLIM_10_RX Channels" value="Onehundredfortyfour" />
 	<ctl name="SLIM_10_TX SampleRate" value="KHZ_352P8" />
@@ -6579,7 +6579,6 @@
 	<!-- </path> -->
 	
 	<path name="loopback-headphone-and-bluetooth">
-	<path name="true-native-mode-HPH" />
 	<ctl name="TX1 Digital Volume" value="84" />
 	<ctl name="TX1 Mix Digital Volume" value="84" />
 	<ctl name="RX1 Digital Volume" value="48" />
