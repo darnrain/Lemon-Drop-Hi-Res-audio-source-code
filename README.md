@@ -4,7 +4,7 @@
 ### The Lgv20 was first with the Android Nougat operating system.
 ### Now it's the first running in True Native Mode.
 ### With all 4 DACs enabled.
-### A total of 4608 channels in true stereo.
+### A total of 4608/576 channels in true stereo.
 
 Lemon Drop Hi-Res development status: Finished.<br>
 latest release: v136.1<br>
