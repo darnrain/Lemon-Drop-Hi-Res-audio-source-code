@@ -34,7 +34,7 @@
 	<!-- With all 4 DACs enabled. -->
 	<!-- A total of 4608 channels in true stereo. -->
 	
-	<!-- Lemon Drop Hi-Res treble OC v136.1 -->
+	<!-- Lemon Drop Hi-Res treble v137.1 -->
 	
 	<!-- Proudly Made In America -->
 	<!-- Modded by Darnrain1 @XDA -->
@@ -52,16 +52,16 @@
 	<!-- <path name="speaker-mono"> & <path name="speaker"> -->
 	
 	<!-- The DAC initialization code -->
-	<!-- <ctl name="SpkrLeft COMP Switch" value="4" /> -->
+	<!-- <ctl name="SpkrLeft COMP Switch" value="2" /> -->
 	<!-- <ctl name="SpkrLeft BOOST Switch" value="0" /> -->
 	<!-- <ctl name="SpkrLeft VISENSE Switch" value="0" /> -->
 	<!-- <ctl name="SpkrLeft WSA PA Mute" value="0" /> -->
-	<!-- <ctl name="SpkrLeft SWR DAC_Port Switch" value="4" /> -->
-	<!-- <ctl name="SpkrRight COMP Switch" value="4" /> -->
+	<!-- <ctl name="SpkrLeft SWR DAC_Port Switch" value="2" /> -->
+	<!-- <ctl name="SpkrRight COMP Switch" value="2" /> -->
 	<!-- <ctl name="SpkrRight BOOST Switch" value="0" /> -->
 	<!-- <ctl name="SpkrRight VISENSE Switch" value="0" /> -->
 	<!-- <ctl name="SpkrRight WSA PA Mute" value="0" /> -->
-	<!-- <ctl name="SpkrRight SWR DAC_Port Switch" value="4" /> -->
+	<!-- <ctl name="SpkrRight SWR DAC_Port Switch" value="2" /> -->
 	
 	<!-- These two lines should never touch each other -->
 	<!-- </path> -->
@@ -1858,16 +1858,16 @@
 	</path>
 	
 	<path name="speaker-initialization-switch">
-	<ctl name="SpkrLeft COMP Switch" value="4" />
+	<ctl name="SpkrLeft COMP Switch" value="2" />
 	<ctl name="SpkrLeft BOOST Switch" value="0" />
 	<ctl name="SpkrLeft VISENSE Switch" value="0" />
 	<ctl name="SpkrLeft WSA PA Mute" value="0" />
-	<ctl name="SpkrLeft SWR DAC_Port Switch" value="4" />
-	<ctl name="SpkrRight COMP Switch" value="4" />
+	<ctl name="SpkrLeft SWR DAC_Port Switch" value="2" />
+	<ctl name="SpkrRight COMP Switch" value="2" />
 	<ctl name="SpkrRight BOOST Switch" value="0" />
 	<ctl name="SpkrRight VISENSE Switch" value="0" />
 	<ctl name="SpkrRight WSA PA Mute" value="0" />
-	<ctl name="SpkrRight SWR DAC_Port Switch" value="4" />
+	<ctl name="SpkrRight SWR DAC_Port Switch" value="2" />
 	</path>
 	
 	<!-- Lemon Drop Hi-Res end of DAC initialization function -->
