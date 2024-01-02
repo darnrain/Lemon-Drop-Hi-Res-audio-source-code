@@ -34,7 +34,7 @@
 	<!-- With all 4 DACs enabled. -->
 	<!-- A total of 98304 channels in true stereo. -->
 	
-	<!-- Lemon Drop Hi-Res treble v144.1 -->
+	<!-- Lemon Drop Hi-Res treble v145.1 -->
 	
 	<!-- Proudly Made In America -->
 	<!-- Modded by Darnrain1 @XDA -->
@@ -2150,12 +2150,12 @@
 	<ctl name="LDAC Switch" value="0" />
 	<ctl name="TX LDAC Switch" value="0" />
 	<ctl name="RX LDAC Switch" value="0" />
-	<ctl name="HPHL LDAC Switch" value="0" />
-	<ctl name="TX HPHL LDAC Switch" value="0" />
-	<ctl name="RX HPHL LDAC Switch" value="0" />
 	<ctl name="RDAC Switch" value="0" />
 	<ctl name="TX RDAC Switch" value="0" />
 	<ctl name="RX RDAC Switch" value="0" />
+	<ctl name="HPHL LDAC Switch" value="0" />
+	<ctl name="TX HPHL LDAC Switch" value="0" />
+	<ctl name="RX HPHL LDAC Switch" value="0" />
 	<ctl name="HPHR RDAC Switch" value="0" />
 	<ctl name="TX HPHR RDAC Switch" value="0" />
 	<ctl name="RX HPHR RDAC Switch" value="0" />
@@ -3821,12 +3821,12 @@
 	<ctl name="LDAC Switch" value="2" />
 	<ctl name="TX LDAC Switch" value="2" />
 	<ctl name="RX LDAC Switch" value="2" />
-	<ctl name="HPHL LDAC Switch" value="2" />
-	<ctl name="TX HPHL LDAC Switch" value="2" />
-	<ctl name="RX HPHL LDAC Switch" value="2" />
 	<ctl name="RDAC Switch" value="2" />
 	<ctl name="TX RDAC Switch" value="2" />
 	<ctl name="RX RDAC Switch" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC Switch" value="2" />
+	<ctl name="RX HPHL LDAC Switch" value="2" />
 	<ctl name="HPHR RDAC Switch" value="2" />
 	<ctl name="TX HPHR RDAC Switch" value="2" />
 	<ctl name="RX HPHR RDAC Switch" value="2" />
