@@ -34,7 +34,7 @@
 	<!-- With all 4 DACs enabled. -->
 	<!-- A total of 98304 channels in true stereo. -->
 	
-	<!-- Lemon Drop Hi-Res treble v142.1 -->
+	<!-- Lemon Drop Hi-Res treble v143.1 -->
 	
 	<!-- Proudly Made In America -->
 	<!-- Modded by Darnrain1 @XDA -->
@@ -2145,6 +2145,23 @@
 	
 	<!-- Lemon Drop Hi-Res end of initial MultiMedia settings -->
 	
+	<!-- Lemon Drop Hi-Res start of True Stereo controls -->
+	
+	<ctl name="LDAC Switch" value="0" />
+	<ctl name="TX LDAC Switch" value="0" />
+	<ctl name="RX LDAC Switch" value="0" />
+	<ctl name="RDAC Switch" value="0" />
+	<ctl name="TX RDAC Switch" value="0" />
+	<ctl name="RX RDAC Switch" value="0" />
+	<ctl name="HPHL LDAC Switch" value="0" />
+	<ctl name="TX HPHL LDAC Switch" value="0" />
+	<ctl name="RX HPHL LDAC Switch" value="0" />
+	<ctl name="HPHR RDAC Switch" value="0" />
+	<ctl name="TX HPHR RDAC Switch" value="0" />
+	<ctl name="RX HPHR RDAC Switch" value="0" />
+	
+	<!-- Lemon Drop Hi-Res end of True Stereo controls -->
+	
 	<!-- Lemon Drop Hi-Res start of Compander controls -->
 	
 	<ctl name="COMP1 Switch" value="0" />
@@ -2159,6 +2176,12 @@
 	<ctl name="COMP8 Switch" value="0" />
 	<ctl name="TX COMP8 Switch" value="0" />
 	<ctl name="RX COMP8 Switch" value="0" />
+	<ctl name="HPHL COMP Switch" value="0" />
+	<ctl name="TX HPHL COMP Switch" value="0" />
+	<ctl name="RX HPHL COMP Switch" value="0" />
+	<ctl name="HPHR COMP Switch" value="0" />
+	<ctl name="TX HPHR COMP Switch" value="0" />
+	<ctl name="RX HPHR COMP Switch" value="0" />
 	
 	<!-- Lemon Drop Hi-Res end of Compander controls -->
 	
@@ -3791,6 +3814,59 @@
 	</path>
 	
 	<!-- Lemon Drop Hi-Res end of DAC initialization function -->
+	
+	<!-- Lemon Drop Hi-Res start of True Stereo controls function -->
+	
+	<path name="quaddac-true-stereo">
+	<ctl name="LDAC Switch" value="2" />
+	<ctl name="TX LDAC Switch" value="2" />
+	<ctl name="RX LDAC Switch" value="2" />
+	<ctl name="RDAC Switch" value="2" />
+	<ctl name="TX RDAC Switch" value="2" />
+	<ctl name="RX RDAC Switch" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC Switch" value="2" />
+	<ctl name="RX HPHL LDAC Switch" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC Switch" value="2" />
+	<ctl name="RX HPHR RDAC Switch" value="2" />
+	</path>
+	
+	<!-- Lemon Drop Hi-Res end of True Stereo controls function -->
+	
+	<!-- Lemon Drop Hi-Res start of Compander controls function -->
+	
+	<path name="compander-controls-HPH">
+	<ctl name="COMP1 Switch" value="2" />
+	<ctl name="TX COMP1 Switch" value="2" />
+	<ctl name="RX COMP1 Switch" value="2" />
+	<ctl name="COMP2 Switch" value="2" />
+	<ctl name="TX COMP2 Switch" value="2" />
+	<ctl name="RX COMP2 Switch" value="2" />
+	<ctl name="HPHL COMP Switch" value="2" />
+	<ctl name="TX HPHL COMP Switch" value="2" />
+	<ctl name="RX HPHL COMP Switch" value="2" />
+	<ctl name="HPHR COMP Switch" value="2" />
+	<ctl name="TX HPHR COMP Switch" value="2" />
+	<ctl name="RX HPHR COMP Switch" value="2" />
+	</path>
+	
+	<path name="compander-controls-SPKR">
+	<ctl name="COMP7 Switch" value="2" />
+	<ctl name="TX COMP7 Switch" value="2" />
+	<ctl name="RX COMP7 Switch" value="2" />
+	<ctl name="COMP8 Switch" value="2" />
+	<ctl name="TX COMP8 Switch" value="2" />
+	<ctl name="RX COMP8 Switch" value="2" />
+	<ctl name="HPHL COMP Switch" value="2" />
+	<ctl name="TX HPHL COMP Switch" value="2" />
+	<ctl name="RX HPHL COMP Switch" value="2" />
+	<ctl name="HPHR COMP Switch" value="2" />
+	<ctl name="TX HPHR COMP Switch" value="2" />
+	<ctl name="RX HPHR COMP Switch" value="2" />
+	</path>
+	
+	<!-- Lemon Drop Hi-Res end of Compander controls function -->
 	
 	<!-- Lemon Drop Hi-Res start of DAC tuning function -->
 	
@@ -6709,12 +6785,8 @@
 	
 	<path name="speaker">
 	<path name="true-native-mode-SPKR" />
-	<ctl name="COMP7 Switch" value="2" />
-	<ctl name="TX COMP7 Switch" value="2" />
-	<ctl name="RX COMP7 Switch" value="2" />
-	<ctl name="COMP8 Switch" value="2" />
-	<ctl name="TX COMP8 Switch" value="2" />
-	<ctl name="RX COMP8 Switch" value="2" />
+	<path name="quaddac-true-stereo" />
+	<path name="compander-controls-SPKR" />
 	<ctl name="SLIM_0_TX Channels" value="Sevenhundredsixtyeight" />
 	<ctl name="SLIM_0_RX Channels" value="Sevenhundredsixtyeight" />
 	<ctl name="SLIM_0_TX SampleRate" value="KHZ_352P8" />
@@ -8224,12 +8296,8 @@
 	
 	<path name="bluetooth-16bit">
 	<path name="true-native-mode-HPH" />
-	<ctl name="COMP1 Switch" value="2" />
-	<ctl name="TX COMP1 Switch" value="2" />
-	<ctl name="RX COMP1 Switch" value="2" />
-	<ctl name="COMP2 Switch" value="2" />
-	<ctl name="TX COMP2 Switch" value="2" />
-	<ctl name="RX COMP2 Switch" value="2" />
+	<path name="quaddac-true-stereo" />
+	<path name="compander-controls-HPH" />
 	<ctl name="SLIM_7_TX Channels" value="Sevenhundredsixtyeight" />
 	<ctl name="SLIM_7_RX Channels" value="Sevenhundredsixtyeight" />
 	<ctl name="SLIM_7_TX SampleRate" value="KHZ_44P1" />
@@ -8250,12 +8318,8 @@
 	
 	<path name="bluetooth-24bit">
 	<path name="true-native-mode-HPH" />
-	<ctl name="COMP1 Switch" value="2" />
-	<ctl name="TX COMP1 Switch" value="2" />
-	<ctl name="RX COMP1 Switch" value="2" />
-	<ctl name="COMP2 Switch" value="2" />
-	<ctl name="TX COMP2 Switch" value="2" />
-	<ctl name="RX COMP2 Switch" value="2" />
+	<path name="quaddac-true-stereo" />
+	<path name="compander-controls-HPH" />
 	<ctl name="SLIM_8_TX Channels" value="Sevenhundredsixtyeight" />
 	<ctl name="SLIM_8_RX Channels" value="Sevenhundredsixtyeight" />
 	<ctl name="SLIM_8_TX SampleRate" value="KHZ_44P1" />
@@ -8276,12 +8340,8 @@
 	
 	<path name="headphone-16bit">
 	<path name="true-native-mode-HPH" />
-	<ctl name="COMP1 Switch" value="2" />
-	<ctl name="TX COMP1 Switch" value="2" />
-	<ctl name="RX COMP1 Switch" value="2" />
-	<ctl name="COMP2 Switch" value="2" />
-	<ctl name="TX COMP2 Switch" value="2" />
-	<ctl name="RX COMP2 Switch" value="2" />
+	<path name="quaddac-true-stereo" />
+	<path name="compander-controls-HPH" />
 	<ctl name="SLIM_9_TX Channels" value="Sevenhundredsixtyeight" />
 	<ctl name="SLIM_9_RX Channels" value="Sevenhundredsixtyeight" />
 	<ctl name="SLIM_9_TX SampleRate" value="KHZ_44P1" />
@@ -8332,12 +8392,8 @@
 	
 	<path name="headphone-24bit">
 	<path name="true-native-mode-HPH" />
-	<ctl name="COMP1 Switch" value="2" />
-	<ctl name="TX COMP1 Switch" value="2" />
-	<ctl name="RX COMP1 Switch" value="2" />
-	<ctl name="COMP2 Switch" value="2" />
-	<ctl name="TX COMP2 Switch" value="2" />
-	<ctl name="RX COMP2 Switch" value="2" />
+	<path name="quaddac-true-stereo" />
+	<path name="compander-controls-HPH" />
 	<ctl name="SLIM_10_TX Channels" value="Sevenhundredsixtyeight" />
 	<ctl name="SLIM_10_RX Channels" value="Sevenhundredsixtyeight" />
 	<ctl name="SLIM_10_TX SampleRate" value="KHZ_352P8" />
