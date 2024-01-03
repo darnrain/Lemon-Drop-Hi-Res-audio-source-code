@@ -20,6 +20,8 @@ I created all 1572 lines of the True Native Mode code, with the help of echo and
 
 From my understanding, this True Native Mode code will work on any Android phone that has a Saber ESS DAC, maybe even other brands of DACs. That is why I uploaded to GitHub so devs can add this code to there rom.<br>
 
+It is my understanding that the two files responsible for making this all happen are, audio_platform_info.xml and mixer_paths_tasha.xml. I disconnected the QuadDAC from the Android mixer in audio_platform_info.xml and programed the QuadDAC for True Native Mode in the mixer_paths_tasha.xml. All the other files were from my previous attempts to increase the audio quality of the Lgv20.
+
 I programed the mixer_paths all by myself by trial, error and logic. No external reference, there is no reference in existence to my knowledge. I just wanted a Hi-Res music player, but didn't want to pay $2000 for one, so I programed my Lgv20 to be a Hi-Res music player. I knew it had the same Saber ESS 9128 DAC as a Hi-Res music player, so if programed like a Hi-Res music player it should sound the same, and it does, maybe even better!<br>
 
 I remember when I first found the True Native Mode code, I was like ooh what's that.<br>
