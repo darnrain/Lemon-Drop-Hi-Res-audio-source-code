@@ -15,6 +15,7 @@ They both go hand and hand to increase the audio quality of the QuadDAC to the m
 
 ### This next part is for big corporations.
 If you curious on how I found the True Native Mode code, I will show you. Someone left about 0.5% of the code in the original mixer_paths_tasha.xml file for the Lgv20. Go to line number 278 through 287 you will see the 0.5% of the True Native Mode code that I found, also line 2242.<br>
+### end of big corporations.
 
 When programing a QuadDAC you do not have visual gauges to view to see if you have done something wrong, its all done by the sound of the DAC. For example if you have increased the amount of channels way to high or messed up on your programing code, then the DACs volume will be decreased or the music will not sound like its full of life. The only way to accomplish that, is to lower the AVC volume. In other words it decreases the power to the DAC so you can program and tune the DAC. I am all done programing the QuadDAC, and tuning the DAC. In v142.1 and higher the AVC volume is set to the maximum. Now I am at the stage of just looking for bugs. I know with out a doute that the True Native Mode code is pristine, I had echo print out the numbers, then I cut and pasted 768 times. I used nano's macro feature to program True Native Mode.<br>
 
