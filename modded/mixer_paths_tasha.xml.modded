@@ -34,7 +34,7 @@
 	<!-- With all 4 DACs enabled. -->
 	<!-- A total of 98304 channels in true stereo. -->
 	
-	<!-- Lemon Drop Hi-Res treble v145.1 -->
+	<!-- Lemon Drop Hi-Res treble v146.1 -->
 	
 	<!-- Proudly Made In America -->
 	<!-- Modded by Darnrain1 @XDA -->
@@ -3782,7 +3782,8 @@
 	
 	<!-- Lemon Drop Hi-Res start of DAC initialization function -->
 	
-	<!-- For a QuadDAC you want to use number 4 -->
+	<!-- For a QuadDAC you want to use number 2 -->
+	<!-- You want 2 on left and 2 on right -->
 	<!-- To enable all 4 DACs -->
 	<!-- 0 = all 4 DACs off -->
 	<!-- speaker-mono must have everthing enabled -->
