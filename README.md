@@ -17,6 +17,8 @@ The diff directory I uploaded the original then the modded v122.1, that way you 
 
 What is True Native Mode?<br>
 I created all 1572 lines of the True Native Mode code, with the help of echo and nano, there are 786 mixer paths for True Native Mode that places the QuadDAC into it's highest performance state. True Native Mode it's self allows the DAC to have more that one channel, like one for left and one for right. I have the QuadDAC over clocked so we can have more than 3072 channels. There are 768 channels going to each DAC, 768 X 64 = 49152 then divide 49152 by 2 = 24576 for each DAC for a total of 98304 channels. We can only hear up to 20kHz however the more channels there are the better the audio sounds to us, it's like SD video vs HD video.<br>
+
+From my understanding, this True Native Mode code will work on any Android phone that has a Saber ESS DAC. That is why I uploaded to GitHub so devs can add this code to there rom.<br>
  
 I programed the mixer_paths all by myself by trial and error. No external reference, there is no reference in existence to my knowledge. I just wanted a Hi-Res music player, but didn't want to pay $2000 for one, so I programed my Lgv20 to be a Hi-Res music player. I knew it had the same Saber ESS 9128 DAC as a Hi-Res music player, so if programed like a Hi-Res music player it should sound the same, and it does, maybe even better!<br>
 
