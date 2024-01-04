@@ -41,7 +41,7 @@ What is True Native Mode on a computer?<br>
 
 I guess you could say I have a gift that allows me to think outside of the box. I was always seeing LO in the True Native Mode code. I was like what is LO??? Then it hit me it's the bass. I came up with MI and HI for mid-range and treble myself and it worked!!! Also I was always seeing RX everywhere I looked, I was like well if there is an RX there has to be a TX. I guess you could say it was trial and error and logic is how I accomplished all of this. The devs that programed the Saber ESS DAC chip are professionals, you need to think like how they think. They would not make it to complicated to program the QuadDAC. To me it was the ultimate puzzle that needed to be solved and I did solve it. It feels good.<br>
 
-What do I need to set my Hi-Res music player at?
+What do I need to set my Hi-Res music player at?<br>
 You need to choose 44.1kHz as the source, that's how I programed the DAC, it takes 24bit 44.1kHz and upsamples the audio eight times to 32bit 352.8kHz. On wired headphones the output is 32bit 352.8kHz, all other devices the output is 44.1kHz 24bit or 16bit. If set to anything other than, 44.1kHz the audio does not upsampled eight times or it does not multiply evenly into into what the DAC is programed at 352.8kHz.<br>
 
 A little backstory.<br>
