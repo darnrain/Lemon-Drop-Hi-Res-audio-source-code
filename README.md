@@ -20,8 +20,8 @@ I guess you could say I have a gift that allows me to think outside of the box. 
 ### What is True Native Mode on the Saber ESS 9218 DAC?<br>
 I created all 1572 lines of the True Native Mode code, with the help of echo and nano, there are 786 mixer paths for True Native Mode that places the QuadDAC into it's highest performance state. The very essence of True Native Mode it's self allows the DAC to have more than two channels, like one for left and one for right. I have the QuadDAC overclocked so we can have more than 3072 channels. There are 768 channels going to each DAC, 768 X 64 = 49152 then divide 49152 by 2 = 24576 for each DAC for a total of 98304 channels. We can only hear up to 20kHz however the more channels there are the better the audio sounds to us, it's like SD video vs HD video.<br>
 
-### How unique is True Native Mode?
-From my understanding, this True Native Mode code is like gold, it put any Saber ESS DAC into True Native Mode on any Android phone, maybe even other brands of DACs.<br>
+### How unique is the True Native Mode code?
+From my understanding, this True Native Mode code is priceless, it put any Saber ESS DAC into True Native Mode on any Android phone, maybe even other brands of DACs.<br>
 
 ### I am a dev and want to add this to my rom?
 It is my understanding that the two files responsible for making this all happen are, audio_platform_info.xml and mixer_paths_tasha.xml. I disconnected the QuadDAC from the Android mixer in audio_platform_info.xml and programed the QuadDAC for True Native Mode in the mixer_paths_tasha.xml. The QuadDAC also needs Enable System wide QuadDAC support v8.2 aka build.prop audio tweaks. All the other files were from my previous attempts to increase the audio quality of the Lgv20 without avail. I have been working on this project for a long time, I lost track.<br>
