@@ -1,13 +1,13 @@
 ## Lemon Drop Hi-Res audio source code
 
-## Welcome to the future of music...
-## The Lgv20 was first with the Android Nougat operating system.
-## Now it's the first running in True Native Mode.
-## With all 4 DACs enabled.
-## A total of 98,304  channels in true stereo.
+Welcome to the future of music...<br>
+The Lgv20 was first with the Android Nougat operating system.<br>
+Now it's the first running in True Native Mode.<br>
+With all 4 DACs enabled.<br>
+A total of 98,304  channels in true stereo.<br>
 
-### Lemon Drop Hi-Res development status: Active
-### latest release: v148.3
+Lemon Drop Hi-Res development status: Active<br>
+latest release: v148.3<br>
 
 ### How did you find this True Native Mode code?
 If your curious on how I found the True Native Mode code, I will show you. Someone left about 0.5% of the code in the original mixer_paths_tasha.xml file for the Lgv20. Go to line number 278 through 287 you will see the 0.5% of the True Native Mode code that I found. As you can see INI1, INI2, INI7, INI8, LO1, LO2, LO3, LO4 lines of code are partially there, the absolute perfect base starting point for me, to create the True Native Mode code. The other 99.5% I made with my own hands, all by myself. With trial and error and logic and my advanced Linux computer skills, if the code does not exist, make it yourself. No external resource was utilized, to my knowledge there is no  external resource of this nature. Once I found out that this was the ultimate puzzle. I had to solve it, out of extreme curiosity. What would the QuadDAC sound like running in True Native Mode? If want to want to confirm that this original mixer_paths_tasha.xml is authentic, I will give you the link to the Lgv20 rom that has this 0.5% True Native Mode code. https://androidfilehost.com/?fid=1322778262904012823
