@@ -1,10 +1,10 @@
 ## Lemon Drop Hi-Res audio source code
 
-### Welcome to the future of music...
-### The Lgv20 was first with the Android Nougat operating system.
-### Now it's the first running in True Native Mode.
-### With all 4 DACs enabled.
-### A total of 98,304  channels in true stereo.
+## Welcome to the future of music...
+## The Lgv20 was first with the Android Nougat operating system.
+## Now it's the first running in True Native Mode.
+## With all 4 DACs enabled.
+## A total of 98,304  channels in true stereo.
 
 ### Lemon Drop Hi-Res development status: Active
 ### latest release: v148.3
