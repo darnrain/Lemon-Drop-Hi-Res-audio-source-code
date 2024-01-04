@@ -22,7 +22,7 @@ When programing a QuadDAC you do not have visual gauges to view to see if you ha
 What is True Native Mode on the Saber ESS 9218 DAC?<br>
 I created all 1572 lines of the True Native Mode code, with the help of echo and nano, there are 786 mixer paths for True Native Mode that places the QuadDAC into it's highest performance state. The very essence of True Native Mode it's self allows the DAC to have more than two channels, like one for left and one for right. I have the QuadDAC overclocked so we can have more than 3072 channels. There are 768 channels going to each DAC, 768 X 64 = 49152 then divide 49152 by 2 = 24576 for each DAC for a total of 98304 channels. We can only hear up to 20kHz however the more channels there are the better the audio sounds to us, it's like SD video vs HD video.<br>
 
- From my understanding, this True Native Mode code will work on any Android phone that has a Saber ESS DAC, maybe even other brands of DACs. That is why I uploaded to GitHub so devs can add this code to there rom. all files are located in /system/vendor/etc/<br>
+From my understanding, this True Native Mode code is like gold, it put any Saber ESS DAC into True Native Mode on any Android phone, maybe even other brands of DACs. That is why I uploaded to GitHub so devs can add this code to there rom. all files are located in /system/vendor/etc/<br>
  
 It is my understanding that the two files responsible for making this all happen are, audio_platform_info.xml and mixer_paths_tasha.xml. I disconnected the QuadDAC from the Android mixer in audio_platform_info.xml and programed the QuadDAC for True Native Mode in the mixer_paths_tasha.xml. The QuadDAC also needs Enable System wide QuadDAC support v8.2 aka build.prop audio tweaks. All the other files were from my previous attempts to increase the audio quality of the Lgv20 without avail. I have been working on this project for a long time, I lost track.<br>
 
@@ -31,8 +31,6 @@ audio.offload.size.kb=4096<br>
 audio.offload.buffer.size.kb=8192<br>
 venter.audio.offload.size.kb=4096<br>
 venter.audio.offload.buffer.size.kb=8192<br>
- 
-I programed the mixer_paths all by myself by trial, error and logic. No external reference, there is no reference in existence to my knowledge. I just wanted a Hi-Res music player, but didn't want to pay $2000 for one, so I programed my Lgv20 to be a Hi-Res music player. I knew it had the same Saber ESS 9128 DAC as a Hi-Res music player, so if programed like a Hi-Res music player it should sound the same, and it does, maybe even better!<br>
 
 I remember when I first found the True Native Mode code, I was like ooh what's that.<br>
 
