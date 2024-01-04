@@ -1,7 +1,3 @@
-all files are located in
-/system/vendor/etc/
-
-
 This is how I calculated the amount of mixer paths to program in for True Native Mode for the QuadDAC. Bass, mid-range and treble all require 16 mixer paths each for a QuadDAC. So 16 X 3 = 48 then for a QuadDAC you want to times 48 X 16 = 768. So 768 is our magic number.
 
 
@@ -20,15 +16,15 @@ When programing the mixer paths for a QuadDAC you want two DACs on TX and two on
 	<ctl name="TX INT13 SPLINE MIX HI9 Native Switch" value="2" />
 	<ctl name="TX INT13 SPLINE MIX HI9 Switch" value="2" />
 
-The two main files that from my understanding that made this all possible would be 
-audio_platform_info.xml
-mixer_paths_tasha.xml
+It is my understanding that the two files responsible for making this all happen are, audio_platform_info.xml and mixer_paths_tasha.xml. I disconnected the QuadDAC from the Android mixer in audio_platform_info.xml and programed the QuadDAC for True Native Mode in the mixer_paths_tasha.xml. The QuadDAC also needs Enable System wide QuadDAC support v8.2 aka build.prop audio tweaks. All the other files were from my previous attempts to increase the audio quality of the Lgv20 without avail. I have been working on this project for a long time, I lost track.
 
-I disconnected the DAC from the phones mixer in file audio_platform_info.xml I programed the DAC for True Native Mode in file mixer_paths_tasha.xml
+At the very least you need these 4 build.prop lines to increase the buffer size for the QuadDAC so it can run in True Native Mode.
+audio.offload.size.kb=4096
+audio.offload.buffer.size.kb=8192
+venter.audio.offload.size.kb=4096
+venter.audio.offload.buffer.size.kb=8192
 
 Your welcome to look over all my notes in the mixer_paths_tasha.xml and audio_platform_info.xml files, my hope is by documenting all the modifications I made is to have people reprogram other Android phones so everyone can enjoy Hi-Res audio.
-
-I programed everything to upsample audio played at 44.1kHz.
 
 I made two diffrent flavors of Lemon Drop Hi-Res but only one souce code. To change the DAC modes search for: <path name="speaker-initialization-switch">
 
