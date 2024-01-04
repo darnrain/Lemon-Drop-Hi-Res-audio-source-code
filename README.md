@@ -24,7 +24,7 @@ I created all 1572 lines of the True Native Mode code, with the help of echo and
 From my understanding, this True Native Mode code is priceless, it put any Saber ESS DAC into True Native Mode on any Android phone, maybe even other brands of DACs.<br>
 
 ### I am a dev and want to add this to my rom?
-It is my understanding that the two files responsible for making this all happen are, audio_platform_info.xml and mixer_paths_tasha.xml. Just duplicate all the changes I made leaving intact your unique settings, it's best to copy and paste. The QuadDAC also needs Enable System wide QuadDAC support v8.2 aka build.prop audio tweaks. All the other files were from my previous attempts to increase the audio quality of the Lgv20 without avail. I have never tested, but I do not believe they are what put the QuadDAC into overdrive.<br>
+It is my understanding that the two files responsible for making this all happen are, audio_platform_info.xml and mixer_paths_tasha.xml. Just duplicate all the changes I made leaving intact your unique settings. The QuadDAC also needs Enable System wide QuadDAC support v8.2 aka build.prop audio tweaks. All the other files were from my previous attempts to increase the audio quality of the Lgv20 without avail. I have never tested, but I do not believe they are what put the QuadDAC into overdrive.<br>
 
 ### What is True Native Mode on a computer?
 "(1) The normal running mode of a computer, executing programs from its built-in instruction set. Contrast with emulation mode. See native language. (2) The highest performance state of a computer."<br>
