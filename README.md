@@ -23,8 +23,8 @@ When programing a QuadDAC you do not have visual gauges to view to see if you ha
 
 I guess you could say I have a gift that allows me to think outside of the box. I was always seeing LO in the True Native Mode code. I was like what is LO??? Then it hit me it's the bass. I came up with MI and HI for mid-range and treble myself and it worked!!! Also I was always seeing RX everywhere I looked, I was like well if there is an RX there has to be a TX. I guess you could say it was trial, error, logic and my advanced Linux computer skills, is how programed the Saber ESS 9218 DAC. The devs that programed the Saber ESS DAC chip are professionals, you need to think like how they think. They would not make it to complicated to program the QuadDAC. To me it was the ultimate puzzle that needed to be solved and I did solve it. It feels good.<br>
 
-### How unique is the True Native Mode code?
-From my understanding, this True Native Mode code is priceless, it put any Saber ESS DAC into True Native Mode on any Android phone, maybe even other brands of DACs.<br>
+### How valuable is the True Native Mode code?
+It's like GOLD, it put any Saber ESS DAC into True Native Mode on any Android phone, maybe even other brands of DACs.<br>
 
 ### I am a dev and want to add this to my rom?
 It is my understanding that the two files responsible for making this all happen are, audio_platform_info.xml and mixer_paths_tasha.xml. Just duplicate all the changes I made leaving intact your unique settings. The QuadDAC also needs Enable System wide QuadDAC support v8.2 aka build.prop audio tweaks. All the other files were from my previous attempts to increase the audio quality of the Lgv20 without avail. I have never tested, but I do not believe they are what put the QuadDAC into overdrive.<br>
