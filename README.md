@@ -26,9 +26,6 @@ From my understanding, this True Native Mode code is priceless, it put any Saber
 ### I am a dev and want to add this to my rom?
 It is my understanding that the two files responsible for making this all happen are, audio_platform_info.xml and mixer_paths_tasha.xml. Just duplicate all the changes I made leaving intact your unique settings, it's best to copy and paste. The QuadDAC also needs Enable System wide QuadDAC support v8.2 aka build.prop audio tweaks. All the other files were from my previous attempts to increase the audio quality of the Lgv20 without avail. I have never tested, but I do not believe they are what put the QuadDAC into overdrive.<br>
 
-### First found the 0.5% of True Native Mode code.
-I remember when I first found the True Native Mode code, I was like ooh what's that.<br>
-
 ### What is True Native Mode on a computer?
 "(1) The normal running mode of a computer, executing programs from its built-in instruction set. Contrast with emulation mode. See native language. (2) The highest performance state of a computer."<br>
 
@@ -36,7 +33,7 @@ I remember when I first found the True Native Mode code, I was like ooh what's t
 You need to choose 24bit 44.1kHz as the source, that's how I programed the DAC, it takes 24bit 44.1kHz and upsamples the audio eight times to 32bit 352.8kHz. On wired headphones the output is 32bit 352.8kHz, all other devices the output is 44.1kHz 24bit or 16bit. If set to anything other than, 44.1kHz the audio does not get upsampled eight times or it does not multiply evenly into what the DAC is set at 352.8kHz. In other words, your not going to get the absolute best audio quality.<br>
  
 ### A little backstory.
-They left about 0.5% of the True Native Mode code in the mixer_paths file, I put the other 99.5% of the True Native Mode together myself. Just think if they would have never left that small peace of code in the mixer_paths file this would have never had happened. All I can say is that must have been a mistake, the Lgv60 does not have that small piece of code, only the Lgv20 does. I bet this is the same True Native Mode code as a $2000 Hi-Res music player. Most likely they have a computer program that programs the QuadDAC for True Native Mode, me on the other hand, this True Native Mode code was all hand made by me. So in other words, the Lgv20 will sound like no other Hi-Res music player in the world. A computer program cannot replace the very essence, of what a human is able to accomplish when programing a QuadDAC.<br>
+I remember when I first found the True Native Mode code, I was like ooh what's that. They left about 0.5% of the True Native Mode code in the mixer_paths file, I put the other 99.5% of the True Native Mode together myself. Just think if they would have never left that small peace of code in the mixer_paths file this would have never had happened. All I can say is that must have been a mistake, the Lgv60 does not have that small piece of code, only the Lgv20 does. I bet this is the same True Native Mode code as a $2000 Hi-Res music player. Most likely they have a computer program that programs the QuadDAC for True Native Mode, me on the other hand, this True Native Mode code was all hand made by me. So in other words, the Lgv20 will sound like no other Hi-Res music player in the world. A computer program cannot replace the very essence, of what a human is able to accomplish when programing a QuadDAC.<br>
  
 Lemon Drop Hi-Res True Native Mode Stock Oreo Rom for the H910 & most Lgv20 phones.<br>
 https://xdaforums.com/t/lemon-drop-hi-res-true-native-mode-stock-oreo-rom-for-the-h910-most-lgv20-phones.4432865/
