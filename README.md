@@ -17,6 +17,9 @@ When programing a QuadDAC you do not have visual gauges to view to see if you ha
 
 I guess you could say I have a gift that allows me to think outside of the box. I was always seeing LO in the True Native Mode code. I was like what is LO??? Then it hit me it's the bass. I came up with MI and HI for mid-range and treble myself and it worked!!! Also I was always seeing RX everywhere I looked, I was like well if there is an RX there has to be a TX. I guess you could say it was trial, error, logic and my advanced Linux computer skills, is how programed the Saber ESS 9218 DAC. The devs that programed the Saber ESS DAC chip are professionals, you need to think like how they think. They would not make it to complicated to program the QuadDAC. To me it was the ultimate puzzle that needed to be solved and I did solve it. It feels good.<br>
 
+### What is True Native Mode on a computer?
+"(1) The normal running mode of a computer, executing programs from its built-in instruction set. Contrast with emulation mode. See native language. (2) The highest performance state of a computer."<br>
+
 ### What is True Native Mode on the Saber ESS 9218 DAC?<br>
 I created all 1572 lines of the True Native Mode code, with the help of echo and nano, there are 786 mixer paths for True Native Mode that places the QuadDAC into it's highest performance state. The very essence of True Native Mode it's self allows the DAC to have more than two channels, like one for left and one for right. I have the QuadDAC overclocked so we can have more than 3072 channels. There are 768 channels going to each DAC, 768 X 64 = 49152 then divide 49152 by 2 = 24576 for each DAC for a total of 98304 channels. We can only hear up to 20kHz however the more channels there are the better the audio sounds to us, it's like SD video vs HD video.<br>
 
@@ -25,9 +28,6 @@ From my understanding, this True Native Mode code is priceless, it put any Saber
 
 ### I am a dev and want to add this to my rom?
 It is my understanding that the two files responsible for making this all happen are, audio_platform_info.xml and mixer_paths_tasha.xml. Just duplicate all the changes I made leaving intact your unique settings. The QuadDAC also needs Enable System wide QuadDAC support v8.2 aka build.prop audio tweaks. All the other files were from my previous attempts to increase the audio quality of the Lgv20 without avail. I have never tested, but I do not believe they are what put the QuadDAC into overdrive.<br>
-
-### What is True Native Mode on a computer?
-"(1) The normal running mode of a computer, executing programs from its built-in instruction set. Contrast with emulation mode. See native language. (2) The highest performance state of a computer."<br>
 
 ### What do I need to set my Hi-Res music player at?
 You need to choose 24bit 44.1kHz as the source, that's how I programed the DAC, it takes 24bit 44.1kHz and upsamples the audio eight times to 32bit 352.8kHz. On wired headphones the output is 32bit 352.8kHz, all other devices the output is 44.1kHz 24bit or 16bit. If set to anything other than, 44.1kHz the audio does not get upsampled eight times or it does not multiply evenly into what the DAC is set at 352.8kHz. In other words, your not going to get the absolute best audio quality.<br>
