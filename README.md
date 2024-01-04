@@ -13,7 +13,7 @@ Audio souce code for Lemon Drop Hi-Res<br>
 Enable System wide QuadDAC support v8.2 aka build.prop audio tweaks.<br>
 They both go hand and hand to increase the audio quality of the QuadDAC to the maximum.<br>
 
-### This next part is how I found the True Native Mode code.
+### How did you find this True Native Mode code?
 If your curious on how I found the True Native Mode code, I will show you. Someone left about 0.5% of the code in the original mixer_paths_tasha.xml file for the Lgv20. Go to line number 278 through 287 you will see the 0.5% of the True Native Mode code that I found. As you can see INI1, INI2, INI7, INI8, LO1, LO2, LO3, LO4 lines of code are partially there, the absolute perfect base starting point for me, to create the True Native Mode code. The other 99.5% I made with my own hands, all by myself. With trial and error and logic and my advanced Linux computer skills, if the code does not exist, make it yourself. No external resource was utilized, to my knowledge there is no  external resource of this nature. Once I found out that this was the ultimate puzzle. I had to solve it, out of extreme curiosity. What would the QuadDAC sound like running in True Native Mode? If want to want to confirm that this original mixer_paths_tasha.xml is authentic, I will give you the link to the Lgv20 rom that has this 0.5% True Native Mode code. https://androidfilehost.com/?fid=1322778262904012823
 
 ### How did you program and tune the QuadDAC?
