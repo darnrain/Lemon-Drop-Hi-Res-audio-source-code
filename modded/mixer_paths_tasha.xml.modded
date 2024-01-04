@@ -34,7 +34,7 @@
 	<!-- With all 4 DACs enabled. -->
 	<!-- A total of 98304 channels in true stereo. -->
 	
-	<!-- Lemon Drop Hi-Res treble v147.1 -->
+	<!-- Lemon Drop Hi-Res treble v148.3 -->
 	
 	<!-- Proudly Made In America -->
 	<!-- Modded by Darnrain1 @XDA -->
@@ -2142,7 +2142,7 @@
 	
 	<!-- Lemon Drop Hi-Res end of initial MultiMedia settings -->
 	
-	<!-- Lemon Drop Hi-Res start of True Stereo control -->
+	<!-- Lemon Drop Hi-Res start of True Stereo & Mono control -->
 	
 	<ctl name="LDAC Switch" value="0" />
 	<ctl name="TX LDAC Switch" value="0" />
@@ -2157,7 +2157,7 @@
 	<ctl name="TX HPHR RDAC Switch" value="0" />
 	<ctl name="RX HPHR RDAC Switch" value="0" />
 	
-	<!-- Lemon Drop Hi-Res end of True Stereo control -->
+	<!-- Lemon Drop Hi-Res end of True Stereo & Mono control -->
 	
 	<!-- Lemon Drop Hi-Res start of Compander controls -->
 	
@@ -3831,6 +3831,25 @@
 	</path>
 	
 	<!-- Lemon Drop Hi-Res end of True Stereo control function -->
+
+	<!-- Lemon Drop Hi-Res start of True Mono control function -->
+	
+	<path name="true-mono-control">
+	<ctl name="LDAC Switch" value="1" />
+	<ctl name="TX LDAC Switch" value="1" />
+	<ctl name="RX LDAC Switch" value="1" />
+	<ctl name="RDAC Switch" value="0" />
+	<ctl name="TX RDAC Switch" value="0" />
+	<ctl name="RX RDAC Switch" value="0" />
+	<ctl name="HPHL LDAC Switch" value="1" />
+	<ctl name="TX HPHL LDAC Switch" value="1" />
+	<ctl name="RX HPHL LDAC Switch" value="1" />
+	<ctl name="HPHR RDAC Switch" value="0" />
+	<ctl name="TX HPHR RDAC Switch" value="0" />
+	<ctl name="RX HPHR RDAC Switch" value="0" />
+	</path>
+	
+	<!-- Lemon Drop Hi-Res end of True Mono control function -->
 	
 	<!-- Lemon Drop Hi-Res start of Compander controls function -->
 	
@@ -6746,12 +6765,19 @@
 	<!-- this needs to be set at PACKED_16B -->
 	
 	<path name="speaker-fluid">
+	<path name="true-mono-control" />
 	<ctl name="COMP7 Switch" value="1" />
 	<ctl name="TX COMP7 Switch" value="1" />
 	<ctl name="RX COMP7 Switch" value="1" />
 	<ctl name="COMP8 Switch" value="0" />
 	<ctl name="TX COMP8 Switch" value="0" />
 	<ctl name="RX COMP8 Switch" value="0" />
+	<ctl name="HPHL COMP Switch" value="1" />
+	<ctl name="TX HPHL COMP Switch" value="1" />
+	<ctl name="RX HPHL COMP Switch" value="1" />
+	<ctl name="HPHR COMP Switch" value="0" />
+	<ctl name="TX HPHR COMP Switch" value="0" />
+	<ctl name="RX HPHR COMP Switch" value="0" />
 	<ctl name="SLIM_0_TX Channels" value="One" />
 	<ctl name="SLIM_0_RX Channels" value="One" />
 	<ctl name="SLIM_0_TX SampleRate" value="KHZ_44P1" />
@@ -6821,6 +6847,7 @@
 	</path>
 	
 	<path name="speaker-vbat-mono">
+	<path name="true-mono-control" />
 	<ctl name="TX INT7 VBAT SPKRL VBAT Enable" value="1" />
 	<ctl name="RX INT7 VBAT SPKRL VBAT Enable" value="1" />
 	<ctl name="TX7 Digital Volume" value="84" />
@@ -6884,6 +6911,7 @@
 	<!-- this needs to be set at PACKED_16B -->
 	
 	<path name="speaker-protected">
+	<path name="true-mono-control" />
 	<ctl name="VI_FEED_TX Channels" value="One" />
 	<ctl name="VI_FEED_RX Channels" value="One" />
 	<ctl name="SLIM_4_TX SampleRate" value="KHZ_44P1" />
@@ -6910,6 +6938,7 @@
 	<!-- this needs to be set at PACKED_16B -->
 	
 	<path name="voice-speaker-protected">
+	<path name="true-mono-control" />
 	<ctl name="VI_FEED_TX Channels" value="One" />
 	<ctl name="VI_FEED_RX Channels" value="One" />
 	<ctl name="SLIM_4_TX SampleRate" value="KHZ_44P1" />
@@ -7112,8 +7141,7 @@
 	<!-- Lemon Drop Hi-Res start of mods -->
 	
 	<path name="voice-speaker">
-	<ctl name="SLIM_0_TX Channels" value="One" />
-	<ctl name="SLIM_0_RX Channels" value="One" />
+	<path name="true-mono-control" />
 	<ctl name="TX7 Digital Volume" value="84" />
 	<ctl name="TX7 Mix Digital Volume" value="84" />
 	<ctl name="RX7 Digital Volume" value="84" />
@@ -7128,8 +7156,7 @@
 	</path>
 	
 	<path name="voice-speaker-fluid">
-	<ctl name="SLIM_0_TX Channels" value="One" />
-	<ctl name="SLIM_0_RX Channels" value="One" />
+	<path name="true-mono-control" />
 	<ctl name="TX7 Digital Volume" value="84" />
 	<ctl name="TX7 Mix Digital Volume" value="84" />
 	<ctl name="RX7 Digital Volume" value="84" />
@@ -8117,8 +8144,7 @@
 	<!-- Lemon Drop Hi-Res start of mods -->
 	
 	<path name="speaker-aat">
-	<ctl name="SLIM_0_TX Channels" value="One" />
-	<ctl name="SLIM_0_RX Channels" value="One" />
+	<path name="true-mono-control" />
 	<ctl name="TX7 Digital Volume" value="84" />
 	<ctl name="TX7 Mix Digital Volume" value="84" />
 	<ctl name="RX7 Digital Volume" value="84" />
@@ -8182,8 +8208,28 @@
 	</path>
 	
 	<!-- Lemon Drop Hi-Res start of mods -->
+
+	<!-- There should be two fake_speakers -->
+	<!-- fake_speaker and fake_speaker-mono -->
+	<!-- The QuadDAC has to know absolute zero volume -->
 	
 	<path name="fake_speaker">
+	<path name="true-stereo-control" />
+	<ctl name="TX7 Digital Volume" value="0" />
+	<ctl name="TX7 Mix Digital Volume" value="0" />
+	<ctl name="RX7 Digital Volume" value="0" />
+	<ctl name="RX7 Mix Digital Volume" value="0" />
+	<ctl name="TX8 Digital Volume" value="0" />
+	<ctl name="TX8 Mix Digital Volume" value="0" />
+	<ctl name="RX8 Digital Volume" value="0" />
+	<ctl name="RX8 Mix Digital Volume" value="0" />
+	<ctl name="HPHL Volume" value="0" />
+	<ctl name="HPHR Volume" value="0" />
+	<path name="speaker" />
+	</path>
+
+	<path name="fake_speaker-mono">
+	<path name="true-mono-control" />
 	<ctl name="TX7 Digital Volume" value="0" />
 	<ctl name="TX7 Mix Digital Volume" value="0" />
 	<ctl name="RX7 Digital Volume" value="0" />
