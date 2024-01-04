@@ -34,7 +34,7 @@
 	<!-- With all 4 DACs enabled. -->
 	<!-- A total of 98304 channels in true stereo. -->
 	
-	<!-- Lemon Drop Hi-Res treble v146.1 -->
+	<!-- Lemon Drop Hi-Res treble v147.1 -->
 	
 	<!-- Proudly Made In America -->
 	<!-- Modded by Darnrain1 @XDA -->
@@ -84,9 +84,6 @@
 	
 	<!-- Search for: volume control -->
 	<!-- to view DAC volume settings -->
-	<!-- Note: High impedance and normal headphone volume levels -->
-	<!-- are all the same it would be to dangerous to have -->
-	<!-- a high impedance side with True Native Mode enabled -->
 	
 	<!-- Table of contents -->
 	<!-- SLIM_0_RX SLIM_0_TX = speaker aka DAC & internal speaker & earphone -->
@@ -2145,7 +2142,7 @@
 	
 	<!-- Lemon Drop Hi-Res end of initial MultiMedia settings -->
 	
-	<!-- Lemon Drop Hi-Res start of True Stereo controls -->
+	<!-- Lemon Drop Hi-Res start of True Stereo control -->
 	
 	<ctl name="LDAC Switch" value="0" />
 	<ctl name="TX LDAC Switch" value="0" />
@@ -2160,7 +2157,7 @@
 	<ctl name="TX HPHR RDAC Switch" value="0" />
 	<ctl name="RX HPHR RDAC Switch" value="0" />
 	
-	<!-- Lemon Drop Hi-Res end of True Stereo controls -->
+	<!-- Lemon Drop Hi-Res end of True Stereo control -->
 	
 	<!-- Lemon Drop Hi-Res start of Compander controls -->
 	
@@ -3816,9 +3813,9 @@
 	
 	<!-- Lemon Drop Hi-Res end of DAC initialization function -->
 	
-	<!-- Lemon Drop Hi-Res start of True Stereo controls function -->
+	<!-- Lemon Drop Hi-Res start of True Stereo control function -->
 	
-	<path name="quaddac-true-stereo">
+	<path name="true-stereo-control">
 	<ctl name="LDAC Switch" value="2" />
 	<ctl name="TX LDAC Switch" value="2" />
 	<ctl name="RX LDAC Switch" value="2" />
@@ -3833,7 +3830,7 @@
 	<ctl name="RX HPHR RDAC Switch" value="2" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res end of True Stereo controls function -->
+	<!-- Lemon Drop Hi-Res end of True Stereo control function -->
 	
 	<!-- Lemon Drop Hi-Res start of Compander controls function -->
 	
@@ -6786,7 +6783,7 @@
 	
 	<path name="speaker">
 	<path name="true-native-mode-SPKR" />
-	<path name="quaddac-true-stereo" />
+	<path name="true-stereo-control" />
 	<path name="compander-controls-SPKR" />
 	<ctl name="SLIM_0_TX Channels" value="Sevenhundredsixtyeight" />
 	<ctl name="SLIM_0_RX Channels" value="Sevenhundredsixtyeight" />
@@ -6809,6 +6806,7 @@
 	
 	<path name="speaker-liquid">
 	<path name="true-native-mode-SPKR" />
+	<path name="true-stereo-control" />
 	<ctl name="TX7 Digital Volume" value="48" />
 	<ctl name="TX7 Mix Digital Volume" value="48" />
 	<ctl name="RX7 Digital Volume" value="84" />
@@ -6840,6 +6838,7 @@
 	
 	<path name="speaker-vbat">
 	<path name="true-native-mode-SPKR" />
+	<path name="true-stereo-control" />
 	<ctl name="TX7 Digital Volume" value="48" />
 	<ctl name="TX7 Mix Digital Volume" value="48" />
 	<ctl name="RX7 Digital Volume" value="84" />
@@ -7222,6 +7221,7 @@
 	
 	<path name="usb-headphones">
 	<path name="true-native-mode-SPKR" />
+	<path name="true-stereo-control" />
 	<ctl name="TX7 Digital Volume" value="48" />
 	<ctl name="TX7 Mix Digital Volume" value="48" />
 	<ctl name="RX7 Digital Volume" value="84" />
@@ -7370,6 +7370,7 @@
 	
 	<path name="hdmi">
 	<path name="true-native-mode-SPKR" />
+	<path name="true-stereo-control" />
 	<ctl name="TX7 Digital Volume" value="48" />
 	<ctl name="TX7 Mix Digital Volume" value="48" />
 	<ctl name="RX7 Digital Volume" value="84" />
@@ -7388,6 +7389,7 @@
 	
 	<path name="speaker-and-usb-headphones">
 	<path name="true-native-mode-SPKR" />
+	<path name="true-stereo-control" />
 	<ctl name="TX7 Digital Volume" value="48" />
 	<ctl name="TX7 Mix Digital Volume" value="48" />
 	<ctl name="RX7 Digital Volume" value="84" />
@@ -7404,6 +7406,7 @@
 	
 	<path name="speaker-and-hdmi">
 	<path name="true-native-mode-SPKR" />
+	<path name="true-stereo-control" />
 	<ctl name="TX7 Digital Volume" value="48" />
 	<ctl name="TX7 Mix Digital Volume" value="48" />
 	<ctl name="RX7 Digital Volume" value="84" />
@@ -8297,7 +8300,7 @@
 	
 	<path name="bluetooth-16bit">
 	<path name="true-native-mode-HPH" />
-	<path name="quaddac-true-stereo" />
+	<path name="true-stereo-control" />
 	<path name="compander-controls-HPH" />
 	<ctl name="SLIM_7_TX Channels" value="Sevenhundredsixtyeight" />
 	<ctl name="SLIM_7_RX Channels" value="Sevenhundredsixtyeight" />
@@ -8319,7 +8322,7 @@
 	
 	<path name="bluetooth-24bit">
 	<path name="true-native-mode-HPH" />
-	<path name="quaddac-true-stereo" />
+	<path name="true-stereo-control" />
 	<path name="compander-controls-HPH" />
 	<ctl name="SLIM_8_TX Channels" value="Sevenhundredsixtyeight" />
 	<ctl name="SLIM_8_RX Channels" value="Sevenhundredsixtyeight" />
@@ -8341,7 +8344,7 @@
 	
 	<path name="headphone-16bit">
 	<path name="true-native-mode-HPH" />
-	<path name="quaddac-true-stereo" />
+	<path name="true-stereo-control" />
 	<path name="compander-controls-HPH" />
 	<ctl name="SLIM_9_TX Channels" value="Sevenhundredsixtyeight" />
 	<ctl name="SLIM_9_RX Channels" value="Sevenhundredsixtyeight" />
@@ -8363,6 +8366,7 @@
 	
 	<path name="headphone-16bit-advanced">
 	<path name="true-native-mode-HPH" />
+	<path name="true-stereo-control" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="84" />
@@ -8378,6 +8382,7 @@
 	
 	<path name="headphone-16bit-aux">
 	<path name="true-native-mode-HPH" />
+	<path name="true-stereo-control" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="84" />
@@ -8393,7 +8398,7 @@
 	
 	<path name="headphone-24bit">
 	<path name="true-native-mode-HPH" />
-	<path name="quaddac-true-stereo" />
+	<path name="true-stereo-control" />
 	<path name="compander-controls-HPH" />
 	<ctl name="SLIM_10_TX Channels" value="Sevenhundredsixtyeight" />
 	<ctl name="SLIM_10_RX Channels" value="Sevenhundredsixtyeight" />
@@ -8415,6 +8420,7 @@
 	
 	<path name="headphone-24bit-advanced">
 	<path name="true-native-mode-HPH" />
+	<path name="true-stereo-control" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="84" />
@@ -8430,6 +8436,7 @@
 	
 	<path name="headphone-24bit-aux">
 	<path name="true-native-mode-HPH" />
+	<path name="true-stereo-control" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="84" />
@@ -8546,7 +8553,7 @@
 
 	<path name="loopback-speaker">
 	<path name="true-native-mode-SPKR" />
-	<path name="quaddac-true-stereo" />
+	<path name="true-stereo-control" />
 	<ctl name="TX7 Digital Volume" value="84" />
 	<ctl name="TX7 Mix Digital Volume" value="84" />
 	<ctl name="RX7 Digital Volume" value="48" />
@@ -8570,7 +8577,7 @@
 	
 	<path name="loopback-headphone-and-bluetooth">
 	<path name="true-native-mode-HPH" />
-	<path name="quaddac-true-stereo" />
+	<path name="true-stereo-control" />
 	<ctl name="TX1 Digital Volume" value="84" />
 	<ctl name="TX1 Mix Digital Volume" value="84" />
 	<ctl name="RX1 Digital Volume" value="48" />
