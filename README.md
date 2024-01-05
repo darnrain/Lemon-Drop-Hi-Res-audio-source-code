@@ -6,7 +6,7 @@ Now it's the first running in True Native Mode.<br>
 With all 4 DACs enabled.<br>
 A total of 98,304  channels in true stereo.<br>
 
-Lemon Drop Hi-Res development status: Completed.<br>
+Lemon Drop Hi-Res development status: Completed pending checking code.<br>
 latest release: v151.1<br>
 
 ### How did you find this True Native Mode code?
