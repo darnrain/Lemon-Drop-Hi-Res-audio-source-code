@@ -28,7 +28,7 @@
 	
 	<!-- Top of page -->
 	
-	<!-- Lemon Drop Hi-Res treble v149.1 -->
+	<!-- Lemon Drop Hi-Res treble v150.3 -->
 	<!-- Designed and created by Darnrain1 @XDA aka Darnrain @GitHub -->
 	<!-- Proudly Made In America -->
 	
@@ -79,7 +79,7 @@
 	<!-- to view DAC volume settings -->
 	
 	<!-- Table of contents -->
-	<!-- SLIM_0_RX SLIM_0_TX = speaker aka DAC & internal speaker & earphone -->
+	<!-- SLIM_0_RX SLIM_0_TX = speaker aka DAC & internal speaker & earphone & vbat -->
 	<!-- SLIM_4_RX SLIM_4_TX = speaker-protected non offloaded 16bit mono internal speaker -->
 	<!-- SLIM_5_RX SLIM_5_TX = not in use -->
 	<!-- SLIM_6_RX SLIM_6_TX = headphones aka wired headphones 16bit FM Radio & headphones-phone -->
@@ -97,14 +97,6 @@
 	<ctl name="TX INT1 SPLINE MIX HPHL Switch" value="0" />
 	<ctl name="RX INT1 SPLINE MIX HPHL Native Switch" value="0" />
 	<ctl name="RX INT1 SPLINE MIX HPHL Switch" value="0" />
-	<ctl name="TX INT1 SPLINE MIX HPHR Native Switch" value="0" />
-	<ctl name="TX INT1 SPLINE MIX HPHR Switch" value="0" />
-	<ctl name="RX INT1 SPLINE MIX HPHR Native Switch" value="0" />
-	<ctl name="RX INT1 SPLINE MIX HPHR Switch" value="0" />
-	<ctl name="TX INT2 SPLINE MIX HPHL Native Switch" value="0" />
-	<ctl name="TX INT2 SPLINE MIX HPHL Switch" value="0" />
-	<ctl name="RX INT2 SPLINE MIX HPHL Native Switch" value="0" />
-	<ctl name="RX INT2 SPLINE MIX HPHL Switch" value="0" />
 	<ctl name="TX INT2 SPLINE MIX HPHR Native Switch" value="0" />
 	<ctl name="TX INT2 SPLINE MIX HPHR Switch" value="0" />
 	<ctl name="RX INT2 SPLINE MIX HPHR Native Switch" value="0" />
@@ -113,18 +105,14 @@
 	<ctl name="TX INT7 SPLINE MIX SPKRL Switch" value="0" />
 	<ctl name="RX INT7 SPLINE MIX SPKRL Native Switch" value="0" />
 	<ctl name="RX INT7 SPLINE MIX SPKRL Switch" value="0" />
-	<ctl name="TX INT7 SPLINE MIX SPKRR Native Switch" value="0" />
-	<ctl name="TX INT7 SPLINE MIX SPKRR Switch" value="0" />
-	<ctl name="RX INT7 SPLINE MIX SPKRR Native Switch" value="0" />
-	<ctl name="RX INT7 SPLINE MIX SPKRR Switch" value="0" />
-	<ctl name="TX INT8 SPLINE MIX SPKRL Native Switch" value="0" />
-	<ctl name="TX INT8 SPLINE MIX SPKRL Switch" value="0" />
-	<ctl name="RX INT8 SPLINE MIX SPKRL Native Switch" value="0" />
-	<ctl name="RX INT8 SPLINE MIX SPKRL Switch" value="0" />
+	<ctl name="TX INT7 VBAT SPKRL VBAT Enable" value="0" />
+	<ctl name="RX INT7 VBAT SPKRL VBAT Enable" value="0" />
 	<ctl name="TX INT8 SPLINE MIX SPKRR Native Switch" value="0" />
 	<ctl name="TX INT8 SPLINE MIX SPKRR Switch" value="0" />
 	<ctl name="RX INT8 SPLINE MIX SPKRR Native Switch" value="0" />
 	<ctl name="RX INT8 SPLINE MIX SPKRR Switch" value="0" />
+	<ctl name="TX INT8 VBAT SPKRR VBAT Enable" value="0" />
+	<ctl name="RX INT8 VBAT SPKRR VBAT Enable" value="0" />
 	<ctl name="TX INI3 SPLINE MIX LO1 Native Switch" value="0" />
 	<ctl name="TX INI3 SPLINE MIX LO1 Switch" value="0" />
 	<ctl name="TX INI4 SPLINE MIX MI2 Native Switch" value="0" />
@@ -1798,6 +1786,10 @@
 	<!-- Lemon Drop Hi-Res start of initial misc settings -->
 	
 	<ctl name="EAR PA Gain" value="ZERO" />
+	<ctl name="TX INT7 VBAT SPKRL VBAT Enable" value="0" />
+	<ctl name="RX INT7 VBAT SPKRL VBAT Enable" value="0" />
+	<ctl name="TX INT8 VBAT SPKRR VBAT Enable" value="0" />
+	<ctl name="RX INT8 VBAT SPKRR VBAT Enable" value="0" />
 	
 	<!-- Lemon Drop Hi-Res end of initial misc settings -->
 	
@@ -2199,14 +2191,6 @@
 	<ctl name="TX INT1 SPLINE MIX HPHL Switch" value="2" />
 	<ctl name="RX INT1 SPLINE MIX HPHL Native Switch" value="2" />
 	<ctl name="RX INT1 SPLINE MIX HPHL Switch" value="2" />
-	<ctl name="TX INT1 SPLINE MIX HPHR Native Switch" value="2" />
-	<ctl name="TX INT1 SPLINE MIX HPHR Switch" value="2" />
-	<ctl name="RX INT1 SPLINE MIX HPHR Native Switch" value="2" />
-	<ctl name="RX INT1 SPLINE MIX HPHR Switch" value="2" />
-	<ctl name="TX INT2 SPLINE MIX HPHL Native Switch" value="2" />
-	<ctl name="TX INT2 SPLINE MIX HPHL Switch" value="2" />
-	<ctl name="RX INT2 SPLINE MIX HPHL Native Switch" value="2" />
-	<ctl name="RX INT2 SPLINE MIX HPHL Switch" value="2" />
 	<ctl name="TX INT2 SPLINE MIX HPHR Native Switch" value="2" />
 	<ctl name="TX INT2 SPLINE MIX HPHR Switch" value="2" />
 	<ctl name="RX INT2 SPLINE MIX HPHR Native Switch" value="2" />
@@ -2986,14 +2970,6 @@
 	<ctl name="TX INT7 SPLINE MIX SPKRL Switch" value="2" />
 	<ctl name="RX INT7 SPLINE MIX SPKRL Native Switch" value="2" />
 	<ctl name="RX INT7 SPLINE MIX SPKRL Switch" value="2" />
-	<ctl name="TX INT7 SPLINE MIX SPKRR Native Switch" value="2" />
-	<ctl name="TX INT7 SPLINE MIX SPKRR Switch" value="2" />
-	<ctl name="RX INT7 SPLINE MIX SPKRR Native Switch" value="2" />
-	<ctl name="RX INT7 SPLINE MIX SPKRR Switch" value="2" />
-	<ctl name="TX INT8 SPLINE MIX SPKRL Native Switch" value="2" />
-	<ctl name="TX INT8 SPLINE MIX SPKRL Switch" value="2" />
-	<ctl name="RX INT8 SPLINE MIX SPKRL Native Switch" value="2" />
-	<ctl name="RX INT8 SPLINE MIX SPKRL Switch" value="2" />
 	<ctl name="TX INT8 SPLINE MIX SPKRR Native Switch" value="2" />
 	<ctl name="TX INT8 SPLINE MIX SPKRR Switch" value="2" />
 	<ctl name="RX INT8 SPLINE MIX SPKRR Native Switch" value="2" />
@@ -6839,10 +6815,34 @@
 	<path name="speaker" />
 	</path>
 	
-	<path name="speaker-vbat-mono">
+	<!-- Lemon Drop Hi-Res start of vbat mods -->
+	
+	<!-- Deleted -->
+	<!-- <path name="speaker-vbat-mono"> -->
+	<!-- <path name="speaker-mono" /> -->
+	<!-- <ctl name="RX7 Digital Volume" value="84" /> -->
+	<!-- <ctl name="RX INT7 VBAT SPKRL VBAT Enable" value="1" /> -->
+	<!-- </path> -->
+	
+	<!-- <path name="speaker-vbat"> -->
+	<!-- <path name="speaker" /> -->
+	<!-- <ctl name="RX INT7 VBAT SPKRL VBAT Enable" value="1" /> -->
+	<!-- <ctl name="RX INT8 VBAT SPKRR VBAT Enable" value="1" /> -->
+	<!-- </path> -->
+	
+	<!-- Added -->
+	<path name="vbat_speaker-mono">
 	<path name="true-mono-control" />
 	<ctl name="TX INT7 VBAT SPKRL VBAT Enable" value="1" />
 	<ctl name="RX INT7 VBAT SPKRL VBAT Enable" value="1" />
+	<ctl name="TX INT8 VBAT SPKRR VBAT Enable" value="0" />
+	<ctl name="RX INT8 VBAT SPKRR VBAT Enable" value="0" />
+	<ctl name="SLIM_0_TX Channels" value="One" />
+	<ctl name="SLIM_0_RX Channels" value="One" />
+	<ctl name="SLIM_0_TX SampleRate" value="KHZ_44P1" />
+	<ctl name="SLIM_0_RX SampleRate" value="KHZ_44P1" />
+	<ctl name="SLIM_0_TX Format" value="PACKED_16B" />
+	<ctl name="SLIM_0_RX Format" value="PACKED_16B" />
 	<ctl name="TX7 Digital Volume" value="84" />
 	<ctl name="TX7 Mix Digital Volume" value="84" />
 	<ctl name="RX7 Digital Volume" value="84" />
@@ -6853,12 +6853,22 @@
 	<ctl name="RX8 Mix Digital Volume" value="0" />
 	<ctl name="HPHL Volume" value="16" />
 	<ctl name="HPHR Volume" value="0" />
-	<path name="speaker-mono" />
 	</path>
 	
-	<path name="speaker-vbat">
+	<!-- Added -->
+	<path name="vbat_speaker">
 	<path name="true-native-mode-SPKR" />
 	<path name="true-stereo-control" />
+	<ctl name="TX INT7 VBAT SPKRL VBAT Enable" value="2" />
+	<ctl name="RX INT7 VBAT SPKRL VBAT Enable" value="2" />
+	<ctl name="TX INT8 VBAT SPKRR VBAT Enable" value="2" />
+	<ctl name="RX INT8 VBAT SPKRR VBAT Enable" value="2" />
+	<ctl name="SLIM_0_TX Channels" value="Sevenhundredsixtyeight" />
+	<ctl name="SLIM_0_RX Channels" value="Sevenhundredsixtyeight" />
+	<ctl name="SLIM_0_TX SampleRate" value="KHZ_352P8" />
+	<ctl name="SLIM_0_RX SampleRate" value="KHZ_352P8" />
+	<ctl name="SLIM_0_TX Format" value="PACKED_32B" />
+	<ctl name="SLIM_0_RX Format" value="PACKED_32B" />
 	<ctl name="TX7 Digital Volume" value="48" />
 	<ctl name="TX7 Mix Digital Volume" value="48" />
 	<ctl name="RX7 Digital Volume" value="84" />
@@ -6869,8 +6879,9 @@
 	<ctl name="RX8 Mix Digital Volume" value="84" />
 	<ctl name="HPHL Volume" value="16" />
 	<ctl name="HPHR Volume" value="16" />
-	<path name="speaker" />
 	</path>
+	
+	<!-- Lemon Drop Hi-Res end of vbat mods -->
 	
 	<!-- Lemon Drop Hi-Res end of mods -->
 	
@@ -8200,12 +8211,15 @@
 	<ctl name="RX7 Digital Volume" value="84" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res start of mods -->
+	<!-- Lemon Drop Hi-Res start of fake_speaker mods -->
 	
-	<!-- There should be two fake_speakers -->
-	<!-- fake_speaker and fake_speaker-mono -->
-	<!-- The QuadDAC has to know absolute zero volume -->
+	<!-- Deleted -->
+	<!-- <path name="fake_speaker"> -->
+	<!-- <path name="speaker-mono" /> -->
+	<!-- <ctl name="RX7 Digital Volume" value="0" /> -->
+	<!-- </path> -->
 	
+	<!-- Added -->
 	<path name="fake_speaker">
 	<path name="true-stereo-control" />
 	<ctl name="TX7 Digital Volume" value="0" />
@@ -8218,9 +8232,9 @@
 	<ctl name="RX8 Mix Digital Volume" value="0" />
 	<ctl name="HPHL Volume" value="0" />
 	<ctl name="HPHR Volume" value="0" />
-	<path name="speaker" />
 	</path>
 	
+	<!-- Added -->
 	<path name="fake_speaker-mono">
 	<path name="true-mono-control" />
 	<ctl name="TX7 Digital Volume" value="0" />
@@ -8233,8 +8247,9 @@
 	<ctl name="RX8 Mix Digital Volume" value="0" />
 	<ctl name="HPHL Volume" value="0" />
 	<ctl name="HPHR Volume" value="0" />
-	<path name="speaker-mono" />
 	</path>
+	
+	<!-- Lemon Drop Hi-Res end of fake_speaker mods -->
 	
 	<!-- Lemon Drop Hi-Res end of mods -->
 	
