@@ -28,7 +28,7 @@
 	
 	<!-- Top of page -->
 	
-	<!-- Lemon Drop Hi-Res treble v150.3 -->
+	<!-- Lemon Drop Hi-Res treble v151.1 -->
 	<!-- Designed and created by Darnrain1 @XDA aka Darnrain @GitHub -->
 	<!-- Proudly Made In America -->
 	
@@ -90,7 +90,7 @@
 	
 	<!-- Lemon Drop Hi-Res start of initial mixer settings -->
 	
-	<!-- Lemon Drop Hi-Res start of True Native Mode initial mixer settings -->
+	<!-- Lemon Drop Hi-Res start of True Native Mode & vbat initial mixer settings -->
 	
 <mixer>
 	<ctl name="TX INT1 SPLINE MIX HPHL Native Switch" value="0" />
@@ -1650,7 +1650,7 @@
 	<ctl name="RX INI772 SPLINE MIX HI768 Native Switch" value="0" />
 	<ctl name="RX INI772 SPLINE MIX HI768 Switch" value="0" />
 	
-	<!-- Lemon Drop Hi-Res end of True Native Mode initial mixer settings -->
+	<!-- Lemon Drop Hi-Res end of True Native Mode & vbat initial mixer settings -->
 	
 	<!-- Lemon Drop Hi-Res start of SLIM settings -->
 	
@@ -1786,10 +1786,6 @@
 	<!-- Lemon Drop Hi-Res start of initial misc settings -->
 	
 	<ctl name="EAR PA Gain" value="ZERO" />
-	<ctl name="TX INT7 VBAT SPKRL VBAT Enable" value="0" />
-	<ctl name="RX INT7 VBAT SPKRL VBAT Enable" value="0" />
-	<ctl name="TX INT8 VBAT SPKRR VBAT Enable" value="0" />
-	<ctl name="RX INT8 VBAT SPKRR VBAT Enable" value="0" />
 	
 	<!-- Lemon Drop Hi-Res end of initial misc settings -->
 	
