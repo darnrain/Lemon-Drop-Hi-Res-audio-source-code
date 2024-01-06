@@ -28,7 +28,7 @@
 	
 	<!-- Top of page -->
 	
-	<!-- Lemon Drop Hi-Res treble v153.1 -->
+	<!-- Lemon Drop Hi-Res treble v154.1 -->
 	<!-- Designed and created by Darnrain1 @XDA aka Darnrain @GitHub -->
 	<!-- Proudly Made In America -->
 	
@@ -4631,6 +4631,21 @@
 	<ctl name="RX HPHR COMP Switch" value="2" />
 	</path>
 	
+	<path name="compander-controls-SPKR-mono">
+	<ctl name="COMP7 Switch" value="1" />
+	<ctl name="TX COMP7 Switch" value="1" />
+	<ctl name="RX COMP7 Switch" value="1" />
+	<ctl name="COMP8 Switch" value="0" />
+	<ctl name="TX COMP8 Switch" value="0" />
+	<ctl name="RX COMP8 Switch" value="0" />
+	<ctl name="HPHL COMP Switch" value="1" />
+	<ctl name="TX HPHL COMP Switch" value="1" />
+	<ctl name="RX HPHL COMP Switch" value="1" />
+	<ctl name="HPHR COMP Switch" value="0" />
+	<ctl name="TX HPHR COMP Switch" value="0" />
+	<ctl name="RX HPHR COMP Switch" value="0" />
+	</path>
+
 	<!-- Lemon Drop Hi-Res end of Compander controls function -->
 	
 	<!-- Lemon Drop Hi-Res start of DAC tuning function -->
@@ -7514,18 +7529,7 @@
 	
 	<path name="speaker-fluid">
 	<path name="true-mono-control" />
-	<ctl name="COMP7 Switch" value="1" />
-	<ctl name="TX COMP7 Switch" value="1" />
-	<ctl name="RX COMP7 Switch" value="1" />
-	<ctl name="COMP8 Switch" value="0" />
-	<ctl name="TX COMP8 Switch" value="0" />
-	<ctl name="RX COMP8 Switch" value="0" />
-	<ctl name="HPHL COMP Switch" value="1" />
-	<ctl name="TX HPHL COMP Switch" value="1" />
-	<ctl name="RX HPHL COMP Switch" value="1" />
-	<ctl name="HPHR COMP Switch" value="0" />
-	<ctl name="TX HPHR COMP Switch" value="0" />
-	<ctl name="RX HPHR COMP Switch" value="0" />
+	<path name="compander-controls-SPKR-mono" />
 	<ctl name="SLIM_0_TX Channels" value="One" />
 	<ctl name="SLIM_0_RX Channels" value="One" />
 	<ctl name="SLIM_0_TX SampleRate" value="KHZ_44P1" />
@@ -7546,6 +7550,7 @@
 	</path>
 	
 	<path name="speaker-mono">
+	<path name="true-mono-control" />
 	<ctl name="TX INT7_1 MIX1 INP0" value="RX0" />
 	<ctl name="RX INT7_1 MIX1 INP0" value="RX0" />
 	<ctl name="SLIM TX0 MUX" value="AIF_MIX1_PB" />
@@ -7558,6 +7563,12 @@
 	<path name="speaker">
 	<path name="true-native-mode-SPKR" />
 	<path name="true-stereo-control" />
+	<path name="speaker-initialization-switch" />
+	</path>
+	
+	<path name="speaker-liquid">
+	<path name="true-native-mode-SPKR" />
+	<path name="true-stereo-control" />
 	<path name="compander-controls-SPKR" />
 	<ctl name="SLIM_0_TX Channels" value="Sevenhundredsixtyeight" />
 	<ctl name="SLIM_0_RX Channels" value="Sevenhundredsixtyeight" />
@@ -7565,22 +7576,6 @@
 	<ctl name="SLIM_0_RX SampleRate" value="KHZ_352P8" />
 	<ctl name="SLIM_0_TX Format" value="PACKED_32B" />
 	<ctl name="SLIM_0_RX Format" value="PACKED_32B" />
-	<ctl name="TX7 Digital Volume" value="48" />
-	<ctl name="TX7 Mix Digital Volume" value="48" />
-	<ctl name="RX7 Digital Volume" value="84" />
-	<ctl name="RX7 Mix Digital Volume" value="84" />
-	<ctl name="TX8 Digital Volume" value="48" />
-	<ctl name="TX8 Mix Digital Volume" value="48" />
-	<ctl name="RX8 Digital Volume" value="84" />
-	<ctl name="RX8 Mix Digital Volume" value="84" />
-	<ctl name="HPHL Volume" value="16" />
-	<ctl name="HPHR Volume" value="16" />
-	<path name="speaker-initialization-switch" />
-	</path>
-	
-	<path name="speaker-liquid">
-	<path name="true-native-mode-SPKR" />
-	<path name="true-stereo-control" />
 	<ctl name="TX7 Digital Volume" value="48" />
 	<ctl name="TX7 Mix Digital Volume" value="48" />
 	<ctl name="RX7 Digital Volume" value="84" />
@@ -7635,7 +7630,7 @@
 	</path>
 	
 	<!-- Added -->
-	<path name="vbat_speaker">
+	<path name="vbat_speaker-liquid">
 	<path name="true-native-mode-SPKR-vbat" />
 	<path name="true-stereo-control" />
 	<ctl name="SLIM_0_TX Channels" value="Sevenhundredsixtyeight" />
@@ -8995,7 +8990,7 @@
 	<!-- </path> -->
 	
 	<!-- Added -->
-	<path name="fake_speaker">
+	<path name="fake_speaker-liquid">
 	<path name="true-stereo-control" />
 	<ctl name="TX7 Digital Volume" value="0" />
 	<ctl name="TX7 Mix Digital Volume" value="0" />
