@@ -28,7 +28,7 @@
 	
 	<!-- Top of page -->
 	
-	<!-- Lemon Drop Hi-Res treble v152.1 -->
+	<!-- Lemon Drop Hi-Res treble v153.1 -->
 	<!-- Designed and created by Darnrain1 @XDA aka Darnrain @GitHub -->
 	<!-- Proudly Made In America -->
 	
@@ -7610,7 +7610,7 @@
 	<!-- </path> -->
 	
 	<!-- Added -->
-	<path name="vbat_speaker-mono">
+	<path name="vbat_speaker-fluid">
 	<path name="true-mono-control" />
 	<ctl name="TX INT7 VBAT SPKRL VBAT Enable" value="1" />
 	<ctl name="RX INT7 VBAT SPKRL VBAT Enable" value="1" />
@@ -9010,7 +9010,7 @@
 	</path>
 	
 	<!-- Added -->
-	<path name="fake_speaker-mono">
+	<path name="fake_speaker-fluid">
 	<path name="true-mono-control" />
 	<ctl name="TX7 Digital Volume" value="0" />
 	<ctl name="TX7 Mix Digital Volume" value="0" />
