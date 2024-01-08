@@ -28,8 +28,8 @@
 	
 	<!-- Top of page -->
 	
-	<!-- Lemon Drop Hi-Res treble v156.1 -->
-	<!-- Designed and created by Darnrain1 @XDA aka Darnrain @GitHub -->
+	<!-- Lemon Drop Hi-Res treble v157.1 -->
+	<!-- Designed and created by Darnrain @GitHub -->
 	<!-- Proudly Made In America -->
 	
 	<!-- I documented all modifications -->
@@ -10192,6 +10192,36 @@
 	<ctl name="HPHR Volume" value="16" />
 	</path>
 
+	<path name="vbat_headphone-16bit-advanced">
+	<path name="true-native-mode-HPH-vbat" />
+	<path name="true-stereo-control" />
+	<ctl name="TX1 Digital Volume" value="48" />
+	<ctl name="TX1 Mix Digital Volume" value="48" />
+	<ctl name="RX1 Digital Volume" value="84" />
+	<ctl name="RX1 Mix Digital Volume" value="84" />
+	<ctl name="TX2 Digital Volume" value="48" />
+	<ctl name="TX2 Mix Digital Volume" value="48" />
+	<ctl name="RX2 Digital Volume" value="84" />
+	<ctl name="RX2 Mix Digital Volume" value="84" />
+	<ctl name="HPHL Volume" value="16" />
+	<ctl name="HPHR Volume" value="16" />
+	</path>
+	
+	<path name="vbat_headphone-16bit-aux">
+	<path name="true-native-mode-HPH-vbat" />
+	<path name="true-stereo-control" />
+	<ctl name="TX1 Digital Volume" value="48" />
+	<ctl name="TX1 Mix Digital Volume" value="48" />
+	<ctl name="RX1 Digital Volume" value="84" />
+	<ctl name="RX1 Mix Digital Volume" value="84" />
+	<ctl name="TX2 Digital Volume" value="48" />
+	<ctl name="TX2 Mix Digital Volume" value="48" />
+	<ctl name="RX2 Digital Volume" value="84" />
+	<ctl name="RX2 Mix Digital Volume" value="84" />
+	<ctl name="HPHL Volume" value="16" />
+	<ctl name="HPHR Volume" value="16" />
+	</path>
+
 	<path name="vbat_headphone-24bit">
 	<path name="true-native-mode-HPH-vbat" />
 	<path name="true-stereo-control" />
@@ -10202,6 +10232,36 @@
 	<ctl name="SLIM_9_RX SampleRate" value="KHZ_44P1" />
 	<ctl name="SLIM_9_TX Format" value="S16_LE" />
 	<ctl name="SLIM_9_RX Format" value="S16_LE" />
+	<ctl name="TX1 Digital Volume" value="48" />
+	<ctl name="TX1 Mix Digital Volume" value="48" />
+	<ctl name="RX1 Digital Volume" value="84" />
+	<ctl name="RX1 Mix Digital Volume" value="84" />
+	<ctl name="TX2 Digital Volume" value="48" />
+	<ctl name="TX2 Mix Digital Volume" value="48" />
+	<ctl name="RX2 Digital Volume" value="84" />
+	<ctl name="RX2 Mix Digital Volume" value="84" />
+	<ctl name="HPHL Volume" value="16" />
+	<ctl name="HPHR Volume" value="16" />
+	</path>
+
+	<path name="vbat_headphone-24bit-advanced">
+	<path name="true-native-mode-HPH-vbat" />
+	<path name="true-stereo-control" />
+	<ctl name="TX1 Digital Volume" value="48" />
+	<ctl name="TX1 Mix Digital Volume" value="48" />
+	<ctl name="RX1 Digital Volume" value="84" />
+	<ctl name="RX1 Mix Digital Volume" value="84" />
+	<ctl name="TX2 Digital Volume" value="48" />
+	<ctl name="TX2 Mix Digital Volume" value="48" />
+	<ctl name="RX2 Digital Volume" value="84" />
+	<ctl name="RX2 Mix Digital Volume" value="84" />
+	<ctl name="HPHL Volume" value="16" />
+	<ctl name="HPHR Volume" value="16" />
+	</path>
+	
+	<path name="vbat_headphone-24bit-aux">
+	<path name="true-native-mode-HPH-vbat" />
+	<path name="true-stereo-control" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="84" />
