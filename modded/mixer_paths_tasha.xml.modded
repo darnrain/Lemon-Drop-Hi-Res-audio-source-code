@@ -28,7 +28,7 @@
 	
 	<!-- Top of page -->
 	
-	<!-- Lemon Drop Hi-Res treble v158.1 -->
+	<!-- Lemon Drop Hi-Res treble v159.1 -->
 	<!-- Designed and created by Darnrain @GitHub -->
 	<!-- Proudly Made In America -->
 	
@@ -8314,7 +8314,7 @@
 	<!-- 16bit non offloaded mono internal speaker -->
 	<!-- this needs to be set at PACKED_16B -->
 	
-	<path name="speaker-fluid">
+	<path name="speaker_fluid">
 	<path name="true-mono-control" />
 	<path name="compander-controls-SPKR-mono" />
 	<ctl name="SLIM_0_TX Channels" value="One" />
@@ -8353,7 +8353,7 @@
 	<path name="speaker-initialization-switch" />
 	</path>
 	
-	<path name="speaker-liquid">
+	<path name="speaker_liquid">
 	<path name="true-native-mode-SPKR" />
 	<path name="true-stereo-control" />
 	<path name="compander-controls-SPKR" />
@@ -8392,7 +8392,7 @@
 	<!-- </path> -->
 	
 	<!-- Added -->
-	<path name="vbat_speaker-fluid">
+	<path name="vbat_speaker_fluid">
 	<ctl name="TX INT7 VBAT SPKRL VBAT Enable" value="1" />
 	<ctl name="RX INT7 VBAT SPKRL VBAT Enable" value="1" />
 	<ctl name="TX INT8 VBAT SPKRR VBAT Enable" value="0" />
@@ -8418,7 +8418,7 @@
 	</path>
 	
 	<!-- Added -->
-	<path name="vbat_speaker-liquid">
+	<path name="vbat_speaker_liquid">
 	<path name="true-native-mode-SPKR-vbat" />
 	<path name="true-stereo-control" />
 	<path name="compander-controls-SPKR" />
@@ -8779,7 +8779,7 @@
 	<path name="speaker-mono" />
 	</path>
 	
-	<path name="voice-speaker-fluid">
+	<path name="voice-speaker_fluid">
 	<path name="true-mono-control" />
 	<ctl name="TX7 Digital Volume" value="84" />
 	<ctl name="TX7 Mix Digital Volume" value="84" />
@@ -8791,7 +8791,7 @@
 	<ctl name="RX8 Mix Digital Volume" value="0" />
 	<ctl name="HPHL Volume" value="16" />
 	<ctl name="HPHR Volume" value="0" />
-	<path name="speaker-fluid" />
+	<path name="speaker_fluid" />
 	</path>
 	
 	<!-- Lemon Drop Hi-Res end of mods -->
@@ -9696,7 +9696,7 @@
 	<!-- There are 768 channels going to each DAC -->
 	<!-- 768 X 64 = 49152 then divide 49152 by 2 = 24576 for a total of 98304 channels -->
 	
-	<path name="dop-playback tert-mi2s-headphones">
+	<path name="dop_playback tert-mi2s-headphones">
 	<ctl name="SEC_TDM_TX_0 Audio Mixer MultiMedia5" value="2" />
 	<ctl name="SEC_TDM_RX_0 Audio Mixer MultiMedia5" value="2" />
 	<ctl name="SEC_TDM_TX_0 Channels" value="Twentyfourthousandfivehundredseventysix" />
@@ -9840,7 +9840,7 @@
 	<!-- </path> -->
 	
 	<!-- Added -->
-	<path name="fake_speaker-liquid">
+	<path name="fake_speaker_liquid">
 	<path name="true-stereo-control" />
 	<ctl name="TX7 Digital Volume" value="0" />
 	<ctl name="TX7 Mix Digital Volume" value="0" />
@@ -9855,7 +9855,7 @@
 	</path>
 	
 	<!-- Added -->
-	<path name="fake_speaker-fluid">
+	<path name="fake_speaker_fluid">
 	<path name="true-mono-control" />
 	<ctl name="TX7 Digital Volume" value="0" />
 	<ctl name="TX7 Mix Digital Volume" value="0" />
