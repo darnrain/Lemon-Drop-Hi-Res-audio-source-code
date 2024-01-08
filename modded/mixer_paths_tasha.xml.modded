@@ -28,7 +28,7 @@
 	
 	<!-- Top of page -->
 	
-	<!-- Lemon Drop Hi-Res treble v157.1 -->
+	<!-- Lemon Drop Hi-Res treble v158.1 -->
 	<!-- Designed and created by Darnrain @GitHub -->
 	<!-- Proudly Made In America -->
 	
@@ -10355,8 +10355,9 @@
 	</path>
 	
 	<!-- Lemon Drop Hi-Res start of loopback devices -->
+	<!-- Should be loopback_speaker not loopback-speaker -->
 	
-	<path name="loopback-earpiece">
+	<path name="loopback_earpiece">
 	<ctl name="EAR PA Gain" value="G_6_DB" />
 	<ctl name="TX0 Digital Volume" value="48" />
 	<ctl name="RX0 Digital Volume" value="28" />
@@ -10364,7 +10365,7 @@
 	<path name="handset" />
 	</path>
 	
-	<path name="loopback-speaker-mono">
+	<path name="loopback_speaker-mono">
 	<ctl name="TX7 Digital Volume" value="84" />
 	<ctl name="TX7 Mix Digital Volume" value="84" />
 	<ctl name="RX7 Digital Volume" value="84" />
@@ -10377,7 +10378,7 @@
 	<ctl name="HPHR Volume" value="0" />
 	</path>
 	
-	<path name="loopback-speaker">
+	<path name="loopback_speaker">
 	<path name="true-native-mode-SPKR" />
 	<path name="true-stereo-control" />
 	<ctl name="TX7 Digital Volume" value="84" />
@@ -10401,7 +10402,7 @@
 	<!--     <ctl name="HPHR Volume" value="20" /> -->
 	<!-- </path> -->
 	
-	<path name="loopback-headphone-and-bluetooth">
+	<path name="loopback_headphone-and-bluetooth">
 	<path name="true-native-mode-HPH" />
 	<path name="true-stereo-control" />
 	<ctl name="TX1 Digital Volume" value="84" />
@@ -10422,7 +10423,7 @@
 	
 	<!-- 16bit wired headphones FM radio and phone-->
 	
-	<path name="loopback-headphones">
+	<path name="loopback_headphones">
 	<ctl name="TX1 Digital Volume" value="84" />
 	<ctl name="TX1 Mix Digital Volume" value="84" />
 	<ctl name="RX1 Digital Volume" value="84" />
@@ -10437,9 +10438,15 @@
 	</path>
 	
 	<!-- Lemon Drop Hi-Res end of loopback devices -->
+
+	<!-- Lemon Drop Hi-Res start of mods -->
+	<!-- bt does not exist -->
 	
-	<path name="loopback-bt">
-	</path>
+	<!-- Deleted -->
+	<!-- <path name="loopback-bt"> -->
+	<!-- </path> -->
+
+	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<path name="voip-earpiece">
 	<path name="handset" />
