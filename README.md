@@ -37,7 +37,7 @@ It is my understanding that the two files responsible for making this all happen
 I could help you out a little, sorry I didn't think of it tell just now. ;) Let's talk about the mixer_paths_tasha.xml file. Your file may have a different name, that's fine it does not matter. First thing you want to do is copy from line number 29 to line number 5558 and paste in your mixer_paths file at the very top, well under the copyright notice. Then you can get to work deleting and adding all the changes I made to the mixer_paths file. Everything I deleted of importance is included in the 5558 lines of code I programed. Make sure there are only two mixer and /mixer one at the top and at the bottom, they can not be tabbed.<br>
 
 I cant program with how disorganized the mixer_paths file was. This is how I tabbed all lines and fixed it.<br>
-sed commands:
+sed commands:<br>
 Move all lines to the left.<br>
 <pre>
 sed 's/^[ \t]*//'
