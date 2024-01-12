@@ -38,7 +38,7 @@ Let's talk about the mixer_paths_tasha.xml file. Your file may have a different 
 
 Make sure there are only one of each <mixer\> and </mixer\> top and bottom. They can not be tabbed.<br>
 
-I cant program with how disorganized the mixer_paths file was. This is how I tabbed all lines and fixed it.<br>
+I cant program with how disorganized the original mixer_paths file is. This is how I tabbed all lines and fixed it.<br>
 sed commands:<br>
 Move all lines to the left.<br>
 <pre>
