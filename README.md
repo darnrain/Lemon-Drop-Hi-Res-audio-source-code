@@ -38,7 +38,7 @@ First off I want to apologize for not giving you guys any clue on how to do this
 
 Make sure there are only one of each <mixer\> and </mixer\> top and bottom. They can not be tabbed.<br>
 
-When programing the mixer_paths file, I only use the tab key not the spacebar, it's just one of those things I can't stand. ;)<br>
+When programing the mixer_paths file, I only use the tab key not the spacebar, it's just a pet peeve. ;)<br>
 
 I cant program with how disorganized the original mixer_paths file is. This is how I tabbed all lines and fixed it. I use arch linux.<br>
 
