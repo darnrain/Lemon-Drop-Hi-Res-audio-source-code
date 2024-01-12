@@ -3,7 +3,7 @@
 < 	
 < 	<!-- Top of page -->
 < 	
-< 	<!-- Lemon Drop Hi-Res treble v162.1 -->
+< 	<!-- Lemon Drop Hi-Res treble v163.1 -->
 < 	<!-- Designed and created by Darnrain @GitHub -->
 < 	<!-- Proudly Made In America -->
 < 	
@@ -69,7 +69,7 @@
 < 	
 < 	<!-- Lemon Drop Hi-Res start of True Native Mode & vbat initial mixer settings -->
 < 	
-98,10512c28,2368
+98,10511c28,2368
 < 	<ctl name="TX INT1 SPLINE MIX HPHL Native Switch" value="0" />
 < 	<ctl name="TX INT1 SPLINE MIX HPHL Switch" value="0" />
 < 	<ctl name="RX INT1 SPLINE MIX HPHL Native Switch" value="0" />
@@ -10442,7 +10442,6 @@
 < 	<ctl name="RX2 Mix Digital Volume" value="48" />
 < 	<ctl name="HPHL Volume" value="16" />
 < 	<ctl name="HPHR Volume" value="16" />
-< 	<path name="headphone" />
 < 	</path>
 < 	
 < 	<!-- 16bit wired headphones FM radio and phone -->
@@ -12827,7 +12826,7 @@
 >     </path>
 > 
 >     <path name="anc-headphones">
-10515,10522c2371,2429
+10514,10521c2371,2429
 < 	<ctl name="RX1 Mix Digital Volume" value="85" />
 < 	<ctl name="RX2 Mix Digital Volume" value="85" />
 < 	<ctl name="HPHL Volume" value="15" />
@@ -12896,7 +12895,7 @@
 >     </path>
 > 
 >     <path name="voice-anc-headphones">
-10525,10533c2432,2464
+10524,10532c2432,2464
 < 	<ctl name="RX HPH Mode" value="CLS_H_HIFI" />
 < 	<ctl name="RX1 Mix Digital Volume" value="85" />
 < 	<ctl name="RX2 Mix Digital Volume" value="85" />
@@ -12940,7 +12939,7 @@
 >     </path>
 > 
 >     <path name="voice-anc-fb-headphones">
-10536,11049c2467,3898
+10535,11048c2467,3898
 < 	<ctl name="RX HPH Mode" value="CLS_H_HIFI" />
 < 	<ctl name="RX1 Mix Digital Volume" value="85" />
 < 	<ctl name="RX2 Mix Digital Volume" value="85" />
@@ -14888,7 +14887,7 @@
 >         <path name="speaker-protected" />
 >     </path>
 >     <!-- TERT MI2S A2DP OFFLOAD end -->
-11051,11053d3899
+11050,11052d3899
 < 	
 < 	
 < 	<!-- Bottom of page -->

@@ -28,7 +28,7 @@
 	
 	<!-- Top of page -->
 	
-	<!-- Lemon Drop Hi-Res treble v162.1 -->
+	<!-- Lemon Drop Hi-Res treble v163.1 -->
 	<!-- Designed and created by Darnrain @GitHub -->
 	<!-- Proudly Made In America -->
 	
@@ -10467,7 +10467,6 @@
 	<ctl name="RX2 Mix Digital Volume" value="48" />
 	<ctl name="HPHL Volume" value="16" />
 	<ctl name="HPHR Volume" value="16" />
-	<path name="headphone" />
 	</path>
 	
 	<!-- 16bit wired headphones FM radio and phone -->
