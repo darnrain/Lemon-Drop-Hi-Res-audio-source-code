@@ -28,7 +28,7 @@
 	
 	<!-- Top of page -->
 	
-	<!-- Lemon Drop Hi-Res treble v160.1 -->
+	<!-- Lemon Drop Hi-Res treble v161.1 -->
 	<!-- Designed and created by Darnrain @GitHub -->
 	<!-- Proudly Made In America -->
 	
@@ -9854,7 +9854,8 @@
 	<!-- </path> -->
 	
 	<!-- Added -->
-	<path name="fake_speaker_liquid">
+	<path name="fake_speaker">
+	<path name="true-native-mode-SPKR" />
 	<path name="true-stereo-control" />
 	<ctl name="TX7 Digital Volume" value="0" />
 	<ctl name="TX7 Mix Digital Volume" value="0" />
@@ -9869,7 +9870,7 @@
 	</path>
 	
 	<!-- Added -->
-	<path name="fake_speaker_fluid">
+	<path name="fake_speaker-mono">
 	<path name="true-mono-control" />
 	<ctl name="TX7 Digital Volume" value="0" />
 	<ctl name="TX7 Mix Digital Volume" value="0" />
@@ -9984,7 +9985,40 @@
 	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<!-- Lemon Drop Hi-Res start of control center -->
-	<!-- 218 lines long -->
+
+	<path name="bluetooth">
+	<path name="true-native-mode-HPH" />
+	<path name="true-stereo-control" />
+	<ctl name="TX1 Digital Volume" value="48" />
+	<ctl name="TX1 Mix Digital Volume" value="48" />
+	<ctl name="RX1 Digital Volume" value="84" />
+	<ctl name="RX1 Mix Digital Volume" value="84" />
+	<ctl name="TX2 Digital Volume" value="48" />
+	<ctl name="TX2 Mix Digital Volume" value="48" />
+	<ctl name="RX2 Digital Volume" value="84" />
+	<ctl name="RX2 Mix Digital Volume" value="84" />
+	<ctl name="HPHL Volume" value="16" />
+	<ctl name="HPHR Volume" value="16" />
+	<path name="bluetooth-16bit" />
+	<path name="bluetooth-24bit" />
+	</path>
+
+	<path name="headphone">
+	<path name="true-native-mode-HPH" />
+	<path name="true-stereo-control" />
+	<ctl name="TX1 Digital Volume" value="48" />
+	<ctl name="TX1 Mix Digital Volume" value="48" />
+	<ctl name="RX1 Digital Volume" value="84" />
+	<ctl name="RX1 Mix Digital Volume" value="84" />
+	<ctl name="TX2 Digital Volume" value="48" />
+	<ctl name="TX2 Mix Digital Volume" value="48" />
+	<ctl name="RX2 Digital Volume" value="84" />
+	<ctl name="RX2 Mix Digital Volume" value="84" />
+	<ctl name="HPHL Volume" value="16" />
+	<ctl name="HPHR Volume" value="16" />
+	<path name="headphone-16bit" />
+	<path name="headphone-24bit" />
+	</path>
 	
 	<path name="bluetooth-16bit">
 	<path name="true-native-mode-HPH" />
@@ -10290,6 +10324,40 @@
 
 	<!-- Lemon Drop Hi-Res end of vbat HPH -->
 
+	<!-- Lemon Drop Hi-Res start of fake HPH -->
+
+	<path name="fake_bluetooth">
+	<path name="true-native-mode-HPH" />
+	<path name="true-stereo-control" />
+	<ctl name="TX1 Digital Volume" value="0" />
+	<ctl name="TX1 Mix Digital Volume" value="0" />
+	<ctl name="RX1 Digital Volume" value="0" />
+	<ctl name="RX1 Mix Digital Volume" value="0" />
+	<ctl name="TX2 Digital Volume" value="0" />
+	<ctl name="TX2 Mix Digital Volume" value="0" />
+	<ctl name="RX2 Digital Volume" value="0" />
+	<ctl name="RX2 Mix Digital Volume" value="0" />
+	<ctl name="HPHL Volume" value="0" />
+	<ctl name="HPHR Volume" value="0" />
+	</path>
+
+	<path name="fake_headphone">
+	<path name="true-native-mode-HPH" />
+	<path name="true-stereo-control" />
+	<ctl name="TX1 Digital Volume" value="0" />
+	<ctl name="TX1 Mix Digital Volume" value="0" />
+	<ctl name="RX1 Digital Volume" value="0" />
+	<ctl name="RX1 Mix Digital Volume" value="0" />
+	<ctl name="TX2 Digital Volume" value="0" />
+	<ctl name="TX2 Mix Digital Volume" value="0" />
+	<ctl name="RX2 Digital Volume" value="0" />
+	<ctl name="RX2 Mix Digital Volume" value="0" />
+	<ctl name="HPHL Volume" value="0" />
+	<ctl name="HPHR Volume" value="0" />
+	</path>
+
+	<!-- Lemon Drop Hi-Res end of fake HPH -->
+
 	<!-- Lemon Drop Hi-Res start of dac volume control -->
 	
 	<!-- AVC Volume lower number = increase volume level -->
@@ -10429,10 +10497,8 @@
 	<ctl name="RX2 Mix Digital Volume" value="48" />
 	<ctl name="HPHL Volume" value="16" />
 	<ctl name="HPHR Volume" value="16" />
-	<path name="headphone-16bit" />
-	<path name="headphone-24bit" />
-	<path name="bluetooth-16bit" />
-	<path name="bluetooth-24bit" />
+	<path name="headphone" />
+	<path name="bluetooth" />
 	</path>
 	
 	<!-- 16bit wired headphones FM radio and phone -->
