@@ -40,7 +40,12 @@ Make sure there are only one of each <mixer\> and </mixer\> top and bottom. They
 
 When programing the mixer_paths file, I only use the tab key not the spacebar, it's just one of those things I can't stand. ;)<br>
 
-I cant program with how disorganized the original mixer_paths file is. This is how I tabbed all lines and fixed it.<br>
+I cant program with how disorganized the original mixer_paths file is. This is how I tabbed all lines and fixed it. I use arch linux.<br>
+
+Example:
+<pre>
+cat mixer_paths_file.txt | sed 's/^[ \t]*//' > new_mixer_paths_file.txt
+</pre>
 
 sed commands:<br>
 Move all lines to the left.<br>
