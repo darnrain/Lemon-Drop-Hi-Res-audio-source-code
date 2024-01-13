@@ -44,7 +44,7 @@ I cant program with how disorganized the original mixer_paths file is. This is h
 
 Example:
 <pre>
-cat your_mixer_paths_file.txt | sed 's/^[ \t]*//' > new_mixer_paths_file.txt
+cat your_mixer_paths_file.xml | sed 's/^[ \t]*//' > new_mixer_paths_file.xml
 </pre>
 
 sed commands:<br>
