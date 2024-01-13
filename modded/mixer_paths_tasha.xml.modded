@@ -28,20 +28,81 @@
 	
 	<!-- Top of page -->
 	
-	<!-- Lemon Drop Hi-Res treble v163.1 -->
-	<!-- Designed and created by Darnrain @GitHub -->
+	<!-- Lemon Drop Hi-Res treble v164.1 -->
+	<!-- Designed and created by darnrain @GitHub -->
 	<!-- Proudly Made In America -->
 	
-	<!-- I documented all modifications -->
+	<!-- Welcome to the official guide on how to transform your phone into a -->
+	<!-- Professional High Resolution Audio Player -->
+	
+	<!-- This True Native Mode code works 100% on the Lgv20 -->
+	<!-- Never tested on any other phone before -->
+	<!-- I would imagine it should work as long as you have a QuadDAC in your phone -->
+	
+	<!-- v164.1 or higher is the only version I recommend when trying to duplicate what I have done -->
+	<!-- I fixed my notes. Past versions had my notes when I was programing -->
+	<!-- You need to know how to duplicate what I have done not how I did it -->
+	
+	<!-- My hope is everyone can experience what the audio quality of a QuadDAC running in -->
+	<!-- True Native Mode sounds like -->
+	
+	<!-- First thing -->
+	<!-- Copy all lines of code line number 1 through 5614 paste in your mixer_paths file at very top -->
+	<!-- I added a note where to copy from at line 5614 -->
+	
+	<!-- Second thing -->
+	<!-- Search for "lemon drop" after line 5614 to start -->
+	
+	<!-- Third thing -->
+	<!-- Duplicate all code from "Lemon Drop Hi-Res start of mods" to "Lemon Drop Hi-Res end of mods" -->
+	<!-- Delete all the lines of code along the way in your mixer_paths file that I have marked for deletion -->
+	<!-- Your mixer_paths file will not have the vast majority of this code -->
+	<!-- But should contain the primary code -->
+	<!-- Replace your pirmary code with the modded code I made -->
+	<!-- Your going to copy and paste a lot -->
+	
+	<!-- Forth thing -->
+	<!-- The only thing that I can think of that could be diffrent in your mixer_paths file -->
+	<!-- Is the DAC volume settings name -->
+	<!-- <ctl name="Es9018 Master Volume" value="0" /> -->
+	<!-- <ctl name="Es9018 AVC Volume" value="0" /> -->
+	<!-- <ctl name="Es9018 HEADSET TYPE" value="0" /> -->
+	<!-- <ctl name="Es9218 Bypass" value="0" /> -->
+	<!-- Line number 1787 to 1790 change the names also change the names under volume control -->
+	<!-- If they are not the same as the Lgv20 -->
+	
+	<!-- There can not be any duplicates like "<path name="speaker">" and "<path name="speaker">" -->
+	<!-- Or phone will not boot -->
+	
 	<!-- I moved all lines to the left and tabed with sed commands -->
+	
 	<!-- The correct order of code is critical a computer reads from top to bottom -->
-	<!-- All the code has to be in order from TX to RX for the same number or type -->
+	
+	<!-- All the code has to be in the order from TX to RX for the same number or type -->
+	
+	<!-- The initial mixer settings must have a value of 0 or ZERO -->
+	<!-- If not there is no way to change the individual settings -->
+	<!-- Like a volume level of 48 for bluetooth also no way to tune the DAC -->
+	
+	<!-- There can only be one of each "<mixer>" and "</mixer>" top and bottom -->
+	<!-- They can not be tabbed -->
 	
 	<!-- Change all: "/> to: " /> -->
 	<!-- Mistakes or disabled -->
 	
+	<!-- These two lines should never touch each other -->
+	<!-- </path> -->
+	<!-- <path -->
+	
 	<!-- The DAC initialization code must only be under -->
 	<!-- <path name="speaker-mono"> & <path name="speaker"> -->
+	
+	<!-- Do a search for "<ctl name="SpkrLeft" -->
+	<!-- I bet it's under more than what I said it must be under -->
+	<!-- I did not document the locations I deleted that code from -->
+	<!-- because it could be at any random location -->
+	<!-- If other than the two location it will cause all kinds of issues with the phone -->
+	<!-- its like trying to start your car after its already running -->
 	
 	<!-- The DAC initialization code -->
 	<!-- <ctl name="SpkrLeft COMP Switch" value="2" /> -->
@@ -55,18 +116,11 @@
 	<!-- <ctl name="SpkrRight WSA PA Mute" value="0" /> -->
 	<!-- <ctl name="SpkrRight SWR DAC_Port Switch" value="2" /> -->
 	
-	<!-- These two lines should never touch each other -->
-	<!-- </path> -->
-	<!-- <path -->
-	
 	<!-- Search for: Lemon Drop -->
-	<!-- to view changes I have made -->
+	<!-- to view all mods -->
 	
-	<!-- Search for: QuadDAC -->
-	<!-- to view the QuadDAC settings -->
-	
-	<!-- Search for: Saber ESS 9128 DAC -->
-	<!-- to view the speaker settings aka DAC -->
+	<!-- Search for: Saber ESS 9218 QuadDAC -->
+	<!-- to view the QuadDAC direct output settings -->
 	
 	<!-- Search for: control center -->
 	<!-- to view main devices in True Native Mode -->
@@ -3757,7 +3811,7 @@
 	<ctl name="RX INI772 SPLINE MIX HI768 Native Switch" value="2" />
 	<ctl name="RX INI772 SPLINE MIX HI768 Switch" value="2" />
 	</path>
-
+	
 	<path name="true-native-mode-HPH-vbat">
 	<ctl name="TX INT1 SPLINE MIX HPHL Native Switch" value="2" />
 	<ctl name="TX INT1 SPLINE MIX HPHL Switch" value="2" />
@@ -4540,7 +4594,7 @@
 	<ctl name="RX INI388 SPLINE MIX HI384 Native Switch" value="2" />
 	<ctl name="RX INI388 SPLINE MIX HI384 Switch" value="2" />
 	</path>
-
+	
 	<path name="true-native-mode-SPKR-vbat">
 	<ctl name="TX INT7 SPLINE MIX SPKRL Native Switch" value="2" />
 	<ctl name="TX INT7 SPLINE MIX SPKRL Switch" value="2" />
@@ -5446,7 +5500,7 @@
 	<ctl name="TX HPHR COMP Switch" value="0" />
 	<ctl name="RX HPHR COMP Switch" value="0" />
 	</path>
-
+	
 	<!-- Lemon Drop Hi-Res end of Compander controls function -->
 	
 	<!-- Lemon Drop Hi-Res start of DAC tuning function -->
@@ -5556,6 +5610,10 @@
 	</path>
 	
 	<!-- Lemon Drop Hi-Res end of DAC tuning function -->
+	
+	<!-- Copy from this line all the way to the top -->
+	<!-- and paste into your mixer_paths file -->
+	<!-- This is all my code created and programed by me -->
 	
 	<ctl name="Voice Rx Device Mute" id="0" value="0" />
 	<ctl name="Voice Rx Device Mute" id="1" value="-1" />
@@ -5922,11 +5980,6 @@
 	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<ctl name="SLIM RX1 MUX" value="ZERO" />
-	
-	<!-- Lemon Drop Hi-Res start of mods -->
-	
-	<!-- had that issue: "/> -->
-	
 	<ctl name="AIF1_CAP Mixer SLIM TX7" value="0" />
 	<ctl name="AIF1_CAP Mixer SLIM TX8" value="0" />
 	<ctl name="AIF1_CAP Mixer SLIM TX6" value="0" />
@@ -5936,8 +5989,6 @@
 	<ctl name="AIF1_CAP Mixer SLIM TX2" value="0" />
 	<ctl name="AIF1_CAP Mixer SLIM TX1" value="0" />
 	<ctl name="AIF1_CAP Mixer SLIM TX0" value="0" />
-	
-	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia4" value="0" />
 	<ctl name="SLIMBUS_6_RX Port Mixer AUX_PCM_UL_TX" value="0" />
@@ -6217,6 +6268,7 @@
 	<!-- <ctl name="SEC_MI2S_RX Audio Mixer MultiMedia16" value="0" /> -->
 	<!-- SEC MI2S HEADPHONE -->
 	
+	<!-- Deleted -->
 	<!-- TERT MI2S A2DP OFFLOAD -->
 	<!-- <ctl name="TERT_MI2S_RX Audio Mixer MultiMedia1" value="0" /> -->
 	<!-- <ctl name="TERT_MI2S_RX Audio Mixer MultiMedia2" value="0" /> -->
@@ -6351,6 +6403,7 @@
 	
 	<!-- Lemon Drop Hi-Res start of mods -->
 	
+	<!-- Added TX -->
 	<path name="deep-buffer-playback bt-sco">
 	<ctl name="AUX_PCM_TX Audio Mixer MultiMedia1" value="1" />
 	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia1" value="1" />
@@ -6437,6 +6490,7 @@
 	
 	<!-- Lemon Drop Hi-Res start of mods -->
 	
+	<!-- Added TX -->
 	<path name="low-latency-playback bt-sco">
 	<ctl name="AUX_PCM_TX Audio Mixer MultiMedia5" value="1" />
 	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia5" value="1" />
@@ -6537,6 +6591,7 @@
 	
 	<!-- Lemon Drop Hi-Res start of mods -->
 	
+	<!-- Added TX -->
 	<path name="audio-ull-playback bt-sco">
 	<ctl name="AUX_PCM_TX Audio Mixer MultiMedia3" value="1" />
 	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia3" value="1" />
@@ -6554,9 +6609,6 @@
 	<path name="audio-ull-playback" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res start of mods -->
-	
-	<!-- Added a space -->	
 	<path name="audio-ull-playback afe-proxy">
 	<ctl name="AFE_PCM_RX Audio Mixer MultiMedia3" value="1" />
 	</path>
@@ -6564,8 +6616,6 @@
 	<path name="multi-channel-playback hdmi">
 	<ctl name="HDMI Mixer MultiMedia2" value="1" />
 	</path>
-	
-	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<path name="multi-channel-playback afe-proxy">
 	<ctl name="AFE_PCM_RX Audio Mixer MultiMedia2" value="1" />
@@ -6620,6 +6670,7 @@
 	
 	<!-- Lemon Drop Hi-Res start of mods -->
 	
+	<!-- Added TX -->
 	<path name="compress-offload-playback bt-sco">
 	<ctl name="AUX_PCM_TX Audio Mixer MultiMedia4" value="1" />
 	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia4" value="1" />
@@ -6714,6 +6765,7 @@
 	
 	<!-- Lemon Drop Hi-Res start of mods -->
 	
+	<!-- Added TX -->
 	<path name="compress-offload-playback2 bt-sco">
 	<ctl name="AUX_PCM_TX Audio Mixer MultiMedia7" value="1" />
 	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia7" value="1" />
@@ -6808,6 +6860,7 @@
 	
 	<!-- Lemon Drop Hi-Res start of mods -->
 	
+	<!-- Added TX -->
 	<path name="compress-offload-playback3 bt-sco">
 	<ctl name="AUX_PCM_TX Audio Mixer MultiMedia10" value="1" />
 	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia10" value="1" />
@@ -6902,6 +6955,7 @@
 	
 	<!-- Lemon Drop Hi-Res start of mods -->
 	
+	<!-- Added TX -->
 	<path name="compress-offload-playback4 bt-sco">
 	<ctl name="AUX_PCM_TX Audio Mixer MultiMedia11" value="1" />
 	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia11" value="1" />
@@ -6996,6 +7050,7 @@
 	
 	<!-- Lemon Drop Hi-Res start of mods -->
 	
+	<!-- Added TX -->
 	<path name="compress-offload-playback5 bt-sco">
 	<ctl name="AUX_PCM_TX Audio Mixer MultiMedia12" value="1" />
 	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia12" value="1" />
@@ -7090,6 +7145,7 @@
 	
 	<!-- Lemon Drop Hi-Res start of mods -->
 	
+	<!-- Added TX -->
 	<path name="compress-offload-playback6 bt-sco">
 	<ctl name="AUX_PCM_TX Audio Mixer MultiMedia13" value="1" />
 	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia13" value="1" />
@@ -7184,6 +7240,7 @@
 	
 	<!-- Lemon Drop Hi-Res start of mods -->
 	
+	<!-- Added TX -->
 	<path name="compress-offload-playback7 bt-sco">
 	<ctl name="AUX_PCM_TX Audio Mixer MultiMedia14" value="1" />
 	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia14" value="1" />
@@ -7278,6 +7335,7 @@
 	
 	<!-- Lemon Drop Hi-Res start of mods -->
 	
+	<!-- Added TX -->
 	<path name="compress-offload-playback8 bt-sco">
 	<ctl name="AUX_PCM_TX Audio Mixer MultiMedia15" value="1" />
 	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia15" value="1" />
@@ -7372,6 +7430,7 @@
 	
 	<!-- Lemon Drop Hi-Res start of mods -->
 	
+	<!-- Added TX -->
 	<path name="compress-offload-playback9 bt-sco">
 	<ctl name="AUX_PCM_TX Audio Mixer MultiMedia16" value="1" />
 	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia16" value="1" />
@@ -7541,16 +7600,10 @@
 	<ctl name="Voice2_Tx Mixer SLIM_0_TX_Voice2" value="1" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res start of mods -->
-	
-	<!-- vbat had that issue: "/> -->
-	
 	<path name="voice-call voice-speaker-vbat">
 	<path name="echo-reference speaker-vbat-mono" />
 	<path name="voice-call" />
 	</path>
-	
-	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<path name="voice2-call hdmi">
 	<ctl name="HDMI_RX_Voice Mixer Voice2" value="1" />
@@ -7577,14 +7630,10 @@
 	<ctl name="Voice2_Tx Mixer AFE_PCM_TX_Voice2" value="1" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res start of mods -->
-	
 	<path name="voice2-call voice-speaker-vbat">
 	<path name="echo-reference speaker-vbat-mono" />
 	<path name="voice2-call" />
 	</path>
-	
-	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<path name="voice2-call headphones">
 	<ctl name="SLIM_6_RX_Voice Mixer Voice2" value="1" />
@@ -7619,9 +7668,6 @@
 	<path name="incall-rec-uplink" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res start of mods -->
-	
-	<!-- Added a space -->
 	<path name="incall-rec-uplink afe-proxy">
 	<path name="incall-rec-uplink" />
 	</path>
@@ -7629,8 +7675,6 @@
 	<path name="incall-rec-uplink headphones">
 	<path name="incall-rec-uplink" />
 	</path>
-	
-	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<path name="incall-rec-uplink-compress">
 	<ctl name="MultiMedia8 Mixer VOC_REC_UL" value="1" />
@@ -7648,9 +7692,6 @@
 	<path name="incall-rec-uplink-compress" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res start of mods -->
-	
-	<!-- Added a space -->
 	<path name="incall-rec-uplink-compress afe-proxy">
 	<path name="incall-rec-uplink-compress" />
 	</path>
@@ -7662,8 +7703,6 @@
 	<path name="incall-rec-downlink">
 	<ctl name="MultiMedia1 Mixer VOC_REC_DL"  value="1" />
 	</path>
-	
-	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<path name="incall-rec-downlink bt-sco">
 	<path name="incall-rec-downlink" />
@@ -7677,9 +7716,6 @@
 	<path name="incall-rec-downlink" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res start of mods -->
-	
-	<!-- Added a space -->
 	<path name="incall-rec-downlink afe-proxy">
 	<path name="incall-rec-downlink" />
 	</path>
@@ -7691,8 +7727,6 @@
 	<path name="incall-rec-downlink-compress">
 	<ctl name="MultiMedia8 Mixer VOC_REC_DL" value="1" />
 	</path>
-	
-	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<path name="incall-rec-downlink-compress bt-sco">
 	<path name="incall-rec-downlink-compress" />
@@ -7706,9 +7740,6 @@
 	<path name="incall-rec-downlink-compress" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res start of mods -->
-	
-	<!-- Added a space -->
 	<path name="incall-rec-downlink-compress afe-proxy">
 	<path name="incall-rec-downlink-compress" />
 	</path>
@@ -7722,8 +7753,6 @@
 	<path name="incall-rec-downlink" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res end of mods -->
-	
 	<path name="incall-rec-uplink-and-downlink bt-sco">
 	<path name="incall-rec-uplink-and-downlink" />
 	</path>
@@ -7736,9 +7765,6 @@
 	<path name="incall-rec-uplink-and-downlink" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res start of mods -->
-	
-	<!-- Added a space -->	
 	<path name="incall-rec-uplink-and-downlink afe-proxy">
 	<path name="incall-rec-uplink-and-downlink" />
 	</path>
@@ -7746,8 +7772,6 @@
 	<path name="incall-rec-uplink-and-downlink headphones">
 	<path name="incall-rec-uplink-and-downlink" />
 	</path>
-	
-	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<path name="incall-rec-uplink-and-downlink-compress">
 	<path name="incall-rec-uplink-compress" />
@@ -7766,9 +7790,6 @@
 	<path name="incall-rec-uplink-and-downlink-compress" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res start of mods -->
-	
-	<!-- Added a space -->
 	<path name="incall-rec-uplink-and-downlink-compress afe-proxy">
 	<path name="incall-rec-uplink-and-downlink-compress" />
 	</path>
@@ -7776,8 +7797,6 @@
 	<path name="incall-rec-uplink-and-downlink-compress headphones">
 	<path name="incall-rec-uplink-and-downlink-compress" />
 	</path>
-	
-	<!-- Lemon Drop Hi-Res start of mods -->
 	
 	<path name="hfp-sco">
 	<ctl name="HFP_PRI_AUX_UL_HL Switch" value="1" />
@@ -7796,8 +7815,6 @@
 	<ctl name="MultiMedia6 Mixer SLIM_0_TX" value="1" />
 	<ctl name="SLIMBUS6_DL_HL Switch" value="1" />
 	</path>
-	
-	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<path name="hfp-sco-wb">
 	<ctl name="AUX PCM SampleRate" value="16000" />
@@ -7844,14 +7861,10 @@
 	<ctl name="VoLTE_Tx Mixer AFE_PCM_TX_VoLTE" value="1" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res start of mods -->
-	
 	<path name="volte-call voice-speaker-vbat">
 	<path name="echo-reference speaker-vbat-mono" />
 	<path name="volte-call" />
 	</path>
-	
-	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<path name="compress-voip-call">
 	<ctl name="SLIM_0_RX_Voice Mixer Voip" value="1" />
@@ -7885,14 +7898,10 @@
 	<ctl name="Voip_Tx Mixer AFE_PCM_TX_Voip" value="1" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res start of mods -->
-	
 	<path name="compress-voip-call voice-speaker-vbat">
 	<path name="echo-reference speaker-vbat-mono" />
 	<path name="compress-voip-call" />
 	</path>
-	
-	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<path name="vowlan-call">
 	<ctl name="SLIM_0_RX_Voice Mixer VoWLAN" value="1" />
@@ -7929,14 +7938,10 @@
 	<ctl name="VoWLAN_Tx Mixer AFE_PCM_TX_VoWLAN" value="1" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res start of mods -->
-	
 	<path name="vowlan-call voice-speaker-vbat">
 	<path name="echo-reference speaker-vbat-mono" />
 	<path name="vowlan-call" />
 	</path>
-	
-	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<path name="voicemmode1-call">
 	<ctl name="SLIM_0_RX_Voice Mixer VoiceMMode1" value="1" />
@@ -7973,14 +7978,10 @@
 	<ctl name="VoiceMMode1_Tx Mixer AFE_PCM_TX_MMode1" value="1" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res start of mods -->
-	
 	<path name="voicemmode1-call voice-speaker-vbat">
 	<path name="echo-reference speaker-vbat-mono" />
 	<path name="voicemmode1-call" />
 	</path>
-	
-	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<path name="voicemmode2-call">
 	<ctl name="SLIM_0_RX_Voice Mixer VoiceMMode2" value="1" />
@@ -8017,18 +8018,11 @@
 	<ctl name="VoiceMMode2_Tx Mixer AFE_PCM_TX_MMode2" value="1" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res start of mods -->
-	
 	<path name="voicemmode2-call voice-speaker-vbat">
 	<path name="echo-reference speaker-vbat-mono" />
 	<path name="voicemmode2-call" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res end of mods -->
-	
-	<!-- Lemon Drop Hi-Res start of mods -->
-	
-	<!-- Added a space -->
 	<path name="listen-voice-wakeup-1">
 	<ctl name="LSM1 MUX" value="SLIMBUS_5_TX" />
 	<ctl name="SLIMBUS_5_TX LSM Function" value="AUDIO" />
@@ -8068,8 +8062,6 @@
 	<ctl name="LSM8 MUX" value="SLIMBUS_5_TX" />
 	<ctl name="SLIMBUS_5_TX LSM Function" value="AUDIO" />
 	</path>
-	
-	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<path name="spkr-rx-calib">
 	<ctl name="SLIMBUS_DL_HL Switch"  value="1" />
@@ -8148,7 +8140,7 @@
 	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<!-- Lemon Drop Hi-Res start of mods -->
-	<!-- Changed order -->
+	<!-- Changed order of top four -->
 	
 	<!-- TERT MI2S A2DP OFFLOAD AND SPEAKER COMBO start -->
 	
@@ -8213,11 +8205,9 @@
 	</path>
 	<!-- TERT MI2S A2DP OFFLOAD  AND SPEAKER COMBO end -->
 	
-	<!-- Lemon Drop Hi-Res start of mods -->
+	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<!-- These are actual sound device specific mixer settings -->
-	
-	<!-- had that issue: "/> -->
 	
 	<path name="adc1">
 	<ctl name="AIF1_CAP Mixer SLIM TX6" value="1" />
@@ -8320,13 +8310,8 @@
 	<ctl name="DEC7 Volume" value="84" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res end of mods -->
-	
 	<!-- Lemon Drop Hi-Res start of mods -->
-	<!-- 439 lines long -->
-	
-	<!-- 16bit non offloaded mono internal speaker -->
-	<!-- this needs to be set at PACKED_16B -->
+	<!-- Lot of code -->
 	
 	<path name="speaker_fluid">
 	<path name="true-mono-control" />
@@ -8390,8 +8375,6 @@
 	<path name="speaker" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res start of vbat mods -->
-	
 	<!-- Deleted -->
 	<!-- <path name="speaker-vbat-mono"> -->
 	<!-- <path name="speaker-mono" /> -->
@@ -8454,8 +8437,6 @@
 	<ctl name="HPHR Volume" value="16" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res end of vbat mods -->
-	
 	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<path name="sidetone-iir">
@@ -8484,9 +8465,6 @@
 	
 	<!-- Lemon Drop Hi-Res start of mods -->
 	
-	<!-- 16bit non offloaded mono internal speaker pc speaker -->
-	<!-- this needs to be set at PACKED_16B -->
-	
 	<path name="speaker-protected">
 	<path name="true-mono-control" />
 	<ctl name="VI_FEED_TX Channels" value="One" />
@@ -8510,9 +8488,6 @@
 	<ctl name="HPHR Volume" value="0" />
 	<path name="speaker-mono" />
 	</path>
-	
-	<!-- 16bit non offloaded mono internal speaker phone -->
-	<!-- this needs to be set at PACKED_16B -->
 	
 	<path name="voice-speaker-protected">
 	<path name="true-mono-control" />
@@ -8543,20 +8518,21 @@
 	<path name="vi-feedback">
 	</path>
 	
-	<!-- Lemon Drop Hi-Res start of vbat_speaker mods -->
-
+	<!-- Lemon Drop Hi-Res start of mods -->
+	
 	<!-- Deleted -->
 	<!-- <path name="speaker-protected-vbat"> -->
 	<!-- <path name="speaker-protected" /> -->
 	<!-- <ctl name="RX INT7 VBAT SPKRL VBAT Enable" value="1" /> -->
 	<!-- <ctl name="RX INT8 VBAT SPKRR VBAT Enable" value="1" /> -->
 	<!-- </path> -->
-
+	
+	<!-- Deleted -->
 	<!-- <path name="voice-speaker-protected-vbat"> -->
 	<!-- <path name="voice-speaker-protected" /> -->
 	<!-- <ctl name="RX INT7 VBAT SPKRL VBAT Enable" value="1" /> -->
 	<!-- </path> -->
-
+	
 	<!-- Added -->
 	<path name="vbat_speaker-protected">
 	<ctl name="TX INT7 VBAT SPKRL VBAT Enable" value="1" />
@@ -8612,8 +8588,8 @@
 	<ctl name="HPHL Volume" value="16" />
 	<ctl name="HPHR Volume" value="0" />
 	</path>
-
-	<!-- Lemon Drop Hi-Res end of vbat_speaker mods -->
+	
+	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<path name="handset">
 	<ctl name="SLIM RX0 MUX" value="AIF_MIX1_PB" />
@@ -8642,10 +8618,6 @@
 	<ctl name="ADC5 Volume" value="12" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res start of mods -->
-	
-	<!-- had that issue: "/> -->
-	
 	<path name="three-mic">
 	<ctl name="AIF1_CAP Mixer SLIM TX5" value="1" />
 	<ctl name="AIF1_CAP Mixer SLIM TX6" value="1" />
@@ -8665,10 +8637,6 @@
 	<ctl name="DEC7 Volume" value="84" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res end of mods -->
-	
-	<!-- Lemon Drop Hi-Res start of mods -->
-	
 	<path name="anc-handset">
 	<ctl name="ANC Function" value="ON" />
 	<ctl name="SLIM RX0 MUX" value="AIF_MIX1_PB" />
@@ -8684,10 +8652,6 @@
 	<ctl name="ANC0 FB MUX" value="ANC_IN_EAR" />
 	<ctl name="ANC EAR Enable Switch" value="1" />
 	</path>
-	
-	<!-- Lemon Drop Hi-Res end of mods -->
-	
-	<!-- Lemon Drop Hi-Res start of mods -->
 	
 	<path name="headphones">
 	<ctl name="Es9218 Bypass" value="1" />
@@ -8710,8 +8674,6 @@
 	<ctl name="HPHL Volume" value="16" />
 	<ctl name="HPHR Volume" value="16" />
 	</path>
-	
-	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<!-- Lemon Drop Hi-Res start of mods -->
 	
@@ -8840,8 +8802,6 @@
 	<ctl name="DEC0 Volume" value="84" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res start of mods -->
-	
 	<path name="speaker-and-headphones">
 	<path name="headphones" />
 	<ctl name="RX HPH Mode" value="CLS_H_HIFI" />
@@ -8855,8 +8815,6 @@
 	<ctl name="RX7 Digital Volume" value="84" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res end of mods -->
-	
 	<path name="speaker-and-line">
 	<path name="speaker-and-headphones" />
 	</path>
@@ -8864,8 +8822,6 @@
 	<path name="voice-speaker-and-voice-headphones">
 	<path name="speaker-and-headphones" />
 	</path>
-	
-	<!-- Lemon Drop Hi-Res start of mods -->
 	
 	<path name="speaker-and-headphones-liquid">
 	<path name="headphones" />
@@ -8879,8 +8835,6 @@
 	<path name="speaker-and-line-liquid">
 	<path name="speaker-and-headphones-liquid" />
 	</path>
-	
-	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<!-- Lemon Drop Hi-Res start of mods -->
 	
@@ -8932,30 +8886,22 @@
 	<ctl name="HPHR Volume" value="20" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res start of mods -->
-	
 	<path name="speaker-and-anc-headphones">
 	<path name="anc-headphones" />
 	<ctl name="RX INT7_1 MIX1 INP0" value="RX0" />
 	<ctl name="RX INT8_1 MIX1 INP0" value="RX1" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res end of mods -->
-	
 	<path name="anc-fb-headphones">
 	<path name="anc-headphones" />
 	<ctl name="ANC Slot" value="1" />
 	</path>
-	
-	<!-- Lemon Drop Hi-Res start of mods -->
 	
 	<path name="speaker-and-anc-fb-headphones">
 	<path name="anc-fb-headphones" />
 	<ctl name="RX INT7_1 MIX1 INP0" value="RX0" />
 	<ctl name="RX INT8_1 MIX1 INP0" value="RX1" />
 	</path>
-	
-	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<path name="voice-anc-headphones">
 	<ctl name="COMP1 Switch" value="0" />
@@ -9047,10 +8993,6 @@
 	<ctl name="HPHL Volume" value="16" />
 	<ctl name="HPHR Volume" value="16" />
 	</path>
-	
-	<!-- Lemon Drop Hi-Res end of mods -->
-	
-	<!-- Lemon Drop Hi-Res start of mods -->
 	
 	<path name="speaker-and-usb-headphones">
 	<path name="true-native-mode-SPKR" />
@@ -9540,9 +9482,6 @@
 	<path name="incall-music" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res start of mods -->
-	
-	<!-- Added a space -->
 	<path name="incall-music headphones">
 	<path name="incall-music" />
 	</path>
@@ -9550,8 +9489,6 @@
 	<path name="incall_music_uplink">
 	<ctl name="Incall_Music Audio Mixer MultiMedia2" value="1" />
 	</path>
-	
-	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<path name="incall_music_uplink bt-sco">
 	<path name="incall_music_uplink" />
@@ -9573,9 +9510,6 @@
 	<path name="incall_music_uplink" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res start of mods -->
-	
-	<!-- Added a space -->	
 	<path name="incall_music_uplink headphones">
 	<path name="incall_music_uplink" />
 	</path>
@@ -9583,8 +9517,6 @@
 	<path name="incall_music_uplink2">
 	<ctl name="Incall_Music_2 Audio Mixer MultiMedia9" value="1" />
 	</path>
-	
-	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<path name="incall_music_uplink2 bt-sco">
 	<path name="incall_music_uplink2" />
@@ -9602,9 +9534,6 @@
 	<path name="incall_music_uplink2" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res start of mods -->
-	
-	<!-- Added a space -->
 	<path name="incall_music_uplink2 hdmi">
 	<path name="incall_music_uplink2" />
 	</path>
@@ -9617,8 +9546,6 @@
 	<path name="voice-chat">
 	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia2" value="1" />
 	</path>
-	
-	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<!-- for Dual Audio  -->
 	<path name="dual-audio afe-proxy">
@@ -9633,6 +9560,7 @@
 	</path>
 	
 	<!-- Lemon Drop Hi-Res start of mods -->
+	<!-- Lot of code -->
 	<!-- Changed order should be 1 5 3 4 7 -->
 	
 	<!-- SEC MI2S HEADPHONE begins -->
@@ -9845,7 +9773,7 @@
 	<ctl name="RX7 Digital Volume" value="84" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res start of fake_speaker mods -->
+	<!-- Lemon Drop Hi-Res start of mods -->
 	
 	<!-- Deleted -->
 	<!-- <path name="fake_speaker"> -->
@@ -9883,8 +9811,6 @@
 	<ctl name="HPHL Volume" value="0" />
 	<ctl name="HPHR Volume" value="0" />
 	</path>
-	
-	<!-- Lemon Drop Hi-Res end of fake_speaker mods -->
 	
 	<!-- Lemon Drop Hi-Res end of mods -->
 	
@@ -9940,6 +9866,7 @@
 	<!--    <ctl name="HPHR Volume" value="20" /> -->
 	<!-- </path> -->
 	
+	<!-- Deleted -->
 	<!-- <path name="headphones-aux-44.1"> -->
 	<!--    <path name="headphones-44.1" /> -->
 	<!--    <ctl name="RX HPH Mode" value="CLS_H_HIFI" /> -->
@@ -9966,6 +9893,7 @@
 	<!--    <ctl name="HPHR Volume" value="20" /> -->
 	<!-- </path> -->
 	
+	<!-- Deleted -->
 	<!-- <path name="headphone-24bit-advanced"> -->
 	<!--    <path name="headphone-24bit" /> -->
 	<!--    <ctl name="RX1 Mix Digital Volume" value="79" /> -->
@@ -9974,6 +9902,7 @@
 	<!--    <ctl name="HPHR Volume" value="20" /> -->
 	<!-- </path> -->
 	
+	<!-- Deleted -->
 	<!-- <path name="headphone-24bit-aux"> -->
 	<!--    <path name="headphone-24bit" /> -->
 	<!--    <ctl name="RX1 Mix Digital Volume" value="82" /> -->
@@ -9984,8 +9913,11 @@
 	
 	<!-- Lemon Drop Hi-Res end of mods -->
 	
-	<!-- Lemon Drop Hi-Res start of control center -->
-
+	<!-- Lemon Drop Hi-Res start of mods -->
+	<!-- Huge ammount of code -->
+	
+	<!-- Start of control center -->
+	
 	<path name="headphone">
 	<path name="true-native-mode-HPH" />
 	<path name="true-stereo-control" />
@@ -10156,9 +10088,7 @@
 	<ctl name="HPHR Volume" value="16" />
 	<path name="headphone-24bit" />
 	</path>
-
-	<!-- Lemon Drop Hi-Res start of vbat HPH -->
-
+	
 	<path name="vbat_bluetooth-16bit">
 	<path name="true-native-mode-HPH-vbat" />
 	<path name="true-stereo-control" />
@@ -10180,7 +10110,7 @@
 	<ctl name="HPHL Volume" value="16" />
 	<ctl name="HPHR Volume" value="16" />
 	</path>
-
+	
 	<path name="vbat_bluetooth-24bit">
 	<path name="true-native-mode-HPH-vbat" />
 	<path name="true-stereo-control" />
@@ -10202,7 +10132,7 @@
 	<ctl name="HPHL Volume" value="16" />
 	<ctl name="HPHR Volume" value="16" />
 	</path>
-
+	
 	<path name="vbat_headphone-16bit">
 	<path name="true-native-mode-HPH-vbat" />
 	<path name="true-stereo-control" />
@@ -10224,7 +10154,7 @@
 	<ctl name="HPHL Volume" value="16" />
 	<ctl name="HPHR Volume" value="16" />
 	</path>
-
+	
 	<path name="vbat_headphone-16bit-advanced">
 	<path name="true-native-mode-HPH-vbat" />
 	<path name="true-stereo-control" />
@@ -10254,7 +10184,7 @@
 	<ctl name="HPHL Volume" value="16" />
 	<ctl name="HPHR Volume" value="16" />
 	</path>
-
+	
 	<path name="vbat_headphone-24bit">
 	<path name="true-native-mode-HPH-vbat" />
 	<path name="true-stereo-control" />
@@ -10276,7 +10206,7 @@
 	<ctl name="HPHL Volume" value="16" />
 	<ctl name="HPHR Volume" value="16" />
 	</path>
-
+	
 	<path name="vbat_headphone-24bit-advanced">
 	<path name="true-native-mode-HPH-vbat" />
 	<path name="true-stereo-control" />
@@ -10306,11 +10236,7 @@
 	<ctl name="HPHL Volume" value="16" />
 	<ctl name="HPHR Volume" value="16" />
 	</path>
-
-	<!-- Lemon Drop Hi-Res end of vbat HPH -->
-
-	<!-- Lemon Drop Hi-Res start of fake HPH -->
-
+	
 	<path name="fake_headphone">
 	<path name="true-native-mode-HPH" />
 	<path name="true-stereo-control" />
@@ -10325,10 +10251,8 @@
 	<ctl name="HPHL Volume" value="0" />
 	<ctl name="HPHR Volume" value="0" />
 	</path>
-
-	<!-- Lemon Drop Hi-Res end of fake HPH -->
-
-	<!-- Lemon Drop Hi-Res start of dac volume control -->
+	
+	<!-- Start of dac volume control -->
 	
 	<!-- AVC Volume lower number = increase volume level -->
 	<!-- Master Volume higher number = lower volume level -->
@@ -10370,9 +10294,11 @@
 	<ctl name="Es9018 HEADSET TYPE" value="2" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res end of dac volume control -->
+	<!-- End of dac volume control -->
 	
-	<!-- Lemon Drop Hi-Res end of control center -->
+	<!-- End of control center -->
+	
+	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<path name="bt-sco-and-speaker">
 	<ctl name="SLIM_0_RX SampleRate" value="KHZ_8" />
@@ -10406,8 +10332,9 @@
 	<path name="speaker-and-headphones" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res start of loopback devices -->
-	<!-- Should be loopback_speaker not loopback-speaker -->
+	<!-- Lemon Drop Hi-Res start of mods -->
+	
+	<!-- Start of loopback devices -->
 	
 	<path name="loopback_earpiece">
 	<ctl name="EAR PA Gain" value="G_6_DB" />
@@ -10469,8 +10396,6 @@
 	<ctl name="HPHR Volume" value="16" />
 	</path>
 	
-	<!-- 16bit wired headphones FM radio and phone -->
-	
 	<path name="loopback_headphones">
 	<ctl name="TX1 Digital Volume" value="84" />
 	<ctl name="TX1 Mix Digital Volume" value="84" />
@@ -10485,15 +10410,12 @@
 	<path name="voice-headphones" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res end of loopback devices -->
-
-	<!-- Lemon Drop Hi-Res start of mods -->
-	<!-- bt does not exist -->
-	
 	<!-- Deleted -->
 	<!-- <path name="loopback-bt"> -->
 	<!-- </path> -->
-
+	
+	<!-- End of loopback devices -->
+	
 	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<path name="voip-earpiece">
@@ -10580,9 +10502,6 @@
 	<ctl name="DEC8 Volume" value="109" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res start of mods -->
-	
-	<!-- Added a space -->	
 	<!-- depending on dual mic -->
 	<path name="camcorder-0">
 	<ctl name="SLIM_0_TX Channels" value="Two" />
@@ -10642,8 +10561,6 @@
 	<ctl name="DEC7 Volume" value="84" />
 	<ctl name="DEC8 Volume" value="84" />
 	</path>
-	
-	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<path name="headset-camcorder-mic">
 	<path name="adc2" />
@@ -10878,10 +10795,6 @@
 	<ctl name="ADC2 Volume" value="12" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res start of mods -->
-	
-	<!-- had that issue: "/> -->
-	
 	<path name="loopback-speaker-mic">
 	<path name="dmic3" />
 	<ctl name="SLIM_0_TX SampleRate" value="KHZ_176P4" />
@@ -10924,8 +10837,6 @@
 	<ctl name="SLIM_0_TX SampleRate" value="KHZ_176P4" />
 	<ctl name="DEC7 Volume" value="84" />
 	</path>
-	
-	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<path name="loopback-bt-mic">
 	</path>
