@@ -12,7 +12,7 @@ Lemon Drop Hi-Res is more than capable of causing permanent damage to your heari
 Please listen at a safe volume level.<br>
 
 Lemon Drop Hi-Res development status: Active.<br>
-latest release: v163.1<br>
+latest release: v164.1<br>
 
 ### How did you find this True Native Mode code?
 If your curious on how I found the True Native Mode code, I will show you. Someone left about 0.5% of the code in the original mixer_paths_tasha.xml file for the Lgv20. Go to line number 278 through 287 you will see the 0.5% of the True Native Mode code that I found. As you can see, INI1 HPHL, INI2 HPHR, INI7 SPKRL, INI8 SPKRR, INI3 LO1, INI4 LO2, INI5 LO3, INI6 LO4, lines of code are partially there, the absolute perfect base starting point for me, to create the True Native Mode code. LO1 even started with INI3 that gave me a clue. The other 99.5% I made with my own hands, all by myself. With trial and error and logic and my advanced Linux computer skills, if the code does not exist, make it yourself. No external resource was utilized, to my knowledge there is no  external resource of this nature. If you want to confirm that this original mixer_paths_tasha.xml is authentic, I will give you the link to the Lgv20 rom that has this 0.5% True Native Mode code.<br> https://androidfilehost.com/?fid=1322778262904012823
@@ -33,8 +33,6 @@ I guess you could say I have a gift that allows me to think outside of the box. 
 
 ### I want to add this True Native Mode code, to my Android phone?
 It is my understanding that the two files responsible for making this all happen are, audio_platform_info.xml and mixer_paths_tasha.xml. This is only a theory, I am 98% positive, that you only need to mod those two files. Duplicate all the changes I made leaving intact your unique settings. I made notes in both files, to help you along the way. This is not for the novice computer user. The mixer_paths file must have zero typos, zero mistakes, zero errors. The QuadDAC also needs Enable System wide QuadDAC support v8.2 aka build.prop audio tweaks.<br>
-
-Update: I am working on v164.1 I am cleaning up the mixer_paths notes. I put notes in there for me when I was programing the mixer_paths file. They probably make no sense to you guys. It's getting to late for me tonight, I will finish cleaning up the mixer_paths file tomorrow. Tell then just hang tight, there were some errors in my notes in v163.1 that would cause problems.<br>
 
 When programing the mixer_paths file, I only use the tab key not the spacebar, it's just a pet peeve. ;)<br>
 
