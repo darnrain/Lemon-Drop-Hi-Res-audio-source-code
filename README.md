@@ -34,7 +34,7 @@ I guess you could say I have a gift that allows me to think outside of the box. 
 ### I want to add this True Native Mode code, to my Android phone?
 It is my understanding that the two files responsible for making this all happen are, audio_platform_info.xml and mixer_paths_tasha.xml. This is only a theory, I am 98% positive, that you only need to mod those two files. Duplicate all the changes I made leaving intact your unique settings. I made notes in both files, to help you along the way. This is not for the novice computer user. The mixer_paths file must have zero typos, zero mistakes, zero errors. The QuadDAC also needs Enable System wide QuadDAC support v8.2 aka build.prop audio tweaks.<br>
 
-Update: v164.1 I made a help guide built into the mixer_paths_tasha.xml.modded file. I am almost done, I will be uploading soon. This is the only version I recommend starting this process from. The past versions even I would have issues with. There were a lot of things I fixed, it will be much easier for you guys to do this now. You will have to excuse any typos I made in the help guide.<br>
+Update: I am working on v164.1 I am cleaning up the mixer_paths notes. I put notes in there for me when I was programing the mixer_paths file. They probably make no sense to you guys. It's getting to late for me tonight, I will finish cleaning up the mixer_paths file tomorrow. Tell then just hang tight, there were some errors in my notes in v163.1 that would cause problems.<br>
 
 When programing the mixer_paths file, I only use the tab key not the spacebar, it's just a pet peeve. ;)<br>
 
