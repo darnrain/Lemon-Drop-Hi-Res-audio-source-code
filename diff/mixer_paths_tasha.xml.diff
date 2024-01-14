@@ -3,7 +3,7 @@
 < 	
 < 	<!-- Top of page -->
 < 	
-< 	<!-- Lemon Drop Hi-Res treble v164.1 -->
+< 	<!-- Lemon Drop Hi-Res treble v165.1 -->
 < 	<!-- Designed and created by darnrain @GitHub -->
 < 	<!-- Proudly Made In America -->
 < 	
@@ -12598,12 +12598,12 @@
 < 	<path name="true-native-mode-HPH-vbat" />
 < 	<path name="true-stereo-control" />
 < 	<path name="compander-controls-HPH" />
-< 	<ctl name="SLIM_9_TX Channels" value="Sevenhundredsixtyeight" />
-< 	<ctl name="SLIM_9_RX Channels" value="Sevenhundredsixtyeight" />
-< 	<ctl name="SLIM_9_TX SampleRate" value="KHZ_44P1" />
-< 	<ctl name="SLIM_9_RX SampleRate" value="KHZ_44P1" />
-< 	<ctl name="SLIM_9_TX Format" value="S16_LE" />
-< 	<ctl name="SLIM_9_RX Format" value="S16_LE" />
+< 	<ctl name="SLIM_10_TX Channels" value="Sevenhundredsixtyeight" />
+< 	<ctl name="SLIM_10_RX Channels" value="Sevenhundredsixtyeight" />
+< 	<ctl name="SLIM_10_TX SampleRate" value="KHZ_44P1" />
+< 	<ctl name="SLIM_10_RX SampleRate" value="KHZ_44P1" />
+< 	<ctl name="SLIM_10_TX Format" value="S16_LE" />
+< 	<ctl name="SLIM_10_RX Format" value="S16_LE" />
 < 	<ctl name="TX1 Digital Volume" value="48" />
 < 	<ctl name="TX1 Mix Digital Volume" value="48" />
 < 	<ctl name="RX1 Digital Volume" value="84" />
