@@ -14,6 +14,10 @@ Please listen at a safe volume level.<br>
 Lemon Drop Hi-Res development status: 100% done.<br>
 latest release: v164.1<br>
 
+If you all were wondering why I left XDA, I will tell you. It's because these LineageOS devs were telling people that "I suck at programing and do not use Lemon Drop HI-Res, it will drain your battery" and stuff like that. Well I guess they found me again, I keep getting emails telling me to "Please stop Lying to people." So I have disabled all comments and issues for 6 months, just in case your wondering why they are disabled. I wonder if they know that, I was already 100% done programing the Saber ESS 9128 DAC in v163.1? Shhh don't tell anyone.... ;)<br>
+
+Well because I am 100% done, I am going to close this repository forever. There are people out there that are upset that I recreated the True Native Mode code and I don't want to be bothered anymore. Yes I knew the whole time that you guys were not LineageOS devs. Sorry but finders keepers...<br>
+
 ### How did you find this True Native Mode code?
 If your curious on how I found the True Native Mode code, I will show you. Someone left about 0.5% of the code in the original mixer_paths_tasha.xml file for the Lgv20. Go to line number 278 through 287 you will see the 0.5% of the True Native Mode code that I found. As you can see, INI1 HPHL, INI2 HPHR, INI7 SPKRL, INI8 SPKRR, INI3 LO1, INI4 LO2, INI5 LO3, INI6 LO4, lines of code are partially there, the absolute perfect base starting point for me, to create the True Native Mode code. LO1 even started with INI3 that gave me a clue. The other 99.5% I made with my own hands, all by myself. With trial and error and logic and my advanced Linux computer skills, if the code does not exist, make it yourself. No external resource was utilized, to my knowledge there is no  external resource of this nature. If you want to confirm that this original mixer_paths_tasha.xml is authentic, I will give you the link to the Lgv20 rom that has this 0.5% True Native Mode code.<br> https://androidfilehost.com/?fid=1322778262904012823
 
