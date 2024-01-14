@@ -22,7 +22,9 @@ I was going to delete this repository, but then I thought to myself? Why should 
 
 PS. If you would have made the Lgv20 sound half way decent, I would have never looked into increasing the audio quality in the first place. Besides it’s not my fault, if i'm extremely proficient at programing a QuadDAC. If anything this is entirely your fault, for leaving your sh%t lying around, like your precious True Native Mode Code.<br>
 
-On a brigher note, we now have the absolute best audio quality out of any cell phone on Earth. I did it guys, I can't believe it!!!
+Sorry everyone, those guys just pissed me off royally over at XDA, i'm still upset that I had to move. On a brighter note, we now have the absolute best audio quality out of any cell phone on Earth. I did it guys, I can't believe it!!!<br>
+
+Oh and is the audio quality on v165.1 better than your DAC system yet? lol<br>
 
 ### How did you find this True Native Mode code?
 If your curious on how I found the True Native Mode code, I will show you. Someone left about 0.5% of the code in the original mixer_paths_tasha.xml file for the Lgv20. Go to line number 278 through 287 you will see the 0.5% of the True Native Mode code that I found. As you can see, INI1 HPHL, INI2 HPHR, INI7 SPKRL, INI8 SPKRR, INI3 LO1, INI4 LO2, INI5 LO3, INI6 LO4, lines of code are partially there, the absolute perfect base starting point for me, to create the True Native Mode code. LO1 even started with INI3 that gave me a clue. The other 99.5% I made with my own hands, all by myself. With trial and error and logic and my advanced Linux computer skills, if the code does not exist, make it yourself. No external resource was utilized, to my knowledge there is no  external resource of this nature. If you want to confirm that this original mixer_paths_tasha.xml is authentic, I will give you the link to the Lgv20 rom that has this 0.5% True Native Mode code.<br> https://androidfilehost.com/?fid=1322778262904012823
