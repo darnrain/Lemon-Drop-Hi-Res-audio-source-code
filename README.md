@@ -11,7 +11,7 @@ Warning!!!<br>
 Lemon Drop Hi-Res is more than capable of causing permanent damage to your hearing.<br>
 Please listen at a safe volume level.<br>
 
-Lemon Drop Hi-Res development status: Active.<br>
+Lemon Drop Hi-Res development status: 100% done.<br>
 latest release: v164.1<br>
 
 ### How did you find this True Native Mode code?
