@@ -20,7 +20,7 @@ If you all were wondering why I left XDA, I will tell you. It's because these Li
 
 I was going to delete this repository, but then I thought to myself? Why should I have to quit working on what I LOVE doing, just because there are some people out there upset at me for recreating there True Native Mode code? Yes I knew the whole time that you guys were not LineageOS devs, when you asked me where I got the ctl files from and what resource I was using? Sorry but finders keepers...<br>
 
-PS. I will compromise and place a disclaimer, before this information for you guys. All I wanted was to have a little fun programing a QuadDAC, and increase the audio quality of my phone. I had no idea what I was getting myself into, by doing so. I am going to remove the 6 month ban on posting comments.
+PS. I will compromise and place a disclaimer, before this information for you guys. All I wanted was to have a little fun programing a QuadDAC, and increase the audio quality of my phone. I had no idea what I was getting myself into, by doing so. I hope this is satisfactory for you guys. I am going to remove the 6 month ban on posting comments.
 
 ## The following information is my opinion and mine alone, in no way shape or form should you take the following information as the absolute truth. This is only my view as I see it, there are always two sides to a story.
 
