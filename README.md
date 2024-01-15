@@ -20,6 +20,8 @@ If you all were wondering why I left XDA, I will tell you. It's because these Li
 
 I was going to delete this repository, but then I thought to myself? Why should I have to quit working on what I LOVE doing, just because there are some people out there upset at me for recreating there True Native Mode code? Yes I knew the whole time that you guys were not LineageOS devs, when you asked me where I got the ctl files from and what resource I was using? Sorry but finders keepers...<br>
 
+PS. I will compromise and place a disclaimer, before this information for you guys.
+
 ## The following information is my opinion and mine alone, in no way shape or form should you take the following information as the absolute truth. This is only my view as I see it, there are always two sides to the story.
 
 ### How did you find this True Native Mode code?
