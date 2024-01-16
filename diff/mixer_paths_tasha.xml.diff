@@ -3,7 +3,7 @@
 < 	
 < 	<!-- Top of page -->
 < 	
-< 	<!-- Lemon Drop Hi-Res treble v165.1 -->
+< 	<!-- Lemon Drop Hi-Res treble v166.1 -->
 < 	<!-- Designed and created by darnrain @GitHub -->
 < 	<!-- Proudly Made In America -->
 < 	
@@ -11269,7 +11269,7 @@
 >     </path>
 > 
 >     <path name="voice-anc-fb-headphones">
-8864,10959c2467,3898
+8864,10944c2467,3898
 < 	<ctl name="ANC Function" value="ON" />
 < 	<ctl name="ANC Slot" value="0" />
 < 	<ctl name="ADC MUX10" value="AMIC" />
@@ -12764,21 +12764,6 @@
 < 	<ctl name="RX8 Mix Digital Volume" value="0" />
 < 	<ctl name="HPHL Volume" value="16" />
 < 	<ctl name="HPHR Volume" value="0" />
-< 	</path>
-< 	
-< 	<path name="loopback_speaker">
-< 	<path name="true-native-mode-SPKR" />
-< 	<path name="true-stereo-control" />
-< 	<ctl name="TX7 Digital Volume" value="84" />
-< 	<ctl name="TX7 Mix Digital Volume" value="84" />
-< 	<ctl name="RX7 Digital Volume" value="48" />
-< 	<ctl name="RX7 Mix Digital Volume" value="48" />
-< 	<ctl name="TX8 Digital Volume" value="84" />
-< 	<ctl name="TX8 Mix Digital Volume" value="84" />
-< 	<ctl name="RX8 Digital Volume" value="48" />
-< 	<ctl name="RX8 Mix Digital Volume" value="48" />
-< 	<ctl name="HPHL Volume" value="16" />
-< 	<ctl name="HPHR Volume" value="16" />
 < 	</path>
 < 	
 < 	<!-- Deleted -->
@@ -14799,7 +14784,7 @@
 >         <path name="speaker-protected" />
 >     </path>
 >     <!-- TERT MI2S A2DP OFFLOAD end -->
-10961,10963d3899
+10946,10948d3899
 < 	
 < 	
 < 	<!-- Bottom of page -->

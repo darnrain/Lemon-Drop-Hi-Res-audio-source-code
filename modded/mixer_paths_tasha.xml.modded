@@ -28,7 +28,7 @@
 	
 	<!-- Top of page -->
 	
-	<!-- Lemon Drop Hi-Res treble v165.1 -->
+	<!-- Lemon Drop Hi-Res treble v166.1 -->
 	<!-- Designed and created by darnrain @GitHub -->
 	<!-- Proudly Made In America -->
 	
@@ -10355,21 +10355,6 @@
 	<ctl name="RX8 Mix Digital Volume" value="0" />
 	<ctl name="HPHL Volume" value="16" />
 	<ctl name="HPHR Volume" value="0" />
-	</path>
-	
-	<path name="loopback_speaker">
-	<path name="true-native-mode-SPKR" />
-	<path name="true-stereo-control" />
-	<ctl name="TX7 Digital Volume" value="84" />
-	<ctl name="TX7 Mix Digital Volume" value="84" />
-	<ctl name="RX7 Digital Volume" value="48" />
-	<ctl name="RX7 Mix Digital Volume" value="48" />
-	<ctl name="TX8 Digital Volume" value="84" />
-	<ctl name="TX8 Mix Digital Volume" value="84" />
-	<ctl name="RX8 Digital Volume" value="48" />
-	<ctl name="RX8 Mix Digital Volume" value="48" />
-	<ctl name="HPHL Volume" value="16" />
-	<ctl name="HPHR Volume" value="16" />
 	</path>
 	
 	<!-- Deleted -->
