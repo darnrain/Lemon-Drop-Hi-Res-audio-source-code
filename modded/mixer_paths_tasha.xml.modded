@@ -28,7 +28,7 @@
 	
 	<!-- Top of page -->
 	
-	<!-- Lemon Drop Hi-Res treble v166.1 -->
+	<!-- Lemon Drop Hi-Res treble v167.1 -->
 	<!-- Designed and created by darnrain @GitHub -->
 	<!-- Proudly Made In America -->
 	
@@ -47,11 +47,11 @@
 	<!-- True Native Mode sounds like -->
 	
 	<!-- First thing -->
-	<!-- Copy all lines of code line number 1 through 5614 paste in your mixer_paths file at very top -->
-	<!-- I added a note where to copy from at line 5614 -->
+	<!-- Copy all lines of code line number 1 through 5637 paste in your mixer_paths file at very top -->
+	<!-- I added a note where to copy from at line 5637 -->
 	
 	<!-- Second thing -->
-	<!-- Search for "lemon drop" after line 5614 to start -->
+	<!-- Search for "lemon drop" after line 5637 to start -->
 	
 	<!-- Third thing -->
 	<!-- Duplicate all code from "Lemon Drop Hi-Res start of mods" to "Lemon Drop Hi-Res end of mods" -->
@@ -144,9 +144,9 @@
 	<!-- SLIM_9_RX SLIM_9_TX = headphone-16bit aka wired headphones 16bit True Native Mode -->
 	<!-- SLIM_10_RX SLIM_10_TX = headphone-24bit aka wired headphones 24bit True Native Mode -->
 	
-	<!-- Lemon Drop Hi-Res start of initial mixer settings -->
+	<!-- Lemon Drop Hi-Res start of code darnrain programed -->
 	
-	<!-- Lemon Drop Hi-Res start of True Native Mode & vbat initial mixer settings -->
+	<!-- Start of True Native Mode & vbat initial mixer settings -->
 	
 <mixer>
 	<ctl name="TX INT1 SPLINE MIX HPHL Native Switch" value="0" />
@@ -1710,9 +1710,9 @@
 	<ctl name="RX INI772 SPLINE MIX HI768 Native Switch" value="0" />
 	<ctl name="RX INI772 SPLINE MIX HI768 Switch" value="0" />
 	
-	<!-- Lemon Drop Hi-Res end of True Native Mode & vbat initial mixer settings -->
+	<!-- End of True Native Mode & vbat initial mixer settings -->
 	
-	<!-- Lemon Drop Hi-Res start of SLIM settings -->
+	<!-- Start of SLIM settings -->
 	
 	<ctl name="TX HPH Mode" value="ZERO" />
 	<ctl name="RX HPH Mode" value="ZERO" />
@@ -1780,9 +1780,9 @@
 	<ctl name="SLIM_10_TX Format" value="ZERO" />
 	<ctl name="SLIM_10_RX Format" value="ZERO" />
 	
-	<!-- Lemon Drop Hi-Res end of SLIM settings -->
+	<!-- End of SLIM settings -->
 	
-	<!-- Lemon Drop Hi-Res start of initial volume settings -->
+	<!-- Start of initial volume settings -->
 	
 	<ctl name="Es9018 Master Volume" value="0" />
 	<ctl name="Es9018 AVC Volume" value="0" />
@@ -1824,6 +1824,9 @@
 	<ctl name="TX8 Mix Digital Volume" value="0" />
 	<ctl name="RX8 Digital Volume" value="0" />
 	<ctl name="RX8 Mix Digital Volume" value="0" />
+
+	<!-- Start of QuadDAC mic volume control -->
+
 	<ctl name="HPHL Volume" value="0" />
 	<ctl name="HPHR Volume" value="0" />
 	<ctl name="ADC1 Volume" value="12" />
@@ -1854,14 +1857,18 @@
 	<ctl name="ADC MUX2" value="AMIC" />
 	<ctl name="ADC MUX1" value="AMIC" />
 	<ctl name="ADC MUX0" value="AMIC" />
+
+	<!-- End of QuadDAC mic volume control -->
+
+	<!-- End of initial volume settings -->
 	
-	<!-- Lemon Drop Hi-Res start of initial misc settings -->
+	<!-- Start of initial misc settings -->
 	
 	<ctl name="EAR PA Gain" value="ZERO" />
 	
-	<!-- Lemon Drop Hi-Res end of initial misc settings -->
+	<!-- End of initial misc settings -->
 	
-	<!-- Lemon Drop Hi-Res start of initial MultiMedia settings -->
+	<!-- Start of initial MultiMedia settings -->
 	
 	<ctl name="HDMI Mixer MultiMedia1" value="0" />
 	<ctl name="HDMI Mixer MultiMedia2" value="0" />
@@ -1924,8 +1931,12 @@
 	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia15" value="0" />
 	<ctl name="TERT_MI2S_TX Audio Mixer MultiMedia16" value="0" />
 	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia16" value="0" />
+	<ctl name="SEC_TDM_TX_0 Audio Mixer MultiMedia1" value="0" />
+	<ctl name="SEC_TDM_RX_0 Audio Mixer MultiMedia1" value="0" />
 	<ctl name="SEC_TDM_TX_0 Audio Mixer MultiMedia5" value="0" />
 	<ctl name="SEC_TDM_RX_0 Audio Mixer MultiMedia5" value="0" />
+	<ctl name="SEC_TDM_TX_0 Audio Mixer MultiMedia3" value="0" />
+	<ctl name="SEC_TDM_RX_0 Audio Mixer MultiMedia3" value="0" />
 	<ctl name="SEC_TDM_TX_0 Channels" value="ZERO" />
 	<ctl name="SEC_TDM_RX_0 Channels" value="ZERO" />
 	<ctl name="SEC_TDM_TX_0 SampleRate" value="ZERO" />
@@ -1934,20 +1945,32 @@
 	<ctl name="SEC_TDM_RX_0 Format" value="ZERO" />
 	<ctl name="SEC_TDM_TX_1 Audio Mixer MultiMedia1" value="0" />
 	<ctl name="SEC_TDM_RX_1 Audio Mixer MultiMedia1" value="0" />
+	<ctl name="SEC_TDM_TX_1 Audio Mixer MultiMedia5" value="0" />
+	<ctl name="SEC_TDM_RX_1 Audio Mixer MultiMedia5" value="0" />
+	<ctl name="SEC_TDM_TX_1 Audio Mixer MultiMedia3" value="0" />
+	<ctl name="SEC_TDM_RX_1 Audio Mixer MultiMedia3" value="0" />
 	<ctl name="SEC_TDM_TX_1 Channels" value="ZERO" />
 	<ctl name="SEC_TDM_RX_1 Channels" value="ZERO" />
 	<ctl name="SEC_TDM_TX_1 SampleRate" value="ZERO" />
 	<ctl name="SEC_TDM_RX_1 SampleRate" value="ZERO" />
 	<ctl name="SEC_TDM_TX_1 Format" value="ZERO" />
 	<ctl name="SEC_TDM_RX_1 Format" value="ZERO" />
+	<ctl name="SEC_TDM_TX_2 Audio Mixer MultiMedia1" value="0" />
+	<ctl name="SEC_TDM_RX_2 Audio Mixer MultiMedia1" value="0" />
 	<ctl name="SEC_TDM_TX_2 Audio Mixer MultiMedia5" value="0" />
 	<ctl name="SEC_TDM_RX_2 Audio Mixer MultiMedia5" value="0" />
+	<ctl name="SEC_TDM_TX_2 Audio Mixer MultiMedia3" value="0" />
+	<ctl name="SEC_TDM_RX_2 Audio Mixer MultiMedia3" value="0" />
 	<ctl name="SEC_TDM_TX_2 Channels" value="ZERO" />
 	<ctl name="SEC_TDM_RX_2 Channels" value="ZERO" />
 	<ctl name="SEC_TDM_TX_2 SampleRate" value="ZERO" />
 	<ctl name="SEC_TDM_RX_2 SampleRate" value="ZERO" />
 	<ctl name="SEC_TDM_TX_2 Format" value="ZERO" />
 	<ctl name="SEC_TDM_RX_2 Format" value="ZERO" />
+	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia1" value="0" />
+	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia1" value="0" />
+	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia5" value="0" />
+	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia5" value="0" />
 	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia3" value="0" />
 	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia3" value="0" />
 	<ctl name="SEC_TDM_TX_3 Channels" value="ZERO" />
@@ -2193,9 +2216,9 @@
 	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia16" value="0" />
 	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia16" value="0" />
 	
-	<!-- Lemon Drop Hi-Res end of initial MultiMedia settings -->
+	<!-- End of initial MultiMedia settings -->
 	
-	<!-- Lemon Drop Hi-Res start of True Stereo & Mono control -->
+	<!-- Start of True Stereo & Mono control -->
 	
 	<ctl name="LDAC Switch" value="0" />
 	<ctl name="TX LDAC Switch" value="0" />
@@ -2210,9 +2233,9 @@
 	<ctl name="TX HPHR RDAC Switch" value="0" />
 	<ctl name="RX HPHR RDAC Switch" value="0" />
 	
-	<!-- Lemon Drop Hi-Res end of True Stereo & Mono control -->
+	<!-- End of True Stereo & Mono control -->
 	
-	<!-- Lemon Drop Hi-Res start of Compander controls -->
+	<!-- Start of Compander controls -->
 	
 	<ctl name="COMP1 Switch" value="0" />
 	<ctl name="TX COMP1 Switch" value="0" />
@@ -2233,9 +2256,9 @@
 	<ctl name="TX HPHR COMP Switch" value="0" />
 	<ctl name="RX HPHR COMP Switch" value="0" />
 	
-	<!-- Lemon Drop Hi-Res end of Compander controls -->
+	<!-- End of Compander controls -->
 	
-	<!-- Lemon Drop Hi-Res start DAC initialization code -->
+	<!-- Start DAC initialization code -->
 	
 	<ctl name="SpkrLeft COMP Switch" value="0" />
 	<ctl name="SpkrLeft BOOST Switch" value="0" />
@@ -2248,11 +2271,9 @@
 	<ctl name="SpkrRight WSA PA Mute" value="0" />
 	<ctl name="SpkrRight SWR DAC_Port Switch" value="0" />
 	
-	<!-- Lemon Drop Hi-Res end DAC initialization code -->
+	<!-- End DAC initialization code -->
 	
-	<!-- Lemon Drop Hi-Res end of initial mixer settings -->
-	
-	<!-- Lemon Drop Hi-Res start of True Native Mode function -->
+	<!-- Start of True Native Mode function -->
 	
 	<path name="true-native-mode-HPH">
 	<ctl name="TX INT1 SPLINE MIX HPHL Native Switch" value="2" />
@@ -5378,9 +5399,9 @@
 	<ctl name="RX INI772 SPLINE MIX HI768 Switch" value="2" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res end of True Native Mode function -->
+	<!-- End of True Native Mode function -->
 	
-	<!-- Lemon Drop Hi-Res start of DAC initialization function -->
+	<!-- Start of DAC initialization function -->
 	
 	<!-- For a QuadDAC you want to use number 2 -->
 	<!-- You want 2 on left and 2 on right -->
@@ -5414,9 +5435,9 @@
 	<ctl name="SpkrRight SWR DAC_Port Switch" value="2" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res end of DAC initialization function -->
+	<!-- End of DAC initialization function -->
 	
-	<!-- Lemon Drop Hi-Res start of True Stereo control function -->
+	<!-- Start of True Stereo control function -->
 	
 	<path name="true-stereo-control">
 	<ctl name="LDAC Switch" value="2" />
@@ -5433,9 +5454,9 @@
 	<ctl name="RX HPHR RDAC Switch" value="2" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res end of True Stereo control function -->
+	<!-- End of True Stereo control function -->
 	
-	<!-- Lemon Drop Hi-Res start of True Mono control function -->
+	<!-- Start of True Mono control function -->
 	
 	<path name="true-mono-control">
 	<ctl name="LDAC Switch" value="1" />
@@ -5452,9 +5473,9 @@
 	<ctl name="RX HPHR RDAC Switch" value="0" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res end of True Mono control function -->
+	<!-- End of True Mono control function -->
 	
-	<!-- Lemon Drop Hi-Res start of Compander controls function -->
+	<!-- Start of Compander controls function -->
 	
 	<path name="compander-controls-HPH">
 	<ctl name="COMP1 Switch" value="2" />
@@ -5501,9 +5522,9 @@
 	<ctl name="RX HPHR COMP Switch" value="0" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res end of Compander controls function -->
+	<!-- End of Compander controls function -->
 	
-	<!-- Lemon Drop Hi-Res start of DAC tuning function -->
+	<!-- Start of DAC tuning function -->
 	
 	<path name="subsidiary-headphone-bass-volume">
 	<ctl name="TX1 Digital Volume" value="48" />
@@ -5609,7 +5630,9 @@
 	<ctl name="HPHR Volume" value="16" />
 	</path>
 	
-	<!-- Lemon Drop Hi-Res end of DAC tuning function -->
+	<!-- End of DAC tuning function -->
+
+	<!-- Lemon Drop Hi-Res end of code darnrain programed -->
 	
 	<!-- Copy from this line all the way to the top -->
 	<!-- and paste into your mixer_paths file -->
@@ -9626,12 +9649,6 @@
 	</path>
 	
 	<!-- Welcome to the Saber ESS 9218 QuadDAC direct output -->
-	<!-- DAC 0 treble -->
-	<!-- DAC 1 bass -->
-	<!-- DAC 2 treble -->
-	<!-- DAC 3 mid-range -->
-	<!-- My understanding is DAC 0 and 2 has more power -->
-	<!-- That's why I have treble on 0 and 2 -->
 	<!-- I have the DACs overclocked -->
 	<!-- You want to try 32 64 128 256 512 and so on -->
 	<!-- I went with 64 because it sounds the best on the Saber ESS 9218 DAC -->
@@ -9639,8 +9656,12 @@
 	<!-- 768 X 64 = 49152 then divide 49152 by 2 = 24576 for a total of 98304 channels -->
 	
 	<path name="dop_playback tert-mi2s-headphones">
+	<ctl name="SEC_TDM_TX_0 Audio Mixer MultiMedia1" value="2" />
+	<ctl name="SEC_TDM_RX_0 Audio Mixer MultiMedia1" value="2" />
 	<ctl name="SEC_TDM_TX_0 Audio Mixer MultiMedia5" value="2" />
 	<ctl name="SEC_TDM_RX_0 Audio Mixer MultiMedia5" value="2" />
+	<ctl name="SEC_TDM_TX_0 Audio Mixer MultiMedia3" value="2" />
+	<ctl name="SEC_TDM_RX_0 Audio Mixer MultiMedia3" value="2" />
 	<ctl name="SEC_TDM_TX_0 Channels" value="Twentyfourthousandfivehundredseventysix" />
 	<ctl name="SEC_TDM_RX_0 Channels" value="Twentyfourthousandfivehundredseventysix" />
 	<ctl name="SEC_TDM_TX_0 SampleRate" value="KHZ_352P8" />
@@ -9649,20 +9670,32 @@
 	<ctl name="SEC_TDM_RX_0 Format" value="S32_LE" />
 	<ctl name="SEC_TDM_TX_1 Audio Mixer MultiMedia1" value="2" />
 	<ctl name="SEC_TDM_RX_1 Audio Mixer MultiMedia1" value="2" />
+	<ctl name="SEC_TDM_TX_1 Audio Mixer MultiMedia5" value="2" />
+	<ctl name="SEC_TDM_RX_1 Audio Mixer MultiMedia5" value="2" />
+	<ctl name="SEC_TDM_TX_1 Audio Mixer MultiMedia3" value="2" />
+	<ctl name="SEC_TDM_RX_1 Audio Mixer MultiMedia3" value="2" />
 	<ctl name="SEC_TDM_TX_1 Channels" value="Twentyfourthousandfivehundredseventysix" />
 	<ctl name="SEC_TDM_RX_1 Channels" value="Twentyfourthousandfivehundredseventysix" />
 	<ctl name="SEC_TDM_TX_1 SampleRate" value="KHZ_352P8" />
 	<ctl name="SEC_TDM_RX_1 SampleRate" value="KHZ_352P8" />
 	<ctl name="SEC_TDM_TX_1 Format" value="S32_LE" />
 	<ctl name="SEC_TDM_RX_1 Format" value="S32_LE" />
+	<ctl name="SEC_TDM_TX_2 Audio Mixer MultiMedia1" value="2" />
+	<ctl name="SEC_TDM_RX_2 Audio Mixer MultiMedia1" value="2" />
 	<ctl name="SEC_TDM_TX_2 Audio Mixer MultiMedia5" value="2" />
 	<ctl name="SEC_TDM_RX_2 Audio Mixer MultiMedia5" value="2" />
+	<ctl name="SEC_TDM_TX_2 Audio Mixer MultiMedia3" value="2" />
+	<ctl name="SEC_TDM_RX_2 Audio Mixer MultiMedia3" value="2" />
 	<ctl name="SEC_TDM_TX_2 Channels" value="Twentyfourthousandfivehundredseventysix" />
 	<ctl name="SEC_TDM_RX_2 Channels" value="Twentyfourthousandfivehundredseventysix" />
 	<ctl name="SEC_TDM_TX_2 SampleRate" value="KHZ_352P8" />
 	<ctl name="SEC_TDM_RX_2 SampleRate" value="KHZ_352P8" />
 	<ctl name="SEC_TDM_TX_2 Format" value="S32_LE" />
 	<ctl name="SEC_TDM_RX_2 Format" value="S32_LE" />
+	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia1" value="2" />
+	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia1" value="2" />
+	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia5" value="2" />
+	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia5" value="2" />
 	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia3" value="2" />
 	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia3" value="2" />
 	<ctl name="SEC_TDM_TX_3 Channels" value="Twentyfourthousandfivehundredseventysix" />
@@ -10343,7 +10376,14 @@
 	<ctl name="HPHL Volume" value="16" />
 	<path name="handset" />
 	</path>
+
+	<!-- Deleted -->
+	<!-- <path name="loopback-speaker"> -->
+	<!-- <path name="speaker-mono" /> -->
+	<!-- <ctl name="RX7 Digital Volume" value="84" /> -->
+	<!-- </path> -->
 	
+	<!-- Added -->
 	<path name="loopback_speaker-mono">
 	<ctl name="TX7 Digital Volume" value="84" />
 	<ctl name="TX7 Mix Digital Volume" value="84" />
@@ -10366,6 +10406,7 @@
 	<!--     <ctl name="HPHR Volume" value="20" /> -->
 	<!-- </path> -->
 	
+	<!-- Added -->
 	<path name="loopback_headphone">
 	<path name="true-native-mode-HPH" />
 	<path name="true-stereo-control" />
@@ -10381,6 +10422,7 @@
 	<ctl name="HPHR Volume" value="16" />
 	</path>
 	
+	<!-- Added -->
 	<path name="loopback_headphones">
 	<ctl name="TX1 Digital Volume" value="84" />
 	<ctl name="TX1 Mix Digital Volume" value="84" />
