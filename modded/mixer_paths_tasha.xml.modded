@@ -28,7 +28,7 @@
 	
 	<!-- Top of page -->
 	
-	<!-- Lemon Drop Hi-Res treble v168.1 -->
+	<!-- Lemon Drop Hi-Res treble v169.1 -->
 	<!-- Designed and created by darnrain @GitHub -->
 	<!-- Proudly Made In America -->
 	
@@ -47,11 +47,11 @@
 	<!-- True Native Mode sounds like -->
 	
 	<!-- First thing -->
-	<!-- Copy all lines of code line number 1 through 5709 paste in your mixer_paths file at very top -->
-	<!-- I added a note where to copy from at line 5709 -->
+	<!-- Copy all lines of code line number 1 through 5780 paste in your mixer_paths file at very top -->
+	<!-- I added a note where to copy from at line 5780 -->
 	
 	<!-- Second thing -->
-	<!-- Search for "lemon drop" after line 5709 to start -->
+	<!-- Search for "lemon drop" after line 5780 to start -->
 	
 	<!-- Third thing -->
 	<!-- Duplicate all code from "Lemon Drop Hi-Res start of mods" to "Lemon Drop Hi-Res end of mods" -->
@@ -144,7 +144,7 @@
 	<!-- SLIM_9_RX SLIM_9_TX = headphone-16bit aka wired headphones 16bit True Native Mode -->
 	<!-- SLIM_10_RX SLIM_10_TX = headphone-24bit aka wired headphones 24bit True Native Mode -->
 	
-	<!-- Lemon Drop Hi-Res start of code darnrain programed -->
+	<!-- Lemon Drop Hi-Res start of code programed by: darnrain  -->
 	
 	<!-- Start of True Native Mode & vbat initial mixer settings -->
 	
@@ -1875,7 +1875,10 @@
 	<ctl name="HDMI Mixer MultiMedia3" value="0" />
 	<ctl name="HDMI Mixer MultiMedia4" value="0" />
 	<ctl name="HDMI Mixer MultiMedia5" value="0" />
+	<ctl name="HDMI Mixer MultiMedia6" value="0" />
 	<ctl name="HDMI Mixer MultiMedia7" value="0" />
+	<ctl name="HDMI Mixer MultiMedia8" value="0" />
+	<ctl name="HDMI Mixer MultiMedia9" value="0" />
 	<ctl name="HDMI Mixer MultiMedia10" value="0" />
 	<ctl name="HDMI Mixer MultiMedia11" value="0" />
 	<ctl name="HDMI Mixer MultiMedia12" value="0" />
@@ -1885,12 +1888,22 @@
 	<ctl name="HDMI Mixer MultiMedia16" value="0" />
 	<ctl name="AUX_PCM_TX Audio Mixer MultiMedia1" value="0" />
 	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia1" value="0" />
+	<ctl name="AUX_PCM_TX Audio Mixer MultiMedia2" value="0" />
+	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia2" value="0" />
+	<ctl name="AUX_PCM_TX Audio Mixer MultiMedia3" value="0" />
+	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia3" value="0" />
 	<ctl name="AUX_PCM_TX Audio Mixer MultiMedia4" value="0" />
 	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia4" value="0" />
 	<ctl name="AUX_PCM_TX Audio Mixer MultiMedia5" value="0" />
 	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia5" value="0" />
+	<ctl name="AUX_PCM_TX Audio Mixer MultiMedia6" value="0" />
+	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia6" value="0" />
 	<ctl name="AUX_PCM_TX Audio Mixer MultiMedia7" value="0" />
 	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia7" value="0" />
+	<ctl name="AUX_PCM_TX Audio Mixer MultiMedia8" value="0" />
+	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia8" value="0" />
+	<ctl name="AUX_PCM_TX Audio Mixer MultiMedia9" value="0" />
+	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia9" value="0" />
 	<ctl name="AUX_PCM_TX Audio Mixer MultiMedia10" value="0" />
 	<ctl name="AUX_PCM_RX Audio Mixer MultiMedia10" value="0" />
 	<ctl name="AUX_PCM_TX Audio Mixer MultiMedia11" value="0" />
@@ -1915,8 +1928,14 @@
 	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia4" value="0" />
 	<ctl name="TERT_MI2S_TX Audio Mixer MultiMedia5" value="0" />
 	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia5" value="0" />
+	<ctl name="TERT_MI2S_TX Audio Mixer MultiMedia6" value="0" />
+	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia6" value="0" />
 	<ctl name="TERT_MI2S_TX Audio Mixer MultiMedia7" value="0" />
 	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia7" value="0" />
+	<ctl name="TERT_MI2S_TX Audio Mixer MultiMedia8" value="0" />
+	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia8" value="0" />
+	<ctl name="TERT_MI2S_TX Audio Mixer MultiMedia9" value="0" />
+	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia9" value="0" />
 	<ctl name="TERT_MI2S_TX Audio Mixer MultiMedia10" value="0" />
 	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia10" value="0" />
 	<ctl name="TERT_MI2S_TX Audio Mixer MultiMedia11" value="0" />
@@ -1933,14 +1952,22 @@
 	<ctl name="TERT_MI2S_RX Audio Mixer MultiMedia16" value="0" />
 	<ctl name="SEC_TDM_TX_0 Audio Mixer MultiMedia1" value="0" />
 	<ctl name="SEC_TDM_RX_0 Audio Mixer MultiMedia1" value="0" />
-	<ctl name="SEC_TDM_TX_0 Audio Mixer MultiMedia5" value="0" />
-	<ctl name="SEC_TDM_RX_0 Audio Mixer MultiMedia5" value="0" />
+	<ctl name="SEC_TDM_TX_0 Audio Mixer MultiMedia2" value="0" />
+	<ctl name="SEC_TDM_RX_0 Audio Mixer MultiMedia2" value="0" />
 	<ctl name="SEC_TDM_TX_0 Audio Mixer MultiMedia3" value="0" />
 	<ctl name="SEC_TDM_RX_0 Audio Mixer MultiMedia3" value="0" />
 	<ctl name="SEC_TDM_TX_0 Audio Mixer MultiMedia4" value="0" />
 	<ctl name="SEC_TDM_RX_0 Audio Mixer MultiMedia4" value="0" />
+	<ctl name="SEC_TDM_TX_0 Audio Mixer MultiMedia5" value="0" />
+	<ctl name="SEC_TDM_RX_0 Audio Mixer MultiMedia5" value="0" />
+	<ctl name="SEC_TDM_TX_0 Audio Mixer MultiMedia6" value="0" />
+	<ctl name="SEC_TDM_RX_0 Audio Mixer MultiMedia6" value="0" />
 	<ctl name="SEC_TDM_TX_0 Audio Mixer MultiMedia7" value="0" />
 	<ctl name="SEC_TDM_RX_0 Audio Mixer MultiMedia7" value="0" />
+	<ctl name="SEC_TDM_TX_0 Audio Mixer MultiMedia8" value="0" />
+	<ctl name="SEC_TDM_RX_0 Audio Mixer MultiMedia8" value="0" />
+	<ctl name="SEC_TDM_TX_0 Audio Mixer MultiMedia9" value="0" />
+	<ctl name="SEC_TDM_RX_0 Audio Mixer MultiMedia9" value="0" />
 	<ctl name="SEC_TDM_TX_0 Audio Mixer MultiMedia10" value="0" />
 	<ctl name="SEC_TDM_RX_0 Audio Mixer MultiMedia10" value="0" />
 	<ctl name="SEC_TDM_TX_0 Audio Mixer MultiMedia11" value="0" />
@@ -1963,14 +1990,22 @@
 	<ctl name="SEC_TDM_RX_0 Format" value="ZERO" />
 	<ctl name="SEC_TDM_TX_1 Audio Mixer MultiMedia1" value="0" />
 	<ctl name="SEC_TDM_RX_1 Audio Mixer MultiMedia1" value="0" />
-	<ctl name="SEC_TDM_TX_1 Audio Mixer MultiMedia5" value="0" />
-	<ctl name="SEC_TDM_RX_1 Audio Mixer MultiMedia5" value="0" />
+	<ctl name="SEC_TDM_TX_1 Audio Mixer MultiMedia2" value="0" />
+	<ctl name="SEC_TDM_RX_1 Audio Mixer MultiMedia2" value="0" />
 	<ctl name="SEC_TDM_TX_1 Audio Mixer MultiMedia3" value="0" />
 	<ctl name="SEC_TDM_RX_1 Audio Mixer MultiMedia3" value="0" />
 	<ctl name="SEC_TDM_TX_1 Audio Mixer MultiMedia4" value="0" />
 	<ctl name="SEC_TDM_RX_1 Audio Mixer MultiMedia4" value="0" />
+	<ctl name="SEC_TDM_TX_1 Audio Mixer MultiMedia5" value="0" />
+	<ctl name="SEC_TDM_RX_1 Audio Mixer MultiMedia5" value="0" />
+	<ctl name="SEC_TDM_TX_1 Audio Mixer MultiMedia6" value="0" />
+	<ctl name="SEC_TDM_RX_1 Audio Mixer MultiMedia6" value="0" />
 	<ctl name="SEC_TDM_TX_1 Audio Mixer MultiMedia7" value="0" />
 	<ctl name="SEC_TDM_RX_1 Audio Mixer MultiMedia7" value="0" />
+	<ctl name="SEC_TDM_TX_1 Audio Mixer MultiMedia8" value="0" />
+	<ctl name="SEC_TDM_RX_1 Audio Mixer MultiMedia8" value="0" />
+	<ctl name="SEC_TDM_TX_1 Audio Mixer MultiMedia9" value="0" />
+	<ctl name="SEC_TDM_RX_1 Audio Mixer MultiMedia9" value="0" />
 	<ctl name="SEC_TDM_TX_1 Audio Mixer MultiMedia10" value="0" />
 	<ctl name="SEC_TDM_RX_1 Audio Mixer MultiMedia10" value="0" />
 	<ctl name="SEC_TDM_TX_1 Audio Mixer MultiMedia11" value="0" />
@@ -1993,14 +2028,22 @@
 	<ctl name="SEC_TDM_RX_1 Format" value="ZERO" />
 	<ctl name="SEC_TDM_TX_2 Audio Mixer MultiMedia1" value="0" />
 	<ctl name="SEC_TDM_RX_2 Audio Mixer MultiMedia1" value="0" />
-	<ctl name="SEC_TDM_TX_2 Audio Mixer MultiMedia5" value="0" />
-	<ctl name="SEC_TDM_RX_2 Audio Mixer MultiMedia5" value="0" />
+	<ctl name="SEC_TDM_TX_2 Audio Mixer MultiMedia2" value="0" />
+	<ctl name="SEC_TDM_RX_2 Audio Mixer MultiMedia2" value="0" />
 	<ctl name="SEC_TDM_TX_2 Audio Mixer MultiMedia3" value="0" />
 	<ctl name="SEC_TDM_RX_2 Audio Mixer MultiMedia3" value="0" />
 	<ctl name="SEC_TDM_TX_2 Audio Mixer MultiMedia4" value="0" />
 	<ctl name="SEC_TDM_RX_2 Audio Mixer MultiMedia4" value="0" />
+	<ctl name="SEC_TDM_TX_2 Audio Mixer MultiMedia5" value="0" />
+	<ctl name="SEC_TDM_RX_2 Audio Mixer MultiMedia5" value="0" />
+	<ctl name="SEC_TDM_TX_2 Audio Mixer MultiMedia6" value="0" />
+	<ctl name="SEC_TDM_RX_2 Audio Mixer MultiMedia6" value="0" />
 	<ctl name="SEC_TDM_TX_2 Audio Mixer MultiMedia7" value="0" />
 	<ctl name="SEC_TDM_RX_2 Audio Mixer MultiMedia7" value="0" />
+	<ctl name="SEC_TDM_TX_2 Audio Mixer MultiMedia8" value="0" />
+	<ctl name="SEC_TDM_RX_2 Audio Mixer MultiMedia8" value="0" />
+	<ctl name="SEC_TDM_TX_2 Audio Mixer MultiMedia9" value="0" />
+	<ctl name="SEC_TDM_RX_2 Audio Mixer MultiMedia9" value="0" />
 	<ctl name="SEC_TDM_TX_2 Audio Mixer MultiMedia10" value="0" />
 	<ctl name="SEC_TDM_RX_2 Audio Mixer MultiMedia10" value="0" />
 	<ctl name="SEC_TDM_TX_2 Audio Mixer MultiMedia11" value="0" />
@@ -2023,14 +2066,22 @@
 	<ctl name="SEC_TDM_RX_2 Format" value="ZERO" />
 	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia1" value="0" />
 	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia1" value="0" />
-	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia5" value="0" />
-	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia5" value="0" />
+	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia2" value="0" />
+	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia2" value="0" />
 	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia3" value="0" />
 	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia3" value="0" />
 	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia4" value="0" />
 	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia4" value="0" />
+	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia5" value="0" />
+	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia5" value="0" />
+	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia6" value="0" />
+	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia6" value="0" />
 	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia7" value="0" />
 	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia7" value="0" />
+	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia8" value="0" />
+	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia8" value="0" />
+	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia9" value="0" />
+	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia9" value="0" />
 	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia10" value="0" />
 	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia10" value="0" />
 	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia11" value="0" />
@@ -2061,8 +2112,14 @@
 	<ctl name="SEC_MI2S_RX Audio Mixer MultiMedia4" value="0" />
 	<ctl name="SEC_MI2S_TX Audio Mixer MultiMedia5" value="0" />
 	<ctl name="SEC_MI2S_RX Audio Mixer MultiMedia5" value="0" />
+	<ctl name="SEC_MI2S_TX Audio Mixer MultiMedia6" value="0" />
+	<ctl name="SEC_MI2S_RX Audio Mixer MultiMedia6" value="0" />
 	<ctl name="SEC_MI2S_TX Audio Mixer MultiMedia7" value="0" />
 	<ctl name="SEC_MI2S_RX Audio Mixer MultiMedia7" value="0" />
+	<ctl name="SEC_MI2S_TX Audio Mixer MultiMedia8" value="0" />
+	<ctl name="SEC_MI2S_RX Audio Mixer MultiMedia8" value="0" />
+	<ctl name="SEC_MI2S_TX Audio Mixer MultiMedia9" value="0" />
+	<ctl name="SEC_MI2S_RX Audio Mixer MultiMedia9" value="0" />
 	<ctl name="SEC_MI2S_TX Audio Mixer MultiMedia10" value="0" />
 	<ctl name="SEC_MI2S_RX Audio Mixer MultiMedia10" value="0" />
 	<ctl name="SEC_MI2S_TX Audio Mixer MultiMedia11" value="0" />
@@ -2087,6 +2144,8 @@
 	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia4" value="0" />
 	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia5" value="0" />
 	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia5" value="0" />
+	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia6" value="0" />
+	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia6" value="0" />
 	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia7" value="0" />
 	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia7" value="0" />
 	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia8" value="0" />
@@ -2117,6 +2176,8 @@
 	<ctl name="SLIMBUS_5_RX Audio Mixer MultiMedia4" value="0" />
 	<ctl name="SLIMBUS_5_TX Audio Mixer MultiMedia5" value="0" />
 	<ctl name="SLIMBUS_5_RX Audio Mixer MultiMedia5" value="0" />
+	<ctl name="SLIMBUS_5_TX Audio Mixer MultiMedia6" value="0" />
+	<ctl name="SLIMBUS_5_RX Audio Mixer MultiMedia6" value="0" />
 	<ctl name="SLIMBUS_5_TX Audio Mixer MultiMedia7" value="0" />
 	<ctl name="SLIMBUS_5_RX Audio Mixer MultiMedia7" value="0" />
 	<ctl name="SLIMBUS_5_TX Audio Mixer MultiMedia8" value="0" />
@@ -2147,6 +2208,8 @@
 	<ctl name="SLIMBUS_6_RX Audio Mixer MultiMedia4" value="0" />
 	<ctl name="SLIMBUS_6_TX Audio Mixer MultiMedia5" value="0" />
 	<ctl name="SLIMBUS_6_RX Audio Mixer MultiMedia5" value="0" />
+	<ctl name="SLIMBUS_6_TX Audio Mixer MultiMedia6" value="0" />
+	<ctl name="SLIMBUS_6_RX Audio Mixer MultiMedia6" value="0" />
 	<ctl name="SLIMBUS_6_TX Audio Mixer MultiMedia7" value="0" />
 	<ctl name="SLIMBUS_6_RX Audio Mixer MultiMedia7" value="0" />
 	<ctl name="SLIMBUS_6_TX Audio Mixer MultiMedia8" value="0" />
@@ -2177,6 +2240,8 @@
 	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia4" value="0" />
 	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia5" value="0" />
 	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia5" value="0" />
+	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia6" value="0" />
+	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia6" value="0" />
 	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia7" value="0" />
 	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia7" value="0" />
 	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia8" value="0" />
@@ -2207,6 +2272,8 @@
 	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia4" value="0" />
 	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia5" value="0" />
 	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia5" value="0" />
+	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia6" value="0" />
+	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia6" value="0" />
 	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia7" value="0" />
 	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia7" value="0" />
 	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia8" value="0" />
@@ -2237,6 +2304,8 @@
 	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia4" value="0" />
 	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia5" value="0" />
 	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia5" value="0" />
+	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia6" value="0" />
+	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia6" value="0" />
 	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia7" value="0" />
 	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia7" value="0" />
 	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia8" value="0" />
@@ -2267,6 +2336,8 @@
 	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia4" value="0" />
 	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia5" value="0" />
 	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia5" value="0" />
+	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia6" value="0" />
+	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia6" value="0" />
 	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia7" value="0" />
 	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia7" value="0" />
 	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia8" value="0" />
@@ -5704,7 +5775,7 @@
 	
 	<!-- End of DAC tuning function -->
 
-	<!-- Lemon Drop Hi-Res end of code darnrain programed -->
+	<!-- Lemon Drop Hi-Res end of code programed by: darnrain  -->
 	
 	<!-- Copy from this line all the way to the top -->
 	<!-- and paste into your mixer_paths file -->
