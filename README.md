@@ -57,7 +57,7 @@ Tab all lines.<br>
 </pre>
 
 ### Will this True Native Mode code work on other Android phones other than the Lgv20?
-Short answer, it should as long as you have a Saber ESS QuadDAC. Who knows this True Native Mode code may work universally across all QuadDACs on all Android phones. This code has never been tested on a phone, other than the Lgv20. The LG V series of phones, I would say absolutely yes it will work.<br>
+Short answer, it should as long as you have a Saber ESS QuadDAC. Who knows this True Native Mode code may work universally across all QuadDACs on all Android phones. This code has never been tested on a phone, other than the Lgv20. It's up to you guys to test it, my job is done I just had to recreat the True Native Mode code. The LG V series of phones, I would say absolutely yes it will work.<br>
 
 ### What do I need to set my Hi-Res music player at?
 You need to choose 24bit 44.1kHz as the source, that's how I programed the DAC, it takes a 44.1kHz audio signal and upsamples the audio eight times to 32bit 352.8kHz. On wired headphones the output is 32bit 352.8kHz, all other devices the output is 44.1kHz 24bit or 16bit. If set to anything other than, 44.1kHz the audio does not get upsampled eight times or it does not multiply evenly into 352.8kHz. In other words, your not going to get the absolute best audio quality.<br>
