@@ -40,6 +40,9 @@ There are two reasons as to why.<br>
 ### Is there any room for errors or mistakes when programing a QuadDAC?
 Nope, everything must be in the correct order with no typos or mistakes, in order to achieve the absolute very best audio quality out of the QuadDAC. That's why I am enjoying this project so much, it's the ultimate challenge for me to achieve. Unlike the manufactures, I do not have the luxury of connecting the QuadDAC chip to a computer to see if there are any errors or mistakes, I have to do it all by ear. Not to mention the manufacture most likely has an instruction manual, unlike me. That just increases the difficulty of this undertaking, in other words the ultimate challenge of a life time, for me.<br>
 
+### My music does not sound overpowered when my battery drops below 80%?
+Charge your phone, the QuadDAC will see that your charging and increase the power level automatically. In reality the Lgv20 needs a much larger battery for the amount of power the QuadDAC requires to run in True Native Mode, but we make due with what we got.<br>
+
 ### What is True Native Mode on a computer?
 "(1) The normal running mode of a computer, executing programs from its built-in instruction set. Contrast with emulation mode. See native language. (2) The highest performance state of a computer."<br>
 
