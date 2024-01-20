@@ -24,7 +24,7 @@ As of a direct result of the harassment from the LineageOS devs, no one can open
 It's funny, but the LineageOS devs reminds me exactly of when your watching a movie and your just getting lost in the movie, then all of a suddenly out of nowhere, this HUGE fly shows up and wants to fly right in front of your face. Where's my certified, LineageOS dev fly swatter. lol<br>
 
 ### Is Lemon Drop Hi-Res audio source code still in the development stages?
-Yes very much so, as long as the main page still says Active, then that means I am still working out all the bugs. I'm getting there slowly. But I am not going to give up tell I have reached the absolute maximum audio quality that the QuadDAC can and will produce. My gole is to at least match the same audio quality of a Hi-Res music player. If I were to surpass the audio quality of a Hi-Res music player that would exceed my expectations. How far along are you in the development stage, if the next version is any indication, as of v169.1 it's only about 65% completed.
+Yes very much so, as long as the main page still says Active, then that means I am still working out all the bugs. I'm getting there slowly. But I am not going to give up tell I have reached the absolute maximum audio quality that the QuadDAC can and will produce. My gole is to at least match the same audio quality of a Hi-Res music player. If I were to surpass the audio quality of a Hi-Res music player that would exceed my expectations.<br>
 
 ### How did you find this True Native Mode code?
 If your curious on how I found the True Native Mode code, I will show you. Someone left about 0.5% of the code in the original mixer_paths_tasha.xml file for the Lgv20. Go to line number 278 through 287 you will see the 0.5% of the True Native Mode code that I found. As you can see, INI1 HPHL, INI2 HPHR, INI7 SPKRL, INI8 SPKRR, INI3 LO1, INI4 LO2, INI5 LO3, INI6 LO4, lines of code are partially there, the absolute perfect base starting point for me, to recreate the True Native Mode code. LO1 even started with INI3 that gave me my first clue. The other 99.5% I made with my own hands, all by myself. With trial and error and logic and my advanced Linux computer skills, if the code does not exist, make it yourself. No external resource was utilized, to my knowledge a resource of this nature absolutely does not exist. If you want to confirm that this original mixer_paths_tasha.xml is authentic, I will give you the link to the Lgv20 rom that has this 0.5% True Native Mode code.<br> https://androidfilehost.com/?fid=1322778262904012823
@@ -39,9 +39,6 @@ There are two reasons as to why.<br>
 
 ### Is there any room for errors or mistakes when programing a QuadDAC?
 Nope, everything must be in the correct order with no typos or mistakes, in order to achieve the absolute very best audio quality out of the QuadDAC. That's why I am enjoying this project so much, it's the ultimate challenge for me to achieve. Unlike the manufactures, I do not have the luxury of connecting the QuadDAC chip to a computer to see if there are any errors or mistakes, I have to do it all by ear. Not to mention the manufacture most likely has an instruction manual, unlike me. That just increases the difficulty of this undertaking, in other words the ultimate challenge of a life time, for me.<br>
-
-### Do you think you will be able to perform this seemingly impossible task?
-Sure why not, it will just take time due to the magnitude of this project.
 
 ### What is True Native Mode on a computer?
 "(1) The normal running mode of a computer, executing programs from its built-in instruction set. Contrast with emulation mode. See native language. (2) The highest performance state of a computer."<br>
