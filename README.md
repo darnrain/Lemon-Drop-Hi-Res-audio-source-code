@@ -38,7 +38,7 @@ There are two reasons as to why.<br>
 2. To my knowledge, it's never been done before. Why reinvent the wheel? In my opinion it's much better to be the one that invented the wheel in the first place.
 
 ### Is there any room for errors or mistakes when programing a QuadDAC?
-Nope, everything must be in the correct order with no typos or mistakes, in order to achieve the absolute very best audio quality out of the QuadDAC. That's why I am enjoying this project so much, it's the ultimate challenge for me to achieve. Unlike the manufactures, I do not have the luxury of connecting the QuadDAC chip to a computer to see if there are any errors or mistakes, I have to do it all by ear. Not to mention the manufacture has an instruction manual, unlike me. But if I had an instruction manual then programing this QuadDAC would not be much of a challenge for me now would it? What's the fun in that, it's like reading the walk through for a game your playing.<br>
+Nope, everything must be in the correct order with no typos or mistakes, in order to achieve the absolute very best audio quality out of the QuadDAC. That's why I am enjoying this project so much, it's the ultimate challenge for me to achieve. Unlike the manufactures, I do not have the luxury of connecting the QuadDAC chip to a computer to see if there are any errors or mistakes, I have to do it all by ear. Not to mention the manufacture most likely has an instruction manual, unlike me. That increases the difficulty of this undertaking, I like those odds.<br>
 
 ### Do you think you will be able to perform this seemingly impossible task?
 Sure why not, it will just take time due to the magnitude of this project.
