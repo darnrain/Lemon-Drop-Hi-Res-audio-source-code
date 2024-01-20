@@ -38,7 +38,7 @@ There are two reasons as to why.<br>
 2. To my knowledge, it's never been done before. Why reinvent the wheel? In my opinion it's much better to be the one that invented the wheel in the first place.
 
 ### Is there any room for errors or mistakes when programing a QuadDAC?
-Nope, everything must be in the correct order with no typos or mistakes, in order to achieve the absolute very best audio quality out of the QuadDAC. That's why I am enjoying this project so much, it's the ultimate challenge for me to achieve. Unlike the mmanufactures, I do not have the luxury of connecting the QuadDAC chip to a computer to see if there are any errors or mistakes, I have to do it all by ear. Not to mention the mmanufacture has an instruction manual and they know what they are doing unlike me. One time I had the QuadDAC screeching when I played music, I said well that didn't work, of course I would never release a version of that nature.<br>
+Nope, everything must be in the correct order with no typos or mistakes, in order to achieve the absolute very best audio quality out of the QuadDAC. That's why I am enjoying this project so much, it's the ultimate challenge for me to achieve. Unlike the mmanufactures, I do not have the luxury of connecting the QuadDAC chip to a computer to see if there are any errors or mistakes, I have to do it all by ear. Not to mention the mmanufacture has an instruction manual, unlike me.
 
 ### What is True Native Mode on a computer?
 "(1) The normal running mode of a computer, executing programs from its built-in instruction set. Contrast with emulation mode. See native language. (2) The highest performance state of a computer."<br>
