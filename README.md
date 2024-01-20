@@ -37,6 +37,9 @@ There are two reasons as to why.<br>
 1. I absolutely love a good challenge.<br>
 2. To my knowledge, it's never been done before. Why reinvent the wheel? In my opinion it's much better to be the one that invented the wheel in the first place.
 
+### Is there any room for errors or mistakes when programing a QuadDAC?
+Nope, everything must be in the correct order with no typos or mistakes, in order to achieve the absolute very best audio quality out of the QuadDAC. That's why I am enjoying this project so much, it's the ultimate challenge for me to achieve.
+
 ### What is True Native Mode on a computer?
 "(1) The normal running mode of a computer, executing programs from its built-in instruction set. Contrast with emulation mode. See native language. (2) The highest performance state of a computer."<br>
 
