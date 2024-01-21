@@ -56,9 +56,9 @@ I created all 3096 lines of the True Native Mode v2.0 code myself, with the help
 
 Let me jump in real quick and let you know that these are my notes directly from the mixer_paths file. So they may not make sense to everyone. I did not go into detail as to why we need to use those numbers I came up with, only that we need to use those numbers for a QuadDAC. When I am making notes about my programing, I'm extremely direct and precise.<br>
 
-This is how I calculated the amount of mixer paths to program in for True Native Mode for the QuadDAC. Bass, mid-range and treble all require 16 mixer paths each for a QuadDAC. So 16 X 3 = 48 then for a QuadDAC you want to times 48 X 16 = 768. So 768 is our magic number.
+This is how I calculated the amount of mixer paths to program in for True Native Mode for the QuadDAC. Bass, mid-range and treble all require 16 mixer paths each for a QuadDAC. So 16 X 3 = 48 then for a QuadDAC you want to times 48 X 16 = 768. So 768 is our magic number.<br>
 
-This is how I calculated the amount of channels, There are 384 mixer paths for True Native Mode for each SPKR and HPH. You need to times 384 X 4 = 1536. There are 1536 channels going to each DAC 1536 X 64 = 98304 then divide 98304 by 2 = 49152 for a total of 196608 channels. When you divide 98304 by 2 this will widen the music. 
+This is how I calculated the amount of channels, There are 384 mixer paths for True Native Mode for each SPKR and HPH. You need to times 384 X 4 = 1536. There are 1536 channels going to each DAC 1536 X 64 = 98304 then divide 98304 by 2 = 49152 for a total of 196608 channels. When you divide 98304 by 2 this will widen the music.<br>
 
 We can only hear up to 20kHz however the more channels there are the better the audio sounds to us, it's like SD video vs HD video. But if you wanted to compare the audio quality to video quality. I would say the audio would be comparable to 8k video.<br>
 
