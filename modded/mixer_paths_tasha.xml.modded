@@ -28,7 +28,7 @@
 	
 	<!-- Top of page -->
 	
-	<!-- Lemon Drop Hi-Res treble v170.19 -->
+	<!-- Lemon Drop Hi-Res treble v171.1 -->
 	<!-- Designed and created by darnrain @GitHub -->
 	<!-- Proudly Made In America -->
 	
@@ -47,11 +47,11 @@
 	<!-- True Native Mode sounds like -->
 	
 	<!-- First thing -->
-	<!-- Copy all lines of code line number 1 through 10573 paste in your mixer_paths file at very top -->
-	<!-- I added a note where to copy from at line 10573 -->
+	<!-- Copy all lines of code line number 1 through 10621 paste in your mixer_paths file at very top -->
+	<!-- I added a note where to copy from at line 10621 -->
 	
 	<!-- Second thing -->
-	<!-- Search for "lemon drop" after line 10573 to start -->
+	<!-- Search for "lemon drop" after line 10621 to start -->
 	
 	<!-- Third thing -->
 	<!-- Duplicate all code from "Lemon Drop Hi-Res start of mods" to "Lemon Drop Hi-Res end of mods" -->
@@ -3327,40 +3327,58 @@
 	<ctl name="Es9018 AVC Volume" value="0" />
 	<ctl name="Es9018 HEADSET TYPE" value="0" />
 	<ctl name="Es9218 Bypass" value="0" />
+	<ctl name="0 Digital Volume Switch" value="0" />
 	<ctl name="TX0 Digital Volume" value="0" />
 	<ctl name="RX0 Digital Volume" value="0" />
+	<ctl name="0 Mix Digital Volume Switch" value="0" />
 	<ctl name="TX0 Mix Digital Volume" value="0" />
 	<ctl name="RX0 Mix Digital Volume" value="0" />
+	<ctl name="1 Digital Volume Switch" value="0" />
 	<ctl name="TX1 Digital Volume" value="0" />
 	<ctl name="RX1 Digital Volume" value="0" />
+	<ctl name="1 Mix Digital Volume Switch" value="0" />
 	<ctl name="TX1 Mix Digital Volume" value="0" />
 	<ctl name="RX1 Mix Digital Volume" value="0" />
+	<ctl name="2 Digital Volume Switch" value="0" />
 	<ctl name="TX2 Digital Volume" value="0" />
 	<ctl name="RX2 Digital Volume" value="0" />
+	<ctl name="2 Mix Digital Volume Switch" value="0" />
 	<ctl name="TX2 Mix Digital Volume" value="0" />
 	<ctl name="RX2 Mix Digital Volume" value="0" />
+	<ctl name="3 Digital Volume Switch" value="0" />
 	<ctl name="TX3 Digital Volume" value="0" />
 	<ctl name="RX3 Digital Volume" value="0" />
+	<ctl name="3 Mix Digital Volume Switch" value="0" />
 	<ctl name="TX3 Mix Digital Volume" value="0" />
 	<ctl name="RX3 Mix Digital Volume" value="0" />
+	<ctl name="4 Digital Volume Switch" value="0" />
 	<ctl name="TX4 Digital Volume" value="0" />
 	<ctl name="RX4 Digital Volume" value="0" />
+	<ctl name="4 Mix Digital Volume Switch" value="0" />
 	<ctl name="TX4 Mix Digital Volume" value="0" />
 	<ctl name="RX4 Mix Digital Volume" value="0" />
+	<ctl name="5 Digital Volume Switch" value="0" />
 	<ctl name="TX5 Digital Volume" value="0" />
 	<ctl name="RX5 Digital Volume" value="0" />
+	<ctl name="5 Mix Digital Volume Switch" value="0" />
 	<ctl name="TX5 Mix Digital Volume" value="0" />
 	<ctl name="RX5 Mix Digital Volume" value="0" />
+	<ctl name="6 Digital Volume Switch" value="0" />
 	<ctl name="TX6 Digital Volume" value="0" />
 	<ctl name="RX6 Digital Volume" value="0" />
+	<ctl name="6 Mix Digital Volume Switch" value="0" />
 	<ctl name="TX6 Mix Digital Volume" value="0" />
 	<ctl name="RX6 Mix Digital Volume" value="0" />
+	<ctl name="7 Digital Volume Switch" value="0" />
 	<ctl name="TX7 Digital Volume" value="0" />
 	<ctl name="RX7 Digital Volume" value="0" />
+	<ctl name="7 Mix Digital Volume Switch" value="0" />
 	<ctl name="TX7 Mix Digital Volume" value="0" />
 	<ctl name="RX7 Mix Digital Volume" value="0" />
+	<ctl name="8 Digital Volume Switch" value="0" />
 	<ctl name="TX8 Digital Volume" value="0" />
 	<ctl name="RX8 Digital Volume" value="0" />
+	<ctl name="8 Mix Digital Volume Switch" value="0" />
 	<ctl name="TX8 Mix Digital Volume" value="0" />
 	<ctl name="RX8 Mix Digital Volume" value="0" />
 	<ctl name="HPHL Volume Switch" value="0" />
@@ -10431,12 +10449,16 @@
 	<!-- Start of DAC tuning function -->
 	
 	<path name="subsidiary-headphone-bass-volume">
+	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="51" />
+	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="51" />
+	<ctl name="2 Digital Volume Switch" value="2" />
 	<ctl name="TX2 Digital Volume" value="48" />
 	<ctl name="RX2 Digital Volume" value="51" />
+	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="51" />
 	<ctl name="HPHL Volume Switch" value="2" />
@@ -10448,12 +10470,16 @@
 	</path>
 	
 	<path name="subsidiary-headphone-mid-range-volume">
+	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="53" />
+	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="53" />
+	<ctl name="2 Digital Volume Switch" value="2" />
 	<ctl name="TX2 Digital Volume" value="48" />
 	<ctl name="RX2 Digital Volume" value="53" />
+	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="53" />
 	<ctl name="HPHL Volume Switch" value="2" />
@@ -10465,12 +10491,16 @@
 	</path>
 	
 	<path name="subsidiary-headphone-treble-volume">
+	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="55" />
+	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="55" />
+	<ctl name="2 Digital Volume Switch" value="2" />
 	<ctl name="TX2 Digital Volume" value="48" />
 	<ctl name="RX2 Digital Volume" value="55" />
+	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="55" />
 	<ctl name="HPHL Volume Switch" value="2" />
@@ -10482,12 +10512,16 @@
 	</path>
 	
 	<path name="subsidiary-headphone-offload-volume">
+	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="57" />
+	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="57" />
+	<ctl name="2 Digital Volume Switch" value="2" />
 	<ctl name="TX2 Digital Volume" value="48" />
 	<ctl name="RX2 Digital Volume" value="57" />
+	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="57" />
 	<ctl name="HPHL Volume Switch" value="2" />
@@ -10499,12 +10533,16 @@
 	</path>
 	
 	<path name="primary-bass-volume">
+	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="63" />
+	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="63" />
+	<ctl name="2 Digital Volume Switch" value="2" />
 	<ctl name="TX2 Digital Volume" value="48" />
 	<ctl name="RX2 Digital Volume" value="63" />
+	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="63" />
 	<ctl name="HPHL Volume Switch" value="2" />
@@ -10516,12 +10554,16 @@
 	</path>
 	
 	<path name="primary-mid-range-volume">
+	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="65" />
+	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="65" />
+	<ctl name="2 Digital Volume Switch" value="2" />
 	<ctl name="TX2 Digital Volume" value="48" />
 	<ctl name="RX2 Digital Volume" value="65" />
+	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="65" />
 	<ctl name="HPHL Volume Switch" value="2" />
@@ -10533,12 +10575,16 @@
 	</path>
 	
 	<path name="primary-treble-volume">
+	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="67" />
+	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="67" />
+	<ctl name="2 Digital Volume Switch" value="2" />
 	<ctl name="TX2 Digital Volume" value="48" />
 	<ctl name="RX2 Digital Volume" value="67" />
+	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="67" />
 	<ctl name="HPHL Volume Switch" value="2" />
@@ -10550,12 +10596,16 @@
 	</path>
 	
 	<path name="primary-offload-volume">
+	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="69" />
+	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="69" />
+	<ctl name="2 Digital Volume Switch" value="2" />
 	<ctl name="TX2 Digital Volume" value="48" />
 	<ctl name="RX2 Digital Volume" value="69" />
+	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="69" />
 	<ctl name="HPHL Volume Switch" value="2" />
@@ -13279,12 +13329,16 @@
 	<ctl name="SLIM_2_RX SampleRate" value="KHZ_44P1" />
 	<ctl name="SLIM_2_TX Format" value="PACKED_16B" />
 	<ctl name="SLIM_2_RX Format" value="PACKED_16B" />
+	<ctl name="7 Digital Volume Switch" value="1" />
 	<ctl name="TX7 Digital Volume" value="84" />
 	<ctl name="RX7 Digital Volume" value="84" />
+	<ctl name="7 Mix Digital Volume Switch" value="1" />
 	<ctl name="TX7 Mix Digital Volume" value="84" />
 	<ctl name="RX7 Mix Digital Volume" value="84" />
+	<ctl name="8 Digital Volume Switch" value="0" />
 	<ctl name="TX8 Digital Volume" value="0" />
 	<ctl name="RX8 Digital Volume" value="0" />
+	<ctl name="8 Mix Digital Volume Switch" value="0" />
 	<ctl name="TX8 Mix Digital Volume" value="0" />
 	<ctl name="RX8 Mix Digital Volume" value="0" />
 	<ctl name="SPKRL Volume Switch" value="1" />
@@ -13323,12 +13377,16 @@
 	<ctl name="SLIM_0_RX SampleRate" value="KHZ_352P8" />
 	<ctl name="SLIM_0_TX Format" value="PACKED_32B" />
 	<ctl name="SLIM_0_RX Format" value="PACKED_32B" />
+	<ctl name="7 Digital Volume Switch" value="2" />
 	<ctl name="TX7 Digital Volume" value="48" />
 	<ctl name="RX7 Digital Volume" value="84" />
+	<ctl name="7 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX7 Mix Digital Volume" value="48" />
 	<ctl name="RX7 Mix Digital Volume" value="84" />
+	<ctl name="8 Digital Volume Switch" value="2" />
 	<ctl name="TX8 Digital Volume" value="48" />
 	<ctl name="RX8 Digital Volume" value="84" />
+	<ctl name="8 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX8 Mix Digital Volume" value="48" />
 	<ctl name="RX8 Mix Digital Volume" value="84" />
 	<ctl name="SPKRL Volume Switch" value="2" />
@@ -13376,12 +13434,16 @@
 	<ctl name="SLIM_0_RX SampleRate" value="KHZ_44P1" />
 	<ctl name="SLIM_0_TX Format" value="PACKED_16B" />
 	<ctl name="SLIM_0_RX Format" value="PACKED_16B" />
+	<ctl name="7 Digital Volume Switch" value="1" />
 	<ctl name="TX7 Digital Volume" value="84" />
 	<ctl name="RX7 Digital Volume" value="84" />
+	<ctl name="7 Mix Digital Volume Switch" value="1" />
 	<ctl name="TX7 Mix Digital Volume" value="84" />
 	<ctl name="RX7 Mix Digital Volume" value="84" />
+	<ctl name="8 Digital Volume Switch" value="0" />
 	<ctl name="TX8 Digital Volume" value="0" />
 	<ctl name="RX8 Digital Volume" value="0" />
+	<ctl name="8 Mix Digital Volume Switch" value="0" />
 	<ctl name="TX8 Mix Digital Volume" value="0" />
 	<ctl name="RX8 Mix Digital Volume" value="0" />
 	<ctl name="SPKRL Volume Switch" value="1" />
@@ -13409,12 +13471,16 @@
 	<ctl name="SLIM_0_RX SampleRate" value="KHZ_352P8" />
 	<ctl name="SLIM_0_TX Format" value="PACKED_32B" />
 	<ctl name="SLIM_0_RX Format" value="PACKED_32B" />
+	<ctl name="7 Digital Volume Switch" value="2" />
 	<ctl name="TX7 Digital Volume" value="48" />
 	<ctl name="RX7 Digital Volume" value="84" />
+	<ctl name="7 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX7 Mix Digital Volume" value="48" />
 	<ctl name="RX7 Mix Digital Volume" value="84" />
+	<ctl name="8 Digital Volume Switch" value="2" />
 	<ctl name="TX8 Digital Volume" value="48" />
 	<ctl name="RX8 Digital Volume" value="84" />
+	<ctl name="8 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX8 Mix Digital Volume" value="48" />
 	<ctl name="RX8 Mix Digital Volume" value="84" />
 	<ctl name="SPKRL Volume Switch" value="2" />
@@ -13597,6 +13663,16 @@
 	
 	<!-- Lemon Drop Hi-Res start of mods -->
 	
+	<!-- Note: <path name="handset"> & <path name="vbat_handset"> -->
+	<!-- Has the Lgv20 unique settings -->
+	<!-- If your settings are diffrent replace with your unique settings -->
+	
+	<!-- Lgv20 unique settings -->
+	<!-- <ctl name="SLIM RX0 MUX" value="AIF_MIX1_PB" /> -->
+	<!-- <ctl name="RX INT0_1 MIX1 INP0" value="RX0" /> -->
+	<!-- <ctl name="RX INT0 DEM MUX" value="CLSH_DSM_OUT" /> -->
+	<!-- <ctl name="EAR PA Gain" value="G_6_DB" /> -->
+	
 	<path name="handset">
 	<path name="true-mono-control-SPKR" />
 	<ctl name="SLIM RX0 MUX" value="AIF_MIX1_PB" />
@@ -13615,12 +13691,16 @@
 	
 	<path name="fake_handset">
 	<path name="true-mono-control-SPKR" />
+	<ctl name="7 Digital Volume Switch" value="0" />
 	<ctl name="TX7 Digital Volume" value="0" />
 	<ctl name="RX7 Digital Volume" value="0" />
+	<ctl name="7 Mix Digital Volume Switch" value="0" />
 	<ctl name="TX7 Mix Digital Volume" value="0" />
 	<ctl name="RX7 Mix Digital Volume" value="0" />
+	<ctl name="8 Digital Volume Switch" value="0" />
 	<ctl name="TX8 Digital Volume" value="0" />
 	<ctl name="RX8 Digital Volume" value="0" />
+	<ctl name="8 Mix Digital Volume Switch" value="0" />
 	<ctl name="TX8 Mix Digital Volume" value="0" />
 	<ctl name="RX8 Mix Digital Volume" value="0" />
 	<ctl name="SPKRL Volume Switch" value="0" />
@@ -13780,12 +13860,16 @@
 	
 	<path name="voice-speaker">
 	<path name="true-mono-control-SPKR" />
+	<ctl name="7 Digital Volume Switch" value="1" />
 	<ctl name="TX7 Digital Volume" value="84" />
 	<ctl name="RX7 Digital Volume" value="84" />
+	<ctl name="7 Mix Digital Volume Switch" value="1" />
 	<ctl name="TX7 Mix Digital Volume" value="84" />
 	<ctl name="RX7 Mix Digital Volume" value="84" />
+	<ctl name="8 Digital Volume Switch" value="0" />
 	<ctl name="TX8 Digital Volume" value="0" />
 	<ctl name="RX8 Digital Volume" value="0" />
+	<ctl name="8 Mix Digital Volume Switch" value="0" />
 	<ctl name="TX8 Mix Digital Volume" value="0" />
 	<ctl name="RX8 Mix Digital Volume" value="0" />
 	<ctl name="SPKRL Volume Switch" value="1" />
@@ -13799,12 +13883,16 @@
 	
 	<path name="voice-speaker_fluid">
 	<path name="true-mono-control-SPKR" />
+	<ctl name="7 Digital Volume Switch" value="1" />
 	<ctl name="TX7 Digital Volume" value="84" />
 	<ctl name="RX7 Digital Volume" value="84" />
+	<ctl name="7 Mix Digital Volume Switch" value="1" />
 	<ctl name="TX7 Mix Digital Volume" value="84" />
 	<ctl name="RX7 Mix Digital Volume" value="84" />
+	<ctl name="8 Digital Volume Switch" value="0" />
 	<ctl name="TX8 Digital Volume" value="0" />
 	<ctl name="RX8 Digital Volume" value="0" />
+	<ctl name="8 Mix Digital Volume Switch" value="0" />
 	<ctl name="TX8 Mix Digital Volume" value="0" />
 	<ctl name="RX8 Mix Digital Volume" value="0" />
 	<ctl name="SPKRL Volume Switch" value="1" />
@@ -13887,12 +13975,16 @@
 	<path name="usb-headphones">
 	<path name="true-native-mode-SPKR" />
 	<path name="true-stereo-control-SPKR" />
+	<ctl name="7 Digital Volume Switch" value="2" />
 	<ctl name="TX7 Digital Volume" value="48" />
 	<ctl name="RX7 Digital Volume" value="84" />
+	<ctl name="7 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX7 Mix Digital Volume" value="48" />
 	<ctl name="RX7 Mix Digital Volume" value="84" />
+	<ctl name="8 Digital Volume Switch" value="2" />
 	<ctl name="TX8 Digital Volume" value="48" />
 	<ctl name="RX8 Digital Volume" value="84" />
+	<ctl name="8 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX8 Mix Digital Volume" value="48" />
 	<ctl name="RX8 Mix Digital Volume" value="84" />
 	<ctl name="SPKRL Volume Switch" value="2" />
@@ -14032,12 +14124,16 @@
 	<path name="hdmi">
 	<path name="true-native-mode-SPKR" />
 	<path name="true-stereo-control-SPKR" />
+	<ctl name="7 Digital Volume Switch" value="2" />
 	<ctl name="TX7 Digital Volume" value="48" />
 	<ctl name="RX7 Digital Volume" value="84" />
+	<ctl name="7 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX7 Mix Digital Volume" value="48" />
 	<ctl name="RX7 Mix Digital Volume" value="84" />
+	<ctl name="8 Digital Volume Switch" value="2" />
 	<ctl name="TX8 Digital Volume" value="48" />
 	<ctl name="RX8 Digital Volume" value="84" />
+	<ctl name="8 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX8 Mix Digital Volume" value="48" />
 	<ctl name="RX8 Mix Digital Volume" value="84" />
 	<ctl name="SPKRL Volume Switch" value="2" />
@@ -14051,12 +14147,16 @@
 	<path name="speaker-and-usb-headphones">
 	<path name="true-native-mode-SPKR" />
 	<path name="true-stereo-control-SPKR" />
+	<ctl name="7 Digital Volume Switch" value="2" />
 	<ctl name="TX7 Digital Volume" value="48" />
 	<ctl name="RX7 Digital Volume" value="84" />
+	<ctl name="7 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX7 Mix Digital Volume" value="48" />
 	<ctl name="RX7 Mix Digital Volume" value="84" />
+	<ctl name="8 Digital Volume Switch" value="2" />
 	<ctl name="TX8 Digital Volume" value="48" />
 	<ctl name="RX8 Digital Volume" value="84" />
+	<ctl name="8 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX8 Mix Digital Volume" value="48" />
 	<ctl name="RX8 Mix Digital Volume" value="84" />
 	<ctl name="SPKRL Volume Switch" value="2" />
@@ -14072,12 +14172,16 @@
 	<path name="speaker-and-hdmi">
 	<path name="true-native-mode-SPKR" />
 	<path name="true-stereo-control-SPKR" />
+	<ctl name="7 Digital Volume Switch" value="2" />
 	<ctl name="TX7 Digital Volume" value="48" />
 	<ctl name="RX7 Digital Volume" value="84" />
+	<ctl name="7 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX7 Mix Digital Volume" value="48" />
 	<ctl name="RX7 Mix Digital Volume" value="84" />
+	<ctl name="8 Digital Volume Switch" value="2" />
 	<ctl name="TX8 Digital Volume" value="48" />
 	<ctl name="RX8 Digital Volume" value="84" />
+	<ctl name="8 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX8 Mix Digital Volume" value="48" />
 	<ctl name="RX8 Mix Digital Volume" value="84" />
 	<ctl name="SPKRL Volume Switch" value="2" />
@@ -14856,12 +14960,16 @@
 	
 	<path name="speaker-aat">
 	<path name="true-mono-control-SPKR" />
+	<ctl name="7 Digital Volume Switch" value="1" />
 	<ctl name="TX7 Digital Volume" value="84" />
 	<ctl name="RX7 Digital Volume" value="84" />
+	<ctl name="7 Mix Digital Volume Switch" value="1" />
 	<ctl name="TX7 Mix Digital Volume" value="84" />
 	<ctl name="RX7 Mix Digital Volume" value="84" />
+	<ctl name="8 Digital Volume Switch" value="0" />
 	<ctl name="TX8 Digital Volume" value="0" />
 	<ctl name="RX8 Digital Volume" value="0" />
+	<ctl name="8 Mix Digital Volume Switch" value="0" />
 	<ctl name="TX8 Mix Digital Volume" value="0" />
 	<ctl name="RX8 Mix Digital Volume" value="0" />
 	<ctl name="SPKRL Volume Switch" value="1" />
@@ -14934,12 +15042,16 @@
 	<path name="fake_speaker">
 	<path name="true-native-mode-SPKR" />
 	<path name="true-stereo-control-SPKR" />
+	<ctl name="7 Digital Volume Switch" value="0" />
 	<ctl name="TX7 Digital Volume" value="0" />
 	<ctl name="RX7 Digital Volume" value="0" />
+	<ctl name="7 Mix Digital Volume Switch" value="0" />
 	<ctl name="TX7 Mix Digital Volume" value="0" />
 	<ctl name="RX7 Mix Digital Volume" value="0" />
+	<ctl name="8 Digital Volume Switch" value="0" />
 	<ctl name="TX8 Digital Volume" value="0" />
 	<ctl name="RX8 Digital Volume" value="0" />
+	<ctl name="8 Mix Digital Volume Switch" value="0" />
 	<ctl name="TX8 Mix Digital Volume" value="0" />
 	<ctl name="RX8 Mix Digital Volume" value="0" />
 	<ctl name="SPKRL Volume Switch" value="0" />
@@ -14953,12 +15065,16 @@
 	<!-- Added -->
 	<path name="fake_speaker-mono">
 	<path name="true-mono-control-SPKR" />
+	<ctl name="7 Digital Volume Switch" value="0" />
 	<ctl name="TX7 Digital Volume" value="0" />
 	<ctl name="RX7 Digital Volume" value="0" />
+	<ctl name="7 Mix Digital Volume Switch" value="0" />
 	<ctl name="TX7 Mix Digital Volume" value="0" />
 	<ctl name="RX7 Mix Digital Volume" value="0" />
+	<ctl name="8 Digital Volume Switch" value="0" />
 	<ctl name="TX8 Digital Volume" value="0" />
 	<ctl name="RX8 Digital Volume" value="0" />
+	<ctl name="8 Mix Digital Volume Switch" value="0" />
 	<ctl name="TX8 Mix Digital Volume" value="0" />
 	<ctl name="RX8 Mix Digital Volume" value="0" />
 	<ctl name="SPKRL Volume Switch" value="0" />
@@ -15097,12 +15213,16 @@
 	<ctl name="SLIM_7_RX SampleRate" value="KHZ_44P1" />
 	<ctl name="SLIM_7_TX Format" value="S16_LE" />
 	<ctl name="SLIM_7_RX Format" value="S16_LE" />
+	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="84" />
+	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="84" />
+	<ctl name="2 Digital Volume Switch" value="2" />
 	<ctl name="TX2 Digital Volume" value="48" />
 	<ctl name="RX2 Digital Volume" value="84" />
+	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="84" />
 	<ctl name="HPHL Volume Switch" value="2" />
@@ -15124,12 +15244,16 @@
 	<ctl name="SLIM_8_RX SampleRate" value="KHZ_44P1" />
 	<ctl name="SLIM_8_TX Format" value="S24_LE" />
 	<ctl name="SLIM_8_RX Format" value="S24_LE" />
+	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="84" />
+	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="84" />
+	<ctl name="2 Digital Volume Switch" value="2" />
 	<ctl name="TX2 Digital Volume" value="48" />
 	<ctl name="RX2 Digital Volume" value="84" />
+	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="84" />
 	<ctl name="HPHL Volume Switch" value="2" />
@@ -15151,12 +15275,16 @@
 	<ctl name="SLIM_9_RX SampleRate" value="KHZ_44P1" />
 	<ctl name="SLIM_9_TX Format" value="S16_LE" />
 	<ctl name="SLIM_9_RX Format" value="S16_LE" />
+	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="84" />
+	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="84" />
+	<ctl name="2 Digital Volume Switch" value="2" />
 	<ctl name="TX2 Digital Volume" value="48" />
 	<ctl name="RX2 Digital Volume" value="84" />
+	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="84" />
 	<ctl name="HPHL Volume Switch" value="2" />
@@ -15171,12 +15299,16 @@
 	<path name="headphone-16bit-advanced">
 	<path name="true-native-mode-HPH" />
 	<path name="true-stereo-control-HPH" />
+	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="84" />
+	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="84" />
+	<ctl name="2 Digital Volume Switch" value="2" />
 	<ctl name="TX2 Digital Volume" value="48" />
 	<ctl name="RX2 Digital Volume" value="84" />
+	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="84" />
 	<ctl name="HPHL Volume Switch" value="2" />
@@ -15191,12 +15323,16 @@
 	<path name="headphone-16bit-aux">
 	<path name="true-native-mode-HPH" />
 	<path name="true-stereo-control-HPH" />
+	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="84" />
+	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="84" />
+	<ctl name="2 Digital Volume Switch" value="2" />
 	<ctl name="TX2 Digital Volume" value="48" />
 	<ctl name="RX2 Digital Volume" value="84" />
+	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="84" />
 	<ctl name="HPHL Volume Switch" value="2" />
@@ -15218,12 +15354,16 @@
 	<ctl name="SLIM_10_RX SampleRate" value="KHZ_352P8" />
 	<ctl name="SLIM_10_TX Format" value="S32_LE" />
 	<ctl name="SLIM_10_RX Format" value="S32_LE" />
+	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="84" />
+	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="84" />
+	<ctl name="2 Digital Volume Switch" value="2" />
 	<ctl name="TX2 Digital Volume" value="48" />
 	<ctl name="RX2 Digital Volume" value="84" />
+	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="84" />
 	<ctl name="HPHL Volume Switch" value="2" />
@@ -15238,12 +15378,16 @@
 	<path name="headphone-24bit-advanced">
 	<path name="true-native-mode-HPH" />
 	<path name="true-stereo-control-HPH" />
+	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="84" />
+	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="84" />
+	<ctl name="2 Digital Volume Switch" value="2" />
 	<ctl name="TX2 Digital Volume" value="48" />
 	<ctl name="RX2 Digital Volume" value="84" />
+	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="84" />
 	<ctl name="HPHL Volume Switch" value="2" />
@@ -15258,12 +15402,16 @@
 	<path name="headphone-24bit-aux">
 	<path name="true-native-mode-HPH" />
 	<path name="true-stereo-control-HPH" />
+	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="84" />
+	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="84" />
+	<ctl name="2 Digital Volume Switch" value="2" />
 	<ctl name="TX2 Digital Volume" value="48" />
 	<ctl name="RX2 Digital Volume" value="84" />
+	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="84" />
 	<ctl name="HPHL Volume Switch" value="2" />
@@ -15290,12 +15438,16 @@
 	<ctl name="SLIM_7_RX SampleRate" value="KHZ_44P1" />
 	<ctl name="SLIM_7_TX Format" value="S16_LE" />
 	<ctl name="SLIM_7_RX Format" value="S16_LE" />
+	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="84" />
+	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="84" />
+	<ctl name="2 Digital Volume Switch" value="2" />
 	<ctl name="TX2 Digital Volume" value="48" />
 	<ctl name="RX2 Digital Volume" value="84" />
+	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="84" />
 	<ctl name="HPHL Volume Switch" value="2" />
@@ -15316,12 +15468,16 @@
 	<ctl name="SLIM_8_RX SampleRate" value="KHZ_44P1" />
 	<ctl name="SLIM_8_TX Format" value="S24_LE" />
 	<ctl name="SLIM_8_RX Format" value="S24_LE" />
+	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="84" />
+	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="84" />
+	<ctl name="2 Digital Volume Switch" value="2" />
 	<ctl name="TX2 Digital Volume" value="48" />
 	<ctl name="RX2 Digital Volume" value="84" />
+	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="84" />
 	<ctl name="HPHL Volume Switch" value="2" />
@@ -15342,12 +15498,16 @@
 	<ctl name="SLIM_9_RX SampleRate" value="KHZ_44P1" />
 	<ctl name="SLIM_9_TX Format" value="S16_LE" />
 	<ctl name="SLIM_9_RX Format" value="S16_LE" />
+	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="84" />
+	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="84" />
+	<ctl name="2 Digital Volume Switch" value="2" />
 	<ctl name="TX2 Digital Volume" value="48" />
 	<ctl name="RX2 Digital Volume" value="84" />
+	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="84" />
 	<ctl name="HPHL Volume Switch" value="2" />
@@ -15361,12 +15521,16 @@
 	<path name="vbat_headphone-16bit-advanced">
 	<path name="true-native-mode-HPH-vbat" />
 	<path name="true-stereo-control-HPH" />
+	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="84" />
+	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="84" />
+	<ctl name="2 Digital Volume Switch" value="2" />
 	<ctl name="TX2 Digital Volume" value="48" />
 	<ctl name="RX2 Digital Volume" value="84" />
+	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="84" />
 	<ctl name="HPHL Volume Switch" value="2" />
@@ -15380,12 +15544,16 @@
 	<path name="vbat_headphone-16bit-aux">
 	<path name="true-native-mode-HPH-vbat" />
 	<path name="true-stereo-control-HPH" />
+	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="84" />
+	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="84" />
+	<ctl name="2 Digital Volume Switch" value="2" />
 	<ctl name="TX2 Digital Volume" value="48" />
 	<ctl name="RX2 Digital Volume" value="84" />
+	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="84" />
 	<ctl name="HPHL Volume Switch" value="2" />
@@ -15406,12 +15574,16 @@
 	<ctl name="SLIM_10_RX SampleRate" value="KHZ_44P1" />
 	<ctl name="SLIM_10_TX Format" value="S16_LE" />
 	<ctl name="SLIM_10_RX Format" value="S16_LE" />
+	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="84" />
+	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="84" />
+	<ctl name="2 Digital Volume Switch" value="2" />
 	<ctl name="TX2 Digital Volume" value="48" />
 	<ctl name="RX2 Digital Volume" value="84" />
+	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="84" />
 	<ctl name="HPHL Volume Switch" value="2" />
@@ -15425,12 +15597,16 @@
 	<path name="vbat_headphone-24bit-advanced">
 	<path name="true-native-mode-HPH-vbat" />
 	<path name="true-stereo-control-HPH" />
+	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="84" />
+	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="84" />
+	<ctl name="2 Digital Volume Switch" value="2" />
 	<ctl name="TX2 Digital Volume" value="48" />
 	<ctl name="RX2 Digital Volume" value="84" />
+	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="84" />
 	<ctl name="HPHL Volume Switch" value="2" />
@@ -15444,12 +15620,16 @@
 	<path name="vbat_headphone-24bit-aux">
 	<path name="true-native-mode-HPH-vbat" />
 	<path name="true-stereo-control-HPH" />
+	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="84" />
+	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="84" />
+	<ctl name="2 Digital Volume Switch" value="2" />
 	<ctl name="TX2 Digital Volume" value="48" />
 	<ctl name="RX2 Digital Volume" value="84" />
+	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="84" />
 	<ctl name="HPHL Volume Switch" value="2" />
@@ -15463,12 +15643,16 @@
 	<path name="fake_headphone">
 	<path name="true-native-mode-HPH" />
 	<path name="true-stereo-control-HPH" />
+	<ctl name="1 Digital Volume Switch" value="0" />
 	<ctl name="TX1 Digital Volume" value="0" />
 	<ctl name="RX1 Digital Volume" value="0" />
+	<ctl name="1 Mix Digital Volume Switch" value="0" />
 	<ctl name="TX1 Mix Digital Volume" value="0" />
 	<ctl name="RX1 Mix Digital Volume" value="0" />
+	<ctl name="2 Digital Volume Switch" value="0" />
 	<ctl name="TX2 Digital Volume" value="0" />
 	<ctl name="RX2 Digital Volume" value="0" />
+	<ctl name="2 Mix Digital Volume Switch" value="0" />
 	<ctl name="TX2 Mix Digital Volume" value="0" />
 	<ctl name="RX2 Mix Digital Volume" value="0" />
 	<ctl name="HPHL Volume Switch" value="0" />
@@ -15583,12 +15767,16 @@
 	
 	<!-- Added -->
 	<path name="loopback_speaker-mono">
+	<ctl name="7 Digital Volume Switch" value="1" />
 	<ctl name="TX7 Digital Volume" value="84" />
 	<ctl name="RX7 Digital Volume" value="84" />
+	<ctl name="7 Mix Digital Volume Switch" value="1" />
 	<ctl name="TX7 Mix Digital Volume" value="84" />
 	<ctl name="RX7 Mix Digital Volume" value="84" />
+	<ctl name="8 Digital Volume Switch" value="0" />
 	<ctl name="TX8 Digital Volume" value="0" />
 	<ctl name="RX8 Digital Volume" value="0" />
+	<ctl name="8 Mix Digital Volume Switch" value="0" />
 	<ctl name="TX8 Mix Digital Volume" value="0" />
 	<ctl name="RX8 Mix Digital Volume" value="0" />
 	<ctl name="SPKRL Volume Switch" value="1" />
@@ -15612,12 +15800,16 @@
 	<path name="loopback_headphone">
 	<path name="true-native-mode-HPH" />
 	<path name="true-stereo-control-HPH" />
+	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="84" />
 	<ctl name="RX1 Digital Volume" value="48" />
+	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="84" />
 	<ctl name="RX1 Mix Digital Volume" value="48" />
+	<ctl name="2 Digital Volume Switch" value="2" />
 	<ctl name="TX2 Digital Volume" value="84" />
 	<ctl name="RX2 Digital Volume" value="48" />
+	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="84" />
 	<ctl name="RX2 Mix Digital Volume" value="48" />
 	<ctl name="HPHL Volume Switch" value="2" />
@@ -15630,12 +15822,16 @@
 	
 	<!-- Added -->
 	<path name="loopback_headphones">
+	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="84" />
 	<ctl name="RX1 Digital Volume" value="84" />
+	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="84" />
 	<ctl name="RX1 Mix Digital Volume" value="84" />
+	<ctl name="2 Digital Volume Switch" value="2" />
 	<ctl name="TX2 Digital Volume" value="84" />
 	<ctl name="RX2 Digital Volume" value="84" />
+	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="84" />
 	<ctl name="RX2 Mix Digital Volume" value="84" />
 	<ctl name="HPHL Volume Switch" value="2" />
