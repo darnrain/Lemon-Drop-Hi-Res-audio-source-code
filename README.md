@@ -52,6 +52,8 @@ Charge your phone, the QuadDAC will see that your charging and increase the powe
 ### What is True Native Mode on the Saber ESS 9218 DAC?<br>
 I created all 3096 lines of the True Native Mode v2.0 code myself, with the help of sed, awk, echo, nano and l3afpad, there are 786 mixer paths for True Native Mode that places the QuadDAC into it's highest performance state. The very essence of True Native Mode it's self allows the DAC to have more than two channels, like one for left and one for right.
 
+This is how I calculated the amount of mixer paths to program in for True Native Mode for the QuadDAC. Bass, mid-range and treble all require 16 mixer paths each for a DAC. So 16 X 3 = 48 then for a QuadDAC you want to times 48 X 16 = 768. So 768 is our magic number.
+
 This is how I calculated the amount of channels, There are 384 mixer paths for True Native Mode for each SPKR and HPH. You need to times 384 X 4 = 1536. There are 1536 channels going to each DAC 1536 X 64 = 98304 then divide 98304 by 2 = 49152 for a total of 196608 channels. When you divide 98304 by 2 this will widen the music. We can only hear up to 20kHz however the more channels there are the better the audio sounds to us, it's like SD video vs HD video.<br>
 
 ### How did you program and tune the QuadDAC?
