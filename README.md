@@ -54,7 +54,7 @@ I created all 3096 lines of the True Native Mode v2.0 code myself, with the help
 
 ### How did you calculate the maximum ammount of channels the QuadDAC can handel?
 
-Let me jump in real quick and let you know that these are my notes directly from the mixer_paths file. So they may not make sense to everyone. I did not go into detail as to why we need to use those numbers I came up with, only that we need to use those numbers for a QuadDAC. When I am making notes about my programing, I try and be extremely direct and precise.<br>
+Let me jump in real quick and let you know that these are my notes directly from the mixer_paths file. So they may not make sense to everyone. I did not go into detail as to why we need to use those numbers I came up with, only that we need to use those numbers for a QuadDAC. When I am making notes about my programing, I'm extremely direct and precise.<br>
 
 This is how I calculated the amount of mixer paths to program in for True Native Mode for the QuadDAC. Bass, mid-range and treble all require 16 mixer paths each for a QuadDAC. So 16 X 3 = 48 then for a QuadDAC you want to times 48 X 16 = 768. So 768 is our magic number.
 
