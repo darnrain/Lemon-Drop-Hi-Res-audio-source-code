@@ -32,7 +32,7 @@ If your curious on how I found the True Native Mode code, I will show you. Someo
 ### Why did you attempt to transform the Lgv20 into a Hi-Res Music Player?
 There are three reasons as to why:<br>
 1. I absolutely love a good challenge.<br>
-2. I always thought that the Lgv20 should sound better than what it did. I mean it has a Saber ESS QuadDAC installed in the phone.<br>
+2. I always thought that the Lgv20 should sound better than what it did. I mean it has a Saber ESS QuadDAC installed in the phone. From what I have read online, they are the best QuadDAC's in the entire world.<br>
 2. To my knowledge, it's never been done before. Why reinvent the wheel? In my opinion it's more noteworthy to be the one that invented the wheel in the first place.
 
 ### How did you transform the Lgv20 into A Professional High Resolution Audio Player?
