@@ -109,7 +109,7 @@ Tab all lines:<br>
 
 The mixer_paths.xml file must have zero duplicates, or your phone will not boot. This is how you can check:
 <pre>
- uniq -d your_mixer_paths.xml
+ uniq -d your_mixer_paths_file.xml
 </pre>
 
 ### What do I need to set my Hi-Res music player at?
