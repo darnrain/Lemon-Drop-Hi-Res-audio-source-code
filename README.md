@@ -9,7 +9,7 @@ A total of 196,608 channels in true stereo.<br>
 
 Please listen at a safe volume level.<br>
 
-Lemon Drop Hi-Res development status: Active.<br>
+Lemon Drop Hi-Res development status: v172.4 is the First ever stable release.<br>
 latest release: v172.4<br>
 
 ### Introduction:
@@ -24,7 +24,7 @@ As of a direct result of the harassment from the LineageOS devs, no one can open
 It's funny, but the LineageOS devs reminds me exactly of when your watching a movie and your just getting lost in the movie, then all of a suddenly out of nowhere, this HUGE fly shows up and wants to fly right in front of your face. Where's my certified, LineageOS dev fly swatter. lol<br>
 
 ### Is Lemon Drop Hi-Res audio source code still in the development stages?
-Yes, as long as the main page still says Active. My gole is to push this QuadDAC to its absolute limits. That very question has always been in the back of my mind. What does a QuadDAC sound like when pushed to it's absolute limits. We should be able to find out very soon.<br>
+Yes, v172.4 is the first stable release.
 
 ### I am a rom developer may I add your code to my rom?
 Sure, a credit acknowledgment would be nice. ;)<br>
