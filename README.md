@@ -24,7 +24,7 @@ As of a direct result of the harassment from the LineageOS devs, no one can open
 It's funny, but the LineageOS devs reminds me exactly of when your watching a movie and your just getting lost in the movie, then all of a suddenly out of nowhere, this HUGE fly shows up and wants to fly right in front of your face. Where's my certified, LineageOS dev fly swatter. lol<br>
 
 ### Is Lemon Drop Hi-Res audio source code still in the development stages?
-Yes, v172.4 is the first stable release.
+Yes but, v172.4 is the first ever stable release.
 
 ### I am a rom developer may I add your code to my rom?
 Sure, a credit acknowledgment would be nice for all my hard work, not a requirement.<br>
