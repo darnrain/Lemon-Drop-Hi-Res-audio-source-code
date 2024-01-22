@@ -76,7 +76,7 @@ treble = volume level 55<br>
 ### How did you program and tune the QuadDAC?
 When programing a QuadDAC you do not have visual gauges to view to see if you have done something wrong, its all done by the sound of the DAC. For example if you have increased the amount of channels way to high or messed up on your programing code, then the DACs volume will be decreased or the music will not sound like its full of life. The only way to accomplish that, is to lower the AVC volume. In other words it decreases the power to the DAC so you can program and tune the DAC. In v142.1 and higher the AVC volume is set to the maximum. To answer the question, I used my 34 years of advanced computer skills and used, awk, sed, echo and nano to create the True Native Mode code.
 
-Update: In v172.4 and higher the AVC volume is decreaed by 3, due to the QuadDAC being extreamily to loud.
+Update: In v172.4 and higher the AVC volume is decreased by 3, due to the QuadDAC being extreamily to loud.
 
 I guess you could say I have a gift that allows me to think outside of the box. I was always seeing LO in the True Native Mode code. I was like what is LO??? Then it hit me it's the bass. I came up with MI and HI for mid-range and treble myself and it worked!!! Also I was always seeing RX everywhere I looked, I was like well if there is an RX there has to be a TX. I guess you could say it was trial, error, logic and my advanced Linux computer skills, is how I programed the Saber ESS 9218 DAC. The devs that programed the Saber ESS DAC chip are professionals, you need to think like how they think. They would not make it to complicated to program the QuadDAC. For me it is the ultimate puzzle.<br>
 
