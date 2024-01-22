@@ -30,10 +30,10 @@ Yes, as long as the main page still says Active. My gole is to push this QuadDAC
 If your curious on how I found the True Native Mode code, I will show you. Someone left about 0.5% of the code in the original mixer_paths_tasha.xml file for the Lgv20. Go to line number 278 through 287 you will see the 0.5% of the True Native Mode code that I found. As you can see, INI1 HPHL, INI2 HPHR, INI7 SPKRL, INI8 SPKRR, INI3 LO1, INI4 LO2, INI5 LO3, INI6 LO4, lines of code are partially there, the absolute perfect base starting point for me, to recreate the True Native Mode code. LO1 even started with INI3 that gave me my first clue. The other 99.5% I made with my own hands, all by myself. With trial and error and logic and my advanced Linux computer skills, if the code does not exist, make it yourself. No external resource was utilized, to my knowledge a resource of this nature absolutely does not exist. If you want to confirm that this original mixer_paths_tasha.xml is authentic, I will give you the link to the Lgv20 rom that has this 0.5% True Native Mode code.<br> https://androidfilehost.com/?fid=1322778262904012823
 
 ### Why did you attempt to transform the Lgv20 into a Hi-Res Music Player?
-There are three reasons as to why:<br>
+There are two reasons as to why:<br>
+
 1. I absolutely love a good challenge.<br>
-2. I always thought that the Lgv20 should sound better than what it did. I mean it has a Saber ESS QuadDAC installed in the phone. From what I read online, they are the best QuadDAC's in the entire world.<br>
-2. To my knowledge, it's never been done before. Why reinvent the wheel? In my opinion it's much more noteworthy to be the one that invented the wheel.
+2. To my knowledge, it's never been done before. Why reinvent the wheel? In my opinion it's much more noteworthy to be the one that invented the wheel.<br>
 
 ### How did you transform the Lgv20 into A Professional High Resolution Audio Player?
 34 years of advanced computer experience. Instead of a Nintendo my parents bought me a Commodore 64, that's how I learned how to write code. My very first computer was a vic 20, I don't count that computer because all I did was play games. The absolute most nostalgic game I have ever played as a kid, would have to be Space Invaders. I loved that game, still do to this day.<br>
