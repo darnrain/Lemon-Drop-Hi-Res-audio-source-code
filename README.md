@@ -98,7 +98,7 @@ cat your_mixer_paths_file.xml | sed 's/^[ \t]*//' > new_mixer_paths_file.xml
 </pre>
 
 sed commands:<br>
-Move all lines to the left.<br>
+Move all lines to the left:<br>
 <pre>
 sed 's/^[ \t]*//'
 </pre>
