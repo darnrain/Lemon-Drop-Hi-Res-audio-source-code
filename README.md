@@ -102,7 +102,7 @@ Move all lines to the left.<br>
 <pre>
 sed 's/^[ \t]*//'
 </pre>
-Tab all lines.<br>
+Tab all lines:<br>
 <pre>
  sed 's/^/\t/'
 </pre>
