@@ -107,7 +107,7 @@ Tab all lines:<br>
  sed 's/^/\t/'
 </pre>
 
-The mixer_paths.xml file must have zero duplicates. This is how you can check:
+The mixer_paths.xml file must have zero duplicates, or your phone will not boot. This is how you can check:
 <pre>
  uniq -d your_mixer_paths.xml
 </pre>
