@@ -32,7 +32,7 @@ If your curious on how I found the True Native Mode code, I will show you. Someo
 ### Why did you attempt to transform the Lgv20 into a Hi-Res Music Player?
 There are two reasons as to why.<br>
 1. I absolutely love a good challenge.<br>
-2. To my knowledge, it's never been done before. Why reinvent the wheel? In my opinion it's much better to be the one that invented the wheel in the first place.
+2. To my knowledge, it's never been done before. Why reinvent the wheel? In my opinion it's more noteworthy to be the one that invented the wheel in the first place.
 
 ### How did you transform the Lgv20 into A Professional High Resolution Audio Player?
 34 years of advanced computer experience. Instead of a Nintendo my parents bought me a Commodore 64, that's how I learned how to write code. My very first computer was a vic 20, I don't count that computer because all I did was play games. The absolute most nostalgic game I have ever played as a kid, would have to be Space Invaders. I loved that game, still do to this day.<br>
