@@ -63,7 +63,7 @@ This is how I calculated the amount of mixer paths to program in for True Native
 
 This is how I calculated the amount of channels, There are 384 mixer paths for True Native Mode for each SPKR and HPH. You need to times 384 X 4 = 1536. There are 1536 channels going to each DAC 1536 X 64 = 98304 then divide 98304 by 2 = 49152 for a total of 196608 channels. When you divide 98304 by 2 this will widen the music.<br>
 
-We can only hear up to 20kHz however the more channels there are the better the audio sounds to us, it's like SD video vs HD video. But if you wanted to compare the audio quality to video quality. I would say the audio would be comparable to 8k video.<br>
+We can only hear up to 20kHz however the more channels there are the better the audio sounds to us, it's like SD video vs HD video. But if you wanted to compare the audio quality to video quality. I would say the audio would be comparable to 8k video. To tell you the truth, I don't think we can hear all 196608 channels. I just wanted to be able to say that this QuadDAC that I have programed has 196608 channels.<br>
 
 ### Did you tune this QuadDAC?
 Yes I did, there are volume levels you can choose when programing the DAC, for bass, mid-range and treble. If they are all on the same volume level, then the audio will get all jumbled up. I was thinking when tuning the DAC, you want to hear the singer first and foremost and the bass in the background. The higher the number, the increased volume level of the audio. If you listen closely, you should be able to hear that your music has a sense of depth perception to it. I thought that would be extremely unparalleled.<br>
