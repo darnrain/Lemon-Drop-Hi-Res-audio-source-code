@@ -28,7 +28,7 @@
 	
 	<!-- Top of page -->
 	
-	<!-- Lemon Drop Hi-Res treble v174.1 -->
+	<!-- Lemon Drop Hi-Res treble v175.1 -->
 	<!-- Designed and created by darnrain @GitHub -->
 	<!-- Proudly Made In America -->
 	
@@ -47,11 +47,11 @@
 	<!-- True Native Mode sounds like -->
 	
 	<!-- First thing -->
-	<!-- Copy all lines of code line number 1 through 10365 paste in your mixer_paths file at very top -->
-	<!-- I added a note where to copy from at line 10365 -->
+	<!-- Copy all lines of code line number 1 through 10343 paste in your mixer_paths file at very top -->
+	<!-- I added a note where to copy from at line 10343 -->
 	
 	<!-- Second thing -->
-	<!-- Search for "lemon drop" after line 10365 to start -->
+	<!-- Search for "lemon drop" after line 10343 to start -->
 	
 	<!-- Third thing -->
 	<!-- Duplicate all code from "Lemon Drop Hi-Res start of mods" to "Lemon Drop Hi-Res end of mods" -->
@@ -10338,42 +10338,6 @@
 	
 	<!-- End of True Native Mode function -->
 	
-	<!-- Start of DAC initialization function -->
-	
-	<!-- For a QuadDAC you want to use number 2 -->
-	<!-- You want 2 on left and 2 on right -->
-	<!-- To enable all 4 DACs -->
-	<!-- 0 = all 4 DACs off -->
-	<!-- speaker-mono must have everthing enabled -->
-	
-	<path name="speaker-mono-initialization-switch">
-	<ctl name="SpkrLeft COMP Switch" value="1" />
-	<ctl name="SpkrLeft BOOST Switch" value="1" />
-	<ctl name="SpkrLeft VISENSE Switch" value="1" />
-	<ctl name="SpkrLeft WSA PA Mute" value="1" />
-	<ctl name="SpkrLeft SWR DAC_Port Switch" value="1" />
-	<ctl name="SpkrRight COMP Switch" value="1" />
-	<ctl name="SpkrRight BOOST Switch" value="1" />
-	<ctl name="SpkrRight VISENSE Switch" value="1" />
-	<ctl name="SpkrRight WSA PA Mute" value="1" />
-	<ctl name="SpkrRight SWR DAC_Port Switch" value="1" />
-	</path>
-	
-	<path name="speaker-initialization-switch">
-	<ctl name="SpkrLeft COMP Switch" value="2" />
-	<ctl name="SpkrLeft BOOST Switch" value="0" />
-	<ctl name="SpkrLeft VISENSE Switch" value="0" />
-	<ctl name="SpkrLeft WSA PA Mute" value="0" />
-	<ctl name="SpkrLeft SWR DAC_Port Switch" value="2" />
-	<ctl name="SpkrRight COMP Switch" value="2" />
-	<ctl name="SpkrRight BOOST Switch" value="0" />
-	<ctl name="SpkrRight VISENSE Switch" value="0" />
-	<ctl name="SpkrRight WSA PA Mute" value="0" />
-	<ctl name="SpkrRight SWR DAC_Port Switch" value="2" />
-	</path>
-	
-	<!-- End of DAC initialization function -->
-	
 	<!-- Lemon Drop Hi-Res end of code programed by: darnrain  -->
 	
 	<!-- Copy from this line all the way to the top -->
@@ -14513,7 +14477,16 @@
 	<ctl name="SPKRR RDAC Switch" value="0" />
 	<ctl name="TX SPKRR RDAC" value="0" />
 	<ctl name="RX SPKRR RDAC" value="0" />
-	<path name="speaker-mono-initialization-switch" />
+	<ctl name="SpkrLeft COMP Switch" value="1" />
+	<ctl name="SpkrLeft BOOST Switch" value="1" />
+	<ctl name="SpkrLeft VISENSE Switch" value="1" />
+	<ctl name="SpkrLeft WSA PA Mute" value="1" />
+	<ctl name="SpkrLeft SWR DAC_Port Switch" value="1" />
+	<ctl name="SpkrRight COMP Switch" value="1" />
+	<ctl name="SpkrRight BOOST Switch" value="1" />
+	<ctl name="SpkrRight VISENSE Switch" value="1" />
+	<ctl name="SpkrRight WSA PA Mute" value="1" />
+	<ctl name="SpkrRight SWR DAC_Port Switch" value="1" />
 	</path>
 	
 	<!-- Saber ESS 9128 DAC -->
@@ -14526,7 +14499,16 @@
 	<ctl name="SPKRR RDAC Switch" value="2" />
 	<ctl name="TX SPKRR RDAC" value="2" />
 	<ctl name="RX SPKRR RDAC" value="2" />
-	<path name="speaker-initialization-switch" />
+	<ctl name="SpkrLeft COMP Switch" value="2" />
+	<ctl name="SpkrLeft BOOST Switch" value="0" />
+	<ctl name="SpkrLeft VISENSE Switch" value="0" />
+	<ctl name="SpkrLeft WSA PA Mute" value="0" />
+	<ctl name="SpkrLeft SWR DAC_Port Switch" value="2" />
+	<ctl name="SpkrRight COMP Switch" value="2" />
+	<ctl name="SpkrRight BOOST Switch" value="0" />
+	<ctl name="SpkrRight VISENSE Switch" value="0" />
+	<ctl name="SpkrRight WSA PA Mute" value="0" />
+	<ctl name="SpkrRight SWR DAC_Port Switch" value="2" />
 	</path>
 	
 	<path name="speaker_liquid">
