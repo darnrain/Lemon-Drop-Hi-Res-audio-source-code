@@ -28,7 +28,7 @@
 	
 	<!-- Top of page -->
 	
-	<!-- Lemon Drop Hi-Res treble v172.4 -->
+	<!-- Lemon Drop Hi-Res treble v173.1 -->
 	<!-- Designed and created by darnrain @GitHub -->
 	<!-- Proudly Made In America -->
 	
@@ -47,11 +47,11 @@
 	<!-- True Native Mode sounds like -->
 	
 	<!-- First thing -->
-	<!-- Copy all lines of code line number 1 through 10451 paste in your mixer_paths file at very top -->
-	<!-- I added a note where to copy from at line 10451 -->
+	<!-- Copy all lines of code line number 1 through 10365 paste in your mixer_paths file at very top -->
+	<!-- I added a note where to copy from at line 10365 -->
 	
 	<!-- Second thing -->
-	<!-- Search for "lemon drop" after line 10451 to start -->
+	<!-- Search for "lemon drop" after line 10365 to start -->
 	
 	<!-- Third thing -->
 	<!-- Duplicate all code from "Lemon Drop Hi-Res start of mods" to "Lemon Drop Hi-Res end of mods" -->
@@ -10362,90 +10362,6 @@
 	
 	<!-- End of DAC initialization function -->
 	
-	<!-- Start of True Stereo control function -->
-	
-	<path name="true-stereo-control-HPH">
-	<ctl name="HPHL LDAC Switch" value="2" />
-	<ctl name="TX HPHL LDAC Switch" value="2" />
-	<ctl name="RX HPHL LDAC Switch" value="2" />
-	<ctl name="HPHR RDAC Switch" value="2" />
-	<ctl name="TX HPHR RDAC Switch" value="2" />
-	<ctl name="RX HPHR RDAC Switch" value="2" />
-	</path>
-	
-	<path name="true-stereo-control-SPKR">
-	<ctl name="SPKRL LDAC Switch" value="2" />
-	<ctl name="TX SPKRL LDAC Switch" value="2" />
-	<ctl name="RX SPKRL LDAC Switch" value="2" />
-	<ctl name="SPKRR RDAC Switch" value="2" />
-	<ctl name="TX SPKRR RDAC Switch" value="2" />
-	<ctl name="RX SPKRR RDAC Switch" value="2" />
-	</path>
-	
-	<!-- End of True Stereo control function -->
-	
-	<!-- Start of True Mono control function -->
-	
-	<path name="true-mono-control-SPKR">
-	<ctl name="SPKRL LDAC Switch" value="1" />
-	<ctl name="TX SPKRL LDAC Switch" value="1" />
-	<ctl name="RX SPKRL LDAC Switch" value="1" />
-	<ctl name="SPKRR RDAC Switch" value="0" />
-	<ctl name="TX SPKRR RDAC Switch" value="0" />
-	<ctl name="RX SPKRR RDAC Switch" value="0" />
-	</path>
-	
-	<!-- End of True Mono control function -->
-	
-	<!-- Start of Compander controls function -->
-	
-	<path name="compander-controls-HPH">
-	<ctl name="COMP1 Switch" value="2" />
-	<ctl name="TX COMP1 Switch" value="2" />
-	<ctl name="RX COMP1 Switch" value="2" />
-	<ctl name="COMP2 Switch" value="2" />
-	<ctl name="TX COMP2 Switch" value="2" />
-	<ctl name="RX COMP2 Switch" value="2" />
-	<ctl name="HPHL COMP Switch" value="2" />
-	<ctl name="TX HPHL COMP Switch" value="2" />
-	<ctl name="RX HPHL COMP Switch" value="2" />
-	<ctl name="HPHR COMP Switch" value="2" />
-	<ctl name="TX HPHR COMP Switch" value="2" />
-	<ctl name="RX HPHR COMP Switch" value="2" />
-	</path>
-	
-	<path name="compander-controls-SPKR">
-	<ctl name="COMP7 Switch" value="2" />
-	<ctl name="TX COMP7 Switch" value="2" />
-	<ctl name="RX COMP7 Switch" value="2" />
-	<ctl name="COMP8 Switch" value="2" />
-	<ctl name="TX COMP8 Switch" value="2" />
-	<ctl name="RX COMP8 Switch" value="2" />
-	<ctl name="SPKRL COMP Switch" value="2" />
-	<ctl name="TX SPKRL COMP Switch" value="2" />
-	<ctl name="RX SPKRL COMP Switch" value="2" />
-	<ctl name="SPKRR COMP Switch" value="2" />
-	<ctl name="TX SPKRR COMP Switch" value="2" />
-	<ctl name="RX SPKRR COMP Switch" value="2" />
-	</path>
-	
-	<path name="compander-controls-SPKR-mono">
-	<ctl name="COMP7 Switch" value="1" />
-	<ctl name="TX COMP7 Switch" value="1" />
-	<ctl name="RX COMP7 Switch" value="1" />
-	<ctl name="COMP8 Switch" value="0" />
-	<ctl name="TX COMP8 Switch" value="0" />
-	<ctl name="RX COMP8 Switch" value="0" />
-	<ctl name="SPKRL COMP Switch" value="1" />
-	<ctl name="TX SPKRL COMP Switch" value="1" />
-	<ctl name="RX SPKRL COMP Switch" value="1" />
-	<ctl name="SPKRR COMP Switch" value="0" />
-	<ctl name="TX SPKRR COMP Switch" value="0" />
-	<ctl name="RX SPKRR COMP Switch" value="0" />
-	</path>
-	
-	<!-- End of Compander controls function -->
-	
 	<!-- Lemon Drop Hi-Res end of code programed by: darnrain  -->
 	
 	<!-- Copy from this line all the way to the top -->
@@ -11188,9 +11104,14 @@
 	
 	<path name="deep-buffer-playback">
 	<path name="true-native-mode-SPKR" />
-	<path name="true-stereo-control-SPKR" />
 	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia1" value="2" />
 	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia1" value="2" />
+	<ctl name="SPKRL LDAC Switch" value="2" />
+	<ctl name="TX SPKRL LDAC" value="2" />
+	<ctl name="RX SPKRL LDAC" value="2" />
+	<ctl name="SPKRR RDAC Switch" value="2" />
+	<ctl name="TX SPKRR RDAC" value="2" />
+	<ctl name="RX SPKRR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="63" />
@@ -11213,9 +11134,14 @@
 	
 	<path name="deep-buffer-playback bluetooth-16bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia1" value="2" />
 	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia1" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="51" />
@@ -11238,9 +11164,14 @@
 	
 	<path name="deep-buffer-playback bluetooth-24bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia1" value="2" />
 	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia1" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="51" />
@@ -11263,9 +11194,14 @@
 	
 	<path name="deep-buffer-playback headphone-16bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia1" value="2" />
 	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia1" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="51" />
@@ -11288,9 +11224,14 @@
 	
 	<path name="deep-buffer-playback headphone-24bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia1" value="2" />
 	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia1" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="51" />
@@ -11370,9 +11311,14 @@
 	
 	<path name="low-latency-playback">
 	<path name="true-native-mode-SPKR" />
-	<path name="true-stereo-control-SPKR" />
 	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia5" value="2" />
 	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia5" value="2" />
+	<ctl name="SPKRL LDAC Switch" value="2" />
+	<ctl name="TX SPKRL LDAC" value="2" />
+	<ctl name="RX SPKRL LDAC" value="2" />
+	<ctl name="SPKRR RDAC Switch" value="2" />
+	<ctl name="TX SPKRR RDAC" value="2" />
+	<ctl name="RX SPKRR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="67" />
@@ -11395,9 +11341,14 @@
 	
 	<path name="low-latency-playback bluetooth-16bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia5" value="2" />
 	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia5" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="55" />
@@ -11420,9 +11371,14 @@
 	
 	<path name="low-latency-playback bluetooth-24bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia5" value="2" />
 	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia5" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="55" />
@@ -11445,9 +11401,14 @@
 	
 	<path name="low-latency-playback headphone-16bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia5" value="2" />
 	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia5" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="55" />
@@ -11470,9 +11431,14 @@
 	
 	<path name="low-latency-playback headphone-24bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia5" value="2" />
 	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia5" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="55" />
@@ -11552,9 +11518,14 @@
 	
 	<path name="audio-ull-playback">
 	<path name="true-native-mode-SPKR" />
-	<path name="true-stereo-control-SPKR" />
 	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia3" value="2" />
 	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia3" value="2" />
+	<ctl name="SPKRL LDAC Switch" value="2" />
+	<ctl name="TX SPKRL LDAC" value="2" />
+	<ctl name="RX SPKRL LDAC" value="2" />
+	<ctl name="SPKRR RDAC Switch" value="2" />
+	<ctl name="TX SPKRR RDAC" value="2" />
+	<ctl name="RX SPKRR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="65" />
@@ -11577,9 +11548,14 @@
 	
 	<path name="audio-ull-playback bluetooth-16bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia3" value="2" />
 	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia3" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="53" />
@@ -11602,9 +11578,14 @@
 	
 	<path name="audio-ull-playback bluetooth-24bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia3" value="2" />
 	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia3" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="53" />
@@ -11627,9 +11608,14 @@
 	
 	<path name="audio-ull-playback headphone-16bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia3" value="2" />
 	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia3" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="53" />
@@ -11652,9 +11638,14 @@
 	
 	<path name="audio-ull-playback headphone-24bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia3" value="2" />
 	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia3" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="53" />
@@ -11730,9 +11721,14 @@
 	
 	<path name="compress-offload-playback">
 	<path name="true-native-mode-SPKR" />
-	<path name="true-stereo-control-SPKR" />
 	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia4" value="2" />
 	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia4" value="2" />
+	<ctl name="SPKRL LDAC Switch" value="2" />
+	<ctl name="TX SPKRL LDAC" value="2" />
+	<ctl name="RX SPKRL LDAC" value="2" />
+	<ctl name="SPKRR RDAC Switch" value="2" />
+	<ctl name="TX SPKRR RDAC" value="2" />
+	<ctl name="RX SPKRR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="69" />
@@ -11755,9 +11751,14 @@
 	
 	<path name="compress-offload-playback bluetooth-16bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia4" value="2" />
 	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia4" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="57" />
@@ -11780,9 +11781,14 @@
 	
 	<path name="compress-offload-playback bluetooth-24bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia4" value="2" />
 	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia4" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="57" />
@@ -11805,9 +11811,14 @@
 	
 	<path name="compress-offload-playback headphone-16bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia4" value="2" />
 	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia4" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="57" />
@@ -11830,9 +11841,14 @@
 	
 	<path name="compress-offload-playback headphone-24bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia4" value="2" />
 	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia4" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="57" />
@@ -11919,9 +11935,14 @@
 	
 	<path name="compress-offload-playback2">
 	<path name="true-native-mode-SPKR" />
-	<path name="true-stereo-control-SPKR" />
 	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia7" value="2" />
 	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia7" value="2" />
+	<ctl name="SPKRL LDAC Switch" value="2" />
+	<ctl name="TX SPKRL LDAC" value="2" />
+	<ctl name="RX SPKRL LDAC" value="2" />
+	<ctl name="SPKRR RDAC Switch" value="2" />
+	<ctl name="TX SPKRR RDAC" value="2" />
+	<ctl name="RX SPKRR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="69" />
@@ -11944,9 +11965,14 @@
 	
 	<path name="compress-offload-playback2 bluetooth-16bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia7" value="2" />
 	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia7" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="57" />
@@ -11969,9 +11995,14 @@
 	
 	<path name="compress-offload-playback2 bluetooth-24bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia7" value="2" />
 	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia7" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="57" />
@@ -11994,9 +12025,14 @@
 	
 	<path name="compress-offload-playback2 headphone-16bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia7" value="2" />
 	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia7" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="57" />
@@ -12019,9 +12055,14 @@
 	
 	<path name="compress-offload-playback2 headphone-24bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia7" value="2" />
 	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia7" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="57" />
@@ -12104,9 +12145,14 @@
 	
 	<path name="compress-offload-playback3">
 	<path name="true-native-mode-SPKR" />
-	<path name="true-stereo-control-SPKR" />
 	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia10" value="2" />
 	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia10" value="2" />
+	<ctl name="SPKRL LDAC Switch" value="2" />
+	<ctl name="TX SPKRL LDAC" value="2" />
+	<ctl name="RX SPKRL LDAC" value="2" />
+	<ctl name="SPKRR RDAC Switch" value="2" />
+	<ctl name="TX SPKRR RDAC" value="2" />
+	<ctl name="RX SPKRR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="69" />
@@ -12129,9 +12175,14 @@
 	
 	<path name="compress-offload-playback3 bluetooth-16bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia10" value="2" />
 	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia10" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="57" />
@@ -12154,9 +12205,14 @@
 	
 	<path name="compress-offload-playback3 bluetooth-24bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia10" value="2" />
 	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia10" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="57" />
@@ -12179,9 +12235,14 @@
 	
 	<path name="compress-offload-playback3 headphone-16bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia10" value="2" />
 	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia10" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="57" />
@@ -12204,9 +12265,14 @@
 	
 	<path name="compress-offload-playback3 headphone-24bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia10" value="2" />
 	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia10" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="57" />
@@ -12289,9 +12355,14 @@
 	
 	<path name="compress-offload-playback4">
 	<path name="true-native-mode-SPKR" />
-	<path name="true-stereo-control-SPKR" />
 	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia11" value="2" />
 	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia11" value="2" />
+	<ctl name="SPKRL LDAC Switch" value="2" />
+	<ctl name="TX SPKRL LDAC" value="2" />
+	<ctl name="RX SPKRL LDAC" value="2" />
+	<ctl name="SPKRR RDAC Switch" value="2" />
+	<ctl name="TX SPKRR RDAC" value="2" />
+	<ctl name="RX SPKRR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="69" />
@@ -12314,9 +12385,14 @@
 	
 	<path name="compress-offload-playback4 bluetooth-16bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia11" value="2" />
 	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia11" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="57" />
@@ -12339,9 +12415,14 @@
 	
 	<path name="compress-offload-playback4 bluetooth-24bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia11" value="2" />
 	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia11" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="57" />
@@ -12364,9 +12445,14 @@
 	
 	<path name="compress-offload-playback4 headphone-16bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia11" value="2" />
 	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia11" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="57" />
@@ -12389,9 +12475,14 @@
 	
 	<path name="compress-offload-playback4 headphone-24bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia11" value="2" />
 	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia11" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="57" />
@@ -12474,9 +12565,14 @@
 	
 	<path name="compress-offload-playback5">
 	<path name="true-native-mode-SPKR" />
-	<path name="true-stereo-control-SPKR" />
 	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia12" value="2" />
 	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia12" value="2" />
+	<ctl name="SPKRL LDAC Switch" value="2" />
+	<ctl name="TX SPKRL LDAC" value="2" />
+	<ctl name="RX SPKRL LDAC" value="2" />
+	<ctl name="SPKRR RDAC Switch" value="2" />
+	<ctl name="TX SPKRR RDAC" value="2" />
+	<ctl name="RX SPKRR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="69" />
@@ -12499,9 +12595,14 @@
 	
 	<path name="compress-offload-playback5 bluetooth-16bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia12" value="2" />
 	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia12" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="57" />
@@ -12524,9 +12625,14 @@
 	
 	<path name="compress-offload-playback5 bluetooth-24bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia12" value="2" />
 	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia12" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="57" />
@@ -12549,9 +12655,14 @@
 	
 	<path name="compress-offload-playback5 headphone-16bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia12" value="2" />
 	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia12" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="57" />
@@ -12574,9 +12685,14 @@
 	
 	<path name="compress-offload-playback5 headphone-24bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia12" value="2" />
 	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia12" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="57" />
@@ -12659,9 +12775,14 @@
 	
 	<path name="compress-offload-playback6">
 	<path name="true-native-mode-SPKR" />
-	<path name="true-stereo-control-SPKR" />
 	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia13" value="2" />
 	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia13" value="2" />
+	<ctl name="SPKRL LDAC Switch" value="2" />
+	<ctl name="TX SPKRL LDAC" value="2" />
+	<ctl name="RX SPKRL LDAC" value="2" />
+	<ctl name="SPKRR RDAC Switch" value="2" />
+	<ctl name="TX SPKRR RDAC" value="2" />
+	<ctl name="RX SPKRR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="69" />
@@ -12684,9 +12805,14 @@
 	
 	<path name="compress-offload-playback6 bluetooth-16bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia13" value="2" />
 	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia13" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="57" />
@@ -12709,9 +12835,14 @@
 	
 	<path name="compress-offload-playback6 bluetooth-24bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia13" value="2" />
 	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia13" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="57" />
@@ -12734,9 +12865,14 @@
 	
 	<path name="compress-offload-playback6 headphone-16bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia13" value="2" />
 	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia13" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="57" />
@@ -12759,9 +12895,14 @@
 	
 	<path name="compress-offload-playback6 headphone-24bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia13" value="2" />
 	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia13" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="57" />
@@ -12844,9 +12985,14 @@
 	
 	<path name="compress-offload-playback7">
 	<path name="true-native-mode-SPKR" />
-	<path name="true-stereo-control-SPKR" />
 	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia14" value="2" />
 	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia14" value="2" />
+	<ctl name="SPKRL LDAC Switch" value="2" />
+	<ctl name="TX SPKRL LDAC" value="2" />
+	<ctl name="RX SPKRL LDAC" value="2" />
+	<ctl name="SPKRR RDAC Switch" value="2" />
+	<ctl name="TX SPKRR RDAC" value="2" />
+	<ctl name="RX SPKRR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="69" />
@@ -12869,9 +13015,14 @@
 	
 	<path name="compress-offload-playback7 bluetooth-16bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia14" value="2" />
 	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia14" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="57" />
@@ -12894,9 +13045,14 @@
 	
 	<path name="compress-offload-playback7 bluetooth-24bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia14" value="2" />
 	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia14" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="57" />
@@ -12919,9 +13075,14 @@
 	
 	<path name="compress-offload-playback7 headphone-16bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia14" value="2" />
 	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia14" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="57" />
@@ -12944,9 +13105,14 @@
 	
 	<path name="compress-offload-playback7 headphone-24bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia14" value="2" />
 	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia14" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="57" />
@@ -13029,9 +13195,14 @@
 	
 	<path name="compress-offload-playback8">
 	<path name="true-native-mode-SPKR" />
-	<path name="true-stereo-control-SPKR" />
 	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia15" value="2" />
 	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia15" value="2" />
+	<ctl name="SPKRL LDAC Switch" value="2" />
+	<ctl name="TX SPKRL LDAC" value="2" />
+	<ctl name="RX SPKRL LDAC" value="2" />
+	<ctl name="SPKRR RDAC Switch" value="2" />
+	<ctl name="TX SPKRR RDAC" value="2" />
+	<ctl name="RX SPKRR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="69" />
@@ -13054,9 +13225,14 @@
 	
 	<path name="compress-offload-playback8 bluetooth-16bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia15" value="2" />
 	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia15" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="57" />
@@ -13079,9 +13255,14 @@
 	
 	<path name="compress-offload-playback8 bluetooth-24bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia15" value="2" />
 	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia15" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="57" />
@@ -13104,9 +13285,14 @@
 	
 	<path name="compress-offload-playback8 headphone-16bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia15" value="2" />
 	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia15" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="57" />
@@ -13129,9 +13315,14 @@
 	
 	<path name="compress-offload-playback8 headphone-24bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia15" value="2" />
 	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia15" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="57" />
@@ -13214,9 +13405,14 @@
 	
 	<path name="compress-offload-playback9">
 	<path name="true-native-mode-SPKR" />
-	<path name="true-stereo-control-SPKR" />
 	<ctl name="SLIMBUS_0_TX Audio Mixer MultiMedia16" value="2" />
 	<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia16" value="2" />
+	<ctl name="SPKRL LDAC Switch" value="2" />
+	<ctl name="TX SPKRL LDAC" value="2" />
+	<ctl name="RX SPKRL LDAC" value="2" />
+	<ctl name="SPKRR RDAC Switch" value="2" />
+	<ctl name="TX SPKRR RDAC" value="2" />
+	<ctl name="RX SPKRR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="69" />
@@ -13239,9 +13435,14 @@
 	
 	<path name="compress-offload-playback9 bluetooth-16bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_7_TX Audio Mixer MultiMedia16" value="2" />
 	<ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia16" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="57" />
@@ -13264,9 +13465,14 @@
 	
 	<path name="compress-offload-playback9 bluetooth-24bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_8_TX Audio Mixer MultiMedia16" value="2" />
 	<ctl name="SLIMBUS_8_RX Audio Mixer MultiMedia16" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="57" />
@@ -13289,9 +13495,14 @@
 	
 	<path name="compress-offload-playback9 headphone-16bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_9_TX Audio Mixer MultiMedia16" value="2" />
 	<ctl name="SLIMBUS_9_RX Audio Mixer MultiMedia16" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="57" />
@@ -13314,9 +13525,14 @@
 	
 	<path name="compress-offload-playback9 headphone-24bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
 	<ctl name="SLIMBUS_10_TX Audio Mixer MultiMedia16" value="2" />
 	<ctl name="SLIMBUS_10_RX Audio Mixer MultiMedia16" value="2" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="57" />
@@ -14229,14 +14445,30 @@
 	<!-- Lot of code -->
 	
 	<path name="speaker_fluid">
-	<path name="true-mono-control-SPKR" />
-	<path name="compander-controls-SPKR-mono" />
 	<ctl name="SLIM_2_TX Channels" value="One" />
 	<ctl name="SLIM_2_RX Channels" value="One" />
 	<ctl name="SLIM_2_TX SampleRate" value="KHZ_44P1" />
 	<ctl name="SLIM_2_RX SampleRate" value="KHZ_44P1" />
 	<ctl name="SLIM_2_TX Format" value="PACKED_16B" />
 	<ctl name="SLIM_2_RX Format" value="PACKED_16B" />
+	<ctl name="SPKRL LDAC Switch" value="1" />
+	<ctl name="TX SPKRL LDAC" value="1" />
+	<ctl name="RX SPKRL LDAC" value="1" />
+	<ctl name="SPKRR RDAC Switch" value="0" />
+	<ctl name="TX SPKRR RDAC" value="0" />
+	<ctl name="RX SPKRR RDAC" value="0" />
+	<ctl name="COMP7 Switch" value="1" />
+	<ctl name="TX COMP7" value="1" />
+	<ctl name="RX COMP7" value="1" />
+	<ctl name="COMP8 Switch" value="0" />
+	<ctl name="TX COMP8" value="0" />
+	<ctl name="RX COMP8" value="0" />
+	<ctl name="SPKRL COMP Switch" value="1" />
+	<ctl name="TX SPKRL COMP" value="1" />
+	<ctl name="RX SPKRL COMP" value="1" />
+	<ctl name="SPKRR COMP Switch" value="0" />
+	<ctl name="TX SPKRR COMP" value="0" />
+	<ctl name="RX SPKRR COMP" value="0" />
 	<ctl name="7 Digital Volume Switch" value="1" />
 	<ctl name="TX7 Digital Volume" value="84" />
 	<ctl name="RX7 Digital Volume" value="84" />
@@ -14259,11 +14491,16 @@
 	</path>
 	
 	<path name="speaker-mono">
-	<path name="true-mono-control-SPKR" />
 	<ctl name="TX INT7_1 MIX1 INP0" value="RX0" />
 	<ctl name="RX INT7_1 MIX1 INP0" value="RX0" />
 	<ctl name="SLIM TX0 MUX" value="AIF_MIX1_PB" />
 	<ctl name="SLIM RX0 MUX" value="AIF_MIX1_PB" />
+	<ctl name="SPKRL LDAC Switch" value="1" />
+	<ctl name="TX SPKRL LDAC" value="1" />
+	<ctl name="RX SPKRL LDAC" value="1" />
+	<ctl name="SPKRR RDAC Switch" value="0" />
+	<ctl name="TX SPKRR RDAC" value="0" />
+	<ctl name="RX SPKRR RDAC" value="0" />
 	<path name="speaker-mono-initialization-switch" />
 	</path>
 	
@@ -14271,20 +14508,41 @@
 	
 	<path name="speaker">
 	<path name="true-native-mode-SPKR" />
-	<path name="true-stereo-control-SPKR" />
+	<ctl name="SPKRL LDAC Switch" value="2" />
+	<ctl name="TX SPKRL LDAC" value="2" />
+	<ctl name="RX SPKRL LDAC" value="2" />
+	<ctl name="SPKRR RDAC Switch" value="2" />
+	<ctl name="TX SPKRR RDAC" value="2" />
+	<ctl name="RX SPKRR RDAC" value="2" />
 	<path name="speaker-initialization-switch" />
 	</path>
 	
 	<path name="speaker_liquid">
 	<path name="true-native-mode-SPKR" />
-	<path name="true-stereo-control-SPKR" />
-	<path name="compander-controls-SPKR" />
 	<ctl name="SLIM_0_TX Channels" value="Onethousandfivehundredthirtysix" />
 	<ctl name="SLIM_0_RX Channels" value="Onethousandfivehundredthirtysix" />
 	<ctl name="SLIM_0_TX SampleRate" value="KHZ_352P8" />
 	<ctl name="SLIM_0_RX SampleRate" value="KHZ_352P8" />
 	<ctl name="SLIM_0_TX Format" value="PACKED_32B" />
 	<ctl name="SLIM_0_RX Format" value="PACKED_32B" />
+	<ctl name="SPKRL LDAC Switch" value="2" />
+	<ctl name="TX SPKRL LDAC" value="2" />
+	<ctl name="RX SPKRL LDAC" value="2" />
+	<ctl name="SPKRR RDAC Switch" value="2" />
+	<ctl name="TX SPKRR RDAC" value="2" />
+	<ctl name="RX SPKRR RDAC" value="2" />
+	<ctl name="COMP7 Switch" value="2" />
+	<ctl name="TX COMP7" value="2" />
+	<ctl name="RX COMP7" value="2" />
+	<ctl name="COMP8 Switch" value="2" />
+	<ctl name="TX COMP8" value="2" />
+	<ctl name="RX COMP8" value="2" />
+	<ctl name="SPKRL COMP Switch" value="2" />
+	<ctl name="TX SPKRL COMP" value="2" />
+	<ctl name="RX SPKRL COMP" value="2" />
+	<ctl name="SPKRR COMP Switch" value="2" />
+	<ctl name="TX SPKRR COMP" value="2" />
+	<ctl name="RX SPKRR COMP" value="2" />
 	<ctl name="7 Digital Volume Switch" value="2" />
 	<ctl name="TX7 Digital Volume" value="48" />
 	<ctl name="RX7 Digital Volume" value="84" />
@@ -14325,7 +14583,12 @@
 	<ctl name="RX INT7 VBAT SPKRL VBAT Enable" value="1" />
 	<ctl name="TX INT8 VBAT SPKRR VBAT Enable" value="0" />
 	<ctl name="RX INT8 VBAT SPKRR VBAT Enable" value="0" />
-	<path name="true-mono-control-SPKR" />
+	<ctl name="SPKRL LDAC Switch" value="1" />
+	<ctl name="TX SPKRL LDAC" value="1" />
+	<ctl name="RX SPKRL LDAC" value="1" />
+	<ctl name="SPKRR RDAC Switch" value="0" />
+	<ctl name="TX SPKRR RDAC" value="0" />
+	<ctl name="RX SPKRR RDAC" value="0" />
 	</path>
 	
 	<!-- Added -->
@@ -14334,14 +14597,30 @@
 	<ctl name="RX INT7 VBAT SPKRL VBAT Enable" value="1" />
 	<ctl name="TX INT8 VBAT SPKRR VBAT Enable" value="0" />
 	<ctl name="RX INT8 VBAT SPKRR VBAT Enable" value="0" />
-	<path name="true-mono-control-SPKR" />
-	<path name="compander-controls-SPKR-mono" />
 	<ctl name="SLIM_0_TX Channels" value="One" />
 	<ctl name="SLIM_0_RX Channels" value="One" />
 	<ctl name="SLIM_0_TX SampleRate" value="KHZ_44P1" />
 	<ctl name="SLIM_0_RX SampleRate" value="KHZ_44P1" />
 	<ctl name="SLIM_0_TX Format" value="PACKED_16B" />
 	<ctl name="SLIM_0_RX Format" value="PACKED_16B" />
+	<ctl name="SPKRL LDAC Switch" value="1" />
+	<ctl name="TX SPKRL LDAC" value="1" />
+	<ctl name="RX SPKRL LDAC" value="1" />
+	<ctl name="SPKRR RDAC Switch" value="0" />
+	<ctl name="TX SPKRR RDAC" value="0" />
+	<ctl name="RX SPKRR RDAC" value="0" />
+	<ctl name="COMP7 Switch" value="1" />
+	<ctl name="TX COMP7" value="1" />
+	<ctl name="RX COMP7" value="1" />
+	<ctl name="COMP8 Switch" value="0" />
+	<ctl name="TX COMP8" value="0" />
+	<ctl name="RX COMP8" value="0" />
+	<ctl name="SPKRL COMP Switch" value="1" />
+	<ctl name="TX SPKRL COMP" value="1" />
+	<ctl name="RX SPKRL COMP" value="1" />
+	<ctl name="SPKRR COMP Switch" value="0" />
+	<ctl name="TX SPKRR COMP" value="0" />
+	<ctl name="RX SPKRR COMP" value="0" />
 	<ctl name="7 Digital Volume Switch" value="1" />
 	<ctl name="TX7 Digital Volume" value="84" />
 	<ctl name="RX7 Digital Volume" value="84" />
@@ -14365,20 +14644,41 @@
 	<!-- Added -->
 	<path name="vbat_speaker">
 	<path name="true-native-mode-SPKR-vbat" />
-	<path name="true-stereo-control-SPKR" />
+	<ctl name="SPKRL LDAC Switch" value="2" />
+	<ctl name="TX SPKRL LDAC" value="2" />
+	<ctl name="RX SPKRL LDAC" value="2" />
+	<ctl name="SPKRR RDAC Switch" value="2" />
+	<ctl name="TX SPKRR RDAC" value="2" />
+	<ctl name="RX SPKRR RDAC" value="2" />
 	</path>
 	
 	<!-- Added -->
 	<path name="vbat_speaker_liquid">
 	<path name="true-native-mode-SPKR-vbat" />
-	<path name="true-stereo-control-SPKR" />
-	<path name="compander-controls-SPKR" />
 	<ctl name="SLIM_0_TX Channels" value="Onethousandfivehundredthirtysix" />
 	<ctl name="SLIM_0_RX Channels" value="Onethousandfivehundredthirtysix" />
 	<ctl name="SLIM_0_TX SampleRate" value="KHZ_352P8" />
 	<ctl name="SLIM_0_RX SampleRate" value="KHZ_352P8" />
 	<ctl name="SLIM_0_TX Format" value="PACKED_32B" />
 	<ctl name="SLIM_0_RX Format" value="PACKED_32B" />
+	<ctl name="SPKRL LDAC Switch" value="2" />
+	<ctl name="TX SPKRL LDAC" value="2" />
+	<ctl name="RX SPKRL LDAC" value="2" />
+	<ctl name="SPKRR RDAC Switch" value="2" />
+	<ctl name="TX SPKRR RDAC" value="2" />
+	<ctl name="RX SPKRR RDAC" value="2" />
+	<ctl name="COMP7 Switch" value="2" />
+	<ctl name="TX COMP7" value="2" />
+	<ctl name="RX COMP7" value="2" />
+	<ctl name="COMP8 Switch" value="2" />
+	<ctl name="TX COMP8" value="2" />
+	<ctl name="RX COMP8" value="2" />
+	<ctl name="SPKRL COMP Switch" value="2" />
+	<ctl name="TX SPKRL COMP" value="2" />
+	<ctl name="RX SPKRL COMP" value="2" />
+	<ctl name="SPKRR COMP Switch" value="2" />
+	<ctl name="TX SPKRR COMP" value="2" />
+	<ctl name="RX SPKRR COMP" value="2" />
 	<ctl name="7 Digital Volume Switch" value="2" />
 	<ctl name="TX7 Digital Volume" value="48" />
 	<ctl name="RX7 Digital Volume" value="84" />
@@ -14428,7 +14728,6 @@
 	<!-- Lemon Drop Hi-Res start of mods -->
 	
 	<path name="speaker-protected">
-	<path name="true-mono-control-SPKR" />
 	<ctl name="VI_FEED_TX Channels" value="One" />
 	<ctl name="VI_FEED_RX Channels" value="One" />
 	<ctl name="SLIM_4_TX SampleRate" value="KHZ_44P1" />
@@ -14438,6 +14737,12 @@
 	<ctl name="AIF4_VI Mixer SPKR_VI_1" value="1" />
 	<ctl name="SLIM0_TX_VI_FB_LCH_MUX"  value="SLIM4_TX" />
 	<ctl name="SLIM0_RX_VI_FB_LCH_MUX"  value="SLIM4_RX" />
+	<ctl name="SPKRL LDAC Switch" value="1" />
+	<ctl name="TX SPKRL LDAC" value="1" />
+	<ctl name="RX SPKRL LDAC" value="1" />
+	<ctl name="SPKRR RDAC Switch" value="0" />
+	<ctl name="TX SPKRR RDAC" value="0" />
+	<ctl name="RX SPKRR RDAC" value="0" />
 	<ctl name="TX7 Digital Volume" value="84" />
 	<ctl name="RX7 Digital Volume" value="86" />
 	<ctl name="TX7 Mix Digital Volume" value="84" />
@@ -14456,7 +14761,6 @@
 	</path>
 	
 	<path name="voice-speaker-protected">
-	<path name="true-mono-control-SPKR" />
 	<ctl name="VI_FEED_TX Channels" value="One" />
 	<ctl name="VI_FEED_RX Channels" value="One" />
 	<ctl name="SLIM_4_TX SampleRate" value="KHZ_44P1" />
@@ -14466,6 +14770,12 @@
 	<ctl name="AIF4_VI Mixer SPKR_VI_1" value="1" />
 	<ctl name="SLIM0_TX_VI_FB_LCH_MUX"  value="SLIM4_TX" />
 	<ctl name="SLIM0_RX_VI_FB_LCH_MUX"  value="SLIM4_RX" />
+	<ctl name="SPKRL LDAC Switch" value="1" />
+	<ctl name="TX SPKRL LDAC" value="1" />
+	<ctl name="RX SPKRL LDAC" value="1" />
+	<ctl name="SPKRR RDAC Switch" value="0" />
+	<ctl name="TX SPKRR RDAC" value="0" />
+	<ctl name="RX SPKRR RDAC" value="0" />
 	<ctl name="TX7 Digital Volume" value="84" />
 	<ctl name="RX7 Digital Volume" value="68" />
 	<ctl name="TX7 Mix Digital Volume" value="84" />
@@ -14509,7 +14819,6 @@
 	<ctl name="RX INT7 VBAT SPKRL VBAT Enable" value="1" />
 	<ctl name="TX INT8 VBAT SPKRR VBAT Enable" value="0" />
 	<ctl name="RX INT8 VBAT SPKRR VBAT Enable" value="0" />
-	<path name="true-mono-control-SPKR" />
 	<ctl name="VI_FEED_TX Channels" value="One" />
 	<ctl name="VI_FEED_RX Channels" value="One" />
 	<ctl name="SLIM_4_TX SampleRate" value="KHZ_44P1" />
@@ -14519,6 +14828,12 @@
 	<ctl name="AIF4_VI Mixer SPKR_VI_1" value="1" />
 	<ctl name="SLIM0_TX_VI_FB_LCH_MUX"  value="SLIM4_TX" />
 	<ctl name="SLIM0_RX_VI_FB_LCH_MUX"  value="SLIM4_RX" />
+	<ctl name="SPKRL LDAC Switch" value="1" />
+	<ctl name="TX SPKRL LDAC" value="1" />
+	<ctl name="RX SPKRL LDAC" value="1" />
+	<ctl name="SPKRR RDAC Switch" value="0" />
+	<ctl name="TX SPKRR RDAC" value="0" />
+	<ctl name="RX SPKRR RDAC" value="0" />
 	<ctl name="TX7 Digital Volume" value="84" />
 	<ctl name="RX7 Digital Volume" value="86" />
 	<ctl name="TX7 Mix Digital Volume" value="84" />
@@ -14541,7 +14856,6 @@
 	<ctl name="RX INT7 VBAT SPKRL VBAT Enable" value="1" />
 	<ctl name="TX INT8 VBAT SPKRR VBAT Enable" value="0" />
 	<ctl name="RX INT8 VBAT SPKRR VBAT Enable" value="0" />
-	<path name="true-mono-control-SPKR" />
 	<ctl name="VI_FEED_TX Channels" value="One" />
 	<ctl name="VI_FEED_RX Channels" value="One" />
 	<ctl name="SLIM_4_TX SampleRate" value="KHZ_44P1" />
@@ -14551,6 +14865,12 @@
 	<ctl name="AIF4_VI Mixer SPKR_VI_1" value="1" />
 	<ctl name="SLIM0_TX_VI_FB_LCH_MUX"  value="SLIM4_TX" />
 	<ctl name="SLIM0_RX_VI_FB_LCH_MUX"  value="SLIM4_RX" />
+	<ctl name="SPKRL LDAC Switch" value="1" />
+	<ctl name="TX SPKRL LDAC" value="1" />
+	<ctl name="RX SPKRL LDAC" value="1" />
+	<ctl name="SPKRR RDAC Switch" value="0" />
+	<ctl name="TX SPKRR RDAC" value="0" />
+	<ctl name="RX SPKRR RDAC" value="0" />
 	<ctl name="TX7 Digital Volume" value="84" />
 	<ctl name="RX7 Digital Volume" value="68" />
 	<ctl name="TX7 Mix Digital Volume" value="84" />
@@ -14582,23 +14902,38 @@
 	<!-- <ctl name="EAR PA Gain" value="G_6_DB" /> -->
 	
 	<path name="handset">
-	<path name="true-mono-control-SPKR" />
 	<ctl name="SLIM RX0 MUX" value="AIF_MIX1_PB" />
 	<ctl name="RX INT0_1 MIX1 INP0" value="RX0" />
 	<ctl name="RX INT0 DEM MUX" value="CLSH_DSM_OUT" />
 	<ctl name="EAR PA Gain" value="G_6_DB" />
+	<ctl name="SPKRL LDAC Switch" value="1" />
+	<ctl name="TX SPKRL LDAC" value="1" />
+	<ctl name="RX SPKRL LDAC" value="1" />
+	<ctl name="SPKRR RDAC Switch" value="0" />
+	<ctl name="TX SPKRR RDAC" value="0" />
+	<ctl name="RX SPKRR RDAC" value="0" />
 	</path>
 	
 	<path name="vbat_handset">
-	<path name="true-mono-control-SPKR" />
 	<ctl name="SLIM RX0 MUX" value="AIF_MIX1_PB" />
 	<ctl name="RX INT0_1 MIX1 INP0" value="RX0" />
 	<ctl name="RX INT0 DEM MUX" value="CLSH_DSM_OUT" />
 	<ctl name="EAR PA Gain" value="G_6_DB" />
+	<ctl name="SPKRL LDAC Switch" value="1" />
+	<ctl name="TX SPKRL LDAC" value="1" />
+	<ctl name="RX SPKRL LDAC" value="1" />
+	<ctl name="SPKRR RDAC Switch" value="0" />
+	<ctl name="TX SPKRR RDAC" value="0" />
+	<ctl name="RX SPKRR RDAC" value="0" />
 	</path>
 	
 	<path name="fake_handset">
-	<path name="true-mono-control-SPKR" />
+	<ctl name="SPKRL LDAC Switch" value="1" />
+	<ctl name="TX SPKRL LDAC" value="1" />
+	<ctl name="RX SPKRL LDAC" value="1" />
+	<ctl name="SPKRR RDAC Switch" value="0" />
+	<ctl name="TX SPKRR RDAC" value="0" />
+	<ctl name="RX SPKRR RDAC" value="0" />
 	<ctl name="7 Digital Volume Switch" value="0" />
 	<ctl name="TX7 Digital Volume" value="0" />
 	<ctl name="RX7 Digital Volume" value="0" />
@@ -14767,7 +15102,12 @@
 	<!-- Lemon Drop Hi-Res start of mods -->
 	
 	<path name="voice-speaker">
-	<path name="true-mono-control-SPKR" />
+	<ctl name="SPKRL LDAC Switch" value="1" />
+	<ctl name="TX SPKRL LDAC" value="1" />
+	<ctl name="RX SPKRL LDAC" value="1" />
+	<ctl name="SPKRR RDAC Switch" value="0" />
+	<ctl name="TX SPKRR RDAC" value="0" />
+	<ctl name="RX SPKRR RDAC" value="0" />
 	<ctl name="7 Digital Volume Switch" value="1" />
 	<ctl name="TX7 Digital Volume" value="84" />
 	<ctl name="RX7 Digital Volume" value="84" />
@@ -14790,7 +15130,12 @@
 	</path>
 	
 	<path name="voice-speaker_fluid">
-	<path name="true-mono-control-SPKR" />
+	<ctl name="SPKRL LDAC Switch" value="1" />
+	<ctl name="TX SPKRL LDAC" value="1" />
+	<ctl name="RX SPKRL LDAC" value="1" />
+	<ctl name="SPKRR RDAC Switch" value="0" />
+	<ctl name="TX SPKRR RDAC" value="0" />
+	<ctl name="RX SPKRR RDAC" value="0" />
 	<ctl name="7 Digital Volume Switch" value="1" />
 	<ctl name="TX7 Digital Volume" value="84" />
 	<ctl name="RX7 Digital Volume" value="84" />
@@ -14882,7 +15227,12 @@
 	
 	<path name="usb-headphones">
 	<path name="true-native-mode-SPKR" />
-	<path name="true-stereo-control-SPKR" />
+	<ctl name="SPKRL LDAC Switch" value="2" />
+	<ctl name="TX SPKRL LDAC" value="2" />
+	<ctl name="RX SPKRL LDAC" value="2" />
+	<ctl name="SPKRR RDAC Switch" value="2" />
+	<ctl name="TX SPKRR RDAC" value="2" />
+	<ctl name="RX SPKRR RDAC" value="2" />
 	<ctl name="7 Digital Volume Switch" value="2" />
 	<ctl name="TX7 Digital Volume" value="48" />
 	<ctl name="RX7 Digital Volume" value="84" />
@@ -15031,7 +15381,12 @@
 	
 	<path name="hdmi">
 	<path name="true-native-mode-SPKR" />
-	<path name="true-stereo-control-SPKR" />
+	<ctl name="SPKRL LDAC Switch" value="2" />
+	<ctl name="TX SPKRL LDAC" value="2" />
+	<ctl name="RX SPKRL LDAC" value="2" />
+	<ctl name="SPKRR RDAC Switch" value="2" />
+	<ctl name="TX SPKRR RDAC" value="2" />
+	<ctl name="RX SPKRR RDAC" value="2" />
 	<ctl name="7 Digital Volume Switch" value="2" />
 	<ctl name="TX7 Digital Volume" value="48" />
 	<ctl name="RX7 Digital Volume" value="84" />
@@ -15054,7 +15409,12 @@
 	
 	<path name="speaker-and-usb-headphones">
 	<path name="true-native-mode-SPKR" />
-	<path name="true-stereo-control-SPKR" />
+	<ctl name="SPKRL LDAC Switch" value="2" />
+	<ctl name="TX SPKRL LDAC" value="2" />
+	<ctl name="RX SPKRL LDAC" value="2" />
+	<ctl name="SPKRR RDAC Switch" value="2" />
+	<ctl name="TX SPKRR RDAC" value="2" />
+	<ctl name="RX SPKRR RDAC" value="2" />
 	<ctl name="7 Digital Volume Switch" value="2" />
 	<ctl name="TX7 Digital Volume" value="48" />
 	<ctl name="RX7 Digital Volume" value="84" />
@@ -15079,7 +15439,12 @@
 	
 	<path name="speaker-and-hdmi">
 	<path name="true-native-mode-SPKR" />
-	<path name="true-stereo-control-SPKR" />
+	<ctl name="SPKRL LDAC Switch" value="2" />
+	<ctl name="TX SPKRL LDAC" value="2" />
+	<ctl name="RX SPKRL LDAC" value="2" />
+	<ctl name="SPKRR RDAC Switch" value="2" />
+	<ctl name="TX SPKRR RDAC" value="2" />
+	<ctl name="RX SPKRR RDAC" value="2" />
 	<ctl name="7 Digital Volume Switch" value="2" />
 	<ctl name="TX7 Digital Volume" value="48" />
 	<ctl name="RX7 Digital Volume" value="84" />
@@ -15867,7 +16232,12 @@
 	<!-- Lemon Drop Hi-Res start of mods -->
 	
 	<path name="speaker-aat">
-	<path name="true-mono-control-SPKR" />
+	<ctl name="SPKRL LDAC Switch" value="1" />
+	<ctl name="TX SPKRL LDAC" value="1" />
+	<ctl name="RX SPKRL LDAC" value="1" />
+	<ctl name="SPKRR RDAC Switch" value="0" />
+	<ctl name="TX SPKRR RDAC" value="0" />
+	<ctl name="RX SPKRR RDAC" value="0" />
 	<ctl name="7 Digital Volume Switch" value="1" />
 	<ctl name="TX7 Digital Volume" value="84" />
 	<ctl name="RX7 Digital Volume" value="84" />
@@ -15949,7 +16319,12 @@
 	<!-- Added -->
 	<path name="fake_speaker">
 	<path name="true-native-mode-SPKR" />
-	<path name="true-stereo-control-SPKR" />
+	<ctl name="SPKRL LDAC Switch" value="2" />
+	<ctl name="TX SPKRL LDAC" value="2" />
+	<ctl name="RX SPKRL LDAC" value="2" />
+	<ctl name="SPKRR RDAC Switch" value="2" />
+	<ctl name="TX SPKRR RDAC" value="2" />
+	<ctl name="RX SPKRR RDAC" value="2" />
 	<ctl name="7 Digital Volume Switch" value="0" />
 	<ctl name="TX7 Digital Volume" value="0" />
 	<ctl name="RX7 Digital Volume" value="0" />
@@ -15972,7 +16347,12 @@
 	
 	<!-- Added -->
 	<path name="fake_speaker-mono">
-	<path name="true-mono-control-SPKR" />
+	<ctl name="SPKRL LDAC Switch" value="1" />
+	<ctl name="TX SPKRL LDAC" value="1" />
+	<ctl name="RX SPKRL LDAC" value="1" />
+	<ctl name="SPKRR RDAC Switch" value="0" />
+	<ctl name="TX SPKRR RDAC" value="0" />
+	<ctl name="RX SPKRR RDAC" value="0" />
 	<ctl name="7 Digital Volume Switch" value="0" />
 	<ctl name="TX7 Digital Volume" value="0" />
 	<ctl name="RX7 Digital Volume" value="0" />
@@ -16104,7 +16484,12 @@
 	
 	<path name="headphone">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<path name="bluetooth-16bit" />
 	<path name="bluetooth-24bit" />
 	<path name="headphone-16bit" />
@@ -16113,14 +16498,30 @@
 	
 	<path name="bluetooth-16bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
-	<path name="compander-controls-HPH" />
 	<ctl name="SLIM_7_TX Channels" value="Onethousandfivehundredthirtysix" />
 	<ctl name="SLIM_7_RX Channels" value="Onethousandfivehundredthirtysix" />
 	<ctl name="SLIM_7_TX SampleRate" value="KHZ_44P1" />
 	<ctl name="SLIM_7_RX SampleRate" value="KHZ_44P1" />
 	<ctl name="SLIM_7_TX Format" value="S16_LE" />
 	<ctl name="SLIM_7_RX Format" value="S16_LE" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
+	<ctl name="COMP1 Switch" value="2" />
+	<ctl name="TX COMP1" value="2" />
+	<ctl name="RX COMP1" value="2" />
+	<ctl name="COMP2 Switch" value="2" />
+	<ctl name="TX COMP2" value="2" />
+	<ctl name="RX COMP2" value="2" />
+	<ctl name="HPHL COMP Switch" value="2" />
+	<ctl name="TX HPHL COMP" value="2" />
+	<ctl name="RX HPHL COMP" value="2" />
+	<ctl name="HPHR COMP Switch" value="2" />
+	<ctl name="TX HPHR COMP" value="2" />
+	<ctl name="RX HPHR COMP" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="84" />
@@ -16144,14 +16545,30 @@
 	
 	<path name="bluetooth-24bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
-	<path name="compander-controls-HPH" />
 	<ctl name="SLIM_8_TX Channels" value="Onethousandfivehundredthirtysix" />
 	<ctl name="SLIM_8_RX Channels" value="Onethousandfivehundredthirtysix" />
 	<ctl name="SLIM_8_TX SampleRate" value="KHZ_44P1" />
 	<ctl name="SLIM_8_RX SampleRate" value="KHZ_44P1" />
 	<ctl name="SLIM_8_TX Format" value="S24_LE" />
 	<ctl name="SLIM_8_RX Format" value="S24_LE" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
+	<ctl name="COMP1 Switch" value="2" />
+	<ctl name="TX COMP1" value="2" />
+	<ctl name="RX COMP1" value="2" />
+	<ctl name="COMP2 Switch" value="2" />
+	<ctl name="TX COMP2" value="2" />
+	<ctl name="RX COMP2" value="2" />
+	<ctl name="HPHL COMP Switch" value="2" />
+	<ctl name="TX HPHL COMP" value="2" />
+	<ctl name="RX HPHL COMP" value="2" />
+	<ctl name="HPHR COMP Switch" value="2" />
+	<ctl name="TX HPHR COMP" value="2" />
+	<ctl name="RX HPHR COMP" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="84" />
@@ -16175,14 +16592,30 @@
 	
 	<path name="headphone-16bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
-	<path name="compander-controls-HPH" />
 	<ctl name="SLIM_9_TX Channels" value="Onethousandfivehundredthirtysix" />
 	<ctl name="SLIM_9_RX Channels" value="Onethousandfivehundredthirtysix" />
 	<ctl name="SLIM_9_TX SampleRate" value="KHZ_44P1" />
 	<ctl name="SLIM_9_RX SampleRate" value="KHZ_44P1" />
 	<ctl name="SLIM_9_TX Format" value="S16_LE" />
 	<ctl name="SLIM_9_RX Format" value="S16_LE" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
+	<ctl name="COMP1 Switch" value="2" />
+	<ctl name="TX COMP1" value="2" />
+	<ctl name="RX COMP1" value="2" />
+	<ctl name="COMP2 Switch" value="2" />
+	<ctl name="TX COMP2" value="2" />
+	<ctl name="RX COMP2" value="2" />
+	<ctl name="HPHL COMP Switch" value="2" />
+	<ctl name="TX HPHL COMP" value="2" />
+	<ctl name="RX HPHL COMP" value="2" />
+	<ctl name="HPHR COMP Switch" value="2" />
+	<ctl name="TX HPHR COMP" value="2" />
+	<ctl name="RX HPHR COMP" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="84" />
@@ -16206,7 +16639,12 @@
 	
 	<path name="headphone-16bit-advanced">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="84" />
@@ -16230,7 +16668,12 @@
 	
 	<path name="headphone-16bit-aux">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="84" />
@@ -16254,14 +16697,30 @@
 	
 	<path name="headphone-24bit">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
-	<path name="compander-controls-HPH" />
 	<ctl name="SLIM_10_TX Channels" value="Onethousandfivehundredthirtysix" />
 	<ctl name="SLIM_10_RX Channels" value="Onethousandfivehundredthirtysix" />
 	<ctl name="SLIM_10_TX SampleRate" value="KHZ_352P8" />
 	<ctl name="SLIM_10_RX SampleRate" value="KHZ_352P8" />
 	<ctl name="SLIM_10_TX Format" value="S32_LE" />
 	<ctl name="SLIM_10_RX Format" value="S32_LE" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
+	<ctl name="COMP1 Switch" value="2" />
+	<ctl name="TX COMP1" value="2" />
+	<ctl name="RX COMP1" value="2" />
+	<ctl name="COMP2 Switch" value="2" />
+	<ctl name="TX COMP2" value="2" />
+	<ctl name="RX COMP2" value="2" />
+	<ctl name="HPHL COMP Switch" value="2" />
+	<ctl name="TX HPHL COMP" value="2" />
+	<ctl name="RX HPHL COMP" value="2" />
+	<ctl name="HPHR COMP Switch" value="2" />
+	<ctl name="TX HPHR COMP" value="2" />
+	<ctl name="RX HPHR COMP" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="84" />
@@ -16285,7 +16744,12 @@
 	
 	<path name="headphone-24bit-advanced">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="84" />
@@ -16309,7 +16773,12 @@
 	
 	<path name="headphone-24bit-aux">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="84" />
@@ -16333,19 +16802,40 @@
 	
 	<path name="vbat_headphone">
 	<path name="true-native-mode-HPH-vbat" />
-	<path name="true-stereo-control-HPH" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	</path>
 	
 	<path name="vbat_bluetooth-16bit">
 	<path name="true-native-mode-HPH-vbat" />
-	<path name="true-stereo-control-HPH" />
-	<path name="compander-controls-HPH" />
 	<ctl name="SLIM_7_TX Channels" value="Onethousandfivehundredthirtysix" />
 	<ctl name="SLIM_7_RX Channels" value="Onethousandfivehundredthirtysix" />
 	<ctl name="SLIM_7_TX SampleRate" value="KHZ_44P1" />
 	<ctl name="SLIM_7_RX SampleRate" value="KHZ_44P1" />
 	<ctl name="SLIM_7_TX Format" value="S16_LE" />
 	<ctl name="SLIM_7_RX Format" value="S16_LE" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
+	<ctl name="COMP1 Switch" value="2" />
+	<ctl name="TX COMP1" value="2" />
+	<ctl name="RX COMP1" value="2" />
+	<ctl name="COMP2 Switch" value="2" />
+	<ctl name="TX COMP2" value="2" />
+	<ctl name="RX COMP2" value="2" />
+	<ctl name="HPHL COMP Switch" value="2" />
+	<ctl name="TX HPHL COMP" value="2" />
+	<ctl name="RX HPHL COMP" value="2" />
+	<ctl name="HPHR COMP Switch" value="2" />
+	<ctl name="TX HPHR COMP" value="2" />
+	<ctl name="RX HPHR COMP" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="84" />
@@ -16368,14 +16858,30 @@
 	
 	<path name="vbat_bluetooth-24bit">
 	<path name="true-native-mode-HPH-vbat" />
-	<path name="true-stereo-control-HPH" />
-	<path name="compander-controls-HPH" />
 	<ctl name="SLIM_8_TX Channels" value="Onethousandfivehundredthirtysix" />
 	<ctl name="SLIM_8_RX Channels" value="Onethousandfivehundredthirtysix" />
 	<ctl name="SLIM_8_TX SampleRate" value="KHZ_44P1" />
 	<ctl name="SLIM_8_RX SampleRate" value="KHZ_44P1" />
 	<ctl name="SLIM_8_TX Format" value="S24_LE" />
 	<ctl name="SLIM_8_RX Format" value="S24_LE" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
+	<ctl name="COMP1 Switch" value="2" />
+	<ctl name="TX COMP1" value="2" />
+	<ctl name="RX COMP1" value="2" />
+	<ctl name="COMP2 Switch" value="2" />
+	<ctl name="TX COMP2" value="2" />
+	<ctl name="RX COMP2" value="2" />
+	<ctl name="HPHL COMP Switch" value="2" />
+	<ctl name="TX HPHL COMP" value="2" />
+	<ctl name="RX HPHL COMP" value="2" />
+	<ctl name="HPHR COMP Switch" value="2" />
+	<ctl name="TX HPHR COMP" value="2" />
+	<ctl name="RX HPHR COMP" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="84" />
@@ -16398,14 +16904,30 @@
 	
 	<path name="vbat_headphone-16bit">
 	<path name="true-native-mode-HPH-vbat" />
-	<path name="true-stereo-control-HPH" />
-	<path name="compander-controls-HPH" />
 	<ctl name="SLIM_9_TX Channels" value="Onethousandfivehundredthirtysix" />
 	<ctl name="SLIM_9_RX Channels" value="Onethousandfivehundredthirtysix" />
 	<ctl name="SLIM_9_TX SampleRate" value="KHZ_44P1" />
 	<ctl name="SLIM_9_RX SampleRate" value="KHZ_44P1" />
 	<ctl name="SLIM_9_TX Format" value="S16_LE" />
 	<ctl name="SLIM_9_RX Format" value="S16_LE" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
+	<ctl name="COMP1 Switch" value="2" />
+	<ctl name="TX COMP1" value="2" />
+	<ctl name="RX COMP1" value="2" />
+	<ctl name="COMP2 Switch" value="2" />
+	<ctl name="TX COMP2" value="2" />
+	<ctl name="RX COMP2" value="2" />
+	<ctl name="HPHL COMP Switch" value="2" />
+	<ctl name="TX HPHL COMP" value="2" />
+	<ctl name="RX HPHL COMP" value="2" />
+	<ctl name="HPHR COMP Switch" value="2" />
+	<ctl name="TX HPHR COMP" value="2" />
+	<ctl name="RX HPHR COMP" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="84" />
@@ -16428,7 +16950,12 @@
 	
 	<path name="vbat_headphone-16bit-advanced">
 	<path name="true-native-mode-HPH-vbat" />
-	<path name="true-stereo-control-HPH" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="84" />
@@ -16451,7 +16978,12 @@
 	
 	<path name="vbat_headphone-16bit-aux">
 	<path name="true-native-mode-HPH-vbat" />
-	<path name="true-stereo-control-HPH" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="84" />
@@ -16474,14 +17006,30 @@
 	
 	<path name="vbat_headphone-24bit">
 	<path name="true-native-mode-HPH-vbat" />
-	<path name="true-stereo-control-HPH" />
-	<path name="compander-controls-HPH" />
 	<ctl name="SLIM_10_TX Channels" value="Onethousandfivehundredthirtysix" />
 	<ctl name="SLIM_10_RX Channels" value="Onethousandfivehundredthirtysix" />
 	<ctl name="SLIM_10_TX SampleRate" value="KHZ_44P1" />
 	<ctl name="SLIM_10_RX SampleRate" value="KHZ_44P1" />
 	<ctl name="SLIM_10_TX Format" value="S16_LE" />
 	<ctl name="SLIM_10_RX Format" value="S16_LE" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
+	<ctl name="COMP1 Switch" value="2" />
+	<ctl name="TX COMP1" value="2" />
+	<ctl name="RX COMP1" value="2" />
+	<ctl name="COMP2 Switch" value="2" />
+	<ctl name="TX COMP2" value="2" />
+	<ctl name="RX COMP2" value="2" />
+	<ctl name="HPHL COMP Switch" value="2" />
+	<ctl name="TX HPHL COMP" value="2" />
+	<ctl name="RX HPHL COMP" value="2" />
+	<ctl name="HPHR COMP Switch" value="2" />
+	<ctl name="TX HPHR COMP" value="2" />
+	<ctl name="RX HPHR COMP" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="84" />
@@ -16504,7 +17052,12 @@
 	
 	<path name="vbat_headphone-24bit-advanced">
 	<path name="true-native-mode-HPH-vbat" />
-	<path name="true-stereo-control-HPH" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="84" />
@@ -16527,7 +17080,12 @@
 	
 	<path name="vbat_headphone-24bit-aux">
 	<path name="true-native-mode-HPH-vbat" />
-	<path name="true-stereo-control-HPH" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="48" />
 	<ctl name="RX1 Digital Volume" value="84" />
@@ -16550,7 +17108,12 @@
 	
 	<path name="fake_headphone">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="0" />
 	<ctl name="TX1 Digital Volume" value="0" />
 	<ctl name="RX1 Digital Volume" value="0" />
@@ -16722,7 +17285,12 @@
 	<!-- Added -->
 	<path name="loopback_headphone">
 	<path name="true-native-mode-HPH" />
-	<path name="true-stereo-control-HPH" />
+	<ctl name="HPHL LDAC Switch" value="2" />
+	<ctl name="TX HPHL LDAC" value="2" />
+	<ctl name="RX HPHL LDAC" value="2" />
+	<ctl name="HPHR RDAC Switch" value="2" />
+	<ctl name="TX HPHR RDAC" value="2" />
+	<ctl name="RX HPHR RDAC" value="2" />
 	<ctl name="1 Digital Volume Switch" value="2" />
 	<ctl name="TX1 Digital Volume" value="84" />
 	<ctl name="RX1 Digital Volume" value="48" />
