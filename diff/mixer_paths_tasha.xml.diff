@@ -3,7 +3,7 @@
 < 	
 < 	<!-- Top of page -->
 < 	
-< 	<!-- Lemon Drop Hi-Res treble v173.1 -->
+< 	<!-- Lemon Drop Hi-Res treble v174.1 -->
 < 	<!-- Designed and created by darnrain @GitHub -->
 < 	<!-- Proudly Made In America -->
 < 	
@@ -4028,17 +4028,17 @@
 < 	<!-- Start of True Stereo & Mono control -->
 < 	
 < 	<ctl name="HPHL LDAC Switch" value="0" />
-< 	<ctl name="TX HPHL LDAC Switch" value="0" />
-< 	<ctl name="RX HPHL LDAC Switch" value="0" />
+< 	<ctl name="TX HPHL LDAC" value="0" />
+< 	<ctl name="RX HPHL LDAC" value="0" />
 < 	<ctl name="HPHR RDAC Switch" value="0" />
-< 	<ctl name="TX HPHR RDAC Switch" value="0" />
-< 	<ctl name="RX HPHR RDAC Switch" value="0" />
+< 	<ctl name="TX HPHR RDAC" value="0" />
+< 	<ctl name="RX HPHR RDAC" value="0" />
 < 	<ctl name="SPKRL LDAC Switch" value="0" />
-< 	<ctl name="TX SPKRL LDAC Switch" value="0" />
-< 	<ctl name="RX SPKRL LDAC Switch" value="0" />
+< 	<ctl name="TX SPKRL LDAC" value="0" />
+< 	<ctl name="RX SPKRL LDAC" value="0" />
 < 	<ctl name="SPKRR RDAC Switch" value="0" />
-< 	<ctl name="TX SPKRR RDAC Switch" value="0" />
-< 	<ctl name="RX SPKRR RDAC Switch" value="0" />
+< 	<ctl name="TX SPKRR RDAC" value="0" />
+< 	<ctl name="RX SPKRR RDAC" value="0" />
 < 	
 < 	<!-- End of True Stereo & Mono control -->
 < 	
@@ -6387,29 +6387,41 @@
 > 
 >     <path name="anc-headphones">
 4073,4074d2369
-< 	<ctl name="TX COMP1 Switch" value="0" />
-< 	<ctl name="RX COMP1 Switch" value="0" />
-4076,15172c2371,2429
-< 	<ctl name="TX COMP2 Switch" value="0" />
-< 	<ctl name="RX COMP2 Switch" value="0" />
-< 	<ctl name="HPHL COMP Switch" value="0" />
-< 	<ctl name="TX HPHL COMP Switch" value="0" />
-< 	<ctl name="RX HPHL COMP Switch" value="0" />
-< 	<ctl name="HPHR COMP Switch" value="0" />
-< 	<ctl name="TX HPHR COMP Switch" value="0" />
-< 	<ctl name="RX HPHR COMP Switch" value="0" />
+< 	<ctl name="TX COMP1" value="0" />
+< 	<ctl name="RX COMP1" value="0" />
+4076,15184c2371,2429
+< 	<ctl name="TX COMP2" value="0" />
+< 	<ctl name="RX COMP2" value="0" />
+< 	<ctl name="COMP3 Switch" value="0" />
+< 	<ctl name="TX COMP3" value="0" />
+< 	<ctl name="RX COMP3" value="0" />
+< 	<ctl name="COMP4 Switch" value="0" />
+< 	<ctl name="TX COMP4" value="0" />
+< 	<ctl name="RX COMP4" value="0" />
+< 	<ctl name="COMP5 Switch" value="0" />
+< 	<ctl name="TX COMP5" value="0" />
+< 	<ctl name="RX COMP5" value="0" />
+< 	<ctl name="COMP6 Switch" value="0" />
+< 	<ctl name="TX COMP6" value="0" />
+< 	<ctl name="RX COMP6" value="0" />
 < 	<ctl name="COMP7 Switch" value="0" />
-< 	<ctl name="TX COMP7 Switch" value="0" />
-< 	<ctl name="RX COMP7 Switch" value="0" />
+< 	<ctl name="TX COMP7" value="0" />
+< 	<ctl name="RX COMP7" value="0" />
 < 	<ctl name="COMP8 Switch" value="0" />
-< 	<ctl name="TX COMP8 Switch" value="0" />
-< 	<ctl name="RX COMP8 Switch" value="0" />
+< 	<ctl name="TX COMP8" value="0" />
+< 	<ctl name="RX COMP8" value="0" />
+< 	<ctl name="HPHL COMP Switch" value="0" />
+< 	<ctl name="TX HPHL COMP" value="0" />
+< 	<ctl name="RX HPHL COMP" value="0" />
+< 	<ctl name="HPHR COMP Switch" value="0" />
+< 	<ctl name="TX HPHR COMP" value="0" />
+< 	<ctl name="RX HPHR COMP" value="0" />
 < 	<ctl name="SPKRL COMP Switch" value="0" />
-< 	<ctl name="TX SPKRL COMP Switch" value="0" />
-< 	<ctl name="RX SPKRL COMP Switch" value="0" />
+< 	<ctl name="TX SPKRL COMP" value="0" />
+< 	<ctl name="RX SPKRL COMP" value="0" />
 < 	<ctl name="SPKRR COMP Switch" value="0" />
-< 	<ctl name="TX SPKRR COMP Switch" value="0" />
-< 	<ctl name="RX SPKRR COMP Switch" value="0" />
+< 	<ctl name="TX SPKRR COMP" value="0" />
+< 	<ctl name="RX SPKRR COMP" value="0" />
 < 	
 < 	<!-- End of Compander controls -->
 < 	
@@ -17547,7 +17559,7 @@
 >     </path>
 > 
 >     <path name="voice-anc-headphones">
-15175,15261c2432,2464
+15187,15273c2432,2464
 < 	<ctl name="RX HPH Mode" value="CLS_H_LP" />
 < 	<ctl name="RX1 Mix Digital Volume" value="74" />
 < 	<ctl name="RX2 Mix Digital Volume" value="74" />
@@ -17669,7 +17681,7 @@
 >     </path>
 > 
 >     <path name="voice-anc-fb-headphones">
-15264,17883c2467,3898
+15276,17895c2467,3898
 < 	<ctl name="ANC Function" value="ON" />
 < 	<ctl name="ANC Slot" value="0" />
 < 	<ctl name="ADC MUX10" value="AMIC" />
@@ -21723,7 +21735,7 @@
 >         <path name="speaker-protected" />
 >     </path>
 >     <!-- TERT MI2S A2DP OFFLOAD end -->
-17885,17887d3899
+17897,17899d3899
 < 	
 < 	
 < 	<!-- Bottom of page -->
