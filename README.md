@@ -5,7 +5,7 @@ Welcome to the future of music...<br>
 The Lgv20 was first with the Android Nougat operating system.<br>
 Now it's the first running in True Native Mode.<br>
 With all 4 DACs enabled.<br>
-Outputing at 32bit 352.8kHz<br>
+Outputting at 32bit 352.8kHz<br>
 
 Please listen at a safe volume level.<br>
 
