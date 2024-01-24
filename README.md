@@ -5,12 +5,12 @@ Welcome to the future of music...<br>
 The Lgv20 was first with the Android Nougat operating system.<br>
 Now it's the first running in True Native Mode.<br>
 With all 4 DACs enabled.<br>
-Outputting at 32bit 352.8kHz<br>
-
+Outputting at 1024bit 2822.4kHz
+ 
 Please listen at a safe volume level.<br>
 
 Lemon Drop Hi-Res development status: Active<br>
-latest release: v176.7<br>
+latest release: v177.1<br>
 
 ### Introduction:
 First off I want to say, I try to keep my writing to rated PG. (pretty good) Also I do have a very good sense of humour. I never understood why some people are serious all the time, life's too short for that.<br>
