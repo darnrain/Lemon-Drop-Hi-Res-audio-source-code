@@ -28,7 +28,7 @@
 	
 	<!-- Top of page -->
 	
-	<!-- Lemon Drop Hi-Res treble v178.4 -->
+	<!-- Lemon Drop Hi-Res treble v179.1 -->
 	<!-- Designed and created by darnrain @GitHub -->
 	<!-- Proudly Made In America -->
 	
@@ -47,11 +47,11 @@
 	<!-- True Native Mode sounds like -->
 	
 	<!-- First thing -->
-	<!-- Copy all lines of code line number 1 through 13674 paste in your mixer_paths file at very top -->
-	<!-- I added a note where to copy from at line 13674 -->
+	<!-- Copy all lines of code line number 1 through 13672 paste in your mixer_paths file at very top -->
+	<!-- I added a note where to copy from at line 13672 -->
 	
 	<!-- Second thing -->
-	<!-- Search for "lemon drop" after line 13674 to start -->
+	<!-- Search for "lemon drop" after line 13672 to start -->
 	
 	<!-- Third thing -->
 	<!-- Duplicate all code from "Lemon Drop Hi-Res start of mods" to "Lemon Drop Hi-Res end of mods" -->
@@ -68,7 +68,7 @@
 	<!-- <ctl name="Es9018 AVC Volume" value="0" /> -->
 	<!-- <ctl name="Es9018 HEADSET TYPE" value="0" /> -->
 	<!-- <ctl name="Es9218 Bypass" value="0" /> -->
-	<!-- Line number 4862 to 4865 change the names also change the names under volume control -->
+	<!-- Line number 4860 to 4863 change the names also change the names under volume control -->
 	<!-- If they are not the same as the Lgv20 -->
 	
 	<!-- There can not be any duplicates like "<path name="speaker">" and "<path name="speaker">" -->
@@ -4783,8 +4783,6 @@
 	<ctl name="RX INI772 SPLINE MIX MI768 Switch" value="0" />
 	<ctl name="TX INI772 VBAT MI768 VBAT Enable" value="0" />
 	<ctl name="RX INI772 VBAT MI768 VBAT Enable" value="0" />
-	
-	
 	
 	<!-- End of True Native Mode code v3.0 & vbat initial mixer settings -->
 	
@@ -13701,6 +13699,8 @@
 	
 	<!-- I deleted all the following lines and -->
 	<!-- moved them up top and added the TX to RX -->
+	<!-- in descending order filled in gaps in numbers -->
+	<!-- 123589 - 123456789 -->
 	
 	<!-- Deleted -->
 	<!-- <ctl name="HPHL Volume" value="20" /> -->
