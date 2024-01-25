@@ -47,9 +47,7 @@ Can be due to the following:<br>
 "(1) The normal running mode of a computer, executing programs from its built-in instruction set. Contrast with emulation mode. See native language. (2) The highest performance state of a computer."<br>
 
 ### What is True Native Mode on the Saber ESS 9218 DAC?<br>
-I created all 3096 lines of the True Native Mode v2.0 code myself, with the help of sed, awk, echo, nano and l3afpad, there are 786 mixer paths for True Native Mode that places the QuadDAC into it's highest performance state. The very essence of True Native Mode it's self allows the DAC to have more than two channels, like one for left and one for right.
-
-Update: It also allows you to overclock the QuadDAC, 1024bit, 2822.4kHz with a total of 393216 channels.<br>
+I created all 4632 lines of the True Native Mode v3.0 code myself, with the help of sed, awk, echo, nano and l3afpad, there are 786 mixer paths for True Native Mode that places the QuadDAC into it's highest performance state. The very essence of True Native Mode it's self allows you to overclock the QuadDAC, 1024bit, 2822.4kHz with a total of 393216 channels.<br>
 
 ### Did you tune this QuadDAC?
 Yes I did, there are volume levels you can choose when programing the DAC, for bass, mid-range and treble. If they are all on the same volume level, then the audio will get all jumbled up. I was thinking when tuning the DAC, you want to hear the singer first and foremost and the bass in the background. The higher the number, the increased volume level of the audio. If you listen closely, you should be able to hear that your music has a sense of depth perception to it. I thought that would be extremely unparalleled.<br>
