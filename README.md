@@ -23,6 +23,12 @@ As of a direct result of the harassment from the LineageOS devs, no one can open
 
 It's funny, but the LineageOS devs reminds me exactly of when your watching a movie and your just getting lost in the movie, then all of a suddenly out of nowhere, this HUGE fly shows up and wants to fly right in front of your face. Where's my certified, LineageOS dev fly swatter. lol<br>
 
+### What is True Native Mode on a computer?
+"(1) The normal running mode of a computer, executing programs from its built-in instruction set. Contrast with emulation mode. See native language. (2) The highest performance state of a computer."<br>
+
+### What is True Native Mode on the Saber ESS 9218 DAC?<br>
+I created all 4632 lines of the True Native Mode v3.0 code myself, with the help of sed, awk, echo, nano and l3afpad, there are 786 mixer paths for True Native Mode that places the QuadDAC into it's highest performance state. The very essence of True Native Mode it's self allows you to overclock the QuadDAC, 1024bit, 2822.4kHz with a total of 393216 channels.<br>
+
 ### Is Lemon Drop Hi-Res audio source code still in the development stages?
 Nope, all done.
 
@@ -42,12 +48,6 @@ Can be due to the following:<br>
 1. The QuadDAC was not able to acquire the precise Ohm rating of your headphones, to fix unplug your headphones and plug them back in.<br>
 2. The phone is in low power mode.<br>
 3. Your battery is to low, it is undetermined on how much battery power we must have. I would say at least over 15%.<br>
-
-### What is True Native Mode on a computer?
-"(1) The normal running mode of a computer, executing programs from its built-in instruction set. Contrast with emulation mode. See native language. (2) The highest performance state of a computer."<br>
-
-### What is True Native Mode on the Saber ESS 9218 DAC?<br>
-I created all 4632 lines of the True Native Mode v3.0 code myself, with the help of sed, awk, echo, nano and l3afpad, there are 786 mixer paths for True Native Mode that places the QuadDAC into it's highest performance state. The very essence of True Native Mode it's self allows you to overclock the QuadDAC, 1024bit, 2822.4kHz with a total of 393216 channels.<br>
 
 ### Did you tune this QuadDAC?
 Yes I did, there are volume levels you can choose when programing the DAC, for bass, mid-range and treble. If they are all on the same volume level, then the audio will get all jumbled up. I was thinking when tuning the DAC, you want to hear the singer first and foremost and the bass in the background. The higher the number, the increased volume level of the audio. If you listen closely, you should be able to hear that your music has a sense of depth perception to it. I thought that would be extremely unparalleled.<br>
