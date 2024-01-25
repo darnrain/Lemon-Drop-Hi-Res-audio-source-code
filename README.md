@@ -49,16 +49,6 @@ Can be due to the following:<br>
 ### What is True Native Mode on the Saber ESS 9218 DAC?<br>
 I created all 3096 lines of the True Native Mode v2.0 code myself, with the help of sed, awk, echo, nano and l3afpad, there are 786 mixer paths for True Native Mode that places the QuadDAC into it's highest performance state. The very essence of True Native Mode it's self allows the DAC to have more than two channels, like one for left and one for right.
 
-### How did you calculate the maximum ammount of channels the QuadDAC can handel?
-
-Let me jump in real quick and let you know that these are my notes directly from the mixer_paths file. So they may not make sense to everyone. This is how I came up with the number 16 for bass, treble and mid-range, 16 divided by 4 = 4 there are 4 DACs. One DAC needs to have an TX and RX, times that by two for stereo 2 X 2 = 4. Yeah when programing a QuadDAC, you need to know how to do math. When I am making notes about my programing, I'm extremely direct and precise.<br>
-
-This is how I calculated the amount of mixer paths to program in for True Native Mode for the QuadDAC. Bass, mid-range and treble all require 16 mixer paths each for a QuadDAC. So 16 X 3 = 48 then for a QuadDAC you want to times 48 X 16 = 768. So 768 is our magic number.<br>
-
-This is how I calculated the amount of channels, There are 384 mixer paths for True Native Mode for each SPKR and HPH. You need to times 384 X 4 = 1536. There are 1536 channels going to each DAC 1536 X 64 = 98304 then divide 98304 by 2 = 49152 for a total of 196608 channels. When you divide 98304 by 2 this will widen the music.<br>
-
-We can only hear up to 20kHz however the more channels there are the better the audio sounds to us, it's like SD video vs HD video. But if you wanted to compare the audio quality to video quality. I would say the audio would be comparable to 8k video.<br>
-
 ### Did you tune this QuadDAC?
 Yes I did, there are volume levels you can choose when programing the DAC, for bass, mid-range and treble. If they are all on the same volume level, then the audio will get all jumbled up. I was thinking when tuning the DAC, you want to hear the singer first and foremost and the bass in the background. The higher the number, the increased volume level of the audio. If you listen closely, you should be able to hear that your music has a sense of depth perception to it. I thought that would be extremely unparalleled.<br>
 
