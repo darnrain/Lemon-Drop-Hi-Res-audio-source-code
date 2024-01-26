@@ -40,9 +40,6 @@ Update: I found the missing piece to the puzzle. Look in the original mixer_path
 ### How did you transform the Lgv20 into A Professional High Resolution Audio Player?
 34 years of advanced computer experience. Instead of a Nintendo my parents bought me a Commodore 64, that's how I learned how to write code. My very first computer was a vic 20, I don't count that computer because all I did was play games. The absolute most nostalgic game I have ever played as a kid, would have to be Space Invaders. I loved that game, still do to this day.<br>
 
-### Is there any room for errors or mistakes when programing a QuadDAC?
-Nope, everything must be in the correct order with no typos or mistakes, in order to achieve the absolute very best audio quality out of the QuadDAC. That's why I am enjoying this project so much, it's the ultimate challenge for me to achieve. Unlike the manufactures, I do not have the luxury of connecting the QuadDAC chip to a computer to see if there are any errors or mistakes in my code, I have to do it the old fashioned way, by ear and sight. Not to mention the manufacture most likely has an instruction manual, unlike me. That just increases the difficulty of this undertaking, in other words the ultimate challenge of a life time, for me. Sounds like fun to me.<br>
-
 ### My music does not sound Overpowered sometimes?
 Can be due to the following:<br>
 1. The QuadDAC was not able to acquire the precise Ohm rating of your headphones, to fix unplug your headphones and plug them back in.<br>
