@@ -83,6 +83,13 @@ I may have said I was finished programing this QuadDAC a little to early. I had 
 
 So as you can see I can overclock the QuadDAC 72 times, to be able to max out the Saber ESS 9218 DAC. For a total of 1152bit, 3175.2kHz and 442368 channels. In the past I was trying to calculate the amount to overclock the QuadDAC by the DACs. That’s not correct, it all depends on the amount of True Native Mode mixer paths. Keep in mind I am programing a QuadDAC for the first time, and I have not read a signal paper published on this subject before. To my knowledge there is no, How to Program a QuadDAC in your spare time. So that begs the question, how will I know what I am absolutely finished? When I don’t even know what to look for, letting me know that I am absolutely finished? I will just have to do what I have been doing the whole time programing this QuadDAC, just wing it. ;)<br>
 
+Update: v181.1<br>
+Have you guys ever heard audio at, 2048bit, 5644.8kHz with 786432 channels? Lol I had it all wrong in v180.1. What we need to look at is the prime factors of 384, they are: 64, 96, 128, 192. I am sure some of you out there were saying noooo. Don’t worry I will get it in the long run, it may take me some time to wrap my brain around it. In the past 128 did not work, however I have cleaned up the code a lot the last time I tried 128. I am now able to use 128. So this version now is set to, 2048bit, 5644.8kHz with 786432 channels. Lol<br>
+
+It looks like each DAC can be overclocked 32 times. 32 X 4 = 128<br>
+
+That actually makes perfect sense, because after all the Saber ESS 9128 DAC is a 32bit QuadDAC. But what they didn’t say is each DAC is 32bit for a total of 128bit. So 128 is our magic number.<br>
+
 ### Will this True Native Mode code work on other Android phones other than the Lgv20?
 I can't say for absolutely certain, I can say for certain that the True Native Mode code runs excellent, on both of my Lgv20's, my main phone DeGoogled and the spare one with Google intact both running Stock Oreo ezV2020 v1.0 Kernel.  Who knows this True Native Mode code may work universally across all QuadDACs on all Android phones. It's up to you guys to beta test this code, my job is all done, I just had to recreate the True Native Mode code and make it work. The LG V series of phones, will have the best chance of this True Native Mode code working. Also keep in mind that I officially got True Native Mode working in v169.1, on 01-17-24 phones manufactured after that date may have True Native Mode disabled on the QuadDAC chip.<br>
 
