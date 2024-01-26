@@ -58,47 +58,6 @@ When programing a QuadDAC you do not have visual gauges to view to see if you ha
 
 I was always seeing LO in the True Native Mode code. I was like what is LO??? Then it hit me it's the bass. I came up with MI and HI for mid-range and treble myself and it worked!!! Also I was always seeing RX everywhere I looked, I was like well if there is an RX there has to be a TX. I guess you could say it was trial, error, logic and my advanced Linux computer skills, is how I programed the Saber ESS 9218 DAC. The devs that programed the Saber ESS DAC chip are professionals, you need to think like how they think. They would not make it to complicated to program the QuadDAC. For me it is the ultimate puzzle.<br>
 
-### How did you calculate all the numbers?
-The key was to times everthing by 64. I will explain how I came up with the number 64.<br>
-
-Keep in mind that this is my understanding, I have never read any research on this subject before, so I may be incorrect in my explanation. However I know for a fact that my numbers are correct.<br>
-
-64 divided by 4 = 16, each DAC needs a TX and RX to function. That is one channel, then the second channel you also need a TX and RX that is a total of 4 mixer paths. 16 divided by 4 = 4. So we need to times everything by 64, including the bit rate, khz and channels for everything to be in sync. It just so happens that is a total of 1024bit, 2822.4kHz with a total of 393216 channels. This is the absolute maximum the QuadDAC is able to handle. So the maximum amount that the Saber ESS 9218 DAC can be overclocked, is 64 times above its normal operating range. They designed the Saber ESS 9218 QuadDAC, with raw power.<br>
-
-44.1 X 64 = 2822.4<br>
-
-16 X 64 = 1024<br>
-
-1536 X 64 = 98304 then 98304 X 4 = 393216 channels<br>
-
-This is how I came up with the number 1536.<br>
-Each DAC has 384 mixer paths for True Native Mode. 384 X 4 = 1536.<br>
-
-This is how I calculated the amount of mixer paths to program in for True Native Mode for the QuadDAC. Bass, mid-range and treble all require 16 mixer paths each for a QuadDAC. So 16 X 3 = 48 then for a QuadDAC you want to times 48 X 16 = 768. So 768 is our magic number. I did try 32, and wrote a beta version of the True Native Mode code. It didn't work out so good. The QuadDAC said nooooo. So at the time I didn't know that 16 was the 4 times that you can overclock this QuadDAC. I just knew that 16 was the maximum number I could use at the time. I was not going to write the True Native Mode code, with room to spare. I was determined to squeeze every last drop of power out of the QuadDAC. Why you need a total of 768 mixer paths for True Native Mode is because there is a DAC side and headphones side to a QuadDAC. Each side has to have there own unique mixer path for True Native Mode. 384 X 2 = 768.<br>
-
-Update: v180.1<br>
-I may have said I was finished programing this QuadDAC a little to early. I had no idea that the number to overclock everything at was 72, not 64. I will tell you guys how I came up with that number. There are 384 True Native Mode mixer paths for each DAC to use, there are 4 DACs as you know. For stereo you need a total of 16 mixer paths. Because all four DACs require 4 mixer paths each for stereo. Keep in mind that I have already calculated that we can already overclock the QuadDAC by 64. In the past I did try 128, the QuadDAC sounded like it was struggling to keep up. So 128 is not a option, but 64 works.<br>
-
-384 divided by 16 = 24 then 24 minus 16 = 8 then 8 + 64 = 72<br>
-
-So as you can see I can overclock the QuadDAC 72 times, to be able to max out the Saber ESS 9218 DAC. For a total of 1152bit, 3175.2kHz and 442368 channels. In the past I was trying to calculate the amount to overclock the QuadDAC by the DACs. That’s not correct, it all depends on the amount of True Native Mode mixer paths. Keep in mind I am programing a QuadDAC for the first time, and I have not read a signal paper published on this subject before. To my knowledge there is no, How to Program a QuadDAC in your spare time. So that begs the question, how will I know what I am absolutely finished? When I don’t even know what to look for, letting me know that I am absolutely finished? I will just have to do what I have been doing the whole time programing this QuadDAC, just wing it. ;)<br>
-
-Update: v181.1<br>
-Have you guys ever heard audio at, 2048bit, 5644.8kHz with 786432 channels? Lol I had it all wrong in v180.1. What we need to look at is the prime factors of 384, they are: 64, 96, 128, 192. I am sure some of you out there were saying noooo. Don’t worry I will get it in the long run, it may take me some time to wrap my brain around it. In the past 128 did not work, however I have cleaned up the code a lot since the last time I tried 128. I am now able to use 128. So this version now is set to, 2048bit, 5644.8kHz with 786432 channels. Lol<br>
-
-It looks like each DAC can be overclocked 32 times. 32 X 4 = 128<br>
-
-44.1 X 128 = 5644.8<br>
-
-16 X 128 = 2048<br>
-
-1536 X 128 = 196608 then 196608 X 4 = 786432 channels<br>
-
-This is how I came up with the number 1536.<br>
-Each DAC has 384 mixer paths for True Native Mode. 384 X 4 = 1536.<br>
-
-That actually makes perfect sense, because after all the Saber ESS 9128 DAC is a 32bit QuadDAC. But what they didn’t say is each DAC is 32bit for a total of 128bit. So 128 is our magic number.<br>
-
 ### Will this True Native Mode code work on other Android phones other than the Lgv20?
 I can't say for absolutely certain, I can say for certain that the True Native Mode code runs excellent, on both of my Lgv20's, my main phone DeGoogled and the spare one with Google intact both running Stock Oreo ezV2020 v1.0 Kernel.  Who knows this True Native Mode code may work universally across all QuadDACs on all Android phones. It's up to you guys to beta test this code, my job is all done, I just had to recreate the True Native Mode code and make it work. The LG V series of phones, will have the best chance of this True Native Mode code working. Also keep in mind that I officially got True Native Mode working in v169.1, on 01-17-24 phones manufactured after that date may have True Native Mode disabled on the QuadDAC chip.<br>
 
