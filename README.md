@@ -66,7 +66,7 @@ The key was to times everthing by 64. I will explain how I came up with the numb
 
 Keep in mind that this is my understanding, I have never read any research on this subject before, so I may be incorrect in my explanation. However I know for a fact that my numbers are correct.<br>
 
-64 divided by 4 = 16, each DAC needs a TX and RX to function. That is one channel, then the second channel you also need a TX and RX that is a total of 4 mixer paths. 16 divided by 4 = 4. So we need to times everything by 64, including the bit rate, khz and channels for everything to be in sync. It just so happens that is a total of 1024bit, 2822.4kHz with a total of 393216 channels. This is the absolute maximum the QuadDAC is able to handle. So the total amount, that the Saber ESS 9218 QuadDAC can be overclocked is 4 times, because 16 X 4 = 64.<br>
+64 divided by 4 = 16, each DAC needs a TX and RX to function. That is one channel, then the second channel you also need a TX and RX that is a total of 4 mixer paths. 16 divided by 4 = 4. So we need to times everything by 64, including the bit rate, khz and channels for everything to be in sync. It just so happens that is a total of 1024bit, 2822.4kHz with a total of 393216 channels. This is the absolute maximum the QuadDAC is able to handle. So the maximum amount that the Saber ESS 9218 DAC can be overclocked, is 64 times above its normal operating range. They designed the Saber ESS 9218 QuadDAC, with raw power.<br>
 
 44.1 X 64 = 2822.4<br>
 
