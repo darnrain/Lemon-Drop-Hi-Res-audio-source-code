@@ -88,6 +88,15 @@ Have you guys ever heard audio at, 2048bit, 5644.8kHz with 786432 channels? Lol 
 
 It looks like each DAC can be overclocked 32 times. 32 X 4 = 128<br>
 
+44.1 X 128 = 5644.8<br>
+
+16 X 128 = 2048<br>
+
+1536 X 128 = 196608 then 196608 X 4 = 786432 channels<br>
+
+This is how I came up with the number 1536.<br>
+Each DAC has 384 mixer paths for True Native Mode. 384 X 4 = 1536.<br>
+
 That actually makes perfect sense, because after all the Saber ESS 9128 DAC is a 32bit QuadDAC. But what they didn’t say is each DAC is 32bit for a total of 128bit. So 128 is our magic number.<br>
 
 ### Will this True Native Mode code work on other Android phones other than the Lgv20?
