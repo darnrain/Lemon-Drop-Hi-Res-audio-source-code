@@ -61,9 +61,18 @@ When programing a QuadDAC you do not have visual gauges to view to see if you ha
 I was always seeing LO in the True Native Mode code. I was like what is LO??? Then it hit me it's the bass. I came up with MI and HI for mid-range and treble myself and it worked!!! Also I was always seeing RX everywhere I looked, I was like well if there is an RX there has to be a TX. I guess you could say it was trial, error, logic and my advanced Linux computer skills, is how I programed the Saber ESS 9218 DAC. The devs that programed the Saber ESS DAC chip are professionals, you need to think like how they think. They would not make it to complicated to program the QuadDAC. For me it is the ultimate puzzle.<br>
 
 ### How did you calculate the numbers?<br>
+It’s so complex programing a QuadDAC, and it’s extremely complicated to setup everything correct. That’s what I have been trying to do. I’m done programing the QuadDAC. There are so many things that need to be setup with the correct numbers. I did it, I got everything setup correct in v184.1. I will explain what I did to achieve this.  v184.1 has the absolute maximum values of 2048bit, 5644.8kHz and 786432 channels.<br>
+
+This is how I have the QuadDAC setup, I'm not entirely sure what offload is. I just know we need it, it's part of the QuadDAC. Without offload the music does not sound correct. So as you can see all 4 items have there own DAC, all 4 DACs play simultaneously. That's what is so unique about a QuadDAC, there is a huge amount of bass & mid-range & treble & offload all blasting away simultaneously. As apposed to a single DAC. Cool huh?<br>
+
+DAC 0 = bass<br>
+DAC 1 = mid-range<br>
+DAC 2 = high-range<br>
+DAC 3 = offload<br>
+
 There are two sides that you need to set the correct amount of channels, the headphone side and the QuadDAC side. I will be talking about the headphone side. There are 384 True Native Mode mixer paths for each DAC, there are 4 DACs as you know. I had 1536 channels this entire time in all the past versions other than v184.1 or higher, when it should have been 3072 for stereo. We don’t want mono.<br>
 
-I should also mention, 128 is the number I used to overclock the QuadDAC. When the QuadDAC is running in True Native Mode, it is possible to overclock the QuadDAC.<br>
+I should also mention, 128 is the number I used to overclock the QuadDAC. When the QuadDAC is running in True Native Mode, it is possible  to overclock the QuadDAC.<br>
 
 The number 128 could be because one of two things, I don't know for sure.<br>
 1. The QuadDAC each DAC is 32bit 32 X 4 = 128<br>
