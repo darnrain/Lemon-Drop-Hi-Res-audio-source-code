@@ -63,9 +63,9 @@ I was always seeing LO in the True Native Mode code. I was like what is LO??? Th
 ### How did you calculate the numbers?<br>
 It’s so complex programing a QuadDAC, and it’s extremely complicated to setup everything correct. That’s what I have been trying to do. I’m done programing the QuadDAC. There are so many things that need to be setup with the correct numbers. I did it, I got everything setup correct in v184.1. I will explain what I did to achieve this.  v184.1 has the absolute maximum values of 2048bit, 5644.8kHz and 786432 channels. As you all know, I love a good challenge and let me tell you this was one of the challenging tasks that I have ever attempted.<br>
 
-This is how I have the QuadDAC setup, I'm not entirely sure what offload is. I just know we need it, it's part of the QuadDAC. Without offload the music does not sound correct. So as you can see all 4 items have there own DAC, all 4 DACs play simultaneously. That's what is so unique about a QuadDAC, there is a huge amount of bass & mid-range & treble & offload all blasting away simultaneously. As apposed to a single DAC. In my failed experiments, I found that DAC 0 and DAC 2 have the most power, or volume level. That is why bass and high-range are on those DACs. Each DAC has 196608 channels, 196608 X 4 = 786432 channels.<br>
+This is how I have the QuadDAC setup, I'm not entirely sure what offload is. I just know we need it, it's part of the QuadDAC. Without offload the music does not sound correct. So as you can see all 4 items have there own DAC, all 4 DACs play simultaneously. That's what is so unique about a QuadDAC, there is a huge amount of low-range & mid-range & high-range & offload all blasting away simultaneously. As apposed to a single DAC. In my failed experiments, I found that DAC 0 and DAC 2 have the most power, or volume level. That is why low-range and high-range are on those DACs.<br>
 
-DAC 0 = bass<br>
+DAC 0 = low-range<br>
 DAC 1 = mid-range<br>
 DAC 2 = high-range<br>
 DAC 3 = offload<br>
