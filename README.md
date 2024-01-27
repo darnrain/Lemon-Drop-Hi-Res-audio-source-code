@@ -74,7 +74,7 @@ There are two sides that you need to set the correct amount of channels, the hea
 
 I should also mention, 128 is the number I used to overclock the QuadDAC. When the QuadDAC is running in True Native Mode, it is possible  to overclock the QuadDAC.<br>
 
-The number 128 could be because one of two things, I don't know for sure.<br>
+The number 128 could be because one of two things. If ask me, my money's on number one.<br>
 1. The QuadDAC each DAC is 32bit 32 X 4 = 128<br>
 2. There are 384 mixer path for True Native Mode, the prime numbers of 384 are: 64, 96, 128, 192<br>
 
