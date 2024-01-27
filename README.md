@@ -81,7 +81,7 @@ There are 3072 channels going to each DAC<br>
 3072 X 128 = 393216 then divide 393216 by 2 = 196608 for a total of 786432 channels<br>
 You want to divide 393216 by 2 because of stereo<br>
 
-This was not easy to calculate, it took me many failed attempts before I got it right.<br>
+This was not easy to calculate, it took me many failed attempts before I got it right. If you keep trying, odds are eventually you will succeed.<br>
 
 ### Will this True Native Mode code work on other Android phones other than the Lgv20?
 I can't say for absolutely certain, I can say for certain that the True Native Mode code runs excellent, on both of my Lgv20's, my main phone DeGoogled and the spare one with Google intact both running Stock Oreo ezV2020 v1.0 Kernel.  Who knows this True Native Mode code may work universally across all QuadDACs on all Android phones. It's up to you guys to beta test this code, my job is all done, I just had to recreate the True Native Mode code and make it work. The LG V series of phones, will have the best chance of this True Native Mode code working. Also keep in mind that I officially got True Native Mode working in v169.1, on 01-17-24 phones manufactured after that date may have True Native Mode disabled on the QuadDAC chip.<br>
