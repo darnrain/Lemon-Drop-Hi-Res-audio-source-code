@@ -3,7 +3,7 @@
 < 	
 < 	<!-- Top of page -->
 < 	
-< 	<!-- Lemon Drop Hi-Res treble v182.1 -->
+< 	<!-- Lemon Drop Hi-Res treble v183.1 -->
 < 	<!-- Designed and created by darnrain @GitHub -->
 < 	<!-- Proudly Made In America -->
 < 	
@@ -22807,37 +22807,37 @@
 < 	
 < 	<path name="headphones-hifi-dac">
 < 	<ctl name="Es9018 Master Volume" value="0" />
-< 	<ctl name="Es9018 AVC Volume" value="0" />
+< 	<ctl name="Es9018 AVC Volume" value="3" />
 < 	<ctl name="Es9018 HEADSET TYPE" value="2" />
 < 	</path>
 < 	
 < 	<path name="headphones-hifi-dac-advanced">
 < 	<ctl name="Es9018 Master Volume" value="0" />
-< 	<ctl name="Es9018 AVC Volume" value="0" />
+< 	<ctl name="Es9018 AVC Volume" value="3" />
 < 	<ctl name="Es9018 HEADSET TYPE" value="2" />
 < 	</path>
 < 	
 < 	<path name="headphones-hifi-dac-aux">
 < 	<ctl name="Es9018 Master Volume" value="0" />
-< 	<ctl name="Es9018 AVC Volume" value="0" />
+< 	<ctl name="Es9018 AVC Volume" value="3" />
 < 	<ctl name="Es9018 HEADSET TYPE" value="2" />
 < 	</path>
 < 	
 < 	<path name="headphones-hifi-dacdop">
 < 	<ctl name="Es9018 Master Volume" value="0" />
-< 	<ctl name="Es9018 AVC Volume" value="0" />
+< 	<ctl name="Es9018 AVC Volume" value="3" />
 < 	<ctl name="Es9018 HEADSET TYPE" value="2" />
 < 	</path>
 < 	
 < 	<path name="headphones-hifi-dacdop-advanced">
 < 	<ctl name="Es9018 Master Volume" value="0" />
-< 	<ctl name="Es9018 AVC Volume" value="0" />
+< 	<ctl name="Es9018 AVC Volume" value="3" />
 < 	<ctl name="Es9018 HEADSET TYPE" value="2" />
 < 	</path>
 < 	
 < 	<path name="headphones-hifi-dacdop-aux">
 < 	<ctl name="Es9018 Master Volume" value="0" />
-< 	<ctl name="Es9018 AVC Volume" value="0" />
+< 	<ctl name="Es9018 AVC Volume" value="3" />
 < 	<ctl name="Es9018 HEADSET TYPE" value="2" />
 < 	</path>
 < 	
