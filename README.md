@@ -63,6 +63,8 @@ I was always seeing LO in the True Native Mode code. I was like what is LO??? Th
 ### How did you calculate the numbers?<br>
 There are two sides that you need to set the correct amount of channels, the headphone side and the QuadDAC side. I will be talking about the headphone side. There are 384 True Native Mode mixer paths for each DAC, there are 4 DACs as you know. I had 1536 channels this entire time in all the past versions other than v184.1 or higher, when it should have been 3072 for stereo. We don’t want mono.<br>
 
+I should also mention, 128 is the number I used to overclock the QuadDAC. When the QuadDAC is running in True Native Mode, it is possible to overclock the QuadDAC.<br>
+
 The number 128 could be because one of two things, I don't know for sure.<br>
 1. The QuadDAC each DAC is 32bit 32 X 4 = 128<br>
 2. There are 384 mixer path for True Native Mode, the prime numbers of 384 are: 64, 96, 128, 192<br>
