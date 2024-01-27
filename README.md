@@ -61,9 +61,9 @@ When programing a QuadDAC you do not have visual gauges to view to see if you ha
 I was always seeing LO in the True Native Mode code. I was like what is LO??? Then it hit me it's the bass. I came up with MI and HI for mid-range and treble myself and it worked!!! Also I was always seeing RX everywhere I looked, I was like well if there is an RX there has to be a TX. I guess you could say it was trial, error, logic and my advanced Linux computer skills, is how I programed the Saber ESS 9218 DAC. The devs that programed the Saber ESS DAC chip are professionals, you need to think like how they think. They would not make it to complicated to program the QuadDAC. For me it is the ultimate puzzle.<br>
 
 ### How did you calculate the numbers?<br>
-It’s so complex programing a QuadDAC, and it’s extremely complicated to setup everything correct. That’s what I have been trying to do. I’m done programing the QuadDAC. There are so many things that need to be setup with the correct numbers. I did it, I got everything setup correct in v184.1. I will explain what I did to achieve this.  v184.1 has the absolute maximum values of 2048bit, 5644.8kHz and 786432 channels.<br>
+It’s so complex programing a QuadDAC, and it’s extremely complicated to setup everything correct. That’s what I have been trying to do. I’m done programing the QuadDAC. There are so many things that need to be setup with the correct numbers. I did it, I got everything setup correct in v184.1. I will explain what I did to achieve this.  v184.1 has the absolute maximum values of 2048bit, 5644.8kHz and 786432 channels. As you all know, I love a good challenge and let me tell you this was one of the challenging tasks that I have ever attempted.<br>
 
-This is how I have the QuadDAC setup, I'm not entirely sure what offload is. I just know we need it, it's part of the QuadDAC. Without offload the music does not sound correct. So as you can see all 4 items have there own DAC, all 4 DACs play simultaneously. That's what is so unique about a QuadDAC, there is a huge amount of bass & mid-range & treble & offload all blasting away simultaneously. As apposed to a single DAC. Cool huh?<br>
+This is how I have the QuadDAC setup, I'm not entirely sure what offload is. I just know we need it, it's part of the QuadDAC. Without offload the music does not sound correct. So as you can see all 4 items have there own DAC, all 4 DACs play simultaneously. That's what is so unique about a QuadDAC, there is a huge amount of bass & mid-range & treble & offload all blasting away simultaneously. As apposed to a single DAC. In my failed experiments, I found that DAC 0 and DAC 2 have the most power, or volume level. That is why bass and high-range are on those DACs.<br>
 
 DAC 0 = bass<br>
 DAC 1 = mid-range<br>
@@ -85,6 +85,14 @@ This is the bit rate<br>
 16 X 128 = 2048<br>
 
 This is the QuadDAC direct output that I will be talking about. This is how I calculated the amount of channels<br>
+
+There are 384 X 2 = 768 mixer paths for stereo<br>
+You need to times 768 X 4 = 3072<br>
+There are 3072 channels going to each DAC<br>
+3072 X 128 = 393216 then divide 393216 by 2 = 196608 for a total of 786432 channels<br>
+You want to divide 393216 by 2 because of stereo<br>
+
+This was not easy to calculate, it took me many failed attempts before I got it right. If you keep trying, odds are eventually you will succeed.<br>
 
 There are 384 X 2 = 768 mixer paths for stereo<br>
 You need to times 768 X 4 = 3072<br>
