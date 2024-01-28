@@ -94,6 +94,7 @@ You need to times 768 X 4 = 3072<br>
 There are 3072 channels going to each DAC<br>
 3072 X 128 = 393216 then divide 393216 by 2 = 196608 for a total of 786432 channels<br>
 You want to divide 393216 by 2 because of stereo<br>
+Each DAC has a total amount of channels, 196608 for a total of 786432 channels.<br>
 
 This was not easy to calculate, it took me many failed attempts before, If you keep trying odds are, you will eventually succeed.<br>
 
