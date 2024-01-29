@@ -10,7 +10,7 @@ Set at: 256bit & 705.6kHz & 24576 channels.<br>
 Please listen at a safe volume level.<br>
 
 Lemon Drop Hi-Res development status: Active.<br>
-latest release: v184.1<br>
+latest release: v185.9<br>
 
 I recommend only using v185.9 or higher.<br>
 
