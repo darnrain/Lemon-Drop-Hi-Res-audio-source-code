@@ -32,7 +32,7 @@ It's funny, but the LineageOS devs reminds me exactly of when your watching a mo
 "(1) The normal running mode of a computer, executing programs from its built-in instruction set. Contrast with emulation mode. See native language. (2) The highest performance state of a computer."<br>
 
 ### What is True Native Mode on the Saber ESS 9218 DAC?<br>
-I created all 4632 lines of the True Native Mode v3.0 code myself, with the help of sed, awk, echo, nano and l3afpad, there are 786 mixer paths for True Native Mode that places the QuadDAC into it's highest performance state. The very essence of True Native Mode it's self allows you to overclock the QuadDAC, v184.1 or higher has the absolute maximum values of 2048bit, 5644.8kHz and 786432 channels.<br>
+I created all 4632 lines of the True Native Mode v3.0 code myself, with the help of sed, awk, echo, nano and l3afpad, there are 786 mixer paths for True Native Mode that places the QuadDAC into it's highest performance state. The very essence of True Native Mode it's self allows you to have more that two channels for left and right, 24576 channels.
 
 ### Is Lemon Drop Hi-Res audio source code still in the development stages?
 Yep, I still don't have everthing setup correct, I am working on it.<br>
