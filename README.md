@@ -5,14 +5,14 @@ Welcome to the future of music...<br>
 The Lgv20 was first with the Android Nougat operating system.<br>
 Now it's the first running in True Native Mode.<br>
 With all 4 DACs enabled.<br>
-v184.1 or higher has the absolute maximum values of 2048bit, 5644.8kHz and 786432 channels.<br>
+Set at: 256bit & 705.6kHz & 24576 channels.<br>
 
 Please listen at a safe volume level.<br>
 
 Lemon Drop Hi-Res development status: Active.<br>
 latest release: v184.1<br>
 
-I only recommend using v184.1 or higher. Nope, I still don't have everthing setup correct, I am working on it.<br>
+I recommend only using v185.9 or higher.<br>
 
 “I have not failed. I've just found 10,000 ways that won't work.”<br>
 — Thomas Edison<br>
@@ -64,39 +64,48 @@ When programing a QuadDAC you do not have visual gauges to view to see if you ha
 I was always seeing LO in the True Native Mode code. I was like what is LO??? Then it hit me it's the bass. I came up with MI and HI for mid-range and treble myself and it worked!!! Also I was always seeing RX everywhere I looked, I was like well if there is an RX there has to be a TX. I guess you could say it was trial, error, logic and my advanced Linux computer skills, is how I programed the Saber ESS 9218 DAC. The devs that programed the Saber ESS DAC chip are professionals, you need to think like how they think. They would not make it to complicated to program the QuadDAC. For me it is the ultimate puzzle.<br>
 
 ### How did you calculate the numbers?<br>
-It’s so complex programing a QuadDAC, and it’s extremely complicated to setup everything correct. That’s what I have been trying to do. I’m done programing the QuadDAC. There are so many things that need to be setup with the correct numbers. I did it, I got everything setup correct in v184.1. I will explain what I did to achieve this.  v184.1 has the absolute maximum values of 2048bit, 5644.8kHz and 786432 channels. As you all know, I love a good challenge and let me tell you this was one of the challenging tasks that I have ever attempted.<br>
+This is how I came up with the calculations.<br>
 
-This is how I have the QuadDAC setup, I'm not entirely sure what offload is. I just know we need it, it's part of the QuadDAC. Without offload the music does not sound correct. So as you can see all 4 items have there own DAC, all 4 DACs play simultaneously. That's what is so unique about a QuadDAC, there is a huge amount of low-range & mid-range & high-range & offload all blasting away simultaneously. As apposed to a single DAC. In my failed experiments, I found that DAC 0 and DAC 2 have the most power, or volume level. That is why low-range and high-range are on those DACs.<br>
+Welcome to the headphone control center<br>
+
+This is how I calculated the amount of channels for headphone & bluetooth<br>
+There are 384 True Native Mode mixer paths<br>
+384 X 4 = 1536 then 1536 X 4 = 6144<br>
+
+This is how I calculated the kilohertz headphone & bluetooth<br>
+44.1 X 4 = 176.4<br>
+
+This is how I calculated the bit-rate headphone & bluetooth<br>
+16 X 4 = 64<br>
+
+Welcome to the QuadDAC control center<br>
+
+This is how I calculated the amount of channels for speaker aka QuadDAC<br>
+6144 X 4 = 24576<br>
+
+This is how I calculated the kilohertz for speaker aka QuadDAC<br>
+176.4 X 4 = 705.6<br>
+
+This is how I calculated the bit rate for speaker aka QuadDAC<br>
+64 X 4 = 256<br>
+
+Welcome to the QuadDAC direct output<br>
 
 DAC 0 = low-range<br>
 DAC 1 = mid-range<br>
 DAC 2 = high-range<br>
 DAC 3 = offload<br>
 
-There are two sides that you need to set the correct amount of channels, the headphone side and the QuadDAC side, they both need to sync up perfectly with each other. I will be talking about the headphone side. There are 384 True Native Mode mixer paths for each DAC, there are 4 DACs as you know. I had 1536 channels this entire time in all the past versions other than v184.1 or higher, when it should have been 3072 for stereo. We don’t want mono.<br>
+You must divide everything by 4 from the speaker settings<br>
 
-I should also mention, 128 is the number I used to overclock the QuadDAC. When the QuadDAC is running in True Native Mode, it is possible  to overclock the QuadDAC.<br>
+speaker is set to channels: 24576<br>
+24576 divided by 4 = 6144<br>
 
-The number 128 could be because one of two things. If ask me, my money's on number one.<br>
-1. The QuadDAC each DAC is 32bit 32 X 4 = 128<br>
-2. There are 384 mixer path for True Native Mode, the prime numbers of 384 are: 64, 96, 128, 192<br>
+speaker is set to kilohertz: 705.6<br>
+705.6 divided by 4 = 176.4<br>
 
-This is the kilohertz<br>
-44.1 X 128 = 5644.8<br>
-
-This is the bit rate<br>
-16 X 128 = 2048<br>
-
-This is the QuadDAC direct output that I will be talking about. This is how I calculated the amount of channels<br>
-
-There are 384 X 2 = 768 mixer paths for stereo<br>
-You need to times 768 X 4 = 3072<br>
-There are 3072 channels going to each DAC<br>
-3072 X 128 = 393216 then divide 393216 by 2 = 196608 for a total of 786432 channels<br>
-You want to divide 393216 by 2 because of stereo<br>
-Each DAC has a total amount of channels, 196608 for a total of 786432 channels.<br>
-
-This was not easy to calculate, it took me many failed attempts before, If you keep trying odds are, you will eventually succeed.<br>
+speaker is set to bit rate: 256<br>
+256 divided by 4 = 64<br>
 
 ### Will this True Native Mode code work on other Android phones other than the Lgv20?
 I can't say for absolutely certain, I can say for certain that the True Native Mode code runs excellent, on both of my Lgv20's, my main phone DeGoogled and the spare one with Google intact both running Stock Oreo ezV2020 v1.0 Kernel.  Who knows this True Native Mode code may work universally across all QuadDACs on all Android phones. It's up to you guys to beta test this code, my job is all done, I just had to recreate the True Native Mode code and make it work. The LG V series of phones, will have the best chance of this True Native Mode code working. Also keep in mind that I officially got True Native Mode working in v169.1, on 01-17-24 phones manufactured after that date may have True Native Mode disabled on the QuadDAC chip.<br>
