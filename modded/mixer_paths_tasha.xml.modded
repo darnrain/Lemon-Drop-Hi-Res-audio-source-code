@@ -28,7 +28,7 @@
 	
 	<!-- Top of page -->
 	
-	<!-- Lemon Drop Hi-Res treble v186.1 -->
+	<!-- Lemon Drop Hi-Res treble v187.2 -->
 	<!-- Designed and created by darnrain @GitHub -->
 	<!-- Proudly Made In America -->
 	
@@ -120,7 +120,7 @@
 	
 	<!-- Search for: direct output settings-->
 	<!-- to view the QuadDAC direct output settings -->
-
+	
 	<!-- Search for: dac control center -->
 	<!-- to view QuadDAC settings -->
 	
@@ -5912,8 +5912,22 @@
 	<ctl name="SLIM0_RX_VI_FB_LCH_MUX"  value="ZERO" />
 	<ctl name="TX HPH Mode" value="ZERO" />
 	<ctl name="RX HPH Mode" value="ZERO" />
-	<ctl name="AUDIO_REF_EC_UL1 MUX" value="None" />
+	<ctl name="AUDIO_REF_EC_UL1 MUX" value="ZERO" />
+	<ctl name="TX7 Half DB Enable" value="0" />
 	<ctl name="RX7 Half DB Enable" value="0" />
+	<ctl name="VOC_EXT_EC MUX" value="ZERO" />
+	<ctl name="AIF3_CAP Mixer SLIM TX1" value="0" />
+	<ctl name="AIF3_CAP Mixer SLIM RX1" value="0" />
+	<ctl name="AIF3_CAP Mixer SLIM TX2" value="0" />
+	<ctl name="AIF3_CAP Mixer SLIM RX2" value="0" />
+	<ctl name="LSM1 MUX" value="ZERO" />
+	<ctl name="LSM2 MUX" value="ZERO" />
+	<ctl name="LSM3 MUX" value="ZERO" />
+	<ctl name="LSM4 MUX" value="ZERO" />
+	<ctl name="LSM5 MUX" value="ZERO" />
+	<ctl name="LSM6 MUX" value="ZERO" />
+	<ctl name="LSM7 MUX" value="ZERO" />
+	<ctl name="LSM8 MUX" value="ZERO" />
 	
 	<!-- End of initial misc settings -->
 	
@@ -14133,11 +14147,16 @@
 	<ctl name="VoiceMMode2_Tx Mixer AFE_PCM_TX_MMode2" value="0" />
 	<!-- Multimode Voice2 end-->
 	
+	<!-- Lemon Drop Hi-Res start of mods -->
+	
+	<!-- Deleted -->
 	<!-- Voice external ec. reference -->
-	<ctl name="VOC_EXT_EC MUX" value="NONE" />
-	<ctl name="AIF3_CAP Mixer SLIM TX1" value="0" />
-	<ctl name="AIF3_CAP Mixer SLIM TX2" value="0" />
+	<!-- <ctl name="VOC_EXT_EC MUX" value="NONE" /> -->
+	<!-- <ctl name="AIF3_CAP Mixer SLIM TX1" value="0" /> -->
+	<!-- <ctl name="AIF3_CAP Mixer SLIM TX2" value="0" /> -->
 	<!-- Voice external ec. reference end -->
+	
+	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<!-- RT Proxy Cal -->
 	<ctl name="RT_PROXY_1_RX SetCalMode" value="CAL_MODE_NONE" />
@@ -14266,19 +14285,20 @@
 	<!-- <ctl name="MultiMedia8 Mixer AFE_PCM_TX" value="0" /> -->
 	<!-- audio record compress end -->
 	
-	<!-- Lemon Drop Hi-Res end of mods -->
-	
+	<!-- Deleted -->	
 	<!-- listen -->
-	<ctl name="LSM1 MUX" value="None" />
-	<ctl name="LSM2 MUX" value="None" />
-	<ctl name="LSM3 MUX" value="None" />
-	<ctl name="LSM4 MUX" value="None" />
-	<ctl name="LSM5 MUX" value="None" />
-	<ctl name="LSM6 MUX" value="None" />
-	<ctl name="LSM7 MUX" value="None" />
-	<ctl name="LSM8 MUX" value="None" />
-	<ctl name="SLIMBUS_5_TX LSM Function" value="None" />
+	<!-- <ctl name="LSM1 MUX" value="None" /> -->
+	<!-- <ctl name="LSM2 MUX" value="None" /> -->
+	<!-- <ctl name="LSM3 MUX" value="None" /> -->
+	<!-- <ctl name="LSM4 MUX" value="None" /> -->
+	<!-- <ctl name="LSM5 MUX" value="None" /> -->
+	<!-- <ctl name="LSM6 MUX" value="None" /> -->
+	<!-- <ctl name="LSM7 MUX" value="None" /> -->
+	<!-- <ctl name="LSM8 MUX" value="None" /> -->
+	<!-- <ctl name="SLIMBUS_5_TX LSM Function" value="None" /> -->
 	<!-- listen end -->
+	
+	<!-- Lemon Drop Hi-Res end of mods -->
 	
 	<!-- surround sound record -->
 	<ctl name="Input Num Channel" value="0" />
@@ -17746,22 +17766,22 @@
 	
 	<!-- Lemon Drop Hi-Res start of mods -->
 	<!-- Lot of code -->
-
+	
 	<!-- Start of dac control center -->
-
+	
 	<!-- Welcome to the QuadDAC control center -->
-
+	
 	<!-- This is how I calculated the amount of channels for speaker aka QuadDAC -->
 	<!-- 6144 X 4 = 24576 -->
-
+	
 	<!-- This is how I calculated the kilohertz for speaker aka QuadDAC -->
 	<!-- 176.4 X 4 = 705.6 -->
-
+	
 	<!-- This is how I calculated the bit rate for speaker aka QuadDAC -->
 	<!-- 64 X 4 = 256 -->
 	
 	<!-- 16bit internal speaker -->
-
+	
 	<path name="speaker_fluid">
 	<ctl name="SLIM_2_TX Channels" value="One" />
 	<ctl name="SLIM_2_RX Channels" value="One" />
@@ -17888,7 +17908,7 @@
 	<ctl name="SpkrRight WSA PA Mute" value="0" />
 	<ctl name="SpkrRight SWR DAC_Port Switch" value="2" />
 	</path>
-
+	
 	<!-- 24bit internal speaker -->
 	
 	<path name="speaker_liquid">
@@ -18108,7 +18128,7 @@
 	<ctl name="TX SPKRR Volume" value="16" />
 	<ctl name="RX SPKRR Volume" value="16" />
 	</path>
-
+	
 	<!-- End of dac control center -->
 	
 	<!-- Lemon Drop Hi-Res end of mods -->
@@ -19477,20 +19497,20 @@
 	</path>
 	
 	<!-- Welcome to the QuadDAC direct output -->
-
+	
 	<!-- DAC 0 = low-range -->
 	<!-- DAC 1 = mid-range -->
 	<!-- DAC 2 = high-range -->
 	<!-- DAC 3 = offload -->
-
+	
 	<!-- You must divide everything by 4 from the speaker settings -->
-
+	
 	<!-- speaker is set to channels: 24576 -->
 	<!-- 24576 divided by 4 = 6144 -->
-
+	
 	<!-- speaker is set to kilohertz: 705.6 -->
 	<!-- 705.6 divided by 4 = 176.4 -->
-
+	
 	<!-- speaker is set to bit rate: 256 -->
 	<!-- 256 divided by 4 = 64 -->
 	
@@ -19831,16 +19851,16 @@
 	<!-- Everything is brand new in the headphone control center -->
 	<!-- You should not need to replace any lines of code -->
 	<!-- In your mixer_paths.xml file just add all code -->
-
+	
 	<!-- Welcome to the headphone control center -->
-
+	
 	<!-- This is how I calculated the amount of channels for headphone & bluetooth -->
 	<!-- There are 384 True Native Mode mixer paths -->
 	<!-- 384 X 4 = 1536 then 1536 X 4 = 6144 -->
-
+	
 	<!-- This is how I calculated the kilohertz headphone & bluetooth -->
 	<!-- 44.1 X 4 = 176.4 -->
-
+	
 	<!-- This is how I calculated the bit-rate headphone & bluetooth -->
 	<!-- 16 X 4 = 64 -->
 	
