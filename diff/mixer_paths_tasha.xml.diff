@@ -3,7 +3,7 @@
 < 	
 < 	<!-- Top of page -->
 < 	
-< 	<!-- Lemon Drop Hi-Res treble v187.2 -->
+< 	<!-- Lemon Drop Hi-Res treble v188.2 -->
 < 	<!-- Designed and created by darnrain @GitHub -->
 < 	<!-- Proudly Made In America -->
 < 	
@@ -8183,7 +8183,7 @@
 5867,5868d2369
 < 	<ctl name="TX COMP1" value="0" />
 < 	<ctl name="RX COMP1" value="0" />
-5870,18604c2371,2429
+5870,18894c2371,2429
 < 	<ctl name="TX COMP2" value="0" />
 < 	<ctl name="RX COMP2" value="0" />
 < 	<ctl name="COMP3 Switch" value="0" />
@@ -8247,6 +8247,291 @@
 < 	<ctl name="LSM8 MUX" value="ZERO" />
 < 	
 < 	<!-- End of initial misc settings -->
+< 	
+< 	<!-- Start of VoWLAN -->
+< 	
+< 	<ctl name="SLIM_0_TX_Voice Mixer VoWLAN" value="0" />
+< 	<ctl name="SLIM_0_RX_Voice Mixer VoWLAN" value="0" />
+< 	<ctl name="SLIM_6_TX_Voice Mixer VoWLAN" value="0" />
+< 	<ctl name="SLIM_6_RX_Voice Mixer VoWLAN" value="0" />
+< 	<ctl name="VoWLAN_TX Mixer SLIM_0_TX_VoWLAN" value="0" />
+< 	<ctl name="VoWLAN_RX Mixer SLIM_0_RX_VoWLAN" value="0" />
+< 	<ctl name="HDMI_TX_Voice Mixer VoWLAN" value="0" />
+< 	<ctl name="HDMI_RX_Voice Mixer VoWLAN" value="0" />
+< 	<ctl name="AUX_PCM_TX_Voice Mixer VoWLAN" value="0" />
+< 	<ctl name="AUX_PCM_RX_Voice Mixer VoWLAN" value="0" />
+< 	<ctl name="VoWLAN_TX Mixer AUX_PCM_TX_VoWLAN" value="0" />
+< 	<ctl name="VoWLAN_RX Mixer AUX_PCM_RX_VoWLAN" value="0" />
+< 	<ctl name="AFE_PCM_TX_Voice Mixer VoWLAN" value="0" />
+< 	<ctl name="AFE_PCM_RX_Voice Mixer VoWLAN" value="0" />
+< 	<ctl name="VoWLAN_TX Mixer AFE_PCM_TX_VoWLAN" value="0" />
+< 	<ctl name="VoWLAN_RX Mixer AFE_PCM_RX_VoWLAN" value="0" />
+< 	
+< 	<!-- End of VoWLAN -->
+< 	
+< 	<!-- Start of QCHAT -->
+< 	
+< 	<ctl name="SLIM_0_TX_Voice Mixer QCHAT" value="0" />
+< 	<ctl name="SLIM_0_RX_Voice Mixer QCHAT" value="0" />
+< 	<ctl name="SLIM_6_TX_Voice Mixer QCHAT" value="0" />
+< 	<ctl name="SLIM_6_RX_Voice Mixer QCHAT" value="0" />
+< 	<ctl name="QCHAT_TX Mixer SLIM_0_TX_QCHAT" value="0" />
+< 	<ctl name="QCHAT_RX Mixer SLIM_0_RX_QCHAT" value="0" />
+< 	<ctl name="AUX_PCM_TX_Voice Mixer QCHAT" value="0" />
+< 	<ctl name="AUX_PCM_RX_Voice Mixer QCHAT" value="0" />
+< 	<ctl name="QCHAT_TX Mixer AUX_PCM_TX_QCHAT" value="0" />
+< 	<ctl name="QCHAT_RX Mixer AUX_PCM_RX_QCHAT" value="0" />
+< 	
+< 	<!-- End of QCHAT -->
+< 	
+< 	<!-- Start of compress-voip-call -->
+< 	
+< 	<ctl name="SLIM_0_TX_Voice Mixer Voip" value="0" />
+< 	<ctl name="SLIM_0_RX_Voice Mixer Voip" value="0" />
+< 	<ctl name="SLIM_6_TX_Voice Mixer Voip" value="0" />
+< 	<ctl name="SLIM_6_RX_Voice Mixer Voip" value="0" />
+< 	<ctl name="Voip_TX Mixer SLIM_0_TX_Voip" value="0" />
+< 	<ctl name="Voip_RX Mixer SLIM_0_RX_Voip" value="0" />
+< 	<ctl name="AUX_PCM_TX_Voice Mixer Voip" value="0" />
+< 	<ctl name="AUX_PCM_RX_Voice Mixer Voip" value="0" />
+< 	<ctl name="Voip_TX Mixer AUX_PCM_TX_Voip" value="0" />
+< 	<ctl name="Voip_RX Mixer AUX_PCM_RX_Voip" value="0" />
+< 	<ctl name="AFE_PCM_TX_Voice Mixer Voip" value="0" />
+< 	<ctl name="AFE_PCM_RX_Voice Mixer Voip" value="0" />
+< 	<ctl name="Voip_TX Mixer AFE_PCM_TX_Voip" value="0" />
+< 	<ctl name="Voip_RX Mixer AFE_PCM_RX_Voip" value="0" />
+< 	
+< 	<!-- End of compress-voip-call -->
+< 	
+< 	<!-- Start of Incall Music -->
+< 	
+< 	<ctl name="Incall_Music Audio Mixer MultiMedia1" value="0" />
+< 	<ctl name="Incall_Music Audio Mixer MultiMedia2" value="0" />
+< 	<ctl name="Incall_Music Audio Mixer MultiMedia3" value="0" />
+< 	<ctl name="Incall_Music Audio Mixer MultiMedia4" value="0" />
+< 	<ctl name="Incall_Music Audio Mixer MultiMedia5" value="0" />
+< 	<ctl name="Incall_Music Audio Mixer MultiMedia6" value="0" />
+< 	<ctl name="Incall_Music Audio Mixer MultiMedia7" value="0" />
+< 	<ctl name="Incall_Music Audio Mixer MultiMedia8" value="0" />
+< 	<ctl name="Incall_Music Audio Mixer MultiMedia9" value="0" />
+< 	<ctl name="Incall_Music_2 Audio Mixer MultiMedia1" value="0" />
+< 	<ctl name="Incall_Music_2 Audio Mixer MultiMedia2" value="0" />
+< 	<ctl name="Incall_Music_2 Audio Mixer MultiMedia3" value="0" />
+< 	<ctl name="Incall_Music_2 Audio Mixer MultiMedia4" value="0" />
+< 	<ctl name="Incall_Music_2 Audio Mixer MultiMedia5" value="0" />
+< 	<ctl name="Incall_Music_2 Audio Mixer MultiMedia6" value="0" />
+< 	<ctl name="Incall_Music_2 Audio Mixer MultiMedia7" value="0" />
+< 	<ctl name="Incall_Music_2 Audio Mixer MultiMedia8" value="0" />
+< 	<ctl name="Incall_Music_2 Audio Mixer MultiMedia9" value="0" />
+< 	
+< 	<!-- End of Incall Music -->
+< 	
+< 	<!-- Start of Incall Recording -->
+< 	
+< 	<ctl name="MultiMedia1 Mixer VOC_REC_UL" value="0" />
+< 	<ctl name="MultiMedia1 Mixer VOC_REC_DL" value="0" />
+< 	<ctl name="MultiMedia2 Mixer VOC_REC_UL" value="0" />
+< 	<ctl name="MultiMedia2 Mixer VOC_REC_DL" value="0" />
+< 	<ctl name="MultiMedia3 Mixer VOC_REC_UL" value="0" />
+< 	<ctl name="MultiMedia3 Mixer VOC_REC_DL" value="0" />
+< 	<ctl name="MultiMedia4 Mixer VOC_REC_UL" value="0" />
+< 	<ctl name="MultiMedia4 Mixer VOC_REC_DL" value="0" />
+< 	<ctl name="MultiMedia5 Mixer VOC_REC_UL" value="0" />
+< 	<ctl name="MultiMedia5 Mixer VOC_REC_DL" value="0" />
+< 	<ctl name="MultiMedia6 Mixer VOC_REC_UL" value="0" />
+< 	<ctl name="MultiMedia6 Mixer VOC_REC_DL" value="0" />
+< 	<ctl name="MultiMedia7 Mixer VOC_REC_UL" value="0" />
+< 	<ctl name="MultiMedia7 Mixer VOC_REC_DL" value="0" />
+< 	<ctl name="MultiMedia8 Mixer VOC_REC_UL" value="0" />
+< 	<ctl name="MultiMedia8 Mixer VOC_REC_DL" value="0" />
+< 	
+< 	<!-- End of Incall Recording -->
+< 	
+< 	<!-- Start of Voice -->
+< 	
+< 	<ctl name="SLIM_0_TX_Voice Mixer CSVoice" value="0" />
+< 	<ctl name="SLIM_0_RX_Voice Mixer CSVoice" value="0" />
+< 	<ctl name="SLIM_6_TX_Voice Mixer CSVoice" value="0" />
+< 	<ctl name="SLIM_6_RX_Voice Mixer CSVoice" value="0" />
+< 	<ctl name="Voice_TX Mixer SLIM_0_TX_Voice" value="0" />
+< 	<ctl name="Voice_RX Mixer SLIM_0_RX_Voice" value="0" />
+< 	<!-- Voice HDMI -->
+< 	<ctl name="HDMI_TX_Voice Mixer CSVoice" value="0" />
+< 	<ctl name="HDMI_RX_Voice Mixer CSVoice" value="0" />
+< 	<!-- Voice BTSCO -->
+< 	<ctl name="AUX PCM SampleRate" value="0" />
+< 	<ctl name="AUX_PCM_TX_Voice Mixer CSVoice" value="0" />
+< 	<ctl name="AUX_PCM_RX_Voice Mixer CSVoice" value="0" />
+< 	<ctl name="Voice_TX Mixer AUX_PCM_TX_Voice" value="0" />
+< 	<ctl name="Voice_RX Mixer AUX_PCM_RX_Voice" value="0" />
+< 	<!-- Voice USB headset -->
+< 	<ctl name="AFE_PCM_TX_Voice Mixer CSVoice" value="0" />
+< 	<ctl name="AFE_PCM_RX_Voice Mixer CSVoice" value="0" />
+< 	<ctl name="Voice_TX Mixer AFE_PCM_TX_Voice" value="0" />
+< 	<ctl name="Voice_RX Mixer AFE_PCM_RX_Voice" value="0" />
+< 	
+< 	<!-- End of Voice -->
+< 	
+< 	<!-- Start of Voice2 -->
+< 	
+< 	<ctl name="SLIM_0_TX_Voice Mixer Voice2" value="0" />
+< 	<ctl name="SLIM_0_RX_Voice Mixer Voice2" value="0" />
+< 	<ctl name="SLIM_6_TX_Voice Mixer Voice2" value="0" />
+< 	<ctl name="SLIM_6_RX_Voice Mixer Voice2" value="0" />
+< 	<ctl name="Voice2_TX Mixer SLIM_0_TX_Voice2" value="0" />
+< 	<ctl name="Voice2_RX Mixer SLIM_0_RX_Voice2" value="0" />
+< 	<!-- Voice2 HDMI -->
+< 	<ctl name="HDMI_TX_Voice Mixer Voice2" value="0" />
+< 	<ctl name="HDMI_RX_Voice Mixer Voice2" value="0" />
+< 	<!-- Voice2 BTSCO -->
+< 	<ctl name="AUX_PCM_TX_Voice Mixer Voice2" value="0" />
+< 	<ctl name="AUX_PCM_RX_Voice Mixer Voice2" value="0" />
+< 	<ctl name="Voice2_TX Mixer AUX_PCM_TX_Voice2" value="0" />
+< 	<ctl name="Voice2_RX Mixer AUX_PCM_RX_Voice2" value="0" />
+< 	<!-- Voice2 USB headset -->
+< 	<ctl name="AFE_PCM_TX_Voice Mixer Voice2" value="0" />
+< 	<ctl name="AFE_PCM_RX_Voice Mixer Voice2" value="0" />
+< 	<ctl name="Voice2_TX Mixer AFE_PCM_TX_Voice2" value="0" />
+< 	<ctl name="Voice2_RX Mixer AFE_PCM_RX_Voice2" value="0" />
+< 	
+< 	<!-- End of Voice2 -->
+< 	
+< 	<!-- Start of VoLTE -->
+< 	
+< 	<ctl name="SLIM_0_TX_Voice Mixer VoLTE" value="0" />
+< 	<ctl name="SLIM_0_RX_Voice Mixer VoLTE" value="0" />
+< 	<ctl name="SLIM_6_TX_Voice Mixer VoLTE" value="0" />
+< 	<ctl name="SLIM_6_RX_Voice Mixer VoLTE" value="0" />
+< 	<ctl name="VoLTE_TX Mixer SLIM_0_TX_VoLTE" value="0" />
+< 	<ctl name="VoLTE_RX Mixer SLIM_0_RX_VoLTE" value="0" />
+< 	<!-- VoLTE HDMI -->
+< 	<ctl name="HDMI_TX_Voice Mixer VoLTE" value="0" />
+< 	<ctl name="HDMI_RX_Voice Mixer VoLTE" value="0" />
+< 	<!-- VoLTE BTSCO -->
+< 	<ctl name="AUX_PCM_TX_Voice Mixer VoLTE" value="0" />
+< 	<ctl name="AUX_PCM_RX_Voice Mixer VoLTE" value="0" />
+< 	<ctl name="VoLTE_TX Mixer AUX_PCM_TX_VoLTE" value="0" />
+< 	<ctl name="VoLTE_RX Mixer AUX_PCM_RX_VoLTE" value="0" />
+< 	<!-- VoLTE USB headset -->
+< 	<ctl name="AFE_PCM_TX_Voice Mixer VoLTE" value="0" />
+< 	<ctl name="AFE_PCM_RX_Voice Mixer VoLTE" value="0" />
+< 	<ctl name="VoLTE_TX Mixer AFE_PCM_TX_VoLTE" value="0" />
+< 	<ctl name="VoLTE_RX Mixer AFE_PCM_RX_VoLTE" value="0" />
+< 	
+< 	<!-- End of VoLTE -->
+< 	
+< 	<!-- Start of Multimode Voice1 -->
+< 	
+< 	<ctl name="SLIM_0_TX_Voice Mixer VoiceMMode1" value="0" />
+< 	<ctl name="SLIM_0_RX_Voice Mixer VoiceMMode1" value="0" />
+< 	<ctl name="SLIM_6_TX_Voice Mixer VoiceMMode1" value="0" />
+< 	<ctl name="SLIM_6_RX_Voice Mixer VoiceMMode1" value="0" />
+< 	<ctl name="VoiceMMode1_TX Mixer SLIM_0_TX_MMode1" value="0" />
+< 	<ctl name="VoiceMMode1_RX Mixer SLIM_0_RX_MMode1" value="0" />
+< 	<!-- Multimode Voice1 HDMI -->
+< 	<ctl name="HDMI_TX_Voice Mixer VoiceMMode1" value="0" />
+< 	<ctl name="HDMI_RX_Voice Mixer VoiceMMode1" value="0" />
+< 	<!-- Multimode Voice1 BTSCO -->
+< 	<ctl name="AUX_PCM_TX_Voice Mixer VoiceMMode1" value="0" />
+< 	<ctl name="AUX_PCM_RX_Voice Mixer VoiceMMode1" value="0" />
+< 	<ctl name="VoiceMMode1_TX Mixer AUX_PCM_TX_MMode1" value="0" />
+< 	<ctl name="VoiceMMode1_RX Mixer AUX_PCM_RX_MMode1" value="0" />
+< 	<!-- Multimode Voice1 USB headset -->
+< 	<ctl name="AFE_PCM_TX_Voice Mixer VoiceMMode1" value="0" />
+< 	<ctl name="AFE_PCM_RX_Voice Mixer VoiceMMode1" value="0" />
+< 	<ctl name="VoiceMMode1_TX Mixer AFE_PCM_TX_MMode1" value="0" />
+< 	<ctl name="VoiceMMode1_RX Mixer AFE_PCM_RX_MMode1" value="0" />
+< 	
+< 	<!-- End of Multimode Voice1 -->
+< 	
+< 	<!-- Start of Multimode Voice2 -->
+< 	
+< 	<ctl name="SLIM_0_TX_Voice Mixer VoiceMMode2" value="0" />
+< 	<ctl name="SLIM_0_RX_Voice Mixer VoiceMMode2" value="0" />
+< 	<ctl name="SLIM_6_TX_Voice Mixer VoiceMMode2" value="0" />
+< 	<ctl name="SLIM_6_RX_Voice Mixer VoiceMMode2" value="0" />
+< 	<ctl name="VoiceMMode2_TX Mixer SLIM_0_TX_MMode2" value="0" />
+< 	<ctl name="VoiceMMode2_RX Mixer SLIM_0_RX_MMode2" value="0" />
+< 	<!-- Multimode Voice2 HDMI -->
+< 	<ctl name="HDMI_TX_Voice Mixer VoiceMMode2" value="0" />
+< 	<ctl name="HDMI_RX_Voice Mixer VoiceMMode2" value="0" />
+< 	<!-- Multimode Voice2 BTSCO -->
+< 	<ctl name="AUX_PCM_TX_Voice Mixer VoiceMMode2" value="0" />
+< 	<ctl name="AUX_PCM_RX_Voice Mixer VoiceMMode2" value="0" />
+< 	<ctl name="VoiceMMode2_TX Mixer AUX_PCM_TX_MMode2" value="0" />
+< 	<ctl name="VoiceMMode2_RX Mixer AUX_PCM_RX_MMode2" value="0" />
+< 	<!-- Multimode Voice2 USB headset -->
+< 	<ctl name="AFE_PCM_TX_Voice Mixer VoiceMMode2" value="0" />
+< 	<ctl name="AFE_PCM_RX_Voice Mixer VoiceMMode2" value="0" />
+< 	<ctl name="VoiceMMode2_TX Mixer AFE_PCM_TX_MMode2" value="0" />
+< 	<ctl name="VoiceMMode2_RX Mixer AFE_PCM_RX_MMode2" value="0" />
+< 	
+< 	<!-- End of Multimode Voice2 -->
+< 	
+< 	<!-- Start of surround sound record -->
+< 	
+< 	<ctl name="Input Num Channel" value="0" />
+< 	<ctl name="In Channel1" id="0" value="0" />
+< 	<ctl name="In Channel1" id="1" value="0" />
+< 	<ctl name="In Channel1" id="2" value="0" />
+< 	<ctl name="In Channel2" id="0" value="0" />
+< 	<ctl name="In Channel2" id="1" value="0" />
+< 	<ctl name="In Channel2" id="2" value="0" />
+< 	<ctl name="In Channel3" id="0" value="0" />
+< 	<ctl name="In Channel3" id="1" value="0" />
+< 	<ctl name="In Channel3" id="2" value="0" />
+< 	<ctl name="In Channel4" id="0" value="0" />
+< 	<ctl name="In Channel4" id="1" value="0" />
+< 	<ctl name="In Channel4" id="2" value="0" />
+< 	<ctl name="Output Num Channel" value="0" />
+< 	<ctl name="Out Channel1" id="0" value="0" />
+< 	<ctl name="Out Channel1" id="1" value="0" />
+< 	<ctl name="Out Channel1" id="2" value="0" />
+< 	<ctl name="Out Channel2" id="0" value="0" />
+< 	<ctl name="Out Channel2" id="1" value="0" />
+< 	<ctl name="Out Channel2" id="2" value="0" />
+< 	<ctl name="Out Channel3" id="0" value="0" />
+< 	<ctl name="Out Channel3" id="1" value="0" />
+< 	<ctl name="Out Channel3" id="2" value="0" />
+< 	<ctl name="Out Channel4" id="0" value="0" />
+< 	<ctl name="Out Channel4" id="1" value="0" />
+< 	<ctl name="Out Channel4" id="2" value="0" />
+< 	
+< 	<!-- End of surround sound record -->
+< 	
+< 	<!-- Start of anc handset -->
+< 	
+< 	<ctl name="ANC Slot" value="0" />
+< 	<ctl name="ANC0 FB MUX" value="ZERO" />
+< 	<ctl name="ANC1 FB MUX" value="ZERO" />
+< 	<ctl name="ANC EAR Enable Switch" value="0" />
+< 	<ctl name="ANC Function" value="ZERO" />
+< 	<ctl name="ANC HPHL Enable Switch" value="0" />
+< 	<ctl name="ANC HPHR Enable Switch" value="0" />
+< 	<ctl name="AANC_SLIM_0_TX MUX" value="ZERO" />
+< 	<ctl name="AANC_SLIM_0_RX MUX" value="ZERO" />
+< 	<ctl name="AIF1_CAP Mixer SLIM TX1" value="0" />
+< 	<ctl name="AIF1_CAP Mixer SLIM RX1" value="0" />
+< 	<ctl name="AIF1_CAP Mixer SLIM TX2" value="0" />
+< 	<ctl name="AIF1_CAP Mixer SLIM RX2" value="0" />
+< 	<ctl name="AIF1_CAP Mixer SLIM TX3" value="0" />
+< 	<ctl name="AIF1_CAP Mixer SLIM RX3" value="0" />
+< 	<ctl name="AIF1_CAP Mixer SLIM TX4" value="0" />
+< 	<ctl name="AIF1_CAP Mixer SLIM RX4" value="0" />
+< 	<ctl name="AIF1_CAP Mixer SLIM TX5" value="0" />
+< 	<ctl name="AIF1_CAP Mixer SLIM RX5" value="0" />
+< 	<ctl name="AIF1_CAP Mixer SLIM TX6" value="0" />
+< 	<ctl name="AIF1_CAP Mixer SLIM RX6" value="0" />
+< 	<ctl name="AIF1_CAP Mixer SLIM TX7" value="0" />
+< 	<ctl name="AIF1_CAP Mixer SLIM RX7" value="0" />
+< 	<ctl name="AIF1_CAP Mixer SLIM TX8" value="0" />
+< 	<ctl name="AIF1_CAP Mixer SLIM RX8" value="0" />
+< 	<ctl name="AIF1_CAP Mixer SLIM TX9" value="0" />
+< 	<ctl name="AIF1_CAP Mixer SLIM RX9" value="0" />
+< 	<ctl name="AIF1_CAP Mixer SLIM TX10" value="0" />
+< 	<ctl name="AIF1_CAP Mixer SLIM RX10" value="0" />
+< 	
+< 	<!-- End of anc handset -->
 < 	
 < 	<!-- Start DAC initialization code -->
 < 	
@@ -16391,80 +16676,77 @@
 < 	<!-- <ctl name="MultiMedia1 Mixer TERT_MI2S_TX" value="0" /> -->
 < 	<!-- <ctl name="MultiMedia2 Mixer TERT_MI2S_TX" value="0" /> -->
 < 	
-< 	<!-- Lemon Drop Hi-Res end of mods -->
-< 	
+< 	<!-- Deleted -->	
 < 	<!-- Voice -->
-< 	<ctl name="SLIM_0_RX_Voice Mixer CSVoice" value="0" />
-< 	<ctl name="SLIM_6_RX_Voice Mixer CSVoice" value="0" />
-< 	<ctl name="Voice_Tx Mixer SLIM_0_TX_Voice" value="0" />
+< 	<!-- <ctl name="SLIM_0_RX_Voice Mixer CSVoice" value="0" /> -->
+< 	<!-- <ctl name="SLIM_6_RX_Voice Mixer CSVoice" value="0" /> -->
+< 	<!-- <ctl name="Voice_Tx Mixer SLIM_0_TX_Voice" value="0" /> -->
 < 	<!-- Voice HDMI -->
-< 	<ctl name="HDMI_RX_Voice Mixer CSVoice" value="0" />
+< 	<!-- <ctl name="HDMI_RX_Voice Mixer CSVoice" value="0" /> -->
 < 	<!-- Voice BTSCO -->
-< 	<ctl name="AUX PCM SampleRate" value="8000" />
-< 	<ctl name="AUX_PCM_RX_Voice Mixer CSVoice" value="0" />
-< 	<ctl name="Voice_Tx Mixer AUX_PCM_TX_Voice" value="0" />
+< 	<!-- <ctl name="AUX PCM SampleRate" value="8000" /> -->
+< 	<!-- <ctl name="AUX_PCM_RX_Voice Mixer CSVoice" value="0" /> -->
+< 	<!-- <ctl name="Voice_Tx Mixer AUX_PCM_TX_Voice" value="0" /> -->
 < 	<!-- Voice USB headset -->
-< 	<ctl name="AFE_PCM_RX_Voice Mixer CSVoice" value="0" />
-< 	<ctl name="Voice_Tx Mixer AFE_PCM_TX_Voice" value="0" />
-< 	<!-- Voice end-->
+< 	<!-- <ctl name="AFE_PCM_RX_Voice Mixer CSVoice" value="0" /> -->
+< 	<!-- <ctl name="Voice_Tx Mixer AFE_PCM_TX_Voice" value="0" /> -->
+< 	<!-- Voice end -->
 < 	
 < 	<!-- Voice2 -->
-< 	<ctl name="SLIM_0_RX_Voice Mixer Voice2" value="0" />
-< 	<ctl name="SLIM_6_RX_Voice Mixer Voice2" value="0" />
-< 	<ctl name="Voice2_Tx Mixer SLIM_0_TX_Voice2" value="0" />
+< 	<!-- <ctl name="SLIM_0_RX_Voice Mixer Voice2" value="0" /> -->
+< 	<!-- <ctl name="SLIM_6_RX_Voice Mixer Voice2" value="0" /> -->
+< 	<!-- <ctl name="Voice2_Tx Mixer SLIM_0_TX_Voice2" value="0" /> -->
 < 	<!-- Voice2 HDMI -->
-< 	<ctl name="HDMI_RX_Voice Mixer Voice2" value="0" />
+< 	<!-- <ctl name="HDMI_RX_Voice Mixer Voice2" value="0" /> -->
 < 	<!-- Voice2 BTSCO -->
-< 	<ctl name="AUX_PCM_RX_Voice Mixer Voice2" value="0" />
-< 	<ctl name="Voice2_Tx Mixer AUX_PCM_TX_Voice2" value="0" />
+< 	<!-- <ctl name="AUX_PCM_RX_Voice Mixer Voice2" value="0" /> -->
+< 	<!-- <ctl name="Voice2_Tx Mixer AUX_PCM_TX_Voice2" value="0" /> -->
 < 	<!-- Voice2 USB headset -->
-< 	<ctl name="AFE_PCM_RX_Voice Mixer Voice2" value="0" />
-< 	<ctl name="Voice2_Tx Mixer AFE_PCM_TX_Voice2" value="0" />
-< 	<!-- Voice2 end-->
+< 	<!-- <ctl name="AFE_PCM_RX_Voice Mixer Voice2" value="0" /> -->
+< 	<!-- <ctl name="Voice2_Tx Mixer AFE_PCM_TX_Voice2" value="0" /> -->
+< 	<!-- Voice2 end -->
 < 	
 < 	<!-- VoLTE -->
-< 	<ctl name="SLIM_0_RX_Voice Mixer VoLTE" value="0" />
-< 	<ctl name="SLIM_6_RX_Voice Mixer VoLTE" value="0" />
-< 	<ctl name="VoLTE_Tx Mixer SLIM_0_TX_VoLTE" value="0" />
+< 	<!-- <ctl name="SLIM_0_RX_Voice Mixer VoLTE" value="0" /> -->
+< 	<!-- <ctl name="SLIM_6_RX_Voice Mixer VoLTE" value="0" /> -->
+< 	<!-- <ctl name="VoLTE_Tx Mixer SLIM_0_TX_VoLTE" value="0" /> -->
 < 	<!-- VoLTE HDMI -->
-< 	<ctl name="HDMI_RX_Voice Mixer VoLTE" value="0" />
+< 	<!-- <ctl name="HDMI_RX_Voice Mixer VoLTE" value="0" /> -->
 < 	<!-- VoLTE BTSCO -->
-< 	<ctl name="AUX_PCM_RX_Voice Mixer VoLTE" value="0" />
-< 	<ctl name="VoLTE_Tx Mixer AUX_PCM_TX_VoLTE" value="0" />
+< 	<!-- <ctl name="AUX_PCM_RX_Voice Mixer VoLTE" value="0" /> -->
+< 	<!-- <ctl name="VoLTE_Tx Mixer AUX_PCM_TX_VoLTE" value="0" /> -->
 < 	<!-- VoLTE USB headset -->
-< 	<ctl name="AFE_PCM_RX_Voice Mixer VoLTE" value="0" />
-< 	<ctl name="VoLTE_Tx Mixer AFE_PCM_TX_VoLTE" value="0" />
-< 	<!-- VoLTE end-->
+< 	<!-- <ctl name="AFE_PCM_RX_Voice Mixer VoLTE" value="0" /> -->
+< 	<!-- <ctl name="VoLTE_Tx Mixer AFE_PCM_TX_VoLTE" value="0" /> -->
+< 	<!-- VoLTE end -->
 < 	
 < 	<!-- Multimode Voice1 -->
-< 	<ctl name="SLIM_0_RX_Voice Mixer VoiceMMode1" value="0" />
-< 	<ctl name="SLIM_6_RX_Voice Mixer VoiceMMode1" value="0" />
-< 	<ctl name="VoiceMMode1_Tx Mixer SLIM_0_TX_MMode1" value="0" />
+< 	<!-- <ctl name="SLIM_0_RX_Voice Mixer VoiceMMode1" value="0" /> -->
+< 	<!-- <ctl name="SLIM_6_RX_Voice Mixer VoiceMMode1" value="0" /> -->
+< 	<!-- <ctl name="VoiceMMode1_Tx Mixer SLIM_0_TX_MMode1" value="0" /> -->
 < 	<!-- Multimode Voice1 HDMI -->
-< 	<ctl name="HDMI_RX_Voice Mixer VoiceMMode1" value="0" />
+< 	<!-- <ctl name="HDMI_RX_Voice Mixer VoiceMMode1" value="0" /> -->
 < 	<!-- Multimode Voice1 BTSCO -->
-< 	<ctl name="AUX_PCM_RX_Voice Mixer VoiceMMode1" value="0" />
-< 	<ctl name="VoiceMMode1_Tx Mixer AUX_PCM_TX_MMode1" value="0" />
+< 	<!-- <ctl name="AUX_PCM_RX_Voice Mixer VoiceMMode1" value="0" /> -->
+< 	<!-- <ctl name="VoiceMMode1_Tx Mixer AUX_PCM_TX_MMode1" value="0" /> -->
 < 	<!-- Multimode Voice1 USB headset -->
-< 	<ctl name="AFE_PCM_RX_Voice Mixer VoiceMMode1" value="0" />
-< 	<ctl name="VoiceMMode1_Tx Mixer AFE_PCM_TX_MMode1" value="0" />
-< 	<!-- Miltimode Voice1 end-->
+< 	<!-- <ctl name="AFE_PCM_RX_Voice Mixer VoiceMMode1" value="0" /> -->
+< 	<!-- <ctl name="VoiceMMode1_Tx Mixer AFE_PCM_TX_MMode1" value="0" /> -->
+< 	<!-- Miltimode Voice1 end -->
 < 	
 < 	<!-- Multimode Voice2 -->
-< 	<ctl name="SLIM_0_RX_Voice Mixer VoiceMMode2" value="0" />
-< 	<ctl name="SLIM_6_RX_Voice Mixer VoiceMMode2" value="0" />
-< 	<ctl name="VoiceMMode2_Tx Mixer SLIM_0_TX_MMode2" value="0" />
+< 	<!-- <ctl name="SLIM_0_RX_Voice Mixer VoiceMMode2" value="0" /> -->
+< 	<!-- <ctl name="SLIM_6_RX_Voice Mixer VoiceMMode2" value="0" /> -->
+< 	<!-- <ctl name="VoiceMMode2_Tx Mixer SLIM_0_TX_MMode2" value="0" /> -->
 < 	<!-- Multimode Voice2 HDMI -->
-< 	<ctl name="HDMI_RX_Voice Mixer VoiceMMode2" value="0" />
+< 	<!-- <ctl name="HDMI_RX_Voice Mixer VoiceMMode2" value="0" /> -->
 < 	<!-- Multimode Voice2 BTSCO -->
-< 	<ctl name="AUX_PCM_RX_Voice Mixer VoiceMMode2" value="0" />
-< 	<ctl name="VoiceMMode2_Tx Mixer AUX_PCM_TX_MMode2" value="0" />
+< 	<!-- <ctl name="AUX_PCM_RX_Voice Mixer VoiceMMode2" value="0" /> -->
+< 	<!-- <ctl name="VoiceMMode2_Tx Mixer AUX_PCM_TX_MMode2" value="0" /> -->
 < 	<!-- Multimode Voice2 USB headset -->
-< 	<ctl name="AFE_PCM_RX_Voice Mixer VoiceMMode2" value="0" />
-< 	<ctl name="VoiceMMode2_Tx Mixer AFE_PCM_TX_MMode2" value="0" />
-< 	<!-- Multimode Voice2 end-->
-< 	
-< 	<!-- Lemon Drop Hi-Res start of mods -->
+< 	<!-- <ctl name="AFE_PCM_RX_Voice Mixer VoiceMMode2" value="0" /> -->
+< 	<!-- <ctl name="VoiceMMode2_Tx Mixer AFE_PCM_TX_MMode2" value="0" /> -->
+< 	<!-- Multimode Voice2 end -->
 < 	
 < 	<!-- Deleted -->
 < 	<!-- Voice external ec. reference -->
@@ -16480,48 +16762,53 @@
 < 	<ctl name="RT_PROXY_1_TX SetCalMode" value="CAL_MODE_NONE" />
 < 	<!-- RT Proxy Cal end -->
 < 	
+< 	<!-- Lemon Drop Hi-Res start of mods -->
+< 	
+< 	<!-- Deleted -->	
 < 	<!-- Incall Recording -->
-< 	<ctl name="MultiMedia1 Mixer VOC_REC_UL" value="0" />
-< 	<ctl name="MultiMedia1 Mixer VOC_REC_DL" value="0" />
-< 	<ctl name="MultiMedia8 Mixer VOC_REC_UL" value="0" />
-< 	<ctl name="MultiMedia8 Mixer VOC_REC_DL" value="0" />
+< 	<!-- <ctl name="MultiMedia1 Mixer VOC_REC_UL" value="0" /> -->
+< 	<!-- <ctl name="MultiMedia1 Mixer VOC_REC_DL" value="0" /> -->
+< 	<!-- <ctl name="MultiMedia8 Mixer VOC_REC_UL" value="0" /> -->
+< 	<!-- <ctl name="MultiMedia8 Mixer VOC_REC_DL" value="0" /> -->
 < 	<!-- Incall Recording End -->
 < 	
+< 	<!-- Deleted -->
 < 	<!-- Incall Music -->
-< 	<ctl name="Incall_Music Audio Mixer MultiMedia2" value="0" />
-< 	<ctl name="Incall_Music_2 Audio Mixer MultiMedia9" value="0" />
+< 	<!-- <ctl name="Incall_Music Audio Mixer MultiMedia2" value="0" /> -->
+< 	<!-- <ctl name="Incall_Music_2 Audio Mixer MultiMedia9" value="0" /> -->
 < 	<!-- Incall Music End -->
 < 	
+< 	<!-- Deleted -->
 < 	<!-- compress-voip-call start -->
-< 	<ctl name="SLIM_0_RX_Voice Mixer Voip" value="0" />
-< 	<ctl name="SLIM_6_RX_Voice Mixer Voip" value="0" />
-< 	<ctl name="Voip_Tx Mixer SLIM_0_TX_Voip" value="0" />
-< 	<ctl name="AUX_PCM_RX_Voice Mixer Voip" value="0" />
-< 	<ctl name="Voip_Tx Mixer AUX_PCM_TX_Voip" value="0" />
-< 	<ctl name="AFE_PCM_RX_Voice Mixer Voip" value="0" />
-< 	<ctl name="Voip_Tx Mixer AFE_PCM_TX_Voip" value="0" />
-< 	<!-- compress-voip-call end-->
+< 	<!-- <ctl name="SLIM_0_RX_Voice Mixer Voip" value="0" /> -->
+< 	<!-- <ctl name="SLIM_6_RX_Voice Mixer Voip" value="0" /> -->
+< 	<!-- <ctl name="Voip_Tx Mixer SLIM_0_TX_Voip" value="0" /> -->
+< 	<!-- <ctl name="AUX_PCM_RX_Voice Mixer Voip" value="0" /> -->
+< 	<!-- <ctl name="Voip_Tx Mixer AUX_PCM_TX_Voip" value="0" /> -->
+< 	<!-- <ctl name="AFE_PCM_RX_Voice Mixer Voip" value="0" /> -->
+< 	<!-- <ctl name="Voip_Tx Mixer AFE_PCM_TX_Voip" value="0" /> -->
+< 	<!-- compress-voip-call end -->
 < 	
+< 	<!-- Deleted -->	
 < 	<!-- QCHAT start -->
-< 	<ctl name="SLIM_0_RX_Voice Mixer QCHAT" value="0" />
-< 	<ctl name="SLIM_6_RX_Voice Mixer QCHAT" value="0" />
-< 	<ctl name="QCHAT_Tx Mixer SLIM_0_TX_QCHAT" value="0" />
-< 	<ctl name="AUX_PCM_RX_Voice Mixer QCHAT" value="0" />
-< 	<ctl name="QCHAT_Tx Mixer AUX_PCM_TX_QCHAT" value="0" />
+< 	<!-- <ctl name="SLIM_0_RX_Voice Mixer QCHAT" value="0" /> -->
+< 	<!-- <ctl name="SLIM_6_RX_Voice Mixer QCHAT" value="0" /> -->
+< 	<!-- <ctl name="QCHAT_Tx Mixer SLIM_0_TX_QCHAT" value="0" /> -->
+< 	<!-- <ctl name="AUX_PCM_RX_Voice Mixer QCHAT" value="0" /> -->
+< 	<!-- <ctl name="QCHAT_Tx Mixer AUX_PCM_TX_QCHAT" value="0" /> -->
 < 	<!-- QCHAT end -->
 < 	
+< 	<!-- Deleted -->
 < 	<!-- VoWLAN start -->
-< 	<ctl name="SLIM_0_RX_Voice Mixer VoWLAN" value="0" />
-< 	<ctl name="SLIM_6_RX_Voice Mixer VoWLAN" value="0" />
-< 	<ctl name="VoWLAN_Tx Mixer SLIM_0_TX_VoWLAN" value="0" />
-< 	<ctl name="HDMI_RX_Voice Mixer VoWLAN" value="0" />
-< 	<ctl name="AUX_PCM_RX_Voice Mixer VoWLAN" value="0" />
-< 	<ctl name="VoWLAN_Tx Mixer AUX_PCM_TX_VoWLAN" value="0" />
-< 	<ctl name="AFE_PCM_RX_Voice Mixer VoWLAN" value="0" />
-< 	<ctl name="VoWLAN_Tx Mixer AFE_PCM_TX_VoWLAN" value="0" />
+< 	<!-- <ctl name="SLIM_0_RX_Voice Mixer VoWLAN" value="0" /> -->
+< 	<!-- <ctl name="SLIM_6_RX_Voice Mixer VoWLAN" value="0" /> -->
+< 	<!-- <ctl name="VoWLAN_Tx Mixer SLIM_0_TX_VoWLAN" value="0" /> -->
+< 	<!-- <ctl name="HDMI_RX_Voice Mixer VoWLAN" value="0" /> -->
+< 	<!-- <ctl name="AUX_PCM_RX_Voice Mixer VoWLAN" value="0" /> -->
+< 	<!-- <ctl name="VoWLAN_Tx Mixer AUX_PCM_TX_VoWLAN" value="0" /> -->
+< 	<!-- <ctl name="AFE_PCM_RX_Voice Mixer VoWLAN" value="0" /> -->
+< 	<!-- <ctl name="VoWLAN_Tx Mixer AFE_PCM_TX_VoWLAN" value="0" /> -->
 < 	<!-- VoWLAN end -->
-< 	
-< 	<!-- Lemon Drop Hi-Res start of mods -->
 < 	
 < 	<!-- Deleted -->
 < 	<!-- Audio BTSCO -->
@@ -16566,28 +16853,30 @@
 < 	<ctl name="IIR0 Enable Band5" value="0" />
 < 	<ctl name="IIR0 INP0 Volume" value="0" />
 < 	<!-- IIR/voice anc end -->
-< 	<!-- anc handset -->
-< 	<ctl name="ANC Slot" value="0" />
-< 	<ctl name="ANC0 FB MUX" value="ZERO" />
-< 	<ctl name="ANC1 FB MUX" value="ZERO" />
-< 	<ctl name="ANC EAR Enable Switch" value="0" />
-< 	<!-- anc handset end -->
-< 	<ctl name="ANC Function" value="OFF" />
-< 	<ctl name="ANC HPHL Enable Switch" value="0" />
-< 	<ctl name="ANC HPHR Enable Switch" value="0" />
-< 	<!-- anc headset end -->
-< 	<!-- aanc handset mic -->
-< 	<ctl name="AIF1_CAP Mixer SLIM TX9" value="0" />
-< 	<ctl name="AANC_SLIM_0_RX MUX" value="ZERO" />
-< 	<!-- aanc handset mic end -->
-< 	<!-- ssr qmic -->
-< 	<ctl name="AIF1_CAP Mixer SLIM TX10" value="0" />
-< 	<!-- ssr qmic end -->
-< 	<!-- vbat related data -->
 < 	
 < 	<!-- Lemon Drop Hi-Res start of mods -->
 < 	
 < 	<!-- Deleted -->
+< 	<!-- anc handset -->
+< 	<!-- <ctl name="ANC Slot" value="0" /> -->
+< 	<!-- <ctl name="ANC0 FB MUX" value="ZERO" /> -->
+< 	<!-- <ctl name="ANC1 FB MUX" value="ZERO" /> -->
+< 	<!-- <ctl name="ANC EAR Enable Switch" value="0" /> -->
+< 	<!-- anc handset end -->
+< 	<!-- <ctl name="ANC Function" value="OFF" /> -->
+< 	<!-- <ctl name="ANC HPHL Enable Switch" value="0" /> -->
+< 	<!-- <ctl name="ANC HPHR Enable Switch" value="0" /> -->
+< 	<!-- anc headset end -->
+< 	<!-- aanc handset mic -->
+< 	<!-- <ctl name="AIF1_CAP Mixer SLIM TX9" value="0" /> -->
+< 	<!-- <ctl name="AANC_SLIM_0_RX MUX" value="ZERO" /> -->
+< 	<!-- aanc handset mic end -->
+< 	<!-- ssr qmic -->
+< 	<!-- <ctl name="AIF1_CAP Mixer SLIM TX10" value="0" /> -->
+< 	<!-- ssr qmic end -->
+< 	
+< 	<!-- Deleted -->
+< 	<!-- vbat related data -->
 < 	<!-- <ctl name="GSM mode Enable" value="OFF" /> -->
 < 	<!-- <ctl name="RX7 Half DB Enable" value="0" /> -->
 < 	<!-- <ctl name="RX INT5 VBAT LO3 VBAT Enable" value="0" /> -->
@@ -16615,24 +16904,25 @@
 < 	<!-- <ctl name="SLIMBUS_5_TX LSM Function" value="None" /> -->
 < 	<!-- listen end -->
 < 	
-< 	<!-- Lemon Drop Hi-Res end of mods -->
-< 	
+< 	<!-- Deleted -->
 < 	<!-- surround sound record -->
-< 	<ctl name="Input Num Channel" value="0" />
-< 	<ctl name="Output Num Channel" value="0" />
-< 	<ctl name="Out Channel1" id="0" value="0" />
-< 	<ctl name="Out Channel1" id="1" value="0" />
-< 	<ctl name="Out Channel1" id="2" value="0" />
-< 	<ctl name="Out Channel2" id="0" value="0" />
-< 	<ctl name="Out Channel2" id="1" value="0" />
-< 	<ctl name="Out Channel2" id="2" value="0" />
-< 	<ctl name="Out Channel3" id="0" value="0" />
-< 	<ctl name="Out Channel3" id="1" value="0" />
-< 	<ctl name="Out Channel3" id="2" value="0" />
-< 	<ctl name="Out Channel4" id="0" value="0" />
-< 	<ctl name="Out Channel4" id="1" value="0" />
-< 	<ctl name="Out Channel4" id="2" value="0" />
+< 	<!-- <ctl name="Input Num Channel" value="0" /> -->
+< 	<!-- <ctl name="Output Num Channel" value="0" /> -->
+< 	<!-- <ctl name="Out Channel1" id="0" value="0" /> -->
+< 	<!-- <ctl name="Out Channel1" id="1" value="0" /> -->
+< 	<!-- <ctl name="Out Channel1" id="2" value="0" /> -->
+< 	<!-- <ctl name="Out Channel2" id="0" value="0" /> -->
+< 	<!-- <ctl name="Out Channel2" id="1" value="0" /> -->
+< 	<!-- <ctl name="Out Channel2" id="2" value="0" /> -->
+< 	<!-- <ctl name="Out Channel3" id="0" value="0" /> -->
+< 	<!-- <ctl name="Out Channel3" id="1" value="0" /> -->
+< 	<!-- <ctl name="Out Channel3" id="2" value="0" /> -->
+< 	<!-- <ctl name="Out Channel4" id="0" value="0" /> -->
+< 	<!-- <ctl name="Out Channel4" id="1" value="0" /> -->
+< 	<!-- <ctl name="Out Channel4" id="2" value="0" /> -->
 < 	<!-- surround sound record end -->
+< 	
+< 	<!-- Lemon Drop Hi-Res end of mods -->
 < 	
 < 	<!-- ADSP testfwk -->
 < 	<ctl name="SLIMBUS_DL_HL Switch" value="0" />
@@ -20979,7 +21269,7 @@
 >     </path>
 > 
 >     <path name="voice-anc-headphones">
-18607,18693c2432,2464
+18897,18983c2432,2464
 < 	<ctl name="RX HPH Mode" value="CLS_H_LP" />
 < 	<ctl name="RX1 Mix Digital Volume" value="74" />
 < 	<ctl name="RX2 Mix Digital Volume" value="74" />
@@ -21101,7 +21391,7 @@
 >     </path>
 > 
 >     <path name="voice-anc-fb-headphones">
-18696,21265c2467,3898
+18986,21555c2467,3898
 < 	<ctl name="ANC Function" value="ON" />
 < 	<ctl name="ANC Slot" value="0" />
 < 	<ctl name="ADC MUX10" value="AMIC" />
@@ -25105,7 +25395,7 @@
 >         <path name="speaker-protected" />
 >     </path>
 >     <!-- TERT MI2S A2DP OFFLOAD end -->
-21267,21269d3899
+21557,21559d3899
 < 	
 < 	
 < 	<!-- Bottom of page -->
