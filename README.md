@@ -38,13 +38,6 @@ Can be due to the following:<br>
 2. The phone is in low power mode.<br>
 3. Your battery is to low, it is undetermined on how much battery power we must have. I would say at least over 15%.<br>
 
-### Did you tune this QuadDAC?
-Yes I did, there are volume levels you can choose when programing the DAC, for bass, mid-range and treble. If they are all on the same volume level, then the audio will get all jumbled up. I was thinking when tuning the DAC, you want to hear the singer first and foremost and the bass in the background. The higher the number, the increased volume level of the audio. If you listen closely, you should be able to hear that your music has a sense of depth perception to it. I thought that would be extremely unparalleled.<br>
-
-bass = volume level 51<br>
-mid-range = volume level 53<br>
-treble = volume level 55<br>
-
 ### How did you program and tune the QuadDAC?
 When programing a QuadDAC you do not have visual gauges to view to see if you have done something wrong, its all done by the sound of the DAC. For example if you have increased the amount of channels way to high or messed up on your programing code, then the DACs volume will be decreased or the music will not sound like its full of life. The only way to accomplish that, is to lower the AVC volume. In other words it decreases the power to the DAC so you can program and tune the DAC. In v142.1 and higher the AVC volume is set to the maximum. To answer the question, I used my 34 years of advanced computer skills and used, awk, sed, echo and nano to create the True Native Mode code.
 
