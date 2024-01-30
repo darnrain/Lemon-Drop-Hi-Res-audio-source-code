@@ -5,8 +5,8 @@ Welcome to the future of music...<br>
 The Lgv20 was first with the Android Nougat operating system.<br>
 Now it's the first running in True Native Mode.<br>
 With all 4 DACs enabled.<br>
-Set at: 256bit & 705.6kHz & 24576 channels.<br>
-
+Set at: 384bit, 705.6kHz, 24576 channels.<br>
+ 
 Please listen at a safe volume level.<br>
 
 Lemon Drop Hi-Res development stage: Number three.<br>
@@ -16,7 +16,7 @@ Lemon Drop Hi-Res development stage: Number three.<br>
 3. You need to check for errors or typos in your code.<br>
 4. Finished.<br>
 
-latest release: v187.2<br>
+latest release: v189.1<br>
 
 I recommend only using v185.9 or higher.<br>
 
@@ -82,7 +82,7 @@ This is how I calculated the kilohertz headphone & bluetooth<br>
 44.1 X 4 = 176.4<br>
 
 This is how I calculated the bit-rate headphone & bluetooth<br>
-16 X 4 = 64<br>
+24 X 4 = 96<br>
 
 Welcome to the QuadDAC control center<br>
 
@@ -93,7 +93,7 @@ This is how I calculated the kilohertz for speaker aka QuadDAC<br>
 176.4 X 4 = 705.6<br>
 
 This is how I calculated the bit rate for speaker aka QuadDAC<br>
-64 X 4 = 256<br>
+96 X 4 = 384<br>
 
 Welcome to the QuadDAC direct output<br>
 
@@ -110,8 +110,8 @@ speaker is set to channels: 24576<br>
 speaker is set to kilohertz: 705.6<br>
 705.6 divided by 4 = 176.4<br>
 
-speaker is set to bit rate: 256<br>
-256 divided by 4 = 64<br>
+speaker is set to bit rate: 384<br>
+384 divided by 4 = 96<br>
 
 ### Will this True Native Mode code work on other Android phones other than the Lgv20?
 I can't say for absolutely certain, I can say for certain that the True Native Mode code runs excellent, on both of my Lgv20's, my main phone DeGoogled and the spare one with Google intact both running Stock Oreo ezV2020 v1.0 Kernel.  Who knows this True Native Mode code may work universally across all QuadDACs on all Android phones. It's up to you guys to beta test this code, my job is all done, I just had to recreate the True Native Mode code and make it work. The LG V series of phones, will have the best chance of this True Native Mode code working. Also keep in mind that I officially got True Native Mode working in v169.1, on 01-17-24 phones manufactured after that date may have True Native Mode disabled on the QuadDAC chip.<br>
