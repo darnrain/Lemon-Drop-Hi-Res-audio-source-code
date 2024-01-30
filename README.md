@@ -18,8 +18,6 @@ Lemon Drop Hi-Res development stage: Number three.<br>
 
 latest release: v189.1<br>
 
-I recommend only using v185.9 or higher.<br>
-
 “I have not failed. I've just found 10,000 ways that won't work.”<br>
 — Thomas Edison<br>
 
