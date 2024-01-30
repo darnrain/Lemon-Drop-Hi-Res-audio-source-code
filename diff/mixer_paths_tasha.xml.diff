@@ -3,7 +3,7 @@
 < 	
 < 	<!-- Top of page -->
 < 	
-< 	<!-- Lemon Drop Hi-Res treble v185.9 -->
+< 	<!-- Lemon Drop Hi-Res treble v186.1 -->
 < 	<!-- Designed and created by darnrain @GitHub -->
 < 	<!-- Proudly Made In America -->
 < 	
@@ -4998,23 +4998,23 @@
 < 	<ctl name="SLIM RX4 MUX" value="ZERO" />
 < 	<ctl name="SLIM TX5 MUX" value="ZERO" />
 < 	<ctl name="SLIM RX5 MUX" value="ZERO" />
-< 	<ctl name="TX MIX TX0 MUX" value="ZERO" />
+< 	<ctl name="TX MIX RX0 MUX" value="ZERO" />
 < 	<ctl name="RX MIX TX0 MUX" value="ZERO" />
-< 	<ctl name="TX MIX TX1 MUX" value="ZERO" />
+< 	<ctl name="TX MIX RX1 MUX" value="ZERO" />
 < 	<ctl name="RX MIX TX1 MUX" value="ZERO" />
-< 	<ctl name="TX MIX TX2 MUX" value="ZERO" />
+< 	<ctl name="TX MIX RX2 MUX" value="ZERO" />
 < 	<ctl name="RX MIX TX2 MUX" value="ZERO" />
-< 	<ctl name="TX MIX TX3 MUX" value="ZERO" />
+< 	<ctl name="TX MIX RX3 MUX" value="ZERO" />
 < 	<ctl name="RX MIX TX3 MUX" value="ZERO" />
-< 	<ctl name="TX MIX TX4 MUX" value="ZERO" />
+< 	<ctl name="TX MIX RX4 MUX" value="ZERO" />
 < 	<ctl name="RX MIX TX4 MUX" value="ZERO" />
-< 	<ctl name="TX MIX TX5 MUX" value="ZERO" />
+< 	<ctl name="TX MIX RX5 MUX" value="ZERO" />
 < 	<ctl name="RX MIX TX5 MUX" value="ZERO" />
-< 	<ctl name="TX MIX TX6 MUX" value="ZERO" />
+< 	<ctl name="TX MIX RX6 MUX" value="ZERO" />
 < 	<ctl name="RX MIX TX6 MUX" value="ZERO" />
-< 	<ctl name="TX MIX TX7 MUX" value="ZERO" />
+< 	<ctl name="TX MIX RX7 MUX" value="ZERO" />
 < 	<ctl name="RX MIX TX7 MUX" value="ZERO" />
-< 	<ctl name="TX MIX TX8 MUX" value="ZERO" />
+< 	<ctl name="TX MIX RX8 MUX" value="ZERO" />
 < 	<ctl name="RX MIX TX8 MUX" value="ZERO" />
 < 	<ctl name="IIR0 INP0 MUX" value="ZERO" />
 < 	<ctl name="IIR0 INP1 MUX" value="ZERO" />
