@@ -44,16 +44,19 @@ When programing a QuadDAC you do not have visual gauges to view to see if you ha
 I was always seeing LO in the True Native Mode code. I was like what is LO??? Then it hit me it's the bass. I came up with MI and HI for mid-range and treble myself and it worked!!! Also I was always seeing RX everywhere I looked, I was like well if there is an RX there has to be a TX. I guess you could say it was trial, error, logic and my advanced Linux computer skills, is how I programed the Saber ESS 9218 DAC. The devs that programed the Saber ESS DAC chip are professionals, you need to think like how they think. They would not make it to complicated to program the QuadDAC. For me it is the ultimate puzzle.<br>
 
 ### How did you calculate the numbers?<br>
-I reprogrammed the QuadDAC, it’s now set at 384bit, 705.6kHz, 24576 channels. All the other versions I calculated the bit rate from the starting point of 16, this version I started at 24. Everything divides evenly into 24, 384 divided by 16 = 24, 705.6 divided by 16 = 44.1. That begs the question, why are Hi-Res music players still using 32bit? The world has moved on to 24bit audio. You know when kids try and fit a square into a circle, well the bit rates are exactly the same. You can not fit 24bit audio into a 32bit DAC, it’s just simply impossible. The only way to fit a square into a circle would be to trim the sides of the square and make it into a circle, before it will fit into the hole that is a circle. So what the DAC does, it makes it fit, it will trim off the edges of the square and make it into a perfect circle. Then it will fit into a 32bit DAC, so in other words the numbers must divide evenly into what the DAC is set at. The audio is actually cut, in other words the audio never reaches your ears. So 24bit audio is cut down to 16bit audio, 28.57% of the audio is just simply gone. Something else that will blow your mind, no one has ever heard what 24bit audio sounds like in the entire existence of 24bit audio, tell now that is. Welcome to the worlds first 24bit QuadDAC!<br>
+I reprogrammed the QuadDAC, it’s now set at 384bit, 705.6kHz, 24576 channels. All the other versions I calculated the bit rate from the starting point of 16, this version I started at 24. Everything divides evenly into 24, 384 divided by 16 = 24, 705.6 divided by 16 = 44.1. That begs the question, why are Hi-Res music players still using 32bit? The world has moved on to 24bit audio. You know when kids try and fit a square into a circle, well the bit rates are exactly the same. You can not fit 24bit audio into a 32bit DAC, it’s just simply impossible. The only way to fit a square into a circle would be to trim the edges of the square and make it into a circle, before it will fit into the hole that is a circle. So what the DAC does, it makes it fit, it will trim off the edges of the square and make it into a perfect circle. Then it will fit into a 32bit DAC, so in other words the numbers must divide evenly into what the DAC is set at. The audio is actually cut, in other words the audio never reaches your ears. So 24bit audio is cut down to 16bit audio, 28.57% of the audio is just simply gone. Something else that will blow your mind, no one has ever heard what 24bit audio sounds like in the entire existence of 24bit audio, tell now that is. Welcome to the worlds first 24bit QuadDAC!<br>
 
 How do I know this information, I have successfully programed a QuadDAC. Thanks to my 34 years of advanced computer experience. Need I say more?<br>
 
 But the question in the back of my mind is why?<br>
-1. They just never get around to reprogram the DAC to 24bit.<br>
-2. It would cost to much to produce a 24bit DAC chip.<br>
-3. Or the final scenario is, I just opened up Pandora's box. ;)<br>
+1. They just never got around to reprogram a DAC to 24bit.<br>
+2. It would cost to much money to produce a 24bit DAC chip.<br>
+3. They had no idea that 24 must divide evenly into 32.<br>
+4. Or the final scenario is, I just opened up Pandora's box. ;)<br>
 
 Sorry 16bit audio it's your turn now, your going to be cut down to 12bit to fit into a 24bit circle.<br>
+
+In any scenario, I have successfully accomplished my goal. I now have the worlds best Professional High Resolution Audio Player, brought to you by the number 24 Ah-Ah-Ah!<br>
 
 Welcome to the headphone control center<br>
 
