@@ -3,7 +3,7 @@
 < 	
 < 	<!-- Top of page -->
 < 	
-< 	<!-- Lemon Drop Hi-Res treble v190.1 -->
+< 	<!-- Lemon Drop Hi-Res treble v191.1 -->
 < 	<!-- Designed and created by darnrain @GitHub -->
 < 	<!-- Proudly Made In America -->
 < 	
@@ -128,7 +128,7 @@
 < 	
 < 	<!-- Start of True Native Mode code v3.0 & vbat initial mixer settings -->
 < 	
-157,5865c28,2368
+157,5900c28,2368
 < 	<ctl name="TX INT1 SPLINE MIX HPHL Native Switch" value="0" />
 < 	<ctl name="TX INT1 SPLINE MIX HPHL Switch" value="0" />
 < 	<ctl name="RX INT1 SPLINE MIX HPHL Native Switch" value="0" />
@@ -4905,6 +4905,41 @@
 < 	<ctl name="SPKRR Volume Switch" value="0" />
 < 	<ctl name="TX SPKRR Volume" value="0" />
 < 	<ctl name="RX SPKRR Volume" value="0" />
+< 	<ctl name="Voice TX Device Mute" id="0" value="0" />
+< 	<ctl name="Voice RX Device Mute" id="0" value="0" />
+< 	<ctl name="Voice TX Device Mute" id="1" value="-1" />
+< 	<ctl name="Voice RX Device Mute" id="1" value="-1" />
+< 	<ctl name="Voice TX Device Mute" id="2" value="20" />
+< 	<ctl name="Voice RX Device Mute" id="2" value="20" />
+< 	<ctl name="Voice TX Device Gain" id="0" value="0" />
+< 	<ctl name="Voice RX Device Gain" id="0" value="0" />
+< 	<ctl name="Voice TX Device Gain" id="1" value="-1" />
+< 	<ctl name="Voice RX Device Gain" id="1" value="-1" />
+< 	<ctl name="Voice TX Device Gain" id="2" value="20" />
+< 	<ctl name="Voice RX Device Gain" id="2" value="20" />
+< 	<ctl name="Voip TX Device Mute" id="0" value="0" />
+< 	<ctl name="Voip RX Device Mute" id="0" value="0" />
+< 	<ctl name="Voip TX Device Mute" id="1" value="500" />
+< 	<ctl name="Voip RX Device Mute" id="1" value="500" />
+< 	<ctl name="Voip TX Device Mute" id="2" value="500" />
+< 	<ctl name="Voip RX Device Mute" id="2" value="500" />
+< 	<ctl name="Voip TX Device Gain" id="0" value="0" />
+< 	<ctl name="Voip RX Device Gain" id="0" value="0" />
+< 	<ctl name="Voip TX Device Gain" id="1" value="20" />
+< 	<ctl name="Voip RX Device Gain" id="1" value="20" />
+< 	<ctl name="Voip TX Device Gain" id="2" value="20" />
+< 	<ctl name="Voip RX Device Gain" id="2" value="20" />
+< 	<ctl name="Voip Mode Config" value="12" />
+< 	<ctl name="Voip Rate Config" value="0" />
+< 	<ctl name="Voip Evrc Min Max Rate Config" id="0" value="1" />
+< 	<ctl name="Voip Evrc Min Max Rate Config" id="1" value="4" />
+< 	<ctl name="Voip DTX Mode" value="0" />
+< 	<ctl name="Voip DRX Mode" value="0" />
+< 	<ctl name="TTY Mode" value="ZERO" />
+< 	<ctl name="LINEOUT1 Volume" value="13" />
+< 	<ctl name="LINEOUT2 Volume" value="13" />
+< 	<ctl name="LINEOUT3 Volume" value="13" />
+< 	<ctl name="LINEOUT4 Volume" value="13" />
 < 	
 < 	<!-- Start of Quad mic volume control -->
 < 	
@@ -8180,10 +8215,10 @@
 >     </path>
 > 
 >     <path name="anc-headphones">
-5867,5868d2369
+5902,5903d2369
 < 	<ctl name="TX COMP1" value="0" />
 < 	<ctl name="RX COMP1" value="0" />
-5870,18894c2371,2429
+5905,18970c2371,2429
 < 	<ctl name="TX COMP2" value="0" />
 < 	<ctl name="RX COMP2" value="0" />
 < 	<ctl name="COMP3 Switch" value="0" />
@@ -8245,8 +8280,53 @@
 < 	<ctl name="LSM6 MUX" value="ZERO" />
 < 	<ctl name="LSM7 MUX" value="ZERO" />
 < 	<ctl name="LSM8 MUX" value="ZERO" />
+< 	<ctl name="RT_PROXY_1_TX SetCalMode" value="CAL_MODE_NONE" />
+< 	<ctl name="RT_PROXY_1_RX SetCalMode" value="CAL_MODE_NONE" />
 < 	
 < 	<!-- End of initial misc settings -->
+< 	
+< 	<!-- Start of ADSP testfwk -->
+< 	
+< 	<ctl name="SLIMBUS_DL_HL Switch" value="0" />
+< 	<ctl name="SLIMBUS6_DL_HL Switch" value="0" />
+< 	
+< 	<!-- End of ADSP testfwk end -->
+< 	
+< 	<!-- Start of IIR/voice anc -->
+< 	
+< 	<ctl name="IIR0 Band1" id ="0" value="268435456" />
+< 	<ctl name="IIR0 Band1" id ="1" value="0" />
+< 	<ctl name="IIR0 Band1" id ="2" value="0" />
+< 	<ctl name="IIR0 Band1" id ="3" value="0" />
+< 	<ctl name="IIR0 Band1" id ="4" value="0" />
+< 	<ctl name="IIR0 Band2" id ="0" value="268435456" />
+< 	<ctl name="IIR0 Band2" id ="1" value="0" />
+< 	<ctl name="IIR0 Band2" id ="2" value="0" />
+< 	<ctl name="IIR0 Band2" id ="3" value="0" />
+< 	<ctl name="IIR0 Band2" id ="4" value="0" />
+< 	<ctl name="IIR0 Band3" id ="0" value="268435456" />
+< 	<ctl name="IIR0 Band3" id ="1" value="0" />
+< 	<ctl name="IIR0 Band3" id ="2" value="0" />
+< 	<ctl name="IIR0 Band3" id ="3" value="0" />
+< 	<ctl name="IIR0 Band3" id ="4" value="0" />
+< 	<ctl name="IIR0 Band4" id ="0" value="268435456" />
+< 	<ctl name="IIR0 Band4" id ="1" value="0" />
+< 	<ctl name="IIR0 Band4" id ="2" value="0" />
+< 	<ctl name="IIR0 Band4" id ="3" value="0" />
+< 	<ctl name="IIR0 Band4" id ="4" value="0" />
+< 	<ctl name="IIR0 Band5" id ="0" value="268435456" />
+< 	<ctl name="IIR0 Band5" id ="1" value="0" />
+< 	<ctl name="IIR0 Band5" id ="2" value="0" />
+< 	<ctl name="IIR0 Band5" id ="3" value="0" />
+< 	<ctl name="IIR0 Band5" id ="4" value="0" />
+< 	<ctl name="IIR0 Enable Band1" value="0" />
+< 	<ctl name="IIR0 Enable Band2" value="0" />
+< 	<ctl name="IIR0 Enable Band3" value="0" />
+< 	<ctl name="IIR0 Enable Band4" value="0" />
+< 	<ctl name="IIR0 Enable Band5" value="0" />
+< 	<ctl name="IIR0 INP0 Volume" value="0" />
+< 	
+< 	<!-- End of IIR/voice anc end -->
 < 	
 < 	<!-- Start of VoWLAN -->
 < 	
@@ -16290,36 +16370,37 @@
 < 	
 < 	<!-- Copy from this line all the way to the top -->
 < 	
-< 	<ctl name="Voice Rx Device Mute" id="0" value="0" />
-< 	<ctl name="Voice Rx Device Mute" id="1" value="-1" />
-< 	<ctl name="Voice Rx Device Mute" id="2" value="20" />
-< 	<ctl name="Voice Tx Mute" id="0" value="0" />
-< 	<ctl name="Voice Tx Mute" id="1" value="-1" />
-< 	<ctl name="Voice Tx Mute" id="2" value="500" />
-< 	<ctl name="Voice Rx Gain" id="0" value="0" />
-< 	<ctl name="Voice Rx Gain" id="1" value="-1" />
-< 	<ctl name="Voice Rx Gain" id="2" value="20" />
-< 	<ctl name="Voip Tx Mute" id="0" value="0" />
-< 	<ctl name="Voip Tx Mute" id="1" value="500" />
-< 	<ctl name="Voip Rx Gain" id="0" value="0" />
-< 	<ctl name="Voip Rx Gain" id="1" value="20" />
-< 	<ctl name="Voip Mode Config" value="12" />
-< 	<ctl name="Voip Rate Config" value="0" />
-< 	<ctl name="Voip Evrc Min Max Rate Config" id="0" value="1" />
-< 	<ctl name="Voip Evrc Min Max Rate Config" id="1" value="4" />
-< 	<ctl name="Voip Dtx Mode" value="0" />
-< 	<ctl name="TTY Mode" value="OFF" />
-< 	<ctl name="LINEOUT1 Volume" value="13" />
-< 	<ctl name="LINEOUT2 Volume" value="13" />
-< 	<ctl name="LINEOUT3 Volume" value="13" />
-< 	<ctl name="LINEOUT4 Volume" value="13" />
-< 	
 < 	<!-- Lemon Drop Hi-Res start of mods -->
 < 	
 < 	<!-- I deleted all the following lines and -->
 < 	<!-- moved them up top and added the TX to RX -->
 < 	<!-- in descending order filled in gaps in numbers -->
 < 	<!-- 123589 - 123456789 -->
+< 	
+< 	<!-- Deleted -->
+< 	<!-- <ctl name="Voice Rx Device Mute" id="0" value="0" /> -->
+< 	<!-- <ctl name="Voice Rx Device Mute" id="1" value="-1" /> -->
+< 	<!-- <ctl name="Voice Rx Device Mute" id="2" value="20" /> -->
+< 	<!-- <ctl name="Voice Tx Mute" id="0" value="0" /> -->
+< 	<!-- <ctl name="Voice Tx Mute" id="1" value="-1" /> -->
+< 	<!-- <ctl name="Voice Tx Mute" id="2" value="500" /> -->
+< 	<!-- <ctl name="Voice Rx Gain" id="0" value="0" /> -->
+< 	<!-- <ctl name="Voice Rx Gain" id="1" value="-1" /> -->
+< 	<!-- <ctl name="Voice Rx Gain" id="2" value="20" /> -->
+< 	<!-- <ctl name="Voip Tx Mute" id="0" value="0" /> -->
+< 	<!-- <ctl name="Voip Tx Mute" id="1" value="500" /> -->
+< 	<!-- <ctl name="Voip Rx Gain" id="0" value="0" /> -->
+< 	<!-- <ctl name="Voip Rx Gain" id="1" value="20" /> -->
+< 	<!-- <ctl name="Voip Mode Config" value="12" /> -->
+< 	<!-- <ctl name="Voip Rate Config" value="0" /> -->
+< 	<!-- <ctl name="Voip Evrc Min Max Rate Config" id="0" value="1" /> -->
+< 	<!-- <ctl name="Voip Evrc Min Max Rate Config" id="1" value="4" /> -->
+< 	<!-- <ctl name="Voip Dtx Mode" value="0" /> -->
+< 	<!-- <ctl name="TTY Mode" value="OFF" /> -->
+< 	<!-- <ctl name="LINEOUT1 Volume" value="13" /> -->
+< 	<!-- <ctl name="LINEOUT2 Volume" value="13" /> -->
+< 	<!-- <ctl name="LINEOUT3 Volume" value="13" /> -->
+< 	<!-- <ctl name="LINEOUT4 Volume" value="13" /> -->
 < 	
 < 	<!-- Deleted -->
 < 	<!-- <ctl name="HPHL Volume" value="20" /> -->
@@ -16676,7 +16757,7 @@
 < 	<!-- <ctl name="MultiMedia1 Mixer TERT_MI2S_TX" value="0" /> -->
 < 	<!-- <ctl name="MultiMedia2 Mixer TERT_MI2S_TX" value="0" /> -->
 < 	
-< 	<!-- Deleted -->	
+< 	<!-- Deleted -->
 < 	<!-- Voice -->
 < 	<!-- <ctl name="SLIM_0_RX_Voice Mixer CSVoice" value="0" /> -->
 < 	<!-- <ctl name="SLIM_6_RX_Voice Mixer CSVoice" value="0" /> -->
@@ -16692,6 +16773,7 @@
 < 	<!-- <ctl name="Voice_Tx Mixer AFE_PCM_TX_Voice" value="0" /> -->
 < 	<!-- Voice end -->
 < 	
+< 	<!-- Deleted -->
 < 	<!-- Voice2 -->
 < 	<!-- <ctl name="SLIM_0_RX_Voice Mixer Voice2" value="0" /> -->
 < 	<!-- <ctl name="SLIM_6_RX_Voice Mixer Voice2" value="0" /> -->
@@ -16706,6 +16788,7 @@
 < 	<!-- <ctl name="Voice2_Tx Mixer AFE_PCM_TX_Voice2" value="0" /> -->
 < 	<!-- Voice2 end -->
 < 	
+< 	<!-- Deleted -->
 < 	<!-- VoLTE -->
 < 	<!-- <ctl name="SLIM_0_RX_Voice Mixer VoLTE" value="0" /> -->
 < 	<!-- <ctl name="SLIM_6_RX_Voice Mixer VoLTE" value="0" /> -->
@@ -16720,6 +16803,7 @@
 < 	<!-- <ctl name="VoLTE_Tx Mixer AFE_PCM_TX_VoLTE" value="0" /> -->
 < 	<!-- VoLTE end -->
 < 	
+< 	<!-- Deleted -->
 < 	<!-- Multimode Voice1 -->
 < 	<!-- <ctl name="SLIM_0_RX_Voice Mixer VoiceMMode1" value="0" /> -->
 < 	<!-- <ctl name="SLIM_6_RX_Voice Mixer VoiceMMode1" value="0" /> -->
@@ -16734,6 +16818,7 @@
 < 	<!-- <ctl name="VoiceMMode1_Tx Mixer AFE_PCM_TX_MMode1" value="0" /> -->
 < 	<!-- Miltimode Voice1 end -->
 < 	
+< 	<!-- Deleted -->
 < 	<!-- Multimode Voice2 -->
 < 	<!-- <ctl name="SLIM_0_RX_Voice Mixer VoiceMMode2" value="0" /> -->
 < 	<!-- <ctl name="SLIM_6_RX_Voice Mixer VoiceMMode2" value="0" /> -->
@@ -16755,14 +16840,11 @@
 < 	<!-- <ctl name="AIF3_CAP Mixer SLIM TX2" value="0" /> -->
 < 	<!-- Voice external ec. reference end -->
 < 	
-< 	<!-- Lemon Drop Hi-Res end of mods -->
-< 	
+< 	<!-- Deleted -->
 < 	<!-- RT Proxy Cal -->
-< 	<ctl name="RT_PROXY_1_RX SetCalMode" value="CAL_MODE_NONE" />
-< 	<ctl name="RT_PROXY_1_TX SetCalMode" value="CAL_MODE_NONE" />
+< 	<!-- <ctl name="RT_PROXY_1_RX SetCalMode" value="CAL_MODE_NONE" /> -->
+< 	<!-- <ctl name="RT_PROXY_1_TX SetCalMode" value="CAL_MODE_NONE" /> -->
 < 	<!-- RT Proxy Cal end -->
-< 	
-< 	<!-- Lemon Drop Hi-Res start of mods -->
 < 	
 < 	<!-- Deleted -->	
 < 	<!-- Incall Recording -->
@@ -16818,43 +16900,40 @@
 < 	<!-- <ctl name="AUX_PCM_RX Audio Mixer MultiMedia6" value="0" /> -->
 < 	<!-- <ctl name="MultiMedia1 Mixer AUX_PCM_UL_TX" value="0" /> -->
 < 	
-< 	<!-- Lemon Drop Hi-Res end of mods -->
-< 	
+< 	<!-- Deleted -->
 < 	<!-- IIR/voice anc -->
-< 	<ctl name="IIR0 Band1" id ="0" value="268435456" />
-< 	<ctl name="IIR0 Band1" id ="1" value="0" />
-< 	<ctl name="IIR0 Band1" id ="2" value="0" />
-< 	<ctl name="IIR0 Band1" id ="3" value="0" />
-< 	<ctl name="IIR0 Band1" id ="4" value="0" />
-< 	<ctl name="IIR0 Band2" id ="0" value="268435456" />
-< 	<ctl name="IIR0 Band2" id ="1" value="0" />
-< 	<ctl name="IIR0 Band2" id ="2" value="0" />
-< 	<ctl name="IIR0 Band2" id ="3" value="0" />
-< 	<ctl name="IIR0 Band2" id ="4" value="0" />
-< 	<ctl name="IIR0 Band3" id ="0" value="268435456" />
-< 	<ctl name="IIR0 Band3" id ="1" value="0" />
-< 	<ctl name="IIR0 Band3" id ="2" value="0" />
-< 	<ctl name="IIR0 Band3" id ="3" value="0" />
-< 	<ctl name="IIR0 Band3" id ="4" value="0" />
-< 	<ctl name="IIR0 Band4" id ="0" value="268435456" />
-< 	<ctl name="IIR0 Band4" id ="1" value="0" />
-< 	<ctl name="IIR0 Band4" id ="2" value="0" />
-< 	<ctl name="IIR0 Band4" id ="3" value="0" />
-< 	<ctl name="IIR0 Band4" id ="4" value="0" />
-< 	<ctl name="IIR0 Band5" id ="0" value="268435456" />
-< 	<ctl name="IIR0 Band5" id ="1" value="0" />
-< 	<ctl name="IIR0 Band5" id ="2" value="0" />
-< 	<ctl name="IIR0 Band5" id ="3" value="0" />
-< 	<ctl name="IIR0 Band5" id ="4" value="0" />
-< 	<ctl name="IIR0 Enable Band1" value="0" />
-< 	<ctl name="IIR0 Enable Band2" value="0" />
-< 	<ctl name="IIR0 Enable Band3" value="0" />
-< 	<ctl name="IIR0 Enable Band4" value="0" />
-< 	<ctl name="IIR0 Enable Band5" value="0" />
-< 	<ctl name="IIR0 INP0 Volume" value="0" />
+< 	<!-- <ctl name="IIR0 Band1" id ="0" value="268435456" /> -->
+< 	<!-- <ctl name="IIR0 Band1" id ="1" value="0" /> -->
+< 	<!-- <ctl name="IIR0 Band1" id ="2" value="0" /> -->
+< 	<!-- <ctl name="IIR0 Band1" id ="3" value="0" /> -->
+< 	<!-- <ctl name="IIR0 Band1" id ="4" value="0" /> -->
+< 	<!-- <ctl name="IIR0 Band2" id ="0" value="268435456" /> -->
+< 	<!-- <ctl name="IIR0 Band2" id ="1" value="0" /> -->
+< 	<!-- <ctl name="IIR0 Band2" id ="2" value="0" /> -->
+< 	<!-- <ctl name="IIR0 Band2" id ="3" value="0" /> -->
+< 	<!-- <ctl name="IIR0 Band2" id ="4" value="0" /> -->
+< 	<!-- <ctl name="IIR0 Band3" id ="0" value="268435456" /> -->
+< 	<!-- <ctl name="IIR0 Band3" id ="1" value="0" /> -->
+< 	<!-- <ctl name="IIR0 Band3" id ="2" value="0" /> -->
+< 	<!-- <ctl name="IIR0 Band3" id ="3" value="0" /> -->
+< 	<!-- <ctl name="IIR0 Band3" id ="4" value="0" /> -->
+< 	<!-- <ctl name="IIR0 Band4" id ="0" value="268435456" /> -->
+< 	<!-- <ctl name="IIR0 Band4" id ="1" value="0" /> -->
+< 	<!-- <ctl name="IIR0 Band4" id ="2" value="0" /> -->
+< 	<!-- <ctl name="IIR0 Band4" id ="3" value="0" /> -->
+< 	<!-- <ctl name="IIR0 Band4" id ="4" value="0" /> -->
+< 	<!-- <ctl name="IIR0 Band5" id ="0" value="268435456" /> -->
+< 	<!-- <ctl name="IIR0 Band5" id ="1" value="0" /> -->
+< 	<!-- <ctl name="IIR0 Band5" id ="2" value="0" /> -->
+< 	<!-- <ctl name="IIR0 Band5" id ="3" value="0" /> -->
+< 	<!-- <ctl name="IIR0 Band5" id ="4" value="0" /> -->
+< 	<!-- <ctl name="IIR0 Enable Band1" value="0" /> -->
+< 	<!-- <ctl name="IIR0 Enable Band2" value="0" /> -->
+< 	<!-- <ctl name="IIR0 Enable Band3" value="0" /> -->
+< 	<!-- <ctl name="IIR0 Enable Band4" value="0" /> -->
+< 	<!-- <ctl name="IIR0 Enable Band5" value="0" /> -->
+< 	<!-- <ctl name="IIR0 INP0 Volume" value="0" /> -->
 < 	<!-- IIR/voice anc end -->
-< 	
-< 	<!-- Lemon Drop Hi-Res start of mods -->
 < 	
 < 	<!-- Deleted -->
 < 	<!-- anc handset -->
@@ -16922,14 +17001,11 @@
 < 	<!-- <ctl name="Out Channel4" id="2" value="0" /> -->
 < 	<!-- surround sound record end -->
 < 	
-< 	<!-- Lemon Drop Hi-Res end of mods -->
-< 	
+< 	<!-- Deleted -->
 < 	<!-- ADSP testfwk -->
-< 	<ctl name="SLIMBUS_DL_HL Switch" value="0" />
-< 	<ctl name="SLIMBUS6_DL_HL Switch" value="0" />
+< 	<!-- <ctl name="SLIMBUS_DL_HL Switch" value="0" /> -->
+< 	<!-- <ctl name="SLIMBUS6_DL_HL Switch" value="0" /> -->
 < 	<!-- ADSP testfwk end -->
-< 	
-< 	<!-- Lemon Drop Hi-Res start of mods -->
 < 	
 < 	<!-- Deleted -->
 < 	<!-- <ctl name="AFE_PCM_RX Audio Mixer MultiMedia3" value="0" /> -->
@@ -21269,7 +21345,7 @@
 >     </path>
 > 
 >     <path name="voice-anc-headphones">
-18897,18983c2432,2464
+18973,19059c2432,2464
 < 	<ctl name="RX HPH Mode" value="CLS_H_LP" />
 < 	<ctl name="RX1 Mix Digital Volume" value="74" />
 < 	<ctl name="RX2 Mix Digital Volume" value="74" />
@@ -21391,7 +21467,7 @@
 >     </path>
 > 
 >     <path name="voice-anc-fb-headphones">
-18986,21555c2467,3898
+19062,21642c2467,3898
 < 	<ctl name="ANC Function" value="ON" />
 < 	<ctl name="ANC Slot" value="0" />
 < 	<ctl name="ADC MUX10" value="AMIC" />
@@ -23304,7 +23380,12 @@
 < 	<!-- Start of loopback devices -->
 < 	
 < 	<path name="loopback_earpiece">
-< 	<ctl name="EAR PA Gain" value="G_6_DB" />
+< 	<ctl name="HPHL LDAC Switch" value="1" />
+< 	<ctl name="TX HPHL LDAC" value="1" />
+< 	<ctl name="RX HPHL LDAC" value="1" />
+< 	<ctl name="HPHR RDAC Switch" value="0" />
+< 	<ctl name="TX HPHR RDAC" value="0" />
+< 	<ctl name="RX HPHR RDAC" value="0" />
 < 	<ctl name="0 Digital Volume Switch" value="1" />
 < 	<ctl name="TX0 Digital Volume" value="84" />
 < 	<ctl name="RX0 Digital Volume" value="84" />
@@ -23334,6 +23415,12 @@
 < 	
 < 	<!-- Added -->
 < 	<path name="loopback_speaker-mono">
+< 	<ctl name="HPHL LDAC Switch" value="1" />
+< 	<ctl name="TX HPHL LDAC" value="1" />
+< 	<ctl name="RX HPHL LDAC" value="1" />
+< 	<ctl name="HPHR RDAC Switch" value="0" />
+< 	<ctl name="TX HPHR RDAC" value="0" />
+< 	<ctl name="RX HPHR RDAC" value="0" />
 < 	<ctl name="7 Digital Volume Switch" value="1" />
 < 	<ctl name="TX7 Digital Volume" value="84" />
 < 	<ctl name="RX7 Digital Volume" value="84" />
@@ -25395,7 +25482,7 @@
 >         <path name="speaker-protected" />
 >     </path>
 >     <!-- TERT MI2S A2DP OFFLOAD end -->
-21557,21559d3899
+21644,21646d3899
 < 	
 < 	
 < 	<!-- Bottom of page -->
