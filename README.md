@@ -51,7 +51,7 @@ How do I know this information, I have successfully programed a QuadDAC. Thanks 
 But the question in the back of my mind is why?<br>
 1. They just never got around to reprogram a DAC to 24bit.<br>
 2. It would cost to much money to produce a 24bit DAC chip.<br>
-3. They had no idea that 24 must divide evenly into 32.<br>
+3. I am the first person to discover this, out of everyone in the entire world.<br>
 4. Or the final scenario is, I just opened up Pandora's box. ;)<br>
 
 Sorry 16bit audio it's your turn now, your going to be cut down to 12bit to fit into a 24bit circle.<br>
