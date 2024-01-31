@@ -48,8 +48,6 @@ Welcome to the world of 24bit audio! I reprogrammed the QuadDAC, it’s now set 
 
 Sorry bluetooth 16bit & wired headphones 16bit it's your turn now, your going to be cut down to 12bit to fit into a 24bit slot. This is still the lesser of two evils, I mean your only loosing 4bit vs 8bit.<br>
 
-Sorry bluetooth 16bit & wired headphones 16bit it's your turn now, your going to be cut down to 12bit to fit into a 24bit slot. This is still the lesser of two evils, I mean your only loosing 4bit vs 8bit.<br>
-
 Welcome to the headphone control center<br>
 
 This is how I calculated the amount of channels for headphone & bluetooth<br>
