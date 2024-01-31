@@ -1,7 +1,7 @@
 ![294729981-1fd80758-cdef-4be1-afb5-1d6666d383a0](https://github.com/darnrain/Lemon-Drop-Hi-Res-audio-source-code/assets/60840489/c7f73ce2-8e2e-4c9c-955c-38dced1bd54c)
 ## Lemon Drop Hi-Res audio source code
 
-Welcome to the future of music...<br>
+### Welcome to the future of music...<br>
 The worlds first 24bit QuadDAC.<br>
 Set at: 384bit, 705.6kHz, 24576 channels.<br>
 Running in True Native Mode.<br>
