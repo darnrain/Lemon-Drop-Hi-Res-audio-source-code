@@ -20,7 +20,7 @@ Lemon Drop Hi-Res development stage: Number three.<br>
 3. You need to check for errors or typos in your code.<br>
 4. Finished.<br>
 
-latest release: v191.1<br>
+latest release: v192.1<br>
 
 “I have not failed. I've just found 10,000 ways that won't work.”<br>
 — Thomas Edison<br>
