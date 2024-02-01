@@ -28,7 +28,7 @@
 	
 	<!-- Top of page -->
 	
-	<!-- Lemon Drop Hi-Res treble v192.1 -->
+	<!-- Lemon Drop Hi-Res treble v193.1 -->
 	<!-- Designed and created by darnrain @GitHub -->
 	<!-- Proudly Made In America -->
 	
@@ -5050,6 +5050,8 @@
 	<ctl name="HDMI Mixer MultiMedia16" value="0" />
 	<ctl name="SLIM TX0 MUX" value="ZERO" />
 	<ctl name="SLIM RX0 MUX" value="ZERO" />
+	<ctl name="SLIM TX1 MUX" value="ZERO" />
+	<ctl name="SLIM RX1 MUX" value="ZERO" />
 	<ctl name="SLIM TX2 MUX" value="ZERO" />
 	<ctl name="SLIM RX2 MUX" value="ZERO" />
 	<ctl name="SLIM TX3 MUX" value="ZERO" />
