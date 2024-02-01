@@ -66,6 +66,8 @@ All devices are upsampled 16X.<br>
 2. 24bit bluetooth at direct output 24bit 44.1Hz, 24576 channels.<br>
 3. 16bit wired headphones at 12bit 44.1Hz, 6144 channels.<br>
 4. 24bit wired headphones at direct output 384bit, 705.6kHz, 24576 channels.<br>
+5. usb audio, never tested.<br>
+6. HDMI, never tested.<br>
 
 Welcome to the headphone control center<br>
 
