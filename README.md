@@ -55,7 +55,7 @@ I reprogrammed the QuadDAC, it’s now set at 384bit, 705.6kHz, 24576 channels. 
 
 How do I know this information, I have successfully programed a QuadDAC. Thanks to my 34 years of advanced computer experience. Need I say more?<br>
 
-Sorry 16bit audio it's your turn now, your going to be cut down to 12bit to fit into a 24bit circle. You will not hear any difference because the audio will be upsampled 16X. If anything 16bit audio will sound better than it normally would on a 32bit DAC.<br>
+Sorry 16bit audio it's your turn now, your going to be cut down to 12bit to fit into a 24bit circle. You will not hear any difference because the audio will be upsampled 16X, 16bit audio will sound better than it normally would on a 32bit DAC. Not to mention, 16bit audio is running in True Native Mode with 6144 channels.<br>
 
 But the question in the back of my mind is why?<br>
     1. They just never got around to reprogram a DAC to 24bit.<br>
