@@ -54,7 +54,7 @@ I reprogrammed the QuadDAC, it’s now set at 384bit, 705.6kHz, 24576 channels. 
 
 How do I know this information, I have successfully programed a QuadDAC. Thanks to my 34 years of advanced computer experience. Need I say more?<br>
 
-Sorry 16bit audio it's your turn now, your going to be cut down to 12bit to fit into a 24bit circle. You will not hear any difference because the audio will be upsampled 16X, 16bit audio will sound better than it normally would on a 32bit DAC. Not to mention, 16bit audio is running in True Native Mode with 6144 channels.<br>
+Sorry 16bit audio it's your turn now, your going to be cut down to 12bit to fit into a 24bit circle. now the left channel on 16bit will be softer than the right, channel, it's a catch 22.<br>
 
 That reminds me, I should let everyone know what devices are running in True Native Mode. Direct output is when all 4 DACs are producing  audio independently. low-range, mid-range, high-range and offload all playing music independently of each other. So you will hear the bass, treble and mid-range all simultaneously, as apposed to a single DAC. Cool huh, this is why they designed and created a QuadDAC.<br>
  
