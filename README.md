@@ -48,54 +48,6 @@ When programing a QuadDAC you do not have visual gauges to view to see if you ha
 
 I was always seeing LO in the True Native Mode code. I was like what is LO??? Then it hit me it's the bass. I came up with MI and HI for mid-range and treble myself and it worked!!! Also I was always seeing RX everywhere I looked, I was like well if there is an RX there has to be a TX. I guess you could say it was trial, error, logic and my advanced Linux computer skills, is how I programed the Saber ESS 9218 DAC. The devs that programed the Saber ESS DAC chip are professionals, you need to think like how they think. They would not make it to complicated to program the QuadDAC. For me it is the ultimate puzzle.<br>
 
-### How did you calculate the numbers?<br>
-I reprogrammed the QuadDAC, it’s now set at 384bit, 705.6kHz, 24576 channels. All the other versions I calculated the bit rate from the starting point of 16, this version I started at 24. Everything divides evenly into 24, 384 divided by 16 = 24, 705.6 divided by 16 = 44.1. That begs the question, why are Hi-Res music players still using 32bit? The world has moved on to 24bit audio. You know when kids try and fit a square into a circle, well the bit rates are exactly the same. You can not fit 24bit audio into a 32bit DAC, it’s just simply impossible. The only way to fit a square into a circle would be to trim the edges of the square and make it into a circle, before it will fit into the hole that is a circle. So what the DAC does, it makes it fit, it will trim off the edges of the square and make it into a perfect circle. Then it will fit into a 32bit DAC, so in other words the numbers must divide evenly into what the DAC is set at. The audio is actually cut, in other words the audio never reaches your ears. So 24bit audio is cut down to 16bit audio, 28.57% of the audio is just simply gone. Welcome to a 24bit QuadDAC running at 384bit, 705.6kHz, 24576 channels.<br>
-
-How do I know this information, I have successfully programed a QuadDAC. Thanks to my 34 years of advanced computer experience. When playing 24bit audio on a 32bit DAC, have you ever wondered why the left channel is softer than the right? It's because the left channel is missing 28.57% of the audio. A 24bit QuadDAC does not have that issue, both channels are perfectly balanced. Sorry 16bit audio it's your turn now, your going to be cut down to 12bit to fit into a 24bit circle. The left channel on 16bit will be softer than the right channel. It's a catch 22, from there is no escape. I've made the executive decision that 24bit audio is of grater value than 16bit audio.<br>
-
-My notes from the mixer_pahts file are as follows.<br>
-
-Welcome to the headphone control center<br>
-
-This is how I calculated the amount of channels for headphone & bluetooth<br>
-There are 384 True Native Mode mixer paths<br>
-384 X 4 = 1536 then 1536 X 4 = 6144<br>
-
-This is how I calculated the kilohertz headphone & bluetooth<br>
-44.1 X 4 = 176.4<br>
-
-This is how I calculated the bit-rate headphone & bluetooth<br>
-24 X 4 = 96<br>
-
-Welcome to the QuadDAC control center<br>
-
-This is how I calculated the amount of channels for speaker aka QuadDAC<br>
-6144 X 4 = 24576<br>
-
-This is how I calculated the kilohertz for speaker aka QuadDAC<br>
-176.4 X 4 = 705.6<br>
-
-This is how I calculated the bit rate for speaker aka QuadDAC<br>
-96 X 4 = 384<br>
-
-Welcome to the QuadDAC direct output<br>
-
-DAC 0 = low-range<br>
-DAC 1 = mid-range<br>
-DAC 2 = high-range<br>
-DAC 3 = offload<br>
-
-You must divide everything by 4 from the speaker settings<br>
-
-speaker is set to channels: 24576<br>
-24576 divided by 4 = 6144<br>
-
-speaker is set to kilohertz: 705.6<br>
-705.6 divided by 4 = 176.4<br>
-
-speaker is set to bit rate: 384<br>
-384 divided by 4 = 96<br>
-
 ### Will this True Native Mode code work on other Android phones other than the Lgv20?
 I can't say for absolutely certain, I can say for certain that the True Native Mode code runs excellent, on both of my Lgv20's, my main phone DeGoogled and the spare one with Google intact both running Stock Oreo ezV2020 v1.0 Kernel.  Who knows this True Native Mode code may work universally across all QuadDACs on all Android phones. It's up to you guys to beta test this code, my job is all done, I just had to recreate the True Native Mode code and make it work. The LG V series of phones, will have the best chance of this True Native Mode code working. Also keep in mind that I officially got True Native Mode working in v169.1, on 01-17-24 phones manufactured after that date may have True Native Mode disabled on the QuadDAC chip.<br>
 
