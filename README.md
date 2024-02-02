@@ -52,7 +52,7 @@ I was always seeing LO in the True Native Mode code. I was like what is LO??? Th
 ### How did you calculate the numbers?<br>
 I reprogrammed the QuadDAC, it’s now set at 384bit, 705.6kHz, 24576 channels. All the other versions I calculated the bit rate from the starting point of 16, this version I started at 24. Everything divides evenly into 24, 384 divided by 16 = 24, 705.6 divided by 16 = 44.1. That begs the question, why are Hi-Res music players still using 32bit? The world has moved on to 24bit audio. You know when kids try and fit a square into a circle, well the bit rates are exactly the same. You can not fit 24bit audio into a 32bit DAC, it’s just simply impossible. The only way to fit a square into a circle would be to trim the edges of the square and make it into a circle, before it will fit into the hole that is a circle. So what the DAC does, it makes it fit, it will trim off the edges of the square and make it into a perfect circle. Then it will fit into a 32bit DAC, so in other words the numbers must divide evenly into what the DAC is set at. The audio is actually cut, in other words the audio never reaches your ears. So 24bit audio is cut down to 16bit audio, 28.57% of the audio is just simply gone. Something else that will blow your mind, no one has ever heard what 24bit audio sounds like in the entire existence of 24bit audio, tell now that is. Welcome to the worlds first 24bit QuadDAC!<br>
 
-How do I know this information, I have successfully programed a QuadDAC. Thanks to my 34 years of advanced computer experience. When playing 24bit audio, have you ever wondered why the left channel is softer than the right? I bet you just thought it was your hearing didn't you? Nope your not alone, the entire world is hearing exactly what you are hearing, when playing 24bit audio. It's because the left channel is missing 28.57% of the audio. Doesn't that blow your mind? A 24bit QuadDAC does not have that issue, both channels are perfectly balanced. It's something that I have coined, True Stereo! Not to mention a 24bit QuadDAC is playing 24bit audio at 24bit vs 16bit, and yes 24bit audio sounds magnificent! Sorry 16bit audio it's your turn now, your going to be cut down to 12bit to fit into a 24bit circle. However the left channel on 16bit will be softer than the right channel. It's a catch 22.<br>
+How do I know this information, I have successfully programed a QuadDAC. Thanks to my 34 years of advanced computer experience. When playing 24bit audio, have you ever wondered why the left channel is softer than the right? I bet you just thought it was your hearing didn't you? Nope your not alone, the entire world is hearing exactly what you are hearing, when playing 24bit audio. It's because the left channel is missing 28.57% of the audio. Doesn't that blow your mind? A 24bit QuadDAC does not have that issue, both channels are perfectly balanced. It's something that I have coined, True Stereo! Not to mention a 24bit QuadDAC is playing 24bit audio at 24bit vs 16bit, and yes 24bit audio sounds magnificent! Sorry 16bit audio it's your turn now, your going to be cut down to 12bit to fit into a 24bit circle. However the left channel on 16bit will be softer than the right channel. It's a catch 22. I've made the executive decision that 24bit audio is of grater value than 16bit audio.<br>
 
 But the question in the back of my mind is why? I like number three the best. But I have a hunch that it's more like number four.<br>
     1. They just never got around to reprogram a QuadDAC chip to 24bit.<br>
@@ -62,16 +62,16 @@ But the question in the back of my mind is why? I like number three the best. Bu
 
 That reminds me, I should let everyone know what devices are running in True Native Mode. Direct output is when all 4 DACs are producing  audio independently. low-range, mid-range, high-range and offload all playing music independently of each other. So you will hear the bass, treble and mid-range all simultaneously, as apposed to a single DAC. Cool huh, this is why they designed and created a QuadDAC.<br>
  
-Devices running in True Native Mode are as follows:<br>
-All devices are upsampled 16X.<br>
+Devices running in True Native Mode are as follows:
+All devices are upsampled 16X.
 
-0. 24bit internal speaker.<br>
-1. 16bit bluetooth at 12bit 44.1Hz, 6144 channels.<br>
-2. 24bit bluetooth at direct output 24bit 44.1Hz, 24576 channels.<br>
-3. 16bit wired headphones at 12bit 44.1Hz, 6144 channels.<br>
-4. 24bit wired headphones at direct output 384bit, 705.6kHz, 24576 channels.<br>
-5. usb audio, never tested.<br>
-6. HDMI, never tested.<br>
+0. 24bit internal speaker
+1. 16bit bluetooth at 12bit 44.1Hz, 6144 channels.
+2. 24bit bluetooth at direct output 24bit 44.1Hz, 24576 channels.
+3. 16bit wired headphones at 12bit 44.1Hz, 6144 channels.
+4. 24bit wired headphones at direct output 384bit, 705.6kHz, 24576 channels.
+5. usb audio, never tested.
+6. HDMI, never tested.
 
 Welcome to the headphone control center<br>
 
