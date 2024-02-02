@@ -2,7 +2,7 @@
 ## Lemon Drop Hi-Res audio source code
 
 ### Welcome to the future of music...<br>
-A 24bit QuadDAC running at 384bit, 705.6kHz, 24576 channels.<br>
+The worlds first 24/32bit QuadDAC.<br>
 Running in True Native Mode.<br>
 With all 4 DACs running independently.<br>
 DAC 0 = low-range<br>
@@ -19,7 +19,7 @@ Lemon Drop Hi-Res development stage: Number four.<br>
 3. You need to check for errors or typos in your code.<br>
 4. The first stable release, v194.1.
 
-latest release: v194.1<br>
+latest release: v195.1<br>
 
 I recommend only using the latest version. I'm making enormous modifications to the operation of the QuadDAC.<br>
 
