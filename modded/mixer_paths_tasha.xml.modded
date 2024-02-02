@@ -28,7 +28,7 @@
 	
 	<!-- Top of page -->
 	
-	<!-- Lemon Drop Hi-Res treble v193.1 -->
+	<!-- Lemon Drop Hi-Res treble v194.1 -->
 	<!-- Designed and created by darnrain @GitHub -->
 	<!-- Proudly Made In America -->
 	
@@ -47,11 +47,11 @@
 	<!-- True Native Mode sounds like -->
 	
 	<!-- First thing -->
-	<!-- Copy all lines of code line number 1 through 13672 paste in your mixer_paths file at very top -->
-	<!-- I added a note where to copy from at line 13672 -->
+	<!-- Copy all lines of code line number 1 through 14056 paste in your mixer_paths file at very top -->
+	<!-- I added a note where to copy from at line 14056 -->
 	
 	<!-- Second thing -->
-	<!-- Search for "lemon drop" after line 13672 to start -->
+	<!-- Search for "lemon drop" after line 14056 to start -->
 	
 	<!-- Third thing -->
 	<!-- Duplicate all code from "Lemon Drop Hi-Res start of mods" to "Lemon Drop Hi-Res end of mods" -->
@@ -68,7 +68,7 @@
 	<!-- <ctl name="Es9018 AVC Volume" value="0" /> -->
 	<!-- <ctl name="Es9018 HEADSET TYPE" value="0" /> -->
 	<!-- <ctl name="Es9218 Bypass" value="0" /> -->
-	<!-- Line number 4860 to 4863 change the names also change the names under volume control -->
+	<!-- Line number 4863 to 4866 change the names also change the names under volume control -->
 	<!-- If they are not the same as the Lgv20 -->
 	
 	<!-- There can not be any duplicates like "<path name="speaker">" and "<path name="speaker">" -->
