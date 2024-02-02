@@ -56,6 +56,8 @@ How do I know this information, I have successfully programed a QuadDAC. Thanks 
 
 That begs the question. Why was 24bit audio invented, hypothetically if they knew that a 32bit DAC would only be able to play 24bit audio at 16bit with 28.57% of the audio missing from the left channel? Why do I have the feeling, that I just opened up Pandora's box?<br>
 
+"In Greek mythology, Pandora had a box filled with evils. She curiously open the box and all of the evils flew into the world. As the last evil was to fly out, she slammed the box shut and one evil remained—hope. The evil of hope remains inside us."<br>
+
 That reminds me, I should let everyone know what devices are running in True Native Mode. Direct output is when all 4 DACs are producing  audio independently. low-range, mid-range, high-range and offload all playing music independently of each other. So you will hear the bass, treble and mid-range all simultaneously, as apposed to a single DAC. Cool huh, this is why they designed and created a QuadDAC.<br>
  
 Devices running in True Native Mode are as follows:<br>
