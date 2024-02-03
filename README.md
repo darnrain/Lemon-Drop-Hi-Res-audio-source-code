@@ -1,5 +1,6 @@
 ![294729981-1fd80758-cdef-4be1-afb5-1d6666d383a0](https://github.com/darnrain/Lemon-Drop-Hi-Res-audio-source-code/assets/60840489/c7f73ce2-8e2e-4c9c-955c-38dced1bd54c)
 ## Lemon Drop Hi-Res audio source code
+Warning: before you install Lemon Drop Hi-Res or read all of this post. I want everyone to know that I have discovered some shocking information about our music, that will absolutely shatter music as you know it for at least the last 24 years. I would make the analogy, it's like waking up from the Matrix for the first time. "You take the blue pill... the story ends, you wake up in your bed and believe whatever you want to believe. You take the red pill... you stay in Wonderland, and I show you how deep the rabbit hole goes" – Morpheus.<br>
 
 ### Welcome to the future of music...<br>
 The worlds first 24/32bit QuadDAC in True Stereo!<br>
