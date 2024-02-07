@@ -3,7 +3,7 @@
 < 	
 < 	<!-- Top of page -->
 < 	
-< 	<!-- Lemon Drop Hi-Res treble v200.1 -->
+< 	<!-- Lemon Drop Hi-Res treble v201.1 -->
 < 	<!-- The worlds first 24/32bit QuadDAC in True Stereo! -->
 < 	<!-- Designed and created by darnrain @GitHub -->
 < 	<!-- Proudly Made In America -->
@@ -22454,7 +22454,7 @@
 >     </path>
 > 
 >     <path name="voice-anc-fb-headphones">
-20049,22759c2467,3898
+20049,22795c2467,3898
 < 	<ctl name="ANC Function" value="ON" />
 < 	<ctl name="ANC Slot" value="0" />
 < 	<ctl name="ADC MUX10" value="AMIC" />
@@ -23460,21 +23460,33 @@
 < 	<ctl name="7 Digital Volume Switch" value="0" />
 < 	<ctl name="TX7 Digital Volume" value="0" />
 < 	<ctl name="RX7 Digital Volume" value="0" />
+< 	<ctl name="7 Offset Switch" value="2" />
+< 	<ctl name="TX7 Offset" value="28" />
+< 	<ctl name="RX7 Offset" value="28" />
 < 	<ctl name="7 Mix Digital Volume Switch" value="0" />
 < 	<ctl name="TX7 Mix Digital Volume" value="0" />
 < 	<ctl name="RX7 Mix Digital Volume" value="0" />
 < 	<ctl name="8 Digital Volume Switch" value="0" />
 < 	<ctl name="TX8 Digital Volume" value="0" />
 < 	<ctl name="RX8 Digital Volume" value="0" />
+< 	<ctl name="8 Offset Switch" value="2" />
+< 	<ctl name="TX8 Offset" value="-28" />
+< 	<ctl name="RX8 Offset" value="-28" />
 < 	<ctl name="8 Mix Digital Volume Switch" value="0" />
 < 	<ctl name="TX8 Mix Digital Volume" value="0" />
 < 	<ctl name="RX8 Mix Digital Volume" value="0" />
 < 	<ctl name="SPKRL Volume Switch" value="0" />
 < 	<ctl name="TX SPKRL Volume" value="0" />
 < 	<ctl name="RX SPKRL Volume" value="0" />
+< 	<ctl name="SPKRL Offset Switch" value="2" />
+< 	<ctl name="TX SPKRL Offset" value="28" />
+< 	<ctl name="RX SPKRL Offset" value="28" />
 < 	<ctl name="SPKRR Volume Switch" value="0" />
 < 	<ctl name="TX SPKRR Volume" value="0" />
 < 	<ctl name="RX SPKRR Volume" value="0" />
+< 	<ctl name="SPKRR Offset Switch" value="2" />
+< 	<ctl name="TX SPKRR Offset" value="-28" />
+< 	<ctl name="RX SPKRR Offset" value="-28" />
 < 	</path>
 < 	
 < 	<!-- Added -->
@@ -23488,21 +23500,33 @@
 < 	<ctl name="7 Digital Volume Switch" value="0" />
 < 	<ctl name="TX7 Digital Volume" value="0" />
 < 	<ctl name="RX7 Digital Volume" value="0" />
+< 	<ctl name="7 Offset Switch" value="1" />
+< 	<ctl name="TX7 Offset" value="28" />
+< 	<ctl name="RX7 Offset" value="28" />
 < 	<ctl name="7 Mix Digital Volume Switch" value="0" />
 < 	<ctl name="TX7 Mix Digital Volume" value="0" />
 < 	<ctl name="RX7 Mix Digital Volume" value="0" />
 < 	<ctl name="8 Digital Volume Switch" value="0" />
 < 	<ctl name="TX8 Digital Volume" value="0" />
 < 	<ctl name="RX8 Digital Volume" value="0" />
+< 	<ctl name="8 Offset Switch" value="0" />
+< 	<ctl name="TX8 Offset" value="0" />
+< 	<ctl name="RX8 Offset" value="0" />
 < 	<ctl name="8 Mix Digital Volume Switch" value="0" />
 < 	<ctl name="TX8 Mix Digital Volume" value="0" />
 < 	<ctl name="RX8 Mix Digital Volume" value="0" />
 < 	<ctl name="SPKRL Volume Switch" value="0" />
 < 	<ctl name="TX SPKRL Volume" value="0" />
 < 	<ctl name="RX SPKRL Volume" value="0" />
+< 	<ctl name="SPKRL Offset Switch" value="1" />
+< 	<ctl name="TX SPKRL Offset" value="28" />
+< 	<ctl name="RX SPKRL Offset" value="28" />
 < 	<ctl name="SPKRR Volume Switch" value="0" />
 < 	<ctl name="TX SPKRR Volume" value="0" />
 < 	<ctl name="RX SPKRR Volume" value="0" />
+< 	<ctl name="SPKRR Offset Switch" value="0" />
+< 	<ctl name="TX SPKRR Offset" value="0" />
+< 	<ctl name="RX SPKRR Offset" value="0" />
 < 	</path>
 < 	
 < 	<!-- Lemon Drop Hi-Res end of mods -->
@@ -24463,21 +24487,33 @@
 < 	<ctl name="1 Digital Volume Switch" value="0" />
 < 	<ctl name="TX1 Digital Volume" value="0" />
 < 	<ctl name="RX1 Digital Volume" value="0" />
+< 	<ctl name="1 Offset Switch" value="2" />
+< 	<ctl name="TX1 Offset" value="28" />
+< 	<ctl name="RX1 Offset" value="28" />
 < 	<ctl name="1 Mix Digital Volume Switch" value="0" />
 < 	<ctl name="TX1 Mix Digital Volume" value="0" />
 < 	<ctl name="RX1 Mix Digital Volume" value="0" />
 < 	<ctl name="2 Digital Volume Switch" value="0" />
 < 	<ctl name="TX2 Digital Volume" value="0" />
 < 	<ctl name="RX2 Digital Volume" value="0" />
+< 	<ctl name="2 Offset Switch" value="2" />
+< 	<ctl name="TX2 Offset" value="-28" />
+< 	<ctl name="RX2 Offset" value="-28" />
 < 	<ctl name="2 Mix Digital Volume Switch" value="0" />
 < 	<ctl name="TX2 Mix Digital Volume" value="0" />
 < 	<ctl name="RX2 Mix Digital Volume" value="0" />
 < 	<ctl name="HPHL Volume Switch" value="0" />
 < 	<ctl name="TX HPHL Volume" value="0" />
 < 	<ctl name="RX HPHL Volume" value="0" />
+< 	<ctl name="HPHL Offset Switch" value="2" />
+< 	<ctl name="TX HPHL Offset" value="28" />
+< 	<ctl name="RX HPHL Offset" value="28" />
 < 	<ctl name="HPHR Volume Switch" value="0" />
 < 	<ctl name="TX HPHR Volume" value="0" />
 < 	<ctl name="RX HPHR Volume" value="0" />
+< 	<ctl name="HPHR Offset Switch" value="2" />
+< 	<ctl name="TX HPHR Offset" value="-28" />
+< 	<ctl name="RX HPHR Offset" value="-28" />
 < 	</path>
 < 	
 < 	<!-- End of headphone control center -->
@@ -26599,7 +26635,7 @@
 >         <path name="speaker-protected" />
 >     </path>
 >     <!-- TERT MI2S A2DP OFFLOAD end -->
-22761,22763d3899
+22797,22799d3899
 < 	
 < 	
 < 	<!-- Bottom of page -->
