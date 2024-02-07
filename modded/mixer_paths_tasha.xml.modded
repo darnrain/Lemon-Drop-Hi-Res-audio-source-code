@@ -28,7 +28,7 @@
 	
 	<!-- Top of page -->
 	
-	<!-- Lemon Drop Hi-Res treble v199.1 -->
+	<!-- Lemon Drop Hi-Res treble v200.1 -->
 	<!-- The worlds first 24/32bit QuadDAC in True Stereo! -->
 	<!-- Designed and created by darnrain @GitHub -->
 	<!-- Proudly Made In America -->
@@ -18951,9 +18951,9 @@
 	<ctl name="8 Digital Volume Switch" value="0" />
 	<ctl name="TX8 Digital Volume" value="0" />
 	<ctl name="RX8 Digital Volume" value="0" />
-	<ctl name="8 Offset Switch" value="1" />
-	<ctl name="TX8 Offset" value="-28" />
-	<ctl name="RX8 Offset" value="-28" />
+	<ctl name="8 Offset Switch" value="0" />
+	<ctl name="TX8 Offset" value="0" />
+	<ctl name="RX8 Offset" value="0" />
 	<ctl name="8 Mix Digital Volume Switch" value="0" />
 	<ctl name="TX8 Mix Digital Volume" value="0" />
 	<ctl name="RX8 Mix Digital Volume" value="0" />
@@ -18966,9 +18966,9 @@
 	<ctl name="SPKRR Volume Switch" value="0" />
 	<ctl name="TX SPKRR Volume" value="0" />
 	<ctl name="RX SPKRR Volume" value="0" />
-	<ctl name="SPKRR Offset Switch" value="1" />
-	<ctl name="TX SPKRR Offset" value="-28" />
-	<ctl name="RX SPKRR Offset" value="-28" />
+	<ctl name="SPKRR Offset Switch" value="0" />
+	<ctl name="TX SPKRR Offset" value="0" />
+	<ctl name="RX SPKRR Offset" value="0" />
 	<path name="speaker-mono" />
 	</path>
 	
@@ -19232,12 +19232,12 @@
 	<ctl name="RX INT7 VBAT SPKRL VBAT Enable" value="1" />
 	<ctl name="TX INT8 VBAT SPKRR VBAT Enable" value="0" />
 	<ctl name="RX INT8 VBAT SPKRR VBAT Enable" value="0" />
-	<ctl name="SLIM_0_TX Channels" value="One" />
-	<ctl name="SLIM_0_RX Channels" value="One" />
-	<ctl name="SLIM_0_TX SampleRate" value="KHZ_44P1" />
-	<ctl name="SLIM_0_RX SampleRate" value="KHZ_44P1" />
-	<ctl name="SLIM_0_TX Format" value="PACKED_16B" />
-	<ctl name="SLIM_0_RX Format" value="PACKED_16B" />
+	<ctl name="SLIM_2_TX Channels" value="One" />
+	<ctl name="SLIM_2_RX Channels" value="One" />
+	<ctl name="SLIM_2_TX SampleRate" value="KHZ_44P1" />
+	<ctl name="SLIM_2_RX SampleRate" value="KHZ_44P1" />
+	<ctl name="SLIM_2_TX Format" value="PACKED_16B" />
+	<ctl name="SLIM_2_RX Format" value="PACKED_16B" />
 	<ctl name="SPKRL LDAC Switch" value="1" />
 	<ctl name="TX SPKRL LDAC" value="1" />
 	<ctl name="RX SPKRL LDAC" value="1" />
@@ -19259,21 +19259,33 @@
 	<ctl name="7 Digital Volume Switch" value="1" />
 	<ctl name="TX7 Digital Volume" value="84" />
 	<ctl name="RX7 Digital Volume" value="84" />
+	<ctl name="7 Offset Switch" value="1" />
+	<ctl name="TX7 Offset" value="28" />
+	<ctl name="RX7 Offset" value="28" />
 	<ctl name="7 Mix Digital Volume Switch" value="1" />
 	<ctl name="TX7 Mix Digital Volume" value="84" />
 	<ctl name="RX7 Mix Digital Volume" value="84" />
 	<ctl name="8 Digital Volume Switch" value="0" />
 	<ctl name="TX8 Digital Volume" value="0" />
 	<ctl name="RX8 Digital Volume" value="0" />
+	<ctl name="8 Offset Switch" value="0" />
+	<ctl name="TX8 Offset" value="0" />
+	<ctl name="RX8 Offset" value="0" />
 	<ctl name="8 Mix Digital Volume Switch" value="0" />
 	<ctl name="TX8 Mix Digital Volume" value="0" />
 	<ctl name="RX8 Mix Digital Volume" value="0" />
 	<ctl name="SPKRL Volume Switch" value="1" />
 	<ctl name="TX SPKRL Volume" value="16" />
 	<ctl name="RX SPKRL Volume" value="16" />
+	<ctl name="SPKRL Offset Switch" value="1" />
+	<ctl name="TX SPKRL Offset" value="28" />
+	<ctl name="RX SPKRL Offset" value="28" />
 	<ctl name="SPKRR Volume Switch" value="0" />
 	<ctl name="TX SPKRR Volume" value="0" />
 	<ctl name="RX SPKRR Volume" value="0" />
+	<ctl name="SPKRR Offset Switch" value="0" />
+	<ctl name="TX SPKRR Offset" value="0" />
+	<ctl name="RX SPKRR Offset" value="0" />
 	</path>
 	
 	<!-- Added -->
@@ -19317,21 +19329,33 @@
 	<ctl name="7 Digital Volume Switch" value="2" />
 	<ctl name="TX7 Digital Volume" value="48" />
 	<ctl name="RX7 Digital Volume" value="84" />
+	<ctl name="7 Offset Switch" value="2" />
+	<ctl name="TX7 Offset" value="28" />
+	<ctl name="RX7 Offset" value="28" />
 	<ctl name="7 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX7 Mix Digital Volume" value="48" />
 	<ctl name="RX7 Mix Digital Volume" value="84" />
 	<ctl name="8 Digital Volume Switch" value="2" />
 	<ctl name="TX8 Digital Volume" value="48" />
 	<ctl name="RX8 Digital Volume" value="84" />
+	<ctl name="8 Offset Switch" value="2" />
+	<ctl name="TX8 Offset" value="-28" />
+	<ctl name="RX8 Offset" value="-28" />
 	<ctl name="8 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX8 Mix Digital Volume" value="48" />
 	<ctl name="RX8 Mix Digital Volume" value="84" />
 	<ctl name="SPKRL Volume Switch" value="2" />
 	<ctl name="TX SPKRL Volume" value="16" />
 	<ctl name="RX SPKRL Volume" value="16" />
+	<ctl name="SPKRL Offset Switch" value="2" />
+	<ctl name="TX SPKRL Offset" value="28" />
+	<ctl name="RX SPKRL Offset" value="28" />
 	<ctl name="SPKRR Volume Switch" value="2" />
 	<ctl name="TX SPKRR Volume" value="16" />
 	<ctl name="RX SPKRR Volume" value="16" />
+	<ctl name="SPKRR Offset Switch" value="2" />
+	<ctl name="TX SPKRR Offset" value="-28" />
+	<ctl name="RX SPKRR Offset" value="-28" />
 	</path>
 	
 	<!-- Added -->
@@ -19364,21 +19388,33 @@
 	<ctl name="7 Digital Volume Switch" value="2" />
 	<ctl name="TX7 Digital Volume" value="48" />
 	<ctl name="RX7 Digital Volume" value="84" />
+	<ctl name="7 Offset Switch" value="2" />
+	<ctl name="TX7 Offset" value="28" />
+	<ctl name="RX7 Offset" value="28" />
 	<ctl name="7 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX7 Mix Digital Volume" value="48" />
 	<ctl name="RX7 Mix Digital Volume" value="84" />
 	<ctl name="8 Digital Volume Switch" value="2" />
 	<ctl name="TX8 Digital Volume" value="48" />
 	<ctl name="RX8 Digital Volume" value="84" />
+	<ctl name="8 Offset Switch" value="2" />
+	<ctl name="TX8 Offset" value="-28" />
+	<ctl name="RX8 Offset" value="-28" />
 	<ctl name="8 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX8 Mix Digital Volume" value="48" />
 	<ctl name="RX8 Mix Digital Volume" value="84" />
 	<ctl name="SPKRL Volume Switch" value="2" />
 	<ctl name="TX SPKRL Volume" value="16" />
 	<ctl name="RX SPKRL Volume" value="16" />
+	<ctl name="SPKRL Offset Switch" value="2" />
+	<ctl name="TX SPKRL Offset" value="28" />
+	<ctl name="RX SPKRL Offset" value="28" />
 	<ctl name="SPKRR Volume Switch" value="2" />
 	<ctl name="TX SPKRR Volume" value="16" />
 	<ctl name="RX SPKRR Volume" value="16" />
+	<ctl name="SPKRR Offset Switch" value="2" />
+	<ctl name="TX SPKRR Offset" value="-28" />
+	<ctl name="RX SPKRR Offset" value="-28" />
 	</path>
 	
 	<!-- Added -->
@@ -19411,21 +19447,33 @@
 	<ctl name="7 Digital Volume Switch" value="2" />
 	<ctl name="TX7 Digital Volume" value="48" />
 	<ctl name="RX7 Digital Volume" value="84" />
+	<ctl name="7 Offset Switch" value="2" />
+	<ctl name="TX7 Offset" value="28" />
+	<ctl name="RX7 Offset" value="28" />
 	<ctl name="7 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX7 Mix Digital Volume" value="48" />
 	<ctl name="RX7 Mix Digital Volume" value="84" />
 	<ctl name="8 Digital Volume Switch" value="2" />
 	<ctl name="TX8 Digital Volume" value="48" />
 	<ctl name="RX8 Digital Volume" value="84" />
+	<ctl name="8 Offset Switch" value="2" />
+	<ctl name="TX8 Offset" value="-28" />
+	<ctl name="RX8 Offset" value="-28" />
 	<ctl name="8 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX8 Mix Digital Volume" value="48" />
 	<ctl name="RX8 Mix Digital Volume" value="84" />
 	<ctl name="SPKRL Volume Switch" value="2" />
 	<ctl name="TX SPKRL Volume" value="16" />
 	<ctl name="RX SPKRL Volume" value="16" />
+	<ctl name="SPKRL Offset Switch" value="2" />
+	<ctl name="TX SPKRL Offset" value="28" />
+	<ctl name="RX SPKRL Offset" value="28" />
 	<ctl name="SPKRR Volume Switch" value="2" />
 	<ctl name="TX SPKRR Volume" value="16" />
 	<ctl name="RX SPKRR Volume" value="16" />
+	<ctl name="SPKRR Offset Switch" value="2" />
+	<ctl name="TX SPKRR Offset" value="-28" />
+	<ctl name="RX SPKRR Offset" value="-28" />
 	</path>
 	
 	<!-- End of dac control center -->
@@ -22037,37 +22085,37 @@
 	
 	<path name="headphones-hifi-dac">
 	<ctl name="Es9018 Master Volume" value="0" />
-	<ctl name="Es9018 AVC Volume" value="0" />
+	<ctl name="Es9018 AVC Volume" value="6" />
 	<ctl name="Es9018 HEADSET TYPE" value="2" />
 	</path>
 	
 	<path name="headphones-hifi-dac-advanced">
 	<ctl name="Es9018 Master Volume" value="0" />
-	<ctl name="Es9018 AVC Volume" value="0" />
+	<ctl name="Es9018 AVC Volume" value="6" />
 	<ctl name="Es9018 HEADSET TYPE" value="2" />
 	</path>
 	
 	<path name="headphones-hifi-dac-aux">
 	<ctl name="Es9018 Master Volume" value="0" />
-	<ctl name="Es9018 AVC Volume" value="0" />
+	<ctl name="Es9018 AVC Volume" value="6" />
 	<ctl name="Es9018 HEADSET TYPE" value="2" />
 	</path>
 	
 	<path name="headphones-hifi-dacdop">
 	<ctl name="Es9018 Master Volume" value="0" />
-	<ctl name="Es9018 AVC Volume" value="0" />
+	<ctl name="Es9018 AVC Volume" value="6" />
 	<ctl name="Es9018 HEADSET TYPE" value="2" />
 	</path>
 	
 	<path name="headphones-hifi-dacdop-advanced">
 	<ctl name="Es9018 Master Volume" value="0" />
-	<ctl name="Es9018 AVC Volume" value="0" />
+	<ctl name="Es9018 AVC Volume" value="6" />
 	<ctl name="Es9018 HEADSET TYPE" value="2" />
 	</path>
 	
 	<path name="headphones-hifi-dacdop-aux">
 	<ctl name="Es9018 Master Volume" value="0" />
-	<ctl name="Es9018 AVC Volume" value="0" />
+	<ctl name="Es9018 AVC Volume" value="6" />
 	<ctl name="Es9018 HEADSET TYPE" value="2" />
 	</path>
 	
