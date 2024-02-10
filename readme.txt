@@ -62,19 +62,16 @@ When programing the mixer_paths file, I only use the tab key not the spacebar, i
 I cant program with how disorganized the original mixer_paths file is. This is how I tabbed all lines and fixed it. I use arch linux.
 
 Example:
-
 cat your_mixer_paths_file.xml | sed 's/^[ \t]*//' > new_mixer_paths_file.xml
 
 sed commands:
-Move all lines to the left:
 
+Move all lines to the left:
 sed 's/^[ \t]*//'
 
 Tab all lines:
-
-ed 's/^/\t/'
+sed 's/^/\t/'
 
 The mixer_paths.xml file must have zero duplicates, or your phone will not boot. This is how you can check:
-
 uniq -d your_mixer_paths_file.xml
 
