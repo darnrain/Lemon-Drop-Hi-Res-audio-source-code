@@ -52,3 +52,29 @@ bass+
 	<ctl name="SpkrRight VISENSE Switch" value="2" />
 	<ctl name="SpkrRight WSA PA Mute" value="0" />
 	<ctl name="SpkrRight SWR DAC_Port Switch" value="2" />
+
+I want to add this True Native Mode code, to my Android phone?
+
+My theory is that the two files responsible for making this all happen are, audio_platform_info.xml and mixer_paths_tasha.xml. All the other files are associated with the Android mixer and are the left over reminisce of my previous attempts of trying to increase the audio quality on the Lgv20 without avail. Duplicate all the changes I made leaving intact your unique settings in your mixer_paths.xml file. This will take you some time, it took me months upon months to program 18,000 lines of code in the mixer_paths file. I made notes in both files, to help you along the way. This is not for the novice computer user. The mixer_paths file must have zero typos, zero mistakes, zero errors. The QuadDAC also needs Enable System wide QuadDAC support v8.2 aka build.prop audio tweaks.
+
+When programing the mixer_paths file, I only use the tab key not the spacebar, it's just a pet peeve. ;)
+
+I cant program with how disorganized the original mixer_paths file is. This is how I tabbed all lines and fixed it. I use arch linux.
+
+Example:
+
+cat your_mixer_paths_file.xml | sed 's/^[ \t]*//' > new_mixer_paths_file.xml
+
+sed commands:
+Move all lines to the left:
+
+sed 's/^[ \t]*//'
+
+Tab all lines:
+
+ed 's/^/\t/'
+
+The mixer_paths.xml file must have zero duplicates, or your phone will not boot. This is how you can check:
+
+uniq -d your_mixer_paths_file.xml
+
