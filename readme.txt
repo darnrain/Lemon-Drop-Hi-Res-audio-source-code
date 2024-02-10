@@ -75,3 +75,7 @@ sed 's/^/\t/'
 The mixer_paths.xml file must have zero duplicates, or your phone will not boot. This is how you can check:
 uniq -d your_mixer_paths_file.xml
 
+Will this True Native Mode code work on other Android phones other than the Lgv20?
+
+I can't say for absolutely certain, I can say for certain that the True Native Mode code runs excellent, on both of my Lgv20's, my main phone DeGoogled and the spare one with Google intact both running Stock Oreo ezV2020 v1.0 Kernel. Who knows this True Native Mode code may work universally across all QuadDACs on all Android phones. It's up to you guys to beta test this code, my job is all done, I just had to recreate the True Native Mode code and make it work. The LG V series of phones, will have the best chance of this True Native Mode code working. Also keep in mind that I officially got True Native Mode working in v169.1, on 01-17-24 phones manufactured after that date may have True Native Mode disabled on the QuadDAC chip.
+
