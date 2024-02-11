@@ -43,7 +43,7 @@ Can be due to the following:<br>
 3. Your battery is to low, it is undetermined on how much battery power we must have. I would say at least over 15%.<br>
 
 ### What is the offset of the worlds audio?
-These are the winning lottery numbers!<br>
+These are positively the winning lottery numbers!<br>
 
 Offset left = -30.592000000000002<br>
 Offset right = -30.592000000000002<br>
