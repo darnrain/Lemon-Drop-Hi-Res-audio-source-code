@@ -52,8 +52,8 @@ Can be due to the following:<br>
 ### What is the offset of the worlds audio?
 These are the winning lottery numbers!<br>
 
-Offset left = 14.4<br>
-Offset right = -18.8<br>
+Offset left = 14.40<br>
+Offset right = -18.80<br>
 
 ### How did you program and tune the QuadDAC?
 When programing a QuadDAC you do not have visual gauges to view to see if you have done something wrong, its all done by the sound of the DAC. For example if you have increased the amount of channels way to high or messed up on your programing code, then the DACs volume will be decreased or the music will not sound like its full of life. The only way to accomplish that, is to lower the AVC volume. In other words it decreases the power to the DAC so you can program and tune the DAC. In v142.1 and higher the AVC volume is set to the maximum. To answer the question, I used my 34 years of advanced computer skills and used, awk, sed, echo and nano to create the True Native Mode code.
