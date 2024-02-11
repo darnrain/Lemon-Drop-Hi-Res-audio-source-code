@@ -28,7 +28,7 @@
 	
 	<!-- Top of page -->
 	
-	<!-- Lemon Drop Hi-Res treble v205.3 -->
+	<!-- Lemon Drop Hi-Res treble v206.1 -->
 	<!-- The worlds first 24/32bit QuadDAC in True Stereo! -->
 	<!-- Designed and created by darnrain @GitHub -->
 	<!-- Proudly Made In America -->
@@ -129,10 +129,10 @@
 	<!-- to view DAC volume settings -->
 	
 	<!-- Table of contents -->
-	<!-- SLIM_0_RX SLIM_0_TX = speaker-24bit aka 24bit side & internal speaker 24bit True Native Mode & earphone & vbat -->
+	<!-- SLIM_0_RX SLIM_0_TX = speaker-24bit aka 24bit DAC side & internal speaker 24bit True Native Mode & earphone & vbat -->
 	<!-- SLIM_1_RX SLIM_1_TX = echo -->
 	<!-- SLIM_2_RX SLIM_2_TX = speaker-mono 16bit internal speaker -->
-	<!-- SLIM_3_RX SLIM_3_TX = speaker-16bit aka 16bit side -->
+	<!-- SLIM_3_RX SLIM_3_TX = speaker-16bit aka 16bit DAC side -->
 	<!-- SLIM_4_RX SLIM_4_TX = speaker-protected non offloaded 16bit mono internal speaker -->
 	<!-- SLIM_5_RX SLIM_5_TX = not in use -->
 	<!-- SLIM_6_RX SLIM_6_TX = headphones aka wired headphones 16bit FM Radio & headphones-phone -->
@@ -14092,8 +14092,8 @@
 	
 	<!-- I deleted all the following lines and -->
 	<!-- moved them up top and added the TX to RX -->
-	<!-- in descending order filled in gaps in numbers -->
-	<!-- 123589 - 123456789 -->
+	<!-- in ascending order filled in the numbers -->
+	<!-- 0123589 - 0123456789 -->
 	
 	<!-- Deleted -->
 	<!-- <ctl name="Voice Rx Device Mute" id="0" value="0" /> -->
@@ -14824,7 +14824,7 @@
 	
 	<!-- Lemon Drop Hi-Res start of mods -->
 	
-	<!-- This is the bass -->
+	<!-- This is the low-range -->
 	
 	<path name="deep-buffer-playback">
 	<path name="true-native-mode-SPKR" />
@@ -15091,7 +15091,7 @@
 	
 	<!-- Lemon Drop Hi-Res start of mods -->
 	
-	<!-- This is the treble -->
+	<!-- This is the high-range -->
 	
 	<path name="low-latency-playback">
 	<path name="true-native-mode-SPKR" />
@@ -18647,6 +18647,7 @@
 	</path>
 	
 	<!-- Lemon Drop Hi-Res start of mods -->
+	<!-- Added TX to RX -->
 	<!-- Changed order should be 1 5 3 4 7 -->
 	
 	<!-- TERT MI2S A2DP OFFLOAD start -->
@@ -18972,6 +18973,8 @@
 	<path name="speaker-mono" />
 	</path>
 	
+	<!-- Saber ESS DAC mono side -->
+
 	<path name="speaker-mono">
 	<ctl name="TX INT7_1 MIX1 INP0" value="RX0" />
 	<ctl name="RX INT7_1 MIX1 INP0" value="RX0" />
@@ -18995,7 +18998,7 @@
 	<ctl name="SpkrRight SWR DAC_Port Switch" value="1" />
 	</path>
 	
-	<!-- Saber ESS 9128 DAC -->
+	<!-- Saber ESS DAC stereo side -->
 	
 	<path name="speaker">
 	<path name="true-native-mode-SPKR" />
@@ -19019,6 +19022,8 @@
 	<path name="speaker-24bit" />
 	<path name="speaker_liquid" />
 	</path>
+
+	<!-- 16bit Saber ESS DAC side -->
 	
 	<path name="speaker-16bit">
 	<path name="true-native-mode-SPKR" />
@@ -19078,6 +19083,8 @@
 	<ctl name="RX SPKRR Offset" value="-18P8" />
 	<path name="speaker" />
 	</path>
+
+	<!-- 24bit Saber ESS DAC side -->
 	
 	<path name="speaker-24bit">
 	<path name="true-native-mode-SPKR" />
@@ -19505,6 +19512,8 @@
 	</path>
 	
 	<!-- Lemon Drop Hi-Res start of mods -->
+
+	<!-- PC Speaker -->
 	
 	<path name="speaker-protected">
 	<ctl name="VI_FEED_TX Channels" value="One" />
@@ -19538,6 +19547,8 @@
 	<ctl name="RX SPKRR Volume" value="0" />
 	<path name="speaker-mono" />
 	</path>
+
+	<!-- PC Speaker for voice -->
 	
 	<path name="voice-speaker-protected">
 	<ctl name="VI_FEED_TX Channels" value="One" />
@@ -20785,6 +20796,7 @@
 	
 	<!-- Lemon Drop Hi-Res start of mods -->
 	<!-- Lot of code -->
+	<!-- Added TX to RX -->
 	<!-- Changed order should be 1 5 3 4 7 -->
 	
 	<!-- SEC MI2S HEADPHONE begins -->
@@ -20858,13 +20870,13 @@
 	
 	<!-- You must divide everything by 4 from speaker-24bit -->
 	
-	<!-- speaker is set to channels: 24576 -->
+	<!-- speaker-24bit is set to channels: 24576 -->
 	<!-- 24576 divided by 4 = 6144 -->
 	
-	<!-- speaker is set to kilohertz: 705.6 -->
+	<!-- speaker-24bit is set to kilohertz: 705.6 -->
 	<!-- 705.6 divided by 4 = 176.4 -->
 	
-	<!-- speaker is set to bit rate: 384 -->
+	<!-- speaker-24bit is set to bit rate: 384 -->
 	<!-- 384 divided by 4 = 96 -->
 	
 	<path name="dop_playback tert-mi2s-headphones">
