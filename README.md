@@ -1,6 +1,6 @@
 ![294729981-1fd80758-cdef-4be1-afb5-1d6666d383a0](https://github.com/darnrain/Lemon-Drop-Hi-Res-audio-source-code/assets/60840489/c7f73ce2-8e2e-4c9c-955c-38dced1bd54c)
-## Lemon Drop Hi-Res audio source code
-### Welcome to the future of music... 
+# Welcome to the future of music... 
+### Lemon Drop Hi-Res audio source code
 The worlds first 24/32bit QuadDAC in True Stereo!<br>
 The 16bit side is set at: 64bit, 176.4kHz with 6411 channels and upsampled 4X from 16bit, 44.1Khz<br>
 The 24bit side is set at: 384bit, 705.6kHz with 24576 channels and upsampled 16X from 16bit, 44.1kHz<br>
