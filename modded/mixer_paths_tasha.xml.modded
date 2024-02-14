@@ -28,7 +28,7 @@
 	
 	<!-- Top of page -->
 	
-	<!-- Lemon Drop Hi-Res treble v212.1 -->
+	<!-- Lemon Drop Hi-Res treble v214.1 -->
 	<!-- The worlds first 24/32bit QuadDAC in True Stereo! -->
 	<!-- Designed and created by darnrain @GitHub -->
 	<!-- Proudly Made In America -->
@@ -4858,150 +4858,150 @@
 	<ctl name="Es9018 AVC Volume" value="0" />
 	<ctl name="Es9018 HEADSET TYPE" value="0" />
 	<ctl name="Es9218 Bypass" value="0" />
-	<ctl name="0 Digital Volume Switch" value="0" />
-	<ctl name="TX0 Digital Volume" value="0" />
-	<ctl name="RX0 Digital Volume" value="0" />
 	<ctl name="0 Offset Switch" value="0" />
 	<ctl name="TX0 Offset" value="ZERO" />
 	<ctl name="RX0 Offset" value="ZERO" />
 	<ctl name="0 Balance Switch" value="0" />
 	<ctl name="TX0 Balance" value="0" />
 	<ctl name="RX0 Balance" value="0" />
+	<ctl name="0 Digital Volume Switch" value="0" />
+	<ctl name="TX0 Digital Volume" value="0" />
+	<ctl name="RX0 Digital Volume" value="0" />
 	<ctl name="0 Mix Digital Volume Switch" value="0" />
 	<ctl name="TX0 Mix Digital Volume" value="0" />
 	<ctl name="RX0 Mix Digital Volume" value="0" />
-	<ctl name="1 Digital Volume Switch" value="0" />
-	<ctl name="TX1 Digital Volume" value="0" />
-	<ctl name="RX1 Digital Volume" value="0" />
 	<ctl name="1 Offset Switch" value="0" />
 	<ctl name="TX1 Offset" value="ZERO" />
 	<ctl name="RX1 Offset" value="ZERO" />
 	<ctl name="1 Balance Switch" value="0" />
 	<ctl name="TX1 Balance" value="0" />
 	<ctl name="RX1 Balance" value="0" />
+	<ctl name="1 Digital Volume Switch" value="0" />
+	<ctl name="TX1 Digital Volume" value="0" />
+	<ctl name="RX1 Digital Volume" value="0" />
 	<ctl name="1 Mix Digital Volume Switch" value="0" />
 	<ctl name="TX1 Mix Digital Volume" value="0" />
 	<ctl name="RX1 Mix Digital Volume" value="0" />
-	<ctl name="2 Digital Volume Switch" value="0" />
-	<ctl name="TX2 Digital Volume" value="0" />
-	<ctl name="RX2 Digital Volume" value="0" />
 	<ctl name="2 Offset Switch" value="0" />
 	<ctl name="TX2 Offset" value="ZERO" />
 	<ctl name="RX2 Offset" value="ZERO" />
 	<ctl name="2 Balance Switch" value="0" />
 	<ctl name="TX2 Balance" value="0" />
 	<ctl name="RX2 Balance" value="0" />
+	<ctl name="2 Digital Volume Switch" value="0" />
+	<ctl name="TX2 Digital Volume" value="0" />
+	<ctl name="RX2 Digital Volume" value="0" />
 	<ctl name="2 Mix Digital Volume Switch" value="0" />
 	<ctl name="TX2 Mix Digital Volume" value="0" />
 	<ctl name="RX2 Mix Digital Volume" value="0" />
-	<ctl name="3 Digital Volume Switch" value="0" />
-	<ctl name="TX3 Digital Volume" value="0" />
-	<ctl name="RX3 Digital Volume" value="0" />
 	<ctl name="3 Offset Switch" value="0" />
 	<ctl name="TX3 Offset" value="ZERO" />
 	<ctl name="RX3 Offset" value="ZERO" />
 	<ctl name="3 Balance Switch" value="0" />
 	<ctl name="TX3 Balance" value="0" />
 	<ctl name="RX3 Balance" value="0" />
+	<ctl name="3 Digital Volume Switch" value="0" />
+	<ctl name="TX3 Digital Volume" value="0" />
+	<ctl name="RX3 Digital Volume" value="0" />
 	<ctl name="3 Mix Digital Volume Switch" value="0" />
 	<ctl name="TX3 Mix Digital Volume" value="0" />
 	<ctl name="RX3 Mix Digital Volume" value="0" />
-	<ctl name="4 Digital Volume Switch" value="0" />
-	<ctl name="TX4 Digital Volume" value="0" />
-	<ctl name="RX4 Digital Volume" value="0" />
 	<ctl name="4 Offset Switch" value="0" />
 	<ctl name="TX4 Offset" value="ZERO" />
 	<ctl name="RX4 Offset" value="ZERO" />
 	<ctl name="4 Balance Switch" value="0" />
 	<ctl name="TX4 Balance" value="0" />
 	<ctl name="RX4 Balance" value="0" />
+	<ctl name="4 Digital Volume Switch" value="0" />
+	<ctl name="TX4 Digital Volume" value="0" />
+	<ctl name="RX4 Digital Volume" value="0" />
 	<ctl name="4 Mix Digital Volume Switch" value="0" />
 	<ctl name="TX4 Mix Digital Volume" value="0" />
 	<ctl name="RX4 Mix Digital Volume" value="0" />
-	<ctl name="5 Digital Volume Switch" value="0" />
-	<ctl name="TX5 Digital Volume" value="0" />
-	<ctl name="RX5 Digital Volume" value="0" />
 	<ctl name="5 Offset Switch" value="0" />
 	<ctl name="TX5 Offset" value="ZERO" />
 	<ctl name="RX5 Offset" value="ZERO" />
 	<ctl name="5 Balance Switch" value="0" />
 	<ctl name="TX5 Balance" value="0" />
 	<ctl name="RX5 Balance" value="0" />
+	<ctl name="5 Digital Volume Switch" value="0" />
+	<ctl name="TX5 Digital Volume" value="0" />
+	<ctl name="RX5 Digital Volume" value="0" />
 	<ctl name="5 Mix Digital Volume Switch" value="0" />
 	<ctl name="TX5 Mix Digital Volume" value="0" />
 	<ctl name="RX5 Mix Digital Volume" value="0" />
-	<ctl name="6 Digital Volume Switch" value="0" />
-	<ctl name="TX6 Digital Volume" value="0" />
-	<ctl name="RX6 Digital Volume" value="0" />
 	<ctl name="6 Offset Switch" value="0" />
 	<ctl name="TX6 Offset" value="ZERO" />
 	<ctl name="RX6 Offset" value="ZERO" />
 	<ctl name="6 Balance Switch" value="0" />
 	<ctl name="TX6 Balance" value="0" />
 	<ctl name="RX6 Balance" value="0" />
+	<ctl name="6 Digital Volume Switch" value="0" />
+	<ctl name="TX6 Digital Volume" value="0" />
+	<ctl name="RX6 Digital Volume" value="0" />
 	<ctl name="6 Mix Digital Volume Switch" value="0" />
 	<ctl name="TX6 Mix Digital Volume" value="0" />
 	<ctl name="RX6 Mix Digital Volume" value="0" />
-	<ctl name="7 Digital Volume Switch" value="0" />
-	<ctl name="TX7 Digital Volume" value="0" />
-	<ctl name="RX7 Digital Volume" value="0" />
 	<ctl name="7 Offset Switch" value="0" />
 	<ctl name="TX7 Offset" value="ZERO" />
 	<ctl name="RX7 Offset" value="ZERO" />
 	<ctl name="7 Balance Switch" value="0" />
 	<ctl name="TX7 Balance" value="0" />
 	<ctl name="RX7 Balance" value="0" />
+	<ctl name="7 Digital Volume Switch" value="0" />
+	<ctl name="TX7 Digital Volume" value="0" />
+	<ctl name="RX7 Digital Volume" value="0" />
 	<ctl name="7 Mix Digital Volume Switch" value="0" />
 	<ctl name="TX7 Mix Digital Volume" value="0" />
 	<ctl name="RX7 Mix Digital Volume" value="0" />
-	<ctl name="8 Digital Volume Switch" value="0" />
-	<ctl name="TX8 Digital Volume" value="0" />
-	<ctl name="RX8 Digital Volume" value="0" />
 	<ctl name="8 Offset Switch" value="0" />
 	<ctl name="TX8 Offset" value="ZERO" />
 	<ctl name="RX8 Offset" value="ZERO" />
 	<ctl name="8 Balance Switch" value="0" />
 	<ctl name="TX8 Balance" value="0" />
 	<ctl name="RX8 Balance" value="0" />
+	<ctl name="8 Digital Volume Switch" value="0" />
+	<ctl name="TX8 Digital Volume" value="0" />
+	<ctl name="RX8 Digital Volume" value="0" />
 	<ctl name="8 Mix Digital Volume Switch" value="0" />
 	<ctl name="TX8 Mix Digital Volume" value="0" />
 	<ctl name="RX8 Mix Digital Volume" value="0" />
-	<ctl name="HPHL Volume Switch" value="0" />
-	<ctl name="TX HPHL Volume" value="0" />
-	<ctl name="RX HPHL Volume" value="0" />
 	<ctl name="HPHL Offset Switch" value="0" />
 	<ctl name="TX HPHL Offset" value="ZERO" />
 	<ctl name="RX HPHL Offset" value="ZERO" />
 	<ctl name="HPHL Balance Switch" value="0" />
 	<ctl name="TX HPHL Balance" value="0" />
 	<ctl name="RX HPHL Balance" value="0" />
-	<ctl name="HPHR Volume Switch" value="0" />
-	<ctl name="TX HPHR Volume" value="0" />
-	<ctl name="RX HPHR Volume" value="0" />
+	<ctl name="HPHL Volume Switch" value="0" />
+	<ctl name="TX HPHL Volume" value="0" />
+	<ctl name="RX HPHL Volume" value="0" />
 	<ctl name="HPHR Offset Switch" value="0" />
 	<ctl name="TX HPHR Offset" value="ZERO" />
 	<ctl name="RX HPHR Offset" value="ZERO" />
 	<ctl name="HPHR Balance Switch" value="0" />
 	<ctl name="TX HPHR Balance" value="0" />
 	<ctl name="RX HPHR Balance" value="0" />
-	<ctl name="SPKRL Volume Switch" value="0" />
-	<ctl name="TX SPKRL Volume" value="0" />
-	<ctl name="RX SPKRL Volume" value="0" />
+	<ctl name="HPHR Volume Switch" value="0" />
+	<ctl name="TX HPHR Volume" value="0" />
+	<ctl name="RX HPHR Volume" value="0" />
 	<ctl name="SPKRL Offset Switch" value="0" />
 	<ctl name="TX SPKRL Offset" value="ZERO" />
 	<ctl name="RX SPKRL Offset" value="ZERO" />
 	<ctl name="SPKRL Balance Switch" value="0" />
 	<ctl name="TX SPKRL Balance" value="0" />
 	<ctl name="RX SPKRL Balance" value="0" />
-	<ctl name="SPKRR Volume Switch" value="0" />
-	<ctl name="TX SPKRR Volume" value="0" />
-	<ctl name="RX SPKRR Volume" value="0" />
+	<ctl name="SPKRL Volume Switch" value="0" />
+	<ctl name="TX SPKRL Volume" value="0" />
+	<ctl name="RX SPKRL Volume" value="0" />
 	<ctl name="SPKRR Offset Switch" value="0" />
 	<ctl name="TX SPKRR Offset" value="ZERO" />
 	<ctl name="RX SPKRR Offset" value="ZERO" />
 	<ctl name="SPKRR Balance Switch" value="0" />
 	<ctl name="TX SPKRR Balance" value="0" />
 	<ctl name="RX SPKRR Balance" value="0" />
+	<ctl name="SPKRR Volume Switch" value="0" />
+	<ctl name="TX SPKRR Volume" value="0" />
+	<ctl name="RX SPKRR Volume" value="0" />
 	<ctl name="Voice TX Device Mute" id="0" value="0" />
 	<ctl name="Voice RX Device Mute" id="0" value="0" />
 	<ctl name="Voice TX Device Mute" id="1" value="-1" />
@@ -18259,48 +18259,48 @@
 	<ctl name="SPKRR COMP Switch" value="0" />
 	<ctl name="TX SPKRR COMP" value="0" />
 	<ctl name="RX SPKRR COMP" value="0" />
-	<ctl name="7 Digital Volume Switch" value="1" />
-	<ctl name="TX7 Digital Volume" value="84" />
-	<ctl name="RX7 Digital Volume" value="84" />
 	<ctl name="7 Offset Switch" value="1" />
 	<ctl name="TX7 Offset" value="-30P592000000000002" />
 	<ctl name="RX7 Offset" value="-30P592000000000002" />
 	<ctl name="7 Balance Switch" value="1" />
 	<ctl name="TX7 Balance" value="0" />
 	<ctl name="RX7 Balance" value="0" />
+	<ctl name="7 Digital Volume Switch" value="1" />
+	<ctl name="TX7 Digital Volume" value="84" />
+	<ctl name="RX7 Digital Volume" value="84" />
 	<ctl name="7 Mix Digital Volume Switch" value="1" />
 	<ctl name="TX7 Mix Digital Volume" value="84" />
 	<ctl name="RX7 Mix Digital Volume" value="84" />
-	<ctl name="8 Digital Volume Switch" value="0" />
-	<ctl name="TX8 Digital Volume" value="0" />
-	<ctl name="RX8 Digital Volume" value="0" />
 	<ctl name="8 Offset Switch" value="0" />
 	<ctl name="TX8 Offset" value="ZERO" />
 	<ctl name="RX8 Offset" value="ZERO" />
 	<ctl name="8 Balance Switch" value="0" />
 	<ctl name="TX8 Balance" value="0" />
 	<ctl name="RX8 Balance" value="0" />
+	<ctl name="8 Digital Volume Switch" value="0" />
+	<ctl name="TX8 Digital Volume" value="0" />
+	<ctl name="RX8 Digital Volume" value="0" />
 	<ctl name="8 Mix Digital Volume Switch" value="0" />
 	<ctl name="TX8 Mix Digital Volume" value="0" />
 	<ctl name="RX8 Mix Digital Volume" value="0" />
-	<ctl name="SPKRL Volume Switch" value="1" />
-	<ctl name="TX SPKRL Volume" value="16" />
-	<ctl name="RX SPKRL Volume" value="16" />
 	<ctl name="SPKRL Offset Switch" value="1" />
 	<ctl name="TX SPKRL Offset" value="-30P592000000000002" />
 	<ctl name="RX SPKRL Offset" value="-30P592000000000002" />
 	<ctl name="SPKRL Balance Switch" value="1" />
 	<ctl name="TX SPKRL Balance" value="0" />
 	<ctl name="RX SPKRL Balance" value="0" />
-	<ctl name="SPKRR Volume Switch" value="0" />
-	<ctl name="TX SPKRR Volume" value="0" />
-	<ctl name="RX SPKRR Volume" value="0" />
+	<ctl name="SPKRL Volume Switch" value="1" />
+	<ctl name="TX SPKRL Volume" value="16" />
+	<ctl name="RX SPKRL Volume" value="16" />
 	<ctl name="SPKRR Offset Switch" value="0" />
 	<ctl name="TX SPKRR Offset" value="ZERO" />
 	<ctl name="RX SPKRR Offset" value="ZERO" />
 	<ctl name="SPKRR Balance Switch" value="0" />
 	<ctl name="TX SPKRR Balance" value="0" />
 	<ctl name="RX SPKRR Balance" value="0" />
+	<ctl name="SPKRR Volume Switch" value="0" />
+	<ctl name="TX SPKRR Volume" value="0" />
+	<ctl name="RX SPKRR Volume" value="0" />
 	<path name="speaker-mono" />
 	</path>
 	
@@ -18382,48 +18382,48 @@
 	<ctl name="SPKRR COMP Switch" value="2" />
 	<ctl name="TX SPKRR COMP" value="2" />
 	<ctl name="RX SPKRR COMP" value="2" />
-	<ctl name="7 Digital Volume Switch" value="2" />
-	<ctl name="TX7 Digital Volume" value="48" />
-	<ctl name="RX7 Digital Volume" value="84" />
 	<ctl name="7 Offset Switch" value="2" />
 	<ctl name="TX7 Offset" value="-30P592000000000002" />
 	<ctl name="RX7 Offset" value="-30P592000000000002" />
 	<ctl name="7 Balance Switch" value="2" />
 	<ctl name="TX7 Balance" value="0" />
 	<ctl name="RX7 Balance" value="0" />
+	<ctl name="7 Digital Volume Switch" value="2" />
+	<ctl name="TX7 Digital Volume" value="48" />
+	<ctl name="RX7 Digital Volume" value="84" />
 	<ctl name="7 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX7 Mix Digital Volume" value="48" />
 	<ctl name="RX7 Mix Digital Volume" value="84" />
-	<ctl name="8 Digital Volume Switch" value="2" />
-	<ctl name="TX8 Digital Volume" value="48" />
-	<ctl name="RX8 Digital Volume" value="84" />
 	<ctl name="8 Offset Switch" value="2" />
 	<ctl name="TX8 Offset" value="-30P592000000000002" />
 	<ctl name="RX8 Offset" value="-30P592000000000002" />
 	<ctl name="8 Balance Switch" value="2" />
 	<ctl name="TX8 Balance" value="0" />
 	<ctl name="RX8 Balance" value="0" />
+	<ctl name="8 Digital Volume Switch" value="2" />
+	<ctl name="TX8 Digital Volume" value="48" />
+	<ctl name="RX8 Digital Volume" value="84" />
 	<ctl name="8 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX8 Mix Digital Volume" value="48" />
 	<ctl name="RX8 Mix Digital Volume" value="84" />
-	<ctl name="SPKRL Volume Switch" value="2" />
-	<ctl name="TX SPKRL Volume" value="16" />
-	<ctl name="RX SPKRL Volume" value="16" />
 	<ctl name="SPKRL Offset Switch" value="2" />
 	<ctl name="TX SPKRL Offset" value="-30P592000000000002" />
 	<ctl name="RX SPKRL Offset" value="-30P592000000000002" />
 	<ctl name="SPKRL Balance Switch" value="2" />
 	<ctl name="TX SPKRL Balance" value="0" />
 	<ctl name="RX SPKRL Balance" value="0" />
-	<ctl name="SPKRR Volume Switch" value="2" />
-	<ctl name="TX SPKRR Volume" value="16" />
-	<ctl name="RX SPKRR Volume" value="16" />
+	<ctl name="SPKRL Volume Switch" value="2" />
+	<ctl name="TX SPKRL Volume" value="16" />
+	<ctl name="RX SPKRL Volume" value="16" />
 	<ctl name="SPKRR Offset Switch" value="2" />
 	<ctl name="TX SPKRR Offset" value="-30P592000000000002" />
 	<ctl name="RX SPKRR Offset" value="-30P592000000000002" />
 	<ctl name="SPKRR Balance Switch" value="2" />
 	<ctl name="TX SPKRR Balance" value="0" />
 	<ctl name="RX SPKRR Balance" value="0" />
+	<ctl name="SPKRR Volume Switch" value="2" />
+	<ctl name="TX SPKRR Volume" value="16" />
+	<ctl name="RX SPKRR Volume" value="16" />
 	<path name="speaker" />
 	</path>
 	
@@ -18455,48 +18455,48 @@
 	<ctl name="SPKRR COMP Switch" value="2" />
 	<ctl name="TX SPKRR COMP" value="2" />
 	<ctl name="RX SPKRR COMP" value="2" />
-	<ctl name="7 Digital Volume Switch" value="2" />
-	<ctl name="TX7 Digital Volume" value="48" />
-	<ctl name="RX7 Digital Volume" value="84" />
 	<ctl name="7 Offset Switch" value="2" />
 	<ctl name="TX7 Offset" value="-30P592000000000002" />
 	<ctl name="RX7 Offset" value="-30P592000000000002" />
 	<ctl name="7 Balance Switch" value="2" />
 	<ctl name="TX7 Balance" value="0" />
 	<ctl name="RX7 Balance" value="0" />
+	<ctl name="7 Digital Volume Switch" value="2" />
+	<ctl name="TX7 Digital Volume" value="48" />
+	<ctl name="RX7 Digital Volume" value="84" />
 	<ctl name="7 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX7 Mix Digital Volume" value="48" />
 	<ctl name="RX7 Mix Digital Volume" value="84" />
-	<ctl name="8 Digital Volume Switch" value="2" />
-	<ctl name="TX8 Digital Volume" value="48" />
-	<ctl name="RX8 Digital Volume" value="84" />
 	<ctl name="8 Offset Switch" value="2" />
 	<ctl name="TX8 Offset" value="-30P592000000000002" />
 	<ctl name="RX8 Offset" value="-30P592000000000002" />
 	<ctl name="8 Balance Switch" value="2" />
 	<ctl name="TX8 Balance" value="0" />
 	<ctl name="RX8 Balance" value="0" />
+	<ctl name="8 Digital Volume Switch" value="2" />
+	<ctl name="TX8 Digital Volume" value="48" />
+	<ctl name="RX8 Digital Volume" value="84" />
 	<ctl name="8 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX8 Mix Digital Volume" value="48" />
 	<ctl name="RX8 Mix Digital Volume" value="84" />
-	<ctl name="SPKRL Volume Switch" value="2" />
-	<ctl name="TX SPKRL Volume" value="16" />
-	<ctl name="RX SPKRL Volume" value="16" />
 	<ctl name="SPKRL Offset Switch" value="2" />
 	<ctl name="TX SPKRL Offset" value="-30P592000000000002" />
 	<ctl name="RX SPKRL Offset" value="-30P592000000000002" />
 	<ctl name="SPKRL Balance Switch" value="2" />
 	<ctl name="TX SPKRL Balance" value="0" />
 	<ctl name="RX SPKRL Balance" value="0" />
-	<ctl name="SPKRR Volume Switch" value="2" />
-	<ctl name="TX SPKRR Volume" value="16" />
-	<ctl name="RX SPKRR Volume" value="16" />
+	<ctl name="SPKRL Volume Switch" value="2" />
+	<ctl name="TX SPKRL Volume" value="16" />
+	<ctl name="RX SPKRL Volume" value="16" />
 	<ctl name="SPKRR Offset Switch" value="2" />
 	<ctl name="TX SPKRR Offset" value="-30P592000000000002" />
 	<ctl name="RX SPKRR Offset" value="-30P592000000000002" />
 	<ctl name="SPKRR Balance Switch" value="2" />
 	<ctl name="TX SPKRR Balance" value="0" />
 	<ctl name="RX SPKRR Balance" value="0" />
+	<ctl name="SPKRR Volume Switch" value="2" />
+	<ctl name="TX SPKRR Volume" value="16" />
+	<ctl name="RX SPKRR Volume" value="16" />
 	<path name="speaker" />
 	</path>
 	
@@ -18528,48 +18528,48 @@
 	<ctl name="SPKRR COMP Switch" value="2" />
 	<ctl name="TX SPKRR COMP" value="2" />
 	<ctl name="RX SPKRR COMP" value="2" />
-	<ctl name="7 Digital Volume Switch" value="2" />
-	<ctl name="TX7 Digital Volume" value="48" />
-	<ctl name="RX7 Digital Volume" value="84" />
 	<ctl name="7 Offset Switch" value="2" />
 	<ctl name="TX7 Offset" value="-30P592000000000002" />
 	<ctl name="RX7 Offset" value="-30P592000000000002" />
 	<ctl name="7 Balance Switch" value="2" />
 	<ctl name="TX7 Balance" value="0" />
 	<ctl name="RX7 Balance" value="0" />
+	<ctl name="7 Digital Volume Switch" value="2" />
+	<ctl name="TX7 Digital Volume" value="48" />
+	<ctl name="RX7 Digital Volume" value="84" />
 	<ctl name="7 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX7 Mix Digital Volume" value="48" />
 	<ctl name="RX7 Mix Digital Volume" value="84" />
-	<ctl name="8 Digital Volume Switch" value="2" />
-	<ctl name="TX8 Digital Volume" value="48" />
-	<ctl name="RX8 Digital Volume" value="84" />
 	<ctl name="8 Offset Switch" value="2" />
 	<ctl name="TX8 Offset" value="-30P592000000000002" />
 	<ctl name="RX8 Offset" value="-30P592000000000002" />
 	<ctl name="8 Balance Switch" value="2" />
 	<ctl name="TX8 Balance" value="0" />
 	<ctl name="RX8 Balance" value="0" />
+	<ctl name="8 Digital Volume Switch" value="2" />
+	<ctl name="TX8 Digital Volume" value="48" />
+	<ctl name="RX8 Digital Volume" value="84" />
 	<ctl name="8 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX8 Mix Digital Volume" value="48" />
 	<ctl name="RX8 Mix Digital Volume" value="84" />
-	<ctl name="SPKRL Volume Switch" value="2" />
-	<ctl name="TX SPKRL Volume" value="16" />
-	<ctl name="RX SPKRL Volume" value="16" />
 	<ctl name="SPKRL Offset Switch" value="2" />
 	<ctl name="TX SPKRL Offset" value="-30P592000000000002" />
 	<ctl name="RX SPKRL Offset" value="-30P592000000000002" />
 	<ctl name="SPKRL Balance Switch" value="2" />
 	<ctl name="TX SPKRL Balance" value="0" />
 	<ctl name="RX SPKRL Balance" value="0" />
-	<ctl name="SPKRR Volume Switch" value="2" />
-	<ctl name="TX SPKRR Volume" value="16" />
-	<ctl name="RX SPKRR Volume" value="16" />
+	<ctl name="SPKRL Volume Switch" value="2" />
+	<ctl name="TX SPKRL Volume" value="16" />
+	<ctl name="RX SPKRL Volume" value="16" />
 	<ctl name="SPKRR Offset Switch" value="2" />
 	<ctl name="TX SPKRR Offset" value="-30P592000000000002" />
 	<ctl name="RX SPKRR Offset" value="-30P592000000000002" />
 	<ctl name="SPKRR Balance Switch" value="2" />
 	<ctl name="TX SPKRR Balance" value="0" />
 	<ctl name="RX SPKRR Balance" value="0" />
+	<ctl name="SPKRR Volume Switch" value="2" />
+	<ctl name="TX SPKRR Volume" value="16" />
+	<ctl name="RX SPKRR Volume" value="16" />
 	<path name="speaker" />
 	</path>
 	
@@ -18630,48 +18630,48 @@
 	<ctl name="SPKRR COMP Switch" value="0" />
 	<ctl name="TX SPKRR COMP" value="0" />
 	<ctl name="RX SPKRR COMP" value="0" />
-	<ctl name="7 Digital Volume Switch" value="1" />
-	<ctl name="TX7 Digital Volume" value="84" />
-	<ctl name="RX7 Digital Volume" value="84" />
 	<ctl name="7 Offset Switch" value="1" />
 	<ctl name="TX7 Offset" value="-30P592000000000002" />
 	<ctl name="RX7 Offset" value="-30P592000000000002" />
 	<ctl name="7 Balance Switch" value="1" />
 	<ctl name="TX7 Balance" value="0" />
 	<ctl name="RX7 Balance" value="0" />
+	<ctl name="7 Digital Volume Switch" value="1" />
+	<ctl name="TX7 Digital Volume" value="84" />
+	<ctl name="RX7 Digital Volume" value="84" />
 	<ctl name="7 Mix Digital Volume Switch" value="1" />
 	<ctl name="TX7 Mix Digital Volume" value="84" />
 	<ctl name="RX7 Mix Digital Volume" value="84" />
-	<ctl name="8 Digital Volume Switch" value="0" />
-	<ctl name="TX8 Digital Volume" value="0" />
-	<ctl name="RX8 Digital Volume" value="0" />
 	<ctl name="8 Offset Switch" value="0" />
 	<ctl name="TX8 Offset" value="ZERO" />
 	<ctl name="RX8 Offset" value="ZERO" />
 	<ctl name="8 Balance Switch" value="0" />
 	<ctl name="TX8 Balance" value="0" />
 	<ctl name="RX8 Balance" value="0" />
+	<ctl name="8 Digital Volume Switch" value="0" />
+	<ctl name="TX8 Digital Volume" value="0" />
+	<ctl name="RX8 Digital Volume" value="0" />
 	<ctl name="8 Mix Digital Volume Switch" value="0" />
 	<ctl name="TX8 Mix Digital Volume" value="0" />
 	<ctl name="RX8 Mix Digital Volume" value="0" />
-	<ctl name="SPKRL Volume Switch" value="1" />
-	<ctl name="TX SPKRL Volume" value="16" />
-	<ctl name="RX SPKRL Volume" value="16" />
 	<ctl name="SPKRL Offset Switch" value="1" />
 	<ctl name="TX SPKRL Offset" value="-30P592000000000002" />
 	<ctl name="RX SPKRL Offset" value="-30P592000000000002" />
 	<ctl name="SPKRL Balance Switch" value="1" />
 	<ctl name="TX SPKRL Balance" value="0" />
 	<ctl name="RX SPKRL Balance" value="0" />
-	<ctl name="SPKRR Volume Switch" value="0" />
-	<ctl name="TX SPKRR Volume" value="0" />
-	<ctl name="RX SPKRR Volume" value="0" />
+	<ctl name="SPKRL Volume Switch" value="1" />
+	<ctl name="TX SPKRL Volume" value="16" />
+	<ctl name="RX SPKRL Volume" value="16" />
 	<ctl name="SPKRR Offset Switch" value="0" />
 	<ctl name="TX SPKRR Offset" value="ZERO" />
 	<ctl name="RX SPKRR Offset" value="ZERO" />
 	<ctl name="SPKRR Balance Switch" value="0" />
 	<ctl name="TX SPKRR Balance" value="0" />
 	<ctl name="RX SPKRR Balance" value="0" />
+	<ctl name="SPKRR Volume Switch" value="0" />
+	<ctl name="TX SPKRR Volume" value="0" />
+	<ctl name="RX SPKRR Volume" value="0" />
 	</path>
 	
 	<!-- Added -->
@@ -18712,48 +18712,48 @@
 	<ctl name="SPKRR COMP Switch" value="2" />
 	<ctl name="TX SPKRR COMP" value="2" />
 	<ctl name="RX SPKRR COMP" value="2" />
-	<ctl name="7 Digital Volume Switch" value="2" />
-	<ctl name="TX7 Digital Volume" value="48" />
-	<ctl name="RX7 Digital Volume" value="84" />
 	<ctl name="7 Offset Switch" value="2" />
 	<ctl name="TX7 Offset" value="-30P592000000000002" />
 	<ctl name="RX7 Offset" value="-30P592000000000002" />
 	<ctl name="7 Balance Switch" value="2" />
 	<ctl name="TX7 Balance" value="0" />
 	<ctl name="RX7 Balance" value="0" />
+	<ctl name="7 Digital Volume Switch" value="2" />
+	<ctl name="TX7 Digital Volume" value="48" />
+	<ctl name="RX7 Digital Volume" value="84" />
 	<ctl name="7 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX7 Mix Digital Volume" value="48" />
 	<ctl name="RX7 Mix Digital Volume" value="84" />
-	<ctl name="8 Digital Volume Switch" value="2" />
-	<ctl name="TX8 Digital Volume" value="48" />
-	<ctl name="RX8 Digital Volume" value="84" />
 	<ctl name="8 Offset Switch" value="2" />
 	<ctl name="TX8 Offset" value="-30P592000000000002" />
 	<ctl name="RX8 Offset" value="-30P592000000000002" />
 	<ctl name="8 Balance Switch" value="2" />
 	<ctl name="TX8 Balance" value="0" />
 	<ctl name="RX8 Balance" value="0" />
+	<ctl name="8 Digital Volume Switch" value="2" />
+	<ctl name="TX8 Digital Volume" value="48" />
+	<ctl name="RX8 Digital Volume" value="84" />
 	<ctl name="8 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX8 Mix Digital Volume" value="48" />
 	<ctl name="RX8 Mix Digital Volume" value="84" />
-	<ctl name="SPKRL Volume Switch" value="2" />
-	<ctl name="TX SPKRL Volume" value="16" />
-	<ctl name="RX SPKRL Volume" value="16" />
 	<ctl name="SPKRL Offset Switch" value="2" />
 	<ctl name="TX SPKRL Offset" value="-30P592000000000002" />
 	<ctl name="RX SPKRL Offset" value="-30P592000000000002" />
 	<ctl name="SPKRL Balance Switch" value="2" />
 	<ctl name="TX SPKRL Balance" value="0" />
 	<ctl name="RX SPKRL Balance" value="0" />
-	<ctl name="SPKRR Volume Switch" value="2" />
-	<ctl name="TX SPKRR Volume" value="16" />
-	<ctl name="RX SPKRR Volume" value="16" />
+	<ctl name="SPKRL Volume Switch" value="2" />
+	<ctl name="TX SPKRL Volume" value="16" />
+	<ctl name="RX SPKRL Volume" value="16" />
 	<ctl name="SPKRR Offset Switch" value="2" />
 	<ctl name="TX SPKRR Offset" value="-30P592000000000002" />
 	<ctl name="RX SPKRR Offset" value="-30P592000000000002" />
 	<ctl name="SPKRR Balance Switch" value="2" />
 	<ctl name="TX SPKRR Balance" value="0" />
 	<ctl name="RX SPKRR Balance" value="0" />
+	<ctl name="SPKRR Volume Switch" value="2" />
+	<ctl name="TX SPKRR Volume" value="16" />
+	<ctl name="RX SPKRR Volume" value="16" />
 	</path>
 	
 	<!-- Added -->
@@ -18783,48 +18783,48 @@
 	<ctl name="SPKRR COMP Switch" value="2" />
 	<ctl name="TX SPKRR COMP" value="2" />
 	<ctl name="RX SPKRR COMP" value="2" />
-	<ctl name="7 Digital Volume Switch" value="2" />
-	<ctl name="TX7 Digital Volume" value="48" />
-	<ctl name="RX7 Digital Volume" value="84" />
 	<ctl name="7 Offset Switch" value="2" />
 	<ctl name="TX7 Offset" value="-30P592000000000002" />
 	<ctl name="RX7 Offset" value="-30P592000000000002" />
 	<ctl name="7 Balance Switch" value="2" />
 	<ctl name="TX7 Balance" value="0" />
 	<ctl name="RX7 Balance" value="0" />
+	<ctl name="7 Digital Volume Switch" value="2" />
+	<ctl name="TX7 Digital Volume" value="48" />
+	<ctl name="RX7 Digital Volume" value="84" />
 	<ctl name="7 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX7 Mix Digital Volume" value="48" />
 	<ctl name="RX7 Mix Digital Volume" value="84" />
-	<ctl name="8 Digital Volume Switch" value="2" />
-	<ctl name="TX8 Digital Volume" value="48" />
-	<ctl name="RX8 Digital Volume" value="84" />
 	<ctl name="8 Offset Switch" value="2" />
 	<ctl name="TX8 Offset" value="-30P592000000000002" />
 	<ctl name="RX8 Offset" value="-30P592000000000002" />
 	<ctl name="8 Balance Switch" value="2" />
 	<ctl name="TX8 Balance" value="0" />
 	<ctl name="RX8 Balance" value="0" />
+	<ctl name="8 Digital Volume Switch" value="2" />
+	<ctl name="TX8 Digital Volume" value="48" />
+	<ctl name="RX8 Digital Volume" value="84" />
 	<ctl name="8 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX8 Mix Digital Volume" value="48" />
 	<ctl name="RX8 Mix Digital Volume" value="84" />
-	<ctl name="SPKRL Volume Switch" value="2" />
-	<ctl name="TX SPKRL Volume" value="16" />
-	<ctl name="RX SPKRL Volume" value="16" />
 	<ctl name="SPKRL Offset Switch" value="2" />
 	<ctl name="TX SPKRL Offset" value="-30P592000000000002" />
 	<ctl name="RX SPKRL Offset" value="-30P592000000000002" />
 	<ctl name="SPKRL Balance Switch" value="2" />
 	<ctl name="TX SPKRL Balance" value="0" />
 	<ctl name="RX SPKRL Balance" value="0" />
-	<ctl name="SPKRR Volume Switch" value="2" />
-	<ctl name="TX SPKRR Volume" value="16" />
-	<ctl name="RX SPKRR Volume" value="16" />
+	<ctl name="SPKRL Volume Switch" value="2" />
+	<ctl name="TX SPKRL Volume" value="16" />
+	<ctl name="RX SPKRL Volume" value="16" />
 	<ctl name="SPKRR Offset Switch" value="2" />
 	<ctl name="TX SPKRR Offset" value="-30P592000000000002" />
 	<ctl name="RX SPKRR Offset" value="-30P592000000000002" />
 	<ctl name="SPKRR Balance Switch" value="2" />
 	<ctl name="TX SPKRR Balance" value="0" />
 	<ctl name="RX SPKRR Balance" value="0" />
+	<ctl name="SPKRR Volume Switch" value="2" />
+	<ctl name="TX SPKRR Volume" value="16" />
+	<ctl name="RX SPKRR Volume" value="16" />
 	</path>
 	
 	<!-- Added -->
@@ -18854,48 +18854,48 @@
 	<ctl name="SPKRR COMP Switch" value="2" />
 	<ctl name="TX SPKRR COMP" value="2" />
 	<ctl name="RX SPKRR COMP" value="2" />
-	<ctl name="7 Digital Volume Switch" value="2" />
-	<ctl name="TX7 Digital Volume" value="48" />
-	<ctl name="RX7 Digital Volume" value="84" />
 	<ctl name="7 Offset Switch" value="2" />
 	<ctl name="TX7 Offset" value="-30P592000000000002" />
 	<ctl name="RX7 Offset" value="-30P592000000000002" />
 	<ctl name="7 Balance Switch" value="2" />
 	<ctl name="TX7 Balance" value="0" />
 	<ctl name="RX7 Balance" value="0" />
+	<ctl name="7 Digital Volume Switch" value="2" />
+	<ctl name="TX7 Digital Volume" value="48" />
+	<ctl name="RX7 Digital Volume" value="84" />
 	<ctl name="7 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX7 Mix Digital Volume" value="48" />
 	<ctl name="RX7 Mix Digital Volume" value="84" />
-	<ctl name="8 Digital Volume Switch" value="2" />
-	<ctl name="TX8 Digital Volume" value="48" />
-	<ctl name="RX8 Digital Volume" value="84" />
 	<ctl name="8 Offset Switch" value="2" />
 	<ctl name="TX8 Offset" value="-30P592000000000002" />
 	<ctl name="RX8 Offset" value="-30P592000000000002" />
 	<ctl name="8 Balance Switch" value="2" />
 	<ctl name="TX8 Balance" value="0" />
 	<ctl name="RX8 Balance" value="0" />
+	<ctl name="8 Digital Volume Switch" value="2" />
+	<ctl name="TX8 Digital Volume" value="48" />
+	<ctl name="RX8 Digital Volume" value="84" />
 	<ctl name="8 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX8 Mix Digital Volume" value="48" />
 	<ctl name="RX8 Mix Digital Volume" value="84" />
-	<ctl name="SPKRL Volume Switch" value="2" />
-	<ctl name="TX SPKRL Volume" value="16" />
-	<ctl name="RX SPKRL Volume" value="16" />
 	<ctl name="SPKRL Offset Switch" value="2" />
 	<ctl name="TX SPKRL Offset" value="-30P592000000000002" />
 	<ctl name="RX SPKRL Offset" value="-30P592000000000002" />
 	<ctl name="SPKRL Balance Switch" value="2" />
 	<ctl name="TX SPKRL Balance" value="0" />
 	<ctl name="RX SPKRL Balance" value="0" />
-	<ctl name="SPKRR Volume Switch" value="2" />
-	<ctl name="TX SPKRR Volume" value="16" />
-	<ctl name="RX SPKRR Volume" value="16" />
+	<ctl name="SPKRL Volume Switch" value="2" />
+	<ctl name="TX SPKRL Volume" value="16" />
+	<ctl name="RX SPKRL Volume" value="16" />
 	<ctl name="SPKRR Offset Switch" value="2" />
 	<ctl name="TX SPKRR Offset" value="-30P592000000000002" />
 	<ctl name="RX SPKRR Offset" value="-30P592000000000002" />
 	<ctl name="SPKRR Balance Switch" value="2" />
 	<ctl name="TX SPKRR Balance" value="0" />
 	<ctl name="RX SPKRR Balance" value="0" />
+	<ctl name="SPKRR Volume Switch" value="2" />
+	<ctl name="TX SPKRR Volume" value="16" />
+	<ctl name="RX SPKRR Volume" value="16" />
 	</path>
 	
 	<!-- End of dac control center -->
@@ -20481,48 +20481,48 @@
 	<ctl name="SPKRR RDAC Switch" value="2" />
 	<ctl name="TX SPKRR RDAC" value="2" />
 	<ctl name="RX SPKRR RDAC" value="2" />
-	<ctl name="7 Digital Volume Switch" value="2" />
-	<ctl name="TX7 Digital Volume" value="0" />
-	<ctl name="RX7 Digital Volume" value="0" />
 	<ctl name="7 Offset Switch" value="2" />
 	<ctl name="TX7 Offset" value="-30P592000000000002" />
 	<ctl name="RX7 Offset" value="-30P592000000000002" />
 	<ctl name="7 Balance Switch" value="2" />
 	<ctl name="TX7 Balance" value="0" />
 	<ctl name="RX7 Balance" value="0" />
+	<ctl name="7 Digital Volume Switch" value="2" />
+	<ctl name="TX7 Digital Volume" value="0" />
+	<ctl name="RX7 Digital Volume" value="0" />
 	<ctl name="7 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX7 Mix Digital Volume" value="0" />
 	<ctl name="RX7 Mix Digital Volume" value="0" />
-	<ctl name="8 Digital Volume Switch" value="2" />
-	<ctl name="TX8 Digital Volume" value="0" />
-	<ctl name="RX8 Digital Volume" value="0" />
 	<ctl name="8 Offset Switch" value="2" />
 	<ctl name="TX8 Offset" value="-30P592000000000002" />
 	<ctl name="RX8 Offset" value="-30P592000000000002" />
 	<ctl name="8 Balance Switch" value="2" />
 	<ctl name="TX8 Balance" value="0" />
 	<ctl name="RX8 Balance" value="0" />
+	<ctl name="8 Digital Volume Switch" value="2" />
+	<ctl name="TX8 Digital Volume" value="0" />
+	<ctl name="RX8 Digital Volume" value="0" />
 	<ctl name="8 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX8 Mix Digital Volume" value="0" />
 	<ctl name="RX8 Mix Digital Volume" value="0" />
-	<ctl name="SPKRL Volume Switch" value="2" />
-	<ctl name="TX SPKRL Volume" value="0" />
-	<ctl name="RX SPKRL Volume" value="0" />
 	<ctl name="SPKRL Offset Switch" value="2" />
 	<ctl name="TX SPKRL Offset" value="-30P592000000000002" />
 	<ctl name="RX SPKRL Offset" value="-30P592000000000002" />
 	<ctl name="SPKRL Balance Switch" value="2" />
 	<ctl name="TX SPKRL Balance" value="0" />
 	<ctl name="RX SPKRL Balance" value="0" />
-	<ctl name="SPKRR Volume Switch" value="2" />
-	<ctl name="TX SPKRR Volume" value="0" />
-	<ctl name="RX SPKRR Volume" value="0" />
+	<ctl name="SPKRL Volume Switch" value="2" />
+	<ctl name="TX SPKRL Volume" value="0" />
+	<ctl name="RX SPKRL Volume" value="0" />
 	<ctl name="SPKRR Offset Switch" value="2" />
 	<ctl name="TX SPKRR Offset" value="-30P592000000000002" />
 	<ctl name="RX SPKRR Offset" value="-30P592000000000002" />
 	<ctl name="SPKRR Balance Switch" value="2" />
 	<ctl name="TX SPKRR Balance" value="0" />
 	<ctl name="RX SPKRR Balance" value="0" />
+	<ctl name="SPKRR Volume Switch" value="2" />
+	<ctl name="TX SPKRR Volume" value="0" />
+	<ctl name="RX SPKRR Volume" value="0" />
 	</path>
 	
 	<!-- Added -->
@@ -20533,48 +20533,48 @@
 	<ctl name="SPKRR RDAC Switch" value="0" />
 	<ctl name="TX SPKRR RDAC" value="0" />
 	<ctl name="RX SPKRR RDAC" value="0" />
-	<ctl name="7 Digital Volume Switch" value="1" />
-	<ctl name="TX7 Digital Volume" value="0" />
-	<ctl name="RX7 Digital Volume" value="0" />
 	<ctl name="7 Offset Switch" value="1" />
 	<ctl name="TX7 Offset" value="-30P592000000000002" />
 	<ctl name="RX7 Offset" value="-30P592000000000002" />
 	<ctl name="7 Balance Switch" value="1" />
 	<ctl name="TX7 Balance" value="0" />
 	<ctl name="RX7 Balance" value="0" />
+	<ctl name="7 Digital Volume Switch" value="1" />
+	<ctl name="TX7 Digital Volume" value="0" />
+	<ctl name="RX7 Digital Volume" value="0" />
 	<ctl name="7 Mix Digital Volume Switch" value="1" />
 	<ctl name="TX7 Mix Digital Volume" value="0" />
 	<ctl name="RX7 Mix Digital Volume" value="0" />
-	<ctl name="8 Digital Volume Switch" value="0" />
-	<ctl name="TX8 Digital Volume" value="0" />
-	<ctl name="RX8 Digital Volume" value="0" />
 	<ctl name="8 Offset Switch" value="0" />
 	<ctl name="TX8 Offset" value="ZERO" />
 	<ctl name="RX8 Offset" value="ZERO" />
 	<ctl name="8 Balance Switch" value="0" />
 	<ctl name="TX8 Balance" value="0" />
 	<ctl name="RX8 Balance" value="0" />
+	<ctl name="8 Digital Volume Switch" value="0" />
+	<ctl name="TX8 Digital Volume" value="0" />
+	<ctl name="RX8 Digital Volume" value="0" />
 	<ctl name="8 Mix Digital Volume Switch" value="0" />
 	<ctl name="TX8 Mix Digital Volume" value="0" />
 	<ctl name="RX8 Mix Digital Volume" value="0" />
-	<ctl name="SPKRL Volume Switch" value="1" />
-	<ctl name="TX SPKRL Volume" value="0" />
-	<ctl name="RX SPKRL Volume" value="0" />
 	<ctl name="SPKRL Offset Switch" value="1" />
 	<ctl name="TX SPKRL Offset" value="-30P592000000000002" />
 	<ctl name="RX SPKRL Offset" value="-30P592000000000002" />
 	<ctl name="SPKRL Balance Switch" value="1" />
 	<ctl name="TX SPKRL Balance" value="0" />
 	<ctl name="RX SPKRL Balance" value="0" />
-	<ctl name="SPKRR Volume Switch" value="0" />
-	<ctl name="TX SPKRR Volume" value="0" />
-	<ctl name="RX SPKRR Volume" value="0" />
+	<ctl name="SPKRL Volume Switch" value="1" />
+	<ctl name="TX SPKRL Volume" value="0" />
+	<ctl name="RX SPKRL Volume" value="0" />
 	<ctl name="SPKRR Offset Switch" value="0" />
 	<ctl name="TX SPKRR Offset" value="ZERO" />
 	<ctl name="RX SPKRR Offset" value="ZERO" />
 	<ctl name="SPKRR Balance Switch" value="0" />
 	<ctl name="TX SPKRR Balance" value="0" />
 	<ctl name="RX SPKRR Balance" value="0" />
+	<ctl name="SPKRR Volume Switch" value="0" />
+	<ctl name="TX SPKRR Volume" value="0" />
+	<ctl name="RX SPKRR Volume" value="0" />
 	</path>
 	
 	<!-- Lemon Drop Hi-Res end of mods -->
@@ -20748,48 +20748,48 @@
 	<ctl name="HPHR COMP Switch" value="2" />
 	<ctl name="TX HPHR COMP" value="2" />
 	<ctl name="RX HPHR COMP" value="2" />
-	<ctl name="1 Digital Volume Switch" value="2" />
-	<ctl name="TX1 Digital Volume" value="48" />
-	<ctl name="RX1 Digital Volume" value="84" />
 	<ctl name="1 Offset Switch" value="2" />
 	<ctl name="TX1 Offset" value="-30P592000000000002" />
 	<ctl name="RX1 Offset" value="-30P592000000000002" />
 	<ctl name="1 Balance Switch" value="2" />
 	<ctl name="TX1 Balance" value="0" />
 	<ctl name="RX1 Balance" value="0" />
+	<ctl name="1 Digital Volume Switch" value="2" />
+	<ctl name="TX1 Digital Volume" value="48" />
+	<ctl name="RX1 Digital Volume" value="84" />
 	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="84" />
-	<ctl name="2 Digital Volume Switch" value="2" />
-	<ctl name="TX2 Digital Volume" value="48" />
-	<ctl name="RX2 Digital Volume" value="84" />
 	<ctl name="2 Offset Switch" value="2" />
 	<ctl name="TX2 Offset" value="-30P592000000000002" />
 	<ctl name="RX2 Offset" value="-30P592000000000002" />
 	<ctl name="2 Balance Switch" value="2" />
 	<ctl name="TX2 Balance" value="0" />
 	<ctl name="RX2 Balance" value="0" />
+	<ctl name="2 Digital Volume Switch" value="2" />
+	<ctl name="TX2 Digital Volume" value="48" />
+	<ctl name="RX2 Digital Volume" value="84" />
 	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="84" />
-	<ctl name="HPHL Volume Switch" value="2" />
-	<ctl name="TX HPHL Volume" value="16" />
-	<ctl name="RX HPHL Volume" value="16" />
 	<ctl name="HPHL Offset Switch" value="2" />
 	<ctl name="TX HPHL Offset" value="-30P592000000000002" />
 	<ctl name="RX HPHL Offset" value="-30P592000000000002" />
 	<ctl name="HPHL Balance Switch" value="2" />
 	<ctl name="TX HPHL Balance" value="0" />
 	<ctl name="RX HPHL Balance" value="0" />
-	<ctl name="HPHR Volume Switch" value="2" />
-	<ctl name="TX HPHR Volume" value="16" />
-	<ctl name="RX HPHR Volume" value="16" />
+	<ctl name="HPHL Volume Switch" value="2" />
+	<ctl name="TX HPHL Volume" value="16" />
+	<ctl name="RX HPHL Volume" value="16" />
 	<ctl name="HPHR Offset Switch" value="2" />
 	<ctl name="TX HPHR Offset" value="-30P592000000000002" />
 	<ctl name="RX HPHR Offset" value="-30P592000000000002" />
 	<ctl name="HPHR Balance Switch" value="2" />
 	<ctl name="TX HPHR Balance" value="0" />
 	<ctl name="RX HPHR Balance" value="0" />
+	<ctl name="HPHR Volume Switch" value="2" />
+	<ctl name="TX HPHR Volume" value="16" />
+	<ctl name="RX HPHR Volume" value="16" />
 	<path name="headphone" />
 	</path>
 	
@@ -20819,48 +20819,48 @@
 	<ctl name="HPHR COMP Switch" value="2" />
 	<ctl name="TX HPHR COMP" value="2" />
 	<ctl name="RX HPHR COMP" value="2" />
-	<ctl name="1 Digital Volume Switch" value="2" />
-	<ctl name="TX1 Digital Volume" value="48" />
-	<ctl name="RX1 Digital Volume" value="84" />
 	<ctl name="1 Offset Switch" value="2" />
 	<ctl name="TX1 Offset" value="-30P592000000000002" />
 	<ctl name="RX1 Offset" value="-30P592000000000002" />
 	<ctl name="1 Balance Switch" value="2" />
 	<ctl name="TX1 Balance" value="0" />
 	<ctl name="RX1 Balance" value="0" />
+	<ctl name="1 Digital Volume Switch" value="2" />
+	<ctl name="TX1 Digital Volume" value="48" />
+	<ctl name="RX1 Digital Volume" value="84" />
 	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="84" />
-	<ctl name="2 Digital Volume Switch" value="2" />
-	<ctl name="TX2 Digital Volume" value="48" />
-	<ctl name="RX2 Digital Volume" value="84" />
 	<ctl name="2 Offset Switch" value="2" />
 	<ctl name="TX2 Offset" value="-30P592000000000002" />
 	<ctl name="RX2 Offset" value="-30P592000000000002" />
 	<ctl name="2 Balance Switch" value="2" />
 	<ctl name="TX2 Balance" value="0" />
 	<ctl name="RX2 Balance" value="0" />
+	<ctl name="2 Digital Volume Switch" value="2" />
+	<ctl name="TX2 Digital Volume" value="48" />
+	<ctl name="RX2 Digital Volume" value="84" />
 	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="84" />
-	<ctl name="HPHL Volume Switch" value="2" />
-	<ctl name="TX HPHL Volume" value="16" />
-	<ctl name="RX HPHL Volume" value="16" />
 	<ctl name="HPHL Offset Switch" value="2" />
 	<ctl name="TX HPHL Offset" value="-30P592000000000002" />
 	<ctl name="RX HPHL Offset" value="-30P592000000000002" />
 	<ctl name="HPHL Balance Switch" value="2" />
 	<ctl name="TX HPHL Balance" value="0" />
 	<ctl name="RX HPHL Balance" value="0" />
-	<ctl name="HPHR Volume Switch" value="2" />
-	<ctl name="TX HPHR Volume" value="16" />
-	<ctl name="RX HPHR Volume" value="16" />
+	<ctl name="HPHL Volume Switch" value="2" />
+	<ctl name="TX HPHL Volume" value="16" />
+	<ctl name="RX HPHL Volume" value="16" />
 	<ctl name="HPHR Offset Switch" value="2" />
 	<ctl name="TX HPHR Offset" value="-30P592000000000002" />
 	<ctl name="RX HPHR Offset" value="-30P592000000000002" />
 	<ctl name="HPHR Balance Switch" value="2" />
 	<ctl name="TX HPHR Balance" value="0" />
 	<ctl name="RX HPHR Balance" value="0" />
+	<ctl name="HPHR Volume Switch" value="2" />
+	<ctl name="TX HPHR Volume" value="16" />
+	<ctl name="RX HPHR Volume" value="16" />
 	<path name="headphone" />
 	</path>
 	
@@ -20890,48 +20890,48 @@
 	<ctl name="HPHR COMP Switch" value="2" />
 	<ctl name="TX HPHR COMP" value="2" />
 	<ctl name="RX HPHR COMP" value="2" />
-	<ctl name="1 Digital Volume Switch" value="2" />
-	<ctl name="TX1 Digital Volume" value="48" />
-	<ctl name="RX1 Digital Volume" value="84" />
 	<ctl name="1 Offset Switch" value="2" />
 	<ctl name="TX1 Offset" value="-30P592000000000002" />
 	<ctl name="RX1 Offset" value="-30P592000000000002" />
 	<ctl name="1 Balance Switch" value="2" />
 	<ctl name="TX1 Balance" value="0" />
 	<ctl name="RX1 Balance" value="0" />
+	<ctl name="1 Digital Volume Switch" value="2" />
+	<ctl name="TX1 Digital Volume" value="48" />
+	<ctl name="RX1 Digital Volume" value="84" />
 	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="84" />
-	<ctl name="2 Digital Volume Switch" value="2" />
-	<ctl name="TX2 Digital Volume" value="48" />
-	<ctl name="RX2 Digital Volume" value="84" />
 	<ctl name="2 Offset Switch" value="2" />
 	<ctl name="TX2 Offset" value="-30P592000000000002" />
 	<ctl name="RX2 Offset" value="-30P592000000000002" />
 	<ctl name="2 Balance Switch" value="2" />
 	<ctl name="TX2 Balance" value="0" />
 	<ctl name="RX2 Balance" value="0" />
+	<ctl name="2 Digital Volume Switch" value="2" />
+	<ctl name="TX2 Digital Volume" value="48" />
+	<ctl name="RX2 Digital Volume" value="84" />
 	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="84" />
-	<ctl name="HPHL Volume Switch" value="2" />
-	<ctl name="TX HPHL Volume" value="16" />
-	<ctl name="RX HPHL Volume" value="16" />
 	<ctl name="HPHL Offset Switch" value="2" />
 	<ctl name="TX HPHL Offset" value="-30P592000000000002" />
 	<ctl name="RX HPHL Offset" value="-30P592000000000002" />
 	<ctl name="HPHL Balance Switch" value="2" />
 	<ctl name="TX HPHL Balance" value="0" />
 	<ctl name="RX HPHL Balance" value="0" />
-	<ctl name="HPHR Volume Switch" value="2" />
-	<ctl name="TX HPHR Volume" value="16" />
-	<ctl name="RX HPHR Volume" value="16" />
+	<ctl name="HPHL Volume Switch" value="2" />
+	<ctl name="TX HPHL Volume" value="16" />
+	<ctl name="RX HPHL Volume" value="16" />
 	<ctl name="HPHR Offset Switch" value="2" />
 	<ctl name="TX HPHR Offset" value="-30P592000000000002" />
 	<ctl name="RX HPHR Offset" value="-30P592000000000002" />
 	<ctl name="HPHR Balance Switch" value="2" />
 	<ctl name="TX HPHR Balance" value="0" />
 	<ctl name="RX HPHR Balance" value="0" />
+	<ctl name="HPHR Volume Switch" value="2" />
+	<ctl name="TX HPHR Volume" value="16" />
+	<ctl name="RX HPHR Volume" value="16" />
 	<path name="headphone" />
 	</path>
 	
@@ -20943,48 +20943,48 @@
 	<ctl name="HPHR RDAC Switch" value="2" />
 	<ctl name="TX HPHR RDAC" value="2" />
 	<ctl name="RX HPHR RDAC" value="2" />
-	<ctl name="1 Digital Volume Switch" value="2" />
-	<ctl name="TX1 Digital Volume" value="48" />
-	<ctl name="RX1 Digital Volume" value="84" />
 	<ctl name="1 Offset Switch" value="2" />
 	<ctl name="TX1 Offset" value="-30P592000000000002" />
 	<ctl name="RX1 Offset" value="-30P592000000000002" />
 	<ctl name="1 Balance Switch" value="2" />
 	<ctl name="TX1 Balance" value="0" />
 	<ctl name="RX1 Balance" value="0" />
+	<ctl name="1 Digital Volume Switch" value="2" />
+	<ctl name="TX1 Digital Volume" value="48" />
+	<ctl name="RX1 Digital Volume" value="84" />
 	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="84" />
-	<ctl name="2 Digital Volume Switch" value="2" />
-	<ctl name="TX2 Digital Volume" value="48" />
-	<ctl name="RX2 Digital Volume" value="84" />
 	<ctl name="2 Offset Switch" value="2" />
 	<ctl name="TX2 Offset" value="-30P592000000000002" />
 	<ctl name="RX2 Offset" value="-30P592000000000002" />
 	<ctl name="2 Balance Switch" value="2" />
 	<ctl name="TX2 Balance" value="0" />
 	<ctl name="RX2 Balance" value="0" />
+	<ctl name="2 Digital Volume Switch" value="2" />
+	<ctl name="TX2 Digital Volume" value="48" />
+	<ctl name="RX2 Digital Volume" value="84" />
 	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="84" />
-	<ctl name="HPHL Volume Switch" value="2" />
-	<ctl name="TX HPHL Volume" value="16" />
-	<ctl name="RX HPHL Volume" value="16" />
 	<ctl name="HPHL Offset Switch" value="2" />
 	<ctl name="TX HPHL Offset" value="-30P592000000000002" />
 	<ctl name="RX HPHL Offset" value="-30P592000000000002" />
 	<ctl name="HPHL Balance Switch" value="2" />
 	<ctl name="TX HPHL Balance" value="0" />
 	<ctl name="RX HPHL Balance" value="0" />
-	<ctl name="HPHR Volume Switch" value="2" />
-	<ctl name="TX HPHR Volume" value="16" />
-	<ctl name="RX HPHR Volume" value="16" />
+	<ctl name="HPHL Volume Switch" value="2" />
+	<ctl name="TX HPHL Volume" value="16" />
+	<ctl name="RX HPHL Volume" value="16" />
 	<ctl name="HPHR Offset Switch" value="2" />
 	<ctl name="TX HPHR Offset" value="-30P592000000000002" />
 	<ctl name="RX HPHR Offset" value="-30P592000000000002" />
 	<ctl name="HPHR Balance Switch" value="2" />
 	<ctl name="TX HPHR Balance" value="0" />
 	<ctl name="RX HPHR Balance" value="0" />
+	<ctl name="HPHR Volume Switch" value="2" />
+	<ctl name="TX HPHR Volume" value="16" />
+	<ctl name="RX HPHR Volume" value="16" />
 	<path name="headphone-16bit" />
 	</path>
 	
@@ -20996,48 +20996,48 @@
 	<ctl name="HPHR RDAC Switch" value="2" />
 	<ctl name="TX HPHR RDAC" value="2" />
 	<ctl name="RX HPHR RDAC" value="2" />
-	<ctl name="1 Digital Volume Switch" value="2" />
-	<ctl name="TX1 Digital Volume" value="48" />
-	<ctl name="RX1 Digital Volume" value="84" />
 	<ctl name="1 Offset Switch" value="2" />
 	<ctl name="TX1 Offset" value="-30P592000000000002" />
 	<ctl name="RX1 Offset" value="-30P592000000000002" />
 	<ctl name="1 Balance Switch" value="2" />
 	<ctl name="TX1 Balance" value="0" />
 	<ctl name="RX1 Balance" value="0" />
+	<ctl name="1 Digital Volume Switch" value="2" />
+	<ctl name="TX1 Digital Volume" value="48" />
+	<ctl name="RX1 Digital Volume" value="84" />
 	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="84" />
-	<ctl name="2 Digital Volume Switch" value="2" />
-	<ctl name="TX2 Digital Volume" value="48" />
-	<ctl name="RX2 Digital Volume" value="84" />
 	<ctl name="2 Offset Switch" value="2" />
 	<ctl name="TX2 Offset" value="-30P592000000000002" />
 	<ctl name="RX2 Offset" value="-30P592000000000002" />
 	<ctl name="2 Balance Switch" value="2" />
 	<ctl name="TX2 Balance" value="0" />
 	<ctl name="RX2 Balance" value="0" />
+	<ctl name="2 Digital Volume Switch" value="2" />
+	<ctl name="TX2 Digital Volume" value="48" />
+	<ctl name="RX2 Digital Volume" value="84" />
 	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="84" />
-	<ctl name="HPHL Volume Switch" value="2" />
-	<ctl name="TX HPHL Volume" value="16" />
-	<ctl name="RX HPHL Volume" value="16" />
 	<ctl name="HPHL Offset Switch" value="2" />
 	<ctl name="TX HPHL Offset" value="-30P592000000000002" />
 	<ctl name="RX HPHL Offset" value="-30P592000000000002" />
 	<ctl name="HPHL Balance Switch" value="2" />
 	<ctl name="TX HPHL Balance" value="0" />
 	<ctl name="RX HPHL Balance" value="0" />
-	<ctl name="HPHR Volume Switch" value="2" />
-	<ctl name="TX HPHR Volume" value="16" />
-	<ctl name="RX HPHR Volume" value="16" />
+	<ctl name="HPHL Volume Switch" value="2" />
+	<ctl name="TX HPHL Volume" value="16" />
+	<ctl name="RX HPHL Volume" value="16" />
 	<ctl name="HPHR Offset Switch" value="2" />
 	<ctl name="TX HPHR Offset" value="-30P592000000000002" />
 	<ctl name="RX HPHR Offset" value="-30P592000000000002" />
 	<ctl name="HPHR Balance Switch" value="2" />
 	<ctl name="TX HPHR Balance" value="0" />
 	<ctl name="RX HPHR Balance" value="0" />
+	<ctl name="HPHR Volume Switch" value="2" />
+	<ctl name="TX HPHR Volume" value="16" />
+	<ctl name="RX HPHR Volume" value="16" />
 	<path name="headphone-16bit" />
 	</path>
 	
@@ -21067,48 +21067,48 @@
 	<ctl name="HPHR COMP Switch" value="2" />
 	<ctl name="TX HPHR COMP" value="2" />
 	<ctl name="RX HPHR COMP" value="2" />
-	<ctl name="1 Digital Volume Switch" value="2" />
-	<ctl name="TX1 Digital Volume" value="48" />
-	<ctl name="RX1 Digital Volume" value="84" />
 	<ctl name="1 Offset Switch" value="2" />
 	<ctl name="TX1 Offset" value="-30P592000000000002" />
 	<ctl name="RX1 Offset" value="-30P592000000000002" />
 	<ctl name="1 Balance Switch" value="2" />
 	<ctl name="TX1 Balance" value="0" />
 	<ctl name="RX1 Balance" value="0" />
+	<ctl name="1 Digital Volume Switch" value="2" />
+	<ctl name="TX1 Digital Volume" value="48" />
+	<ctl name="RX1 Digital Volume" value="84" />
 	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="84" />
-	<ctl name="2 Digital Volume Switch" value="2" />
-	<ctl name="TX2 Digital Volume" value="48" />
-	<ctl name="RX2 Digital Volume" value="84" />
 	<ctl name="2 Offset Switch" value="2" />
 	<ctl name="TX2 Offset" value="-30P592000000000002" />
 	<ctl name="RX2 Offset" value="-30P592000000000002" />
 	<ctl name="2 Balance Switch" value="2" />
 	<ctl name="TX2 Balance" value="0" />
 	<ctl name="RX2 Balance" value="0" />
+	<ctl name="2 Digital Volume Switch" value="2" />
+	<ctl name="TX2 Digital Volume" value="48" />
+	<ctl name="RX2 Digital Volume" value="84" />
 	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="84" />
-	<ctl name="HPHL Volume Switch" value="2" />
-	<ctl name="TX HPHL Volume" value="16" />
-	<ctl name="RX HPHL Volume" value="16" />
 	<ctl name="HPHL Offset Switch" value="2" />
 	<ctl name="TX HPHL Offset" value="-30P592000000000002" />
 	<ctl name="RX HPHL Offset" value="-30P592000000000002" />
 	<ctl name="HPHL Balance Switch" value="2" />
 	<ctl name="TX HPHL Balance" value="0" />
 	<ctl name="RX HPHL Balance" value="0" />
-	<ctl name="HPHR Volume Switch" value="2" />
-	<ctl name="TX HPHR Volume" value="16" />
-	<ctl name="RX HPHR Volume" value="16" />
+	<ctl name="HPHL Volume Switch" value="2" />
+	<ctl name="TX HPHL Volume" value="16" />
+	<ctl name="RX HPHL Volume" value="16" />
 	<ctl name="HPHR Offset Switch" value="2" />
 	<ctl name="TX HPHR Offset" value="-30P592000000000002" />
 	<ctl name="RX HPHR Offset" value="-30P592000000000002" />
 	<ctl name="HPHR Balance Switch" value="2" />
 	<ctl name="TX HPHR Balance" value="0" />
 	<ctl name="RX HPHR Balance" value="0" />
+	<ctl name="HPHR Volume Switch" value="2" />
+	<ctl name="TX HPHR Volume" value="16" />
+	<ctl name="RX HPHR Volume" value="16" />
 	<path name="headphone" />
 	</path>
 	
@@ -21120,48 +21120,48 @@
 	<ctl name="HPHR RDAC Switch" value="2" />
 	<ctl name="TX HPHR RDAC" value="2" />
 	<ctl name="RX HPHR RDAC" value="2" />
-	<ctl name="1 Digital Volume Switch" value="2" />
-	<ctl name="TX1 Digital Volume" value="48" />
-	<ctl name="RX1 Digital Volume" value="84" />
 	<ctl name="1 Offset Switch" value="2" />
 	<ctl name="TX1 Offset" value="-30P592000000000002" />
 	<ctl name="RX1 Offset" value="-30P592000000000002" />
 	<ctl name="1 Balance Switch" value="2" />
 	<ctl name="TX1 Balance" value="0" />
 	<ctl name="RX1 Balance" value="0" />
+	<ctl name="1 Digital Volume Switch" value="2" />
+	<ctl name="TX1 Digital Volume" value="48" />
+	<ctl name="RX1 Digital Volume" value="84" />
 	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="84" />
-	<ctl name="2 Digital Volume Switch" value="2" />
-	<ctl name="TX2 Digital Volume" value="48" />
-	<ctl name="RX2 Digital Volume" value="84" />
 	<ctl name="2 Offset Switch" value="2" />
 	<ctl name="TX2 Offset" value="-30P592000000000002" />
 	<ctl name="RX2 Offset" value="-30P592000000000002" />
 	<ctl name="2 Balance Switch" value="2" />
 	<ctl name="TX2 Balance" value="0" />
 	<ctl name="RX2 Balance" value="0" />
+	<ctl name="2 Digital Volume Switch" value="2" />
+	<ctl name="TX2 Digital Volume" value="48" />
+	<ctl name="RX2 Digital Volume" value="84" />
 	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="84" />
-	<ctl name="HPHL Volume Switch" value="2" />
-	<ctl name="TX HPHL Volume" value="16" />
-	<ctl name="RX HPHL Volume" value="16" />
 	<ctl name="HPHL Offset Switch" value="2" />
 	<ctl name="TX HPHL Offset" value="-30P592000000000002" />
 	<ctl name="RX HPHL Offset" value="-30P592000000000002" />
 	<ctl name="HPHL Balance Switch" value="2" />
 	<ctl name="TX HPHL Balance" value="0" />
 	<ctl name="RX HPHL Balance" value="0" />
-	<ctl name="HPHR Volume Switch" value="2" />
-	<ctl name="TX HPHR Volume" value="16" />
-	<ctl name="RX HPHR Volume" value="16" />
+	<ctl name="HPHL Volume Switch" value="2" />
+	<ctl name="TX HPHL Volume" value="16" />
+	<ctl name="RX HPHL Volume" value="16" />
 	<ctl name="HPHR Offset Switch" value="2" />
 	<ctl name="TX HPHR Offset" value="-30P592000000000002" />
 	<ctl name="RX HPHR Offset" value="-30P592000000000002" />
 	<ctl name="HPHR Balance Switch" value="2" />
 	<ctl name="TX HPHR Balance" value="0" />
 	<ctl name="RX HPHR Balance" value="0" />
+	<ctl name="HPHR Volume Switch" value="2" />
+	<ctl name="TX HPHR Volume" value="16" />
+	<ctl name="RX HPHR Volume" value="16" />
 	<path name="headphone-24bit" />
 	</path>
 	
@@ -21173,48 +21173,48 @@
 	<ctl name="HPHR RDAC Switch" value="2" />
 	<ctl name="TX HPHR RDAC" value="2" />
 	<ctl name="RX HPHR RDAC" value="2" />
-	<ctl name="1 Digital Volume Switch" value="2" />
-	<ctl name="TX1 Digital Volume" value="48" />
-	<ctl name="RX1 Digital Volume" value="84" />
 	<ctl name="1 Offset Switch" value="2" />
 	<ctl name="TX1 Offset" value="-30P592000000000002" />
 	<ctl name="RX1 Offset" value="-30P592000000000002" />
 	<ctl name="1 Balance Switch" value="2" />
 	<ctl name="TX1 Balance" value="0" />
 	<ctl name="RX1 Balance" value="0" />
+	<ctl name="1 Digital Volume Switch" value="2" />
+	<ctl name="TX1 Digital Volume" value="48" />
+	<ctl name="RX1 Digital Volume" value="84" />
 	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="84" />
-	<ctl name="2 Digital Volume Switch" value="2" />
-	<ctl name="TX2 Digital Volume" value="48" />
-	<ctl name="RX2 Digital Volume" value="84" />
 	<ctl name="2 Offset Switch" value="2" />
 	<ctl name="TX2 Offset" value="-30P592000000000002" />
 	<ctl name="RX2 Offset" value="-30P592000000000002" />
 	<ctl name="2 Balance Switch" value="2" />
 	<ctl name="TX2 Balance" value="0" />
 	<ctl name="RX2 Balance" value="0" />
+	<ctl name="2 Digital Volume Switch" value="2" />
+	<ctl name="TX2 Digital Volume" value="48" />
+	<ctl name="RX2 Digital Volume" value="84" />
 	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="84" />
-	<ctl name="HPHL Volume Switch" value="2" />
-	<ctl name="TX HPHL Volume" value="16" />
-	<ctl name="RX HPHL Volume" value="16" />
 	<ctl name="HPHL Offset Switch" value="2" />
 	<ctl name="TX HPHL Offset" value="-30P592000000000002" />
 	<ctl name="RX HPHL Offset" value="-30P592000000000002" />
 	<ctl name="HPHL Balance Switch" value="2" />
 	<ctl name="TX HPHL Balance" value="0" />
 	<ctl name="RX HPHL Balance" value="0" />
-	<ctl name="HPHR Volume Switch" value="2" />
-	<ctl name="TX HPHR Volume" value="16" />
-	<ctl name="RX HPHR Volume" value="16" />
+	<ctl name="HPHL Volume Switch" value="2" />
+	<ctl name="TX HPHL Volume" value="16" />
+	<ctl name="RX HPHL Volume" value="16" />
 	<ctl name="HPHR Offset Switch" value="2" />
 	<ctl name="TX HPHR Offset" value="-30P592000000000002" />
 	<ctl name="RX HPHR Offset" value="-30P592000000000002" />
 	<ctl name="HPHR Balance Switch" value="2" />
 	<ctl name="TX HPHR Balance" value="0" />
 	<ctl name="RX HPHR Balance" value="0" />
+	<ctl name="HPHR Volume Switch" value="2" />
+	<ctl name="TX HPHR Volume" value="16" />
+	<ctl name="RX HPHR Volume" value="16" />
 	<path name="headphone-24bit" />
 	</path>
 	
@@ -21254,48 +21254,48 @@
 	<ctl name="HPHR COMP Switch" value="2" />
 	<ctl name="TX HPHR COMP" value="2" />
 	<ctl name="RX HPHR COMP" value="2" />
-	<ctl name="1 Digital Volume Switch" value="2" />
-	<ctl name="TX1 Digital Volume" value="48" />
-	<ctl name="RX1 Digital Volume" value="84" />
 	<ctl name="1 Offset Switch" value="2" />
 	<ctl name="TX1 Offset" value="-30P592000000000002" />
 	<ctl name="RX1 Offset" value="-30P592000000000002" />
 	<ctl name="1 Balance Switch" value="2" />
 	<ctl name="TX1 Balance" value="0" />
 	<ctl name="RX1 Balance" value="0" />
+	<ctl name="1 Digital Volume Switch" value="2" />
+	<ctl name="TX1 Digital Volume" value="48" />
+	<ctl name="RX1 Digital Volume" value="84" />
 	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="84" />
-	<ctl name="2 Digital Volume Switch" value="2" />
-	<ctl name="TX2 Digital Volume" value="48" />
-	<ctl name="RX2 Digital Volume" value="84" />
 	<ctl name="2 Offset Switch" value="2" />
 	<ctl name="TX2 Offset" value="-30P592000000000002" />
 	<ctl name="RX2 Offset" value="-30P592000000000002" />
 	<ctl name="2 Balance Switch" value="2" />
 	<ctl name="TX2 Balance" value="0" />
 	<ctl name="RX2 Balance" value="0" />
+	<ctl name="2 Digital Volume Switch" value="2" />
+	<ctl name="TX2 Digital Volume" value="48" />
+	<ctl name="RX2 Digital Volume" value="84" />
 	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="84" />
-	<ctl name="HPHL Volume Switch" value="2" />
-	<ctl name="TX HPHL Volume" value="16" />
-	<ctl name="RX HPHL Volume" value="16" />
 	<ctl name="HPHL Offset Switch" value="2" />
 	<ctl name="TX HPHL Offset" value="-30P592000000000002" />
 	<ctl name="RX HPHL Offset" value="-30P592000000000002" />
 	<ctl name="HPHL Balance Switch" value="2" />
 	<ctl name="TX HPHL Balance" value="0" />
 	<ctl name="RX HPHL Balance" value="0" />
-	<ctl name="HPHR Volume Switch" value="2" />
-	<ctl name="TX HPHR Volume" value="16" />
-	<ctl name="RX HPHR Volume" value="16" />
+	<ctl name="HPHL Volume Switch" value="2" />
+	<ctl name="TX HPHL Volume" value="16" />
+	<ctl name="RX HPHL Volume" value="16" />
 	<ctl name="HPHR Offset Switch" value="2" />
 	<ctl name="TX HPHR Offset" value="-30P592000000000002" />
 	<ctl name="RX HPHR Offset" value="-30P592000000000002" />
 	<ctl name="HPHR Balance Switch" value="2" />
 	<ctl name="TX HPHR Balance" value="0" />
 	<ctl name="RX HPHR Balance" value="0" />
+	<ctl name="HPHR Volume Switch" value="2" />
+	<ctl name="TX HPHR Volume" value="16" />
+	<ctl name="RX HPHR Volume" value="16" />
 	</path>
 	
 	<path name="vbat_bluetooth-24bit">
@@ -21324,48 +21324,48 @@
 	<ctl name="HPHR COMP Switch" value="2" />
 	<ctl name="TX HPHR COMP" value="2" />
 	<ctl name="RX HPHR COMP" value="2" />
-	<ctl name="1 Digital Volume Switch" value="2" />
-	<ctl name="TX1 Digital Volume" value="48" />
-	<ctl name="RX1 Digital Volume" value="84" />
 	<ctl name="1 Offset Switch" value="2" />
 	<ctl name="TX1 Offset" value="-30P592000000000002" />
 	<ctl name="RX1 Offset" value="-30P592000000000002" />
 	<ctl name="1 Balance Switch" value="2" />
 	<ctl name="TX1 Balance" value="0" />
 	<ctl name="RX1 Balance" value="0" />
+	<ctl name="1 Digital Volume Switch" value="2" />
+	<ctl name="TX1 Digital Volume" value="48" />
+	<ctl name="RX1 Digital Volume" value="84" />
 	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="84" />
-	<ctl name="2 Digital Volume Switch" value="2" />
-	<ctl name="TX2 Digital Volume" value="48" />
-	<ctl name="RX2 Digital Volume" value="84" />
 	<ctl name="2 Offset Switch" value="2" />
 	<ctl name="TX2 Offset" value="-30P592000000000002" />
 	<ctl name="RX2 Offset" value="-30P592000000000002" />
 	<ctl name="2 Balance Switch" value="2" />
 	<ctl name="TX2 Balance" value="0" />
 	<ctl name="RX2 Balance" value="0" />
+	<ctl name="2 Digital Volume Switch" value="2" />
+	<ctl name="TX2 Digital Volume" value="48" />
+	<ctl name="RX2 Digital Volume" value="84" />
 	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="84" />
-	<ctl name="HPHL Volume Switch" value="2" />
-	<ctl name="TX HPHL Volume" value="16" />
-	<ctl name="RX HPHL Volume" value="16" />
 	<ctl name="HPHL Offset Switch" value="2" />
 	<ctl name="TX HPHL Offset" value="-30P592000000000002" />
 	<ctl name="RX HPHL Offset" value="-30P592000000000002" />
 	<ctl name="HPHL Balance Switch" value="2" />
 	<ctl name="TX HPHL Balance" value="0" />
 	<ctl name="RX HPHL Balance" value="0" />
-	<ctl name="HPHR Volume Switch" value="2" />
-	<ctl name="TX HPHR Volume" value="16" />
-	<ctl name="RX HPHR Volume" value="16" />
+	<ctl name="HPHL Volume Switch" value="2" />
+	<ctl name="TX HPHL Volume" value="16" />
+	<ctl name="RX HPHL Volume" value="16" />
 	<ctl name="HPHR Offset Switch" value="2" />
 	<ctl name="TX HPHR Offset" value="-30P592000000000002" />
 	<ctl name="RX HPHR Offset" value="-30P592000000000002" />
 	<ctl name="HPHR Balance Switch" value="2" />
 	<ctl name="TX HPHR Balance" value="0" />
 	<ctl name="RX HPHR Balance" value="0" />
+	<ctl name="HPHR Volume Switch" value="2" />
+	<ctl name="TX HPHR Volume" value="16" />
+	<ctl name="RX HPHR Volume" value="16" />
 	</path>
 	
 	<path name="vbat_headphone-16bit">
@@ -21394,48 +21394,48 @@
 	<ctl name="HPHR COMP Switch" value="2" />
 	<ctl name="TX HPHR COMP" value="2" />
 	<ctl name="RX HPHR COMP" value="2" />
-	<ctl name="1 Digital Volume Switch" value="2" />
-	<ctl name="TX1 Digital Volume" value="48" />
-	<ctl name="RX1 Digital Volume" value="84" />
 	<ctl name="1 Offset Switch" value="2" />
 	<ctl name="TX1 Offset" value="-30P592000000000002" />
 	<ctl name="RX1 Offset" value="-30P592000000000002" />
 	<ctl name="1 Balance Switch" value="2" />
 	<ctl name="TX1 Balance" value="0" />
 	<ctl name="RX1 Balance" value="0" />
+	<ctl name="1 Digital Volume Switch" value="2" />
+	<ctl name="TX1 Digital Volume" value="48" />
+	<ctl name="RX1 Digital Volume" value="84" />
 	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="84" />
-	<ctl name="2 Digital Volume Switch" value="2" />
-	<ctl name="TX2 Digital Volume" value="48" />
-	<ctl name="RX2 Digital Volume" value="84" />
 	<ctl name="2 Offset Switch" value="2" />
 	<ctl name="TX2 Offset" value="-30P592000000000002" />
 	<ctl name="RX2 Offset" value="-30P592000000000002" />
 	<ctl name="2 Balance Switch" value="2" />
 	<ctl name="TX2 Balance" value="0" />
 	<ctl name="RX2 Balance" value="0" />
+	<ctl name="2 Digital Volume Switch" value="2" />
+	<ctl name="TX2 Digital Volume" value="48" />
+	<ctl name="RX2 Digital Volume" value="84" />
 	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="84" />
-	<ctl name="HPHL Volume Switch" value="2" />
-	<ctl name="TX HPHL Volume" value="16" />
-	<ctl name="RX HPHL Volume" value="16" />
 	<ctl name="HPHL Offset Switch" value="2" />
 	<ctl name="TX HPHL Offset" value="-30P592000000000002" />
 	<ctl name="RX HPHL Offset" value="-30P592000000000002" />
 	<ctl name="HPHL Balance Switch" value="2" />
 	<ctl name="TX HPHL Balance" value="0" />
 	<ctl name="RX HPHL Balance" value="0" />
-	<ctl name="HPHR Volume Switch" value="2" />
-	<ctl name="TX HPHR Volume" value="16" />
-	<ctl name="RX HPHR Volume" value="16" />
+	<ctl name="HPHL Volume Switch" value="2" />
+	<ctl name="TX HPHL Volume" value="16" />
+	<ctl name="RX HPHL Volume" value="16" />
 	<ctl name="HPHR Offset Switch" value="2" />
 	<ctl name="TX HPHR Offset" value="-30P592000000000002" />
 	<ctl name="RX HPHR Offset" value="-30P592000000000002" />
 	<ctl name="HPHR Balance Switch" value="2" />
 	<ctl name="TX HPHR Balance" value="0" />
 	<ctl name="RX HPHR Balance" value="0" />
+	<ctl name="HPHR Volume Switch" value="2" />
+	<ctl name="TX HPHR Volume" value="16" />
+	<ctl name="RX HPHR Volume" value="16" />
 	</path>
 	
 	<path name="vbat_headphone-16bit-advanced">
@@ -21446,48 +21446,48 @@
 	<ctl name="HPHR RDAC Switch" value="2" />
 	<ctl name="TX HPHR RDAC" value="2" />
 	<ctl name="RX HPHR RDAC" value="2" />
-	<ctl name="1 Digital Volume Switch" value="2" />
-	<ctl name="TX1 Digital Volume" value="48" />
-	<ctl name="RX1 Digital Volume" value="84" />
 	<ctl name="1 Offset Switch" value="2" />
 	<ctl name="TX1 Offset" value="-30P592000000000002" />
 	<ctl name="RX1 Offset" value="-30P592000000000002" />
 	<ctl name="1 Balance Switch" value="2" />
 	<ctl name="TX1 Balance" value="0" />
 	<ctl name="RX1 Balance" value="0" />
+	<ctl name="1 Digital Volume Switch" value="2" />
+	<ctl name="TX1 Digital Volume" value="48" />
+	<ctl name="RX1 Digital Volume" value="84" />
 	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="84" />
-	<ctl name="2 Digital Volume Switch" value="2" />
-	<ctl name="TX2 Digital Volume" value="48" />
-	<ctl name="RX2 Digital Volume" value="84" />
 	<ctl name="2 Offset Switch" value="2" />
 	<ctl name="TX2 Offset" value="-30P592000000000002" />
 	<ctl name="RX2 Offset" value="-30P592000000000002" />
 	<ctl name="2 Balance Switch" value="2" />
 	<ctl name="TX2 Balance" value="0" />
 	<ctl name="RX2 Balance" value="0" />
+	<ctl name="2 Digital Volume Switch" value="2" />
+	<ctl name="TX2 Digital Volume" value="48" />
+	<ctl name="RX2 Digital Volume" value="84" />
 	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="84" />
-	<ctl name="HPHL Volume Switch" value="2" />
-	<ctl name="TX HPHL Volume" value="16" />
-	<ctl name="RX HPHL Volume" value="16" />
 	<ctl name="HPHL Offset Switch" value="2" />
 	<ctl name="TX HPHL Offset" value="-30P592000000000002" />
 	<ctl name="RX HPHL Offset" value="-30P592000000000002" />
 	<ctl name="HPHL Balance Switch" value="2" />
 	<ctl name="TX HPHL Balance" value="0" />
 	<ctl name="RX HPHL Balance" value="0" />
-	<ctl name="HPHR Volume Switch" value="2" />
-	<ctl name="TX HPHR Volume" value="16" />
-	<ctl name="RX HPHR Volume" value="16" />
+	<ctl name="HPHL Volume Switch" value="2" />
+	<ctl name="TX HPHL Volume" value="16" />
+	<ctl name="RX HPHL Volume" value="16" />
 	<ctl name="HPHR Offset Switch" value="2" />
 	<ctl name="TX HPHR Offset" value="-30P592000000000002" />
 	<ctl name="RX HPHR Offset" value="-30P592000000000002" />
 	<ctl name="HPHR Balance Switch" value="2" />
 	<ctl name="TX HPHR Balance" value="0" />
 	<ctl name="RX HPHR Balance" value="0" />
+	<ctl name="HPHR Volume Switch" value="2" />
+	<ctl name="TX HPHR Volume" value="16" />
+	<ctl name="RX HPHR Volume" value="16" />
 	</path>
 	
 	<path name="vbat_headphone-16bit-aux">
@@ -21498,48 +21498,48 @@
 	<ctl name="HPHR RDAC Switch" value="2" />
 	<ctl name="TX HPHR RDAC" value="2" />
 	<ctl name="RX HPHR RDAC" value="2" />
-	<ctl name="1 Digital Volume Switch" value="2" />
-	<ctl name="TX1 Digital Volume" value="48" />
-	<ctl name="RX1 Digital Volume" value="84" />
 	<ctl name="1 Offset Switch" value="2" />
 	<ctl name="TX1 Offset" value="-30P592000000000002" />
 	<ctl name="RX1 Offset" value="-30P592000000000002" />
 	<ctl name="1 Balance Switch" value="2" />
 	<ctl name="TX1 Balance" value="0" />
 	<ctl name="RX1 Balance" value="0" />
+	<ctl name="1 Digital Volume Switch" value="2" />
+	<ctl name="TX1 Digital Volume" value="48" />
+	<ctl name="RX1 Digital Volume" value="84" />
 	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="84" />
-	<ctl name="2 Digital Volume Switch" value="2" />
-	<ctl name="TX2 Digital Volume" value="48" />
-	<ctl name="RX2 Digital Volume" value="84" />
 	<ctl name="2 Offset Switch" value="2" />
 	<ctl name="TX2 Offset" value="-30P592000000000002" />
 	<ctl name="RX2 Offset" value="-30P592000000000002" />
 	<ctl name="2 Balance Switch" value="2" />
 	<ctl name="TX2 Balance" value="0" />
 	<ctl name="RX2 Balance" value="0" />
+	<ctl name="2 Digital Volume Switch" value="2" />
+	<ctl name="TX2 Digital Volume" value="48" />
+	<ctl name="RX2 Digital Volume" value="84" />
 	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="84" />
-	<ctl name="HPHL Volume Switch" value="2" />
-	<ctl name="TX HPHL Volume" value="16" />
-	<ctl name="RX HPHL Volume" value="16" />
 	<ctl name="HPHL Offset Switch" value="2" />
 	<ctl name="TX HPHL Offset" value="-30P592000000000002" />
 	<ctl name="RX HPHL Offset" value="-30P592000000000002" />
 	<ctl name="HPHL Balance Switch" value="2" />
 	<ctl name="TX HPHL Balance" value="0" />
 	<ctl name="RX HPHL Balance" value="0" />
-	<ctl name="HPHR Volume Switch" value="2" />
-	<ctl name="TX HPHR Volume" value="16" />
-	<ctl name="RX HPHR Volume" value="16" />
+	<ctl name="HPHL Volume Switch" value="2" />
+	<ctl name="TX HPHL Volume" value="16" />
+	<ctl name="RX HPHL Volume" value="16" />
 	<ctl name="HPHR Offset Switch" value="2" />
 	<ctl name="TX HPHR Offset" value="-30P592000000000002" />
 	<ctl name="RX HPHR Offset" value="-30P592000000000002" />
 	<ctl name="HPHR Balance Switch" value="2" />
 	<ctl name="TX HPHR Balance" value="0" />
 	<ctl name="RX HPHR Balance" value="0" />
+	<ctl name="HPHR Volume Switch" value="2" />
+	<ctl name="TX HPHR Volume" value="16" />
+	<ctl name="RX HPHR Volume" value="16" />
 	</path>
 	
 	<path name="vbat_headphone-24bit">
@@ -21568,48 +21568,48 @@
 	<ctl name="HPHR COMP Switch" value="2" />
 	<ctl name="TX HPHR COMP" value="2" />
 	<ctl name="RX HPHR COMP" value="2" />
-	<ctl name="1 Digital Volume Switch" value="2" />
-	<ctl name="TX1 Digital Volume" value="48" />
-	<ctl name="RX1 Digital Volume" value="84" />
 	<ctl name="1 Offset Switch" value="2" />
 	<ctl name="TX1 Offset" value="-30P592000000000002" />
 	<ctl name="RX1 Offset" value="-30P592000000000002" />
 	<ctl name="1 Balance Switch" value="2" />
 	<ctl name="TX1 Balance" value="0" />
 	<ctl name="RX1 Balance" value="0" />
+	<ctl name="1 Digital Volume Switch" value="2" />
+	<ctl name="TX1 Digital Volume" value="48" />
+	<ctl name="RX1 Digital Volume" value="84" />
 	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="84" />
-	<ctl name="2 Digital Volume Switch" value="2" />
-	<ctl name="TX2 Digital Volume" value="48" />
-	<ctl name="RX2 Digital Volume" value="84" />
 	<ctl name="2 Offset Switch" value="2" />
 	<ctl name="TX2 Offset" value="-30P592000000000002" />
 	<ctl name="RX2 Offset" value="-30P592000000000002" />
 	<ctl name="2 Balance Switch" value="2" />
 	<ctl name="TX2 Balance" value="0" />
 	<ctl name="RX2 Balance" value="0" />
+	<ctl name="2 Digital Volume Switch" value="2" />
+	<ctl name="TX2 Digital Volume" value="48" />
+	<ctl name="RX2 Digital Volume" value="84" />
 	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="84" />
-	<ctl name="HPHL Volume Switch" value="2" />
-	<ctl name="TX HPHL Volume" value="16" />
-	<ctl name="RX HPHL Volume" value="16" />
 	<ctl name="HPHL Offset Switch" value="2" />
 	<ctl name="TX HPHL Offset" value="-30P592000000000002" />
 	<ctl name="RX HPHL Offset" value="-30P592000000000002" />
 	<ctl name="HPHL Balance Switch" value="2" />
 	<ctl name="TX HPHL Balance" value="0" />
 	<ctl name="RX HPHL Balance" value="0" />
-	<ctl name="HPHR Volume Switch" value="2" />
-	<ctl name="TX HPHR Volume" value="16" />
-	<ctl name="RX HPHR Volume" value="16" />
+	<ctl name="HPHL Volume Switch" value="2" />
+	<ctl name="TX HPHL Volume" value="16" />
+	<ctl name="RX HPHL Volume" value="16" />
 	<ctl name="HPHR Offset Switch" value="2" />
 	<ctl name="TX HPHR Offset" value="-30P592000000000002" />
 	<ctl name="RX HPHR Offset" value="-30P592000000000002" />
 	<ctl name="HPHR Balance Switch" value="2" />
 	<ctl name="TX HPHR Balance" value="0" />
 	<ctl name="RX HPHR Balance" value="0" />
+	<ctl name="HPHR Volume Switch" value="2" />
+	<ctl name="TX HPHR Volume" value="16" />
+	<ctl name="RX HPHR Volume" value="16" />
 	</path>
 	
 	<path name="vbat_headphone-24bit-advanced">
@@ -21620,48 +21620,48 @@
 	<ctl name="HPHR RDAC Switch" value="2" />
 	<ctl name="TX HPHR RDAC" value="2" />
 	<ctl name="RX HPHR RDAC" value="2" />
-	<ctl name="1 Digital Volume Switch" value="2" />
-	<ctl name="TX1 Digital Volume" value="48" />
-	<ctl name="RX1 Digital Volume" value="84" />
 	<ctl name="1 Offset Switch" value="2" />
 	<ctl name="TX1 Offset" value="-30P592000000000002" />
 	<ctl name="RX1 Offset" value="-30P592000000000002" />
 	<ctl name="1 Balance Switch" value="2" />
 	<ctl name="TX1 Balance" value="0" />
 	<ctl name="RX1 Balance" value="0" />
+	<ctl name="1 Digital Volume Switch" value="2" />
+	<ctl name="TX1 Digital Volume" value="48" />
+	<ctl name="RX1 Digital Volume" value="84" />
 	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="84" />
-	<ctl name="2 Digital Volume Switch" value="2" />
-	<ctl name="TX2 Digital Volume" value="48" />
-	<ctl name="RX2 Digital Volume" value="84" />
 	<ctl name="2 Offset Switch" value="2" />
 	<ctl name="TX2 Offset" value="-30P592000000000002" />
 	<ctl name="RX2 Offset" value="-30P592000000000002" />
 	<ctl name="2 Balance Switch" value="2" />
 	<ctl name="TX2 Balance" value="0" />
 	<ctl name="RX2 Balance" value="0" />
+	<ctl name="2 Digital Volume Switch" value="2" />
+	<ctl name="TX2 Digital Volume" value="48" />
+	<ctl name="RX2 Digital Volume" value="84" />
 	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="84" />
-	<ctl name="HPHL Volume Switch" value="2" />
-	<ctl name="TX HPHL Volume" value="16" />
-	<ctl name="RX HPHL Volume" value="16" />
 	<ctl name="HPHL Offset Switch" value="2" />
 	<ctl name="TX HPHL Offset" value="-30P592000000000002" />
 	<ctl name="RX HPHL Offset" value="-30P592000000000002" />
 	<ctl name="HPHL Balance Switch" value="2" />
 	<ctl name="TX HPHL Balance" value="0" />
 	<ctl name="RX HPHL Balance" value="0" />
-	<ctl name="HPHR Volume Switch" value="2" />
-	<ctl name="TX HPHR Volume" value="16" />
-	<ctl name="RX HPHR Volume" value="16" />
+	<ctl name="HPHL Volume Switch" value="2" />
+	<ctl name="TX HPHL Volume" value="16" />
+	<ctl name="RX HPHL Volume" value="16" />
 	<ctl name="HPHR Offset Switch" value="2" />
 	<ctl name="TX HPHR Offset" value="-30P592000000000002" />
 	<ctl name="RX HPHR Offset" value="-30P592000000000002" />
 	<ctl name="HPHR Balance Switch" value="2" />
 	<ctl name="TX HPHR Balance" value="0" />
 	<ctl name="RX HPHR Balance" value="0" />
+	<ctl name="HPHR Volume Switch" value="2" />
+	<ctl name="TX HPHR Volume" value="16" />
+	<ctl name="RX HPHR Volume" value="16" />
 	</path>
 	
 	<path name="vbat_headphone-24bit-aux">
@@ -21672,48 +21672,48 @@
 	<ctl name="HPHR RDAC Switch" value="2" />
 	<ctl name="TX HPHR RDAC" value="2" />
 	<ctl name="RX HPHR RDAC" value="2" />
-	<ctl name="1 Digital Volume Switch" value="2" />
-	<ctl name="TX1 Digital Volume" value="48" />
-	<ctl name="RX1 Digital Volume" value="84" />
 	<ctl name="1 Offset Switch" value="2" />
 	<ctl name="TX1 Offset" value="-30P592000000000002" />
 	<ctl name="RX1 Offset" value="-30P592000000000002" />
 	<ctl name="1 Balance Switch" value="2" />
 	<ctl name="TX1 Balance" value="0" />
 	<ctl name="RX1 Balance" value="0" />
+	<ctl name="1 Digital Volume Switch" value="2" />
+	<ctl name="TX1 Digital Volume" value="48" />
+	<ctl name="RX1 Digital Volume" value="84" />
 	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="48" />
 	<ctl name="RX1 Mix Digital Volume" value="84" />
-	<ctl name="2 Digital Volume Switch" value="2" />
-	<ctl name="TX2 Digital Volume" value="48" />
-	<ctl name="RX2 Digital Volume" value="84" />
 	<ctl name="2 Offset Switch" value="2" />
 	<ctl name="TX2 Offset" value="-30P592000000000002" />
 	<ctl name="RX2 Offset" value="-30P592000000000002" />
 	<ctl name="2 Balance Switch" value="2" />
 	<ctl name="TX2 Balance" value="0" />
 	<ctl name="RX2 Balance" value="0" />
+	<ctl name="2 Digital Volume Switch" value="2" />
+	<ctl name="TX2 Digital Volume" value="48" />
+	<ctl name="RX2 Digital Volume" value="84" />
 	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="48" />
 	<ctl name="RX2 Mix Digital Volume" value="84" />
-	<ctl name="HPHL Volume Switch" value="2" />
-	<ctl name="TX HPHL Volume" value="16" />
-	<ctl name="RX HPHL Volume" value="16" />
 	<ctl name="HPHL Offset Switch" value="2" />
 	<ctl name="TX HPHL Offset" value="-30P592000000000002" />
 	<ctl name="RX HPHL Offset" value="-30P592000000000002" />
 	<ctl name="HPHL Balance Switch" value="2" />
 	<ctl name="TX HPHL Balance" value="0" />
 	<ctl name="RX HPHL Balance" value="0" />
-	<ctl name="HPHR Volume Switch" value="2" />
-	<ctl name="TX HPHR Volume" value="16" />
-	<ctl name="RX HPHR Volume" value="16" />
+	<ctl name="HPHL Volume Switch" value="2" />
+	<ctl name="TX HPHL Volume" value="16" />
+	<ctl name="RX HPHL Volume" value="16" />
 	<ctl name="HPHR Offset Switch" value="2" />
 	<ctl name="TX HPHR Offset" value="-30P592000000000002" />
 	<ctl name="RX HPHR Offset" value="-30P592000000000002" />
 	<ctl name="HPHR Balance Switch" value="2" />
 	<ctl name="TX HPHR Balance" value="0" />
 	<ctl name="RX HPHR Balance" value="0" />
+	<ctl name="HPHR Volume Switch" value="2" />
+	<ctl name="TX HPHR Volume" value="16" />
+	<ctl name="RX HPHR Volume" value="16" />
 	</path>
 	
 	<path name="fake_headphone">
@@ -21724,48 +21724,48 @@
 	<ctl name="HPHR RDAC Switch" value="2" />
 	<ctl name="TX HPHR RDAC" value="2" />
 	<ctl name="RX HPHR RDAC" value="2" />
-	<ctl name="1 Digital Volume Switch" value="2" />
-	<ctl name="TX1 Digital Volume" value="0" />
-	<ctl name="RX1 Digital Volume" value="0" />
 	<ctl name="1 Offset Switch" value="2" />
 	<ctl name="TX1 Offset" value="-30P592000000000002" />
 	<ctl name="RX1 Offset" value="-30P592000000000002" />
 	<ctl name="1 Balance Switch" value="2" />
 	<ctl name="TX1 Balance" value="0" />
 	<ctl name="RX1 Balance" value="0" />
+	<ctl name="1 Digital Volume Switch" value="2" />
+	<ctl name="TX1 Digital Volume" value="0" />
+	<ctl name="RX1 Digital Volume" value="0" />
 	<ctl name="1 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX1 Mix Digital Volume" value="0" />
 	<ctl name="RX1 Mix Digital Volume" value="0" />
-	<ctl name="2 Digital Volume Switch" value="2" />
-	<ctl name="TX2 Digital Volume" value="0" />
-	<ctl name="RX2 Digital Volume" value="0" />
 	<ctl name="2 Offset Switch" value="2" />
 	<ctl name="TX2 Offset" value="-30P592000000000002" />
 	<ctl name="RX2 Offset" value="-30P592000000000002" />
 	<ctl name="2 Balance Switch" value="2" />
 	<ctl name="TX2 Balance" value="0" />
 	<ctl name="RX2 Balance" value="0" />
+	<ctl name="2 Digital Volume Switch" value="2" />
+	<ctl name="TX2 Digital Volume" value="0" />
+	<ctl name="RX2 Digital Volume" value="0" />
 	<ctl name="2 Mix Digital Volume Switch" value="2" />
 	<ctl name="TX2 Mix Digital Volume" value="0" />
 	<ctl name="RX2 Mix Digital Volume" value="0" />
-	<ctl name="HPHL Volume Switch" value="2" />
-	<ctl name="TX HPHL Volume" value="0" />
-	<ctl name="RX HPHL Volume" value="0" />
 	<ctl name="HPHL Offset Switch" value="2" />
 	<ctl name="TX HPHL Offset" value="-30P592000000000002" />
 	<ctl name="RX HPHL Offset" value="-30P592000000000002" />
 	<ctl name="HPHL Balance Switch" value="2" />
 	<ctl name="TX HPHL Balance" value="0" />
 	<ctl name="RX HPHL Balance" value="0" />
-	<ctl name="HPHR Volume Switch" value="2" />
-	<ctl name="TX HPHR Volume" value="0" />
-	<ctl name="RX HPHR Volume" value="0" />
+	<ctl name="HPHL Volume Switch" value="2" />
+	<ctl name="TX HPHL Volume" value="0" />
+	<ctl name="RX HPHL Volume" value="0" />
 	<ctl name="HPHR Offset Switch" value="2" />
 	<ctl name="TX HPHR Offset" value="-30P592000000000002" />
 	<ctl name="RX HPHR Offset" value="-30P592000000000002" />
 	<ctl name="HPHR Balance Switch" value="2" />
 	<ctl name="TX HPHR Balance" value="0" />
 	<ctl name="RX HPHR Balance" value="0" />
+	<ctl name="HPHR Volume Switch" value="2" />
+	<ctl name="TX HPHR Volume" value="0" />
+	<ctl name="RX HPHR Volume" value="0" />
 	</path>
 	
 	<!-- End of headphone control center -->
