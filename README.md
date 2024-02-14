@@ -48,7 +48,7 @@ Can be due to the following:<br>
 ### What is the offset of the worlds audio?
 These are the winning lottery numbers!<br>
 
-Offset left = -30.592000000000002<br>
+Offset left  = -30.592000000000002<br>
 Offset right = -30.592000000000002<br>
 
 ### How did you program and tune the QuadDAC?
