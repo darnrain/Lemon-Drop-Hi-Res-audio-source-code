@@ -28,7 +28,7 @@
 	
 	<!-- Top of page -->
 	
-	<!-- Lemon Drop Hi-Res treble v215.1 -->
+	<!-- Lemon Drop Hi-Res treble v216.3 -->
 	<!-- The worlds first 24/32bit QuadDAC in True Stereo! -->
 	<!-- Designed and created by darnrain @GitHub -->
 	<!-- Proudly Made In America -->
@@ -41,11 +41,11 @@
 	<!-- I would imagine it should work as long as you have a QuadDAC in your phone -->
 	
 	<!-- First thing -->
-	<!-- Copy all lines of code line number 1 through 14304 paste in your mixer_paths file at very top -->
-	<!-- I added a note where to copy from at line 14304 -->
+	<!-- Copy all lines of code line number 1 through 14328 paste in your mixer_paths file at very top -->
+	<!-- I added a note where to copy from at line 14328 -->
 	
 	<!-- Second thing -->
-	<!-- Search for "lemon drop" after line 14304 to start -->
+	<!-- Search for "lemon drop" after line 14328 to start -->
 	
 	<!-- Third thing -->
 	<!-- Duplicate all code from "Lemon Drop Hi-Res start of mods" to "Lemon Drop Hi-Res end of mods" -->
@@ -5040,12 +5040,20 @@
 	
 	<!-- Start of Quad mic volume control -->
 	
+	<ctl name="ADC0 Volume" value="12" />
 	<ctl name="ADC1 Volume" value="12" />
 	<ctl name="ADC2 Volume" value="12" />
 	<ctl name="ADC3 Volume" value="12" />
 	<ctl name="ADC4 Volume" value="12" />
 	<ctl name="ADC5 Volume" value="12" />
 	<ctl name="ADC6 Volume" value="12" />
+	<ctl name="ADC7 Volume" value="12" />
+	<ctl name="ADC8 Volume" value="12" />
+	<ctl name="ADC9 Volume" value="12" />
+	<ctl name="ADC10 Volume" value="12" />
+	<ctl name="ADC11 Volume" value="12" />
+	<ctl name="ADC12 Volume" value="12" />
+	<ctl name="ADC13 Volume" value="12" />
 	<ctl name="ADC MUX0" value="AMIC" />
 	<ctl name="ADC MUX1" value="AMIC" />
 	<ctl name="ADC MUX2" value="AMIC" />
@@ -5083,6 +5091,11 @@
 	<ctl name="DEC6 Volume" value="84" />
 	<ctl name="DEC7 Volume" value="84" />
 	<ctl name="DEC8 Volume" value="84" />
+	<ctl name="DEC9 Volume" value="84" />
+	<ctl name="DEC10 Volume" value="84" />
+	<ctl name="DEC11 Volume" value="84" />
+	<ctl name="DEC12 Volume" value="84" />
+	<ctl name="DEC13 Volume" value="84" />
 	<ctl name="DMIC MUX0" value="ZERO" />
 	<ctl name="DMIC MUX1" value="ZERO" />
 	<ctl name="DMIC MUX2" value="ZERO" />
@@ -5132,6 +5145,22 @@
 	<ctl name="SLIM RX4 MUX" value="ZERO" />
 	<ctl name="SLIM TX5 MUX" value="ZERO" />
 	<ctl name="SLIM RX5 MUX" value="ZERO" />
+	<ctl name="SLIM TX6 MUX" value="ZERO" />
+	<ctl name="SLIM RX6 MUX" value="ZERO" />
+	<ctl name="SLIM TX7 MUX" value="ZERO" />
+	<ctl name="SLIM RX7 MUX" value="ZERO" />
+	<ctl name="SLIM TX8 MUX" value="ZERO" />
+	<ctl name="SLIM RX8 MUX" value="ZERO" />
+	<ctl name="SLIM TX9 MUX" value="ZERO" />
+	<ctl name="SLIM RX9 MUX" value="ZERO" />
+	<ctl name="SLIM TX10 MUX" value="ZERO" />
+	<ctl name="SLIM RX10 MUX" value="ZERO" />
+	<ctl name="SLIM TX11 MUX" value="ZERO" />
+	<ctl name="SLIM RX11 MUX" value="ZERO" />
+	<ctl name="SLIM TX12 MUX" value="ZERO" />
+	<ctl name="SLIM RX12 MUX" value="ZERO" />
+	<ctl name="SLIM TX13 MUX" value="ZERO" />
+	<ctl name="SLIM RX13 MUX" value="ZERO" />
 	<ctl name="TX MIX RX0 MUX" value="ZERO" />
 	<ctl name="RX MIX TX0 MUX" value="ZERO" />
 	<ctl name="TX MIX RX1 MUX" value="ZERO" />
@@ -5150,6 +5179,16 @@
 	<ctl name="RX MIX TX7 MUX" value="ZERO" />
 	<ctl name="TX MIX RX8 MUX" value="ZERO" />
 	<ctl name="RX MIX TX8 MUX" value="ZERO" />
+	<ctl name="TX MIX RX9 MUX" value="ZERO" />
+	<ctl name="RX MIX TX9 MUX" value="ZERO" />
+	<ctl name="TX MIX RX10 MUX" value="ZERO" />
+	<ctl name="RX MIX TX10 MUX" value="ZERO" />
+	<ctl name="TX MIX RX11 MUX" value="ZERO" />
+	<ctl name="RX MIX TX11 MUX" value="ZERO" />
+	<ctl name="TX MIX RX12 MUX" value="ZERO" />
+	<ctl name="RX MIX TX12 MUX" value="ZERO" />
+	<ctl name="TX MIX RX13 MUX" value="ZERO" />
+	<ctl name="RX MIX TX13 MUX" value="ZERO" />
 	<ctl name="IIR0 INP0 MUX" value="ZERO" />
 	<ctl name="IIR0 INP1 MUX" value="ZERO" />
 	<ctl name="IIR0 INP2 MUX" value="ZERO" />
@@ -5240,52 +5279,6 @@
 	<ctl name="SPL SRC1 MUX" value="ZERO" />
 	<ctl name="SPL SRC2 MUX" value="ZERO" />
 	<ctl name="SPL SRC3 MUX" value="ZERO" />
-	<ctl name="AIF1_CAP Mixer SLIM TX0" value="0" />
-	<ctl name="AIF1_CAP Mixer SLIM RX0" value="0" />
-	<ctl name="AIF1_CAP Mixer SLIM TX1" value="0" />
-	<ctl name="AIF1_CAP Mixer SLIM RX1" value="0" />
-	<ctl name="AIF1_CAP Mixer SLIM TX2" value="0" />
-	<ctl name="AIF1_CAP Mixer SLIM RX2" value="0" />
-	<ctl name="AIF1_CAP Mixer SLIM TX3" value="0" />
-	<ctl name="AIF1_CAP Mixer SLIM RX3" value="0" />
-	<ctl name="AIF1_CAP Mixer SLIM TX4" value="0" />
-	<ctl name="AIF1_CAP Mixer SLIM RX4" value="0" />
-	<ctl name="AIF1_CAP Mixer SLIM TX5" value="0" />
-	<ctl name="AIF1_CAP Mixer SLIM RX5" value="0" />
-	<ctl name="AIF1_CAP Mixer SLIM TX6" value="0" />
-	<ctl name="AIF1_CAP Mixer SLIM RX6" value="0" />
-	<ctl name="AIF1_CAP Mixer SLIM TX7" value="0" />
-	<ctl name="AIF1_CAP Mixer SLIM RX7" value="0" />
-	<ctl name="AIF1_CAP Mixer SLIM TX8" value="0" />
-	<ctl name="AIF1_CAP Mixer SLIM RX8" value="0" />
-	<ctl name="SLIM TX0 MUX" value="ZERO" />
-	<ctl name="SLIM RX0 MUX" value="ZERO" />
-	<ctl name="SLIM TX1 MUX" value="ZERO" />
-	<ctl name="SLIM RX1 MUX" value="ZERO" />
-	<ctl name="SLIM TX2 MUX" value="ZERO" />
-	<ctl name="SLIM RX2 MUX" value="ZERO" />
-	<ctl name="SLIM TX3 MUX" value="ZERO" />
-	<ctl name="SLIM RX3 MUX" value="ZERO" />
-	<ctl name="SLIM TX4 MUX" value="ZERO" />
-	<ctl name="SLIM RX4 MUX" value="ZERO" />
-	<ctl name="SLIM TX5 MUX" value="ZERO" />
-	<ctl name="SLIM RX5 MUX" value="ZERO" />
-	<ctl name="SLIM TX6 MUX" value="ZERO" />
-	<ctl name="SLIM RX6 MUX" value="ZERO" />
-	<ctl name="SLIM TX7 MUX" value="ZERO" />
-	<ctl name="SLIM RX7 MUX" value="ZERO" />
-	<ctl name="SLIM TX8 MUX" value="ZERO" />
-	<ctl name="SLIM RX8 MUX" value="ZERO" />
-	<ctl name="SLIM TX9 MUX" value="ZERO" />
-	<ctl name="SLIM RX9 MUX" value="ZERO" />
-	<ctl name="SLIM TX10 MUX" value="ZERO" />
-	<ctl name="SLIM RX10 MUX" value="ZERO" />
-	<ctl name="SLIM TX11 MUX" value="ZERO" />
-	<ctl name="SLIM RX11 MUX" value="ZERO" />
-	<ctl name="SLIM TX12 MUX" value="ZERO" />
-	<ctl name="SLIM RX12 MUX" value="ZERO" />
-	<ctl name="SLIM TX13 MUX" value="ZERO" />
-	<ctl name="SLIM RX13 MUX" value="ZERO" />
 	<ctl name="MultiMedia1 Mixer MI2S_TX" value="0" />
 	<ctl name="MultiMedia1 Mixer MI2S_RX" value="0" />
 	<ctl name="MultiMedia2 Mixer MI2S_TX" value="0" />
@@ -6517,12 +6510,43 @@
 	<ctl name="ANC Slot" value="0" />
 	<ctl name="ANC0 FB MUX" value="ZERO" />
 	<ctl name="ANC1 FB MUX" value="ZERO" />
+	<ctl name="ANC2 FB MUX" value="ZERO" />
+	<ctl name="ANC3 FB MUX" value="ZERO" />
+	<ctl name="ANC4 FB MUX" value="ZERO" />
+	<ctl name="ANC5 FB MUX" value="ZERO" />
+	<ctl name="ANC6 FB MUX" value="ZERO" />
+	<ctl name="ANC7 FB MUX" value="ZERO" />
+	<ctl name="ANC8 FB MUX" value="ZERO" />
+	<ctl name="ANC9 FB MUX" value="ZERO" />
+	<ctl name="ANC10 FB MUX" value="ZERO" />
 	<ctl name="ANC EAR Enable Switch" value="0" />
 	<ctl name="ANC Function" value="ZERO" />
 	<ctl name="ANC HPHL Enable Switch" value="0" />
 	<ctl name="ANC HPHR Enable Switch" value="0" />
 	<ctl name="AANC_SLIM_0_TX MUX" value="ZERO" />
 	<ctl name="AANC_SLIM_0_RX MUX" value="ZERO" />
+	<ctl name="AANC_SLIM_1_TX MUX" value="ZERO" />
+	<ctl name="AANC_SLIM_1_RX MUX" value="ZERO" />
+	<ctl name="AANC_SLIM_2_TX MUX" value="ZERO" />
+	<ctl name="AANC_SLIM_2_RX MUX" value="ZERO" />
+	<ctl name="AANC_SLIM_3_TX MUX" value="ZERO" />
+	<ctl name="AANC_SLIM_3_RX MUX" value="ZERO" />
+	<ctl name="AANC_SLIM_4_TX MUX" value="ZERO" />
+	<ctl name="AANC_SLIM_4_RX MUX" value="ZERO" />
+	<ctl name="AANC_SLIM_5_TX MUX" value="ZERO" />
+	<ctl name="AANC_SLIM_5_RX MUX" value="ZERO" />
+	<ctl name="AANC_SLIM_6_TX MUX" value="ZERO" />
+	<ctl name="AANC_SLIM_6_RX MUX" value="ZERO" />
+	<ctl name="AANC_SLIM_7_TX MUX" value="ZERO" />
+	<ctl name="AANC_SLIM_7_RX MUX" value="ZERO" />
+	<ctl name="AANC_SLIM_8_TX MUX" value="ZERO" />
+	<ctl name="AANC_SLIM_8_RX MUX" value="ZERO" />
+	<ctl name="AANC_SLIM_9_TX MUX" value="ZERO" />
+	<ctl name="AANC_SLIM_9_RX MUX" value="ZERO" />
+	<ctl name="AANC_SLIM_10_TX MUX" value="ZERO" />
+	<ctl name="AANC_SLIM_10_RX MUX" value="ZERO" />
+	<ctl name="AIF1_CAP Mixer SLIM TX0" value="0" />
+	<ctl name="AIF1_CAP Mixer SLIM RX0" value="0" />
 	<ctl name="AIF1_CAP Mixer SLIM TX1" value="0" />
 	<ctl name="AIF1_CAP Mixer SLIM RX1" value="0" />
 	<ctl name="AIF1_CAP Mixer SLIM TX2" value="0" />
