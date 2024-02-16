@@ -28,7 +28,7 @@
 	
 	<!-- Top of page -->
 	
-	<!-- Lemon Drop Hi-Res treble v214.1 -->
+	<!-- Lemon Drop Hi-Res treble v215.1 -->
 	<!-- The worlds first 24/32bit QuadDAC in True Stereo! -->
 	<!-- Designed and created by darnrain @GitHub -->
 	<!-- Proudly Made In America -->
@@ -41,11 +41,11 @@
 	<!-- I would imagine it should work as long as you have a QuadDAC in your phone -->
 	
 	<!-- First thing -->
-	<!-- Copy all lines of code line number 1 through 14128 paste in your mixer_paths file at very top -->
-	<!-- I added a note where to copy from at line 14128 -->
+	<!-- Copy all lines of code line number 1 through 14304 paste in your mixer_paths file at very top -->
+	<!-- I added a note where to copy from at line 14304 -->
 	
 	<!-- Second thing -->
-	<!-- Search for "lemon drop" after line 14128 to start -->
+	<!-- Search for "lemon drop" after line 14304 to start -->
 	
 	<!-- Third thing -->
 	<!-- Duplicate all code from "Lemon Drop Hi-Res start of mods" to "Lemon Drop Hi-Res end of mods" -->
@@ -6089,10 +6089,32 @@
 	
 	<ctl name="SLIM_0_TX_Voice Mixer VoWLAN" value="0" />
 	<ctl name="SLIM_0_RX_Voice Mixer VoWLAN" value="0" />
+	<ctl name="SLIM_1_TX_Voice Mixer VoWLAN" value="0" />
+	<ctl name="SLIM_1_RX_Voice Mixer VoWLAN" value="0" />
+	<ctl name="SLIM_2_TX_Voice Mixer VoWLAN" value="0" />
+	<ctl name="SLIM_2_RX_Voice Mixer VoWLAN" value="0" />
+	<ctl name="SLIM_3_TX_Voice Mixer VoWLAN" value="0" />
+	<ctl name="SLIM_3_RX_Voice Mixer VoWLAN" value="0" />
+	<ctl name="SLIM_4_TX_Voice Mixer VoWLAN" value="0" />
+	<ctl name="SLIM_4_RX_Voice Mixer VoWLAN" value="0" />
+	<ctl name="SLIM_5_TX_Voice Mixer VoWLAN" value="0" />
+	<ctl name="SLIM_5_RX_Voice Mixer VoWLAN" value="0" />
 	<ctl name="SLIM_6_TX_Voice Mixer VoWLAN" value="0" />
 	<ctl name="SLIM_6_RX_Voice Mixer VoWLAN" value="0" />
 	<ctl name="VoWLAN_TX Mixer SLIM_0_TX_VoWLAN" value="0" />
 	<ctl name="VoWLAN_RX Mixer SLIM_0_RX_VoWLAN" value="0" />
+	<ctl name="VoWLAN_TX Mixer SLIM_1_TX_VoWLAN" value="0" />
+	<ctl name="VoWLAN_RX Mixer SLIM_1_RX_VoWLAN" value="0" />
+	<ctl name="VoWLAN_TX Mixer SLIM_2_TX_VoWLAN" value="0" />
+	<ctl name="VoWLAN_RX Mixer SLIM_2_RX_VoWLAN" value="0" />
+	<ctl name="VoWLAN_TX Mixer SLIM_3_TX_VoWLAN" value="0" />
+	<ctl name="VoWLAN_RX Mixer SLIM_3_RX_VoWLAN" value="0" />
+	<ctl name="VoWLAN_TX Mixer SLIM_4_TX_VoWLAN" value="0" />
+	<ctl name="VoWLAN_RX Mixer SLIM_4_RX_VoWLAN" value="0" />
+	<ctl name="VoWLAN_TX Mixer SLIM_5_TX_VoWLAN" value="0" />
+	<ctl name="VoWLAN_RX Mixer SLIM_5_RX_VoWLAN" value="0" />
+	<ctl name="VoWLAN_TX Mixer SLIM_6_TX_VoWLAN" value="0" />
+	<ctl name="VoWLAN_RX Mixer SLIM_6_RX_VoWLAN" value="0" />
 	<ctl name="HDMI_TX_Voice Mixer VoWLAN" value="0" />
 	<ctl name="HDMI_RX_Voice Mixer VoWLAN" value="0" />
 	<ctl name="AUX_PCM_TX_Voice Mixer VoWLAN" value="0" />
@@ -6110,10 +6132,32 @@
 	
 	<ctl name="SLIM_0_TX_Voice Mixer QCHAT" value="0" />
 	<ctl name="SLIM_0_RX_Voice Mixer QCHAT" value="0" />
+	<ctl name="SLIM_1_TX_Voice Mixer QCHAT" value="0" />
+	<ctl name="SLIM_1_RX_Voice Mixer QCHAT" value="0" />
+	<ctl name="SLIM_2_TX_Voice Mixer QCHAT" value="0" />
+	<ctl name="SLIM_2_RX_Voice Mixer QCHAT" value="0" />
+	<ctl name="SLIM_3_TX_Voice Mixer QCHAT" value="0" />
+	<ctl name="SLIM_3_RX_Voice Mixer QCHAT" value="0" />
+	<ctl name="SLIM_4_TX_Voice Mixer QCHAT" value="0" />
+	<ctl name="SLIM_4_RX_Voice Mixer QCHAT" value="0" />
+	<ctl name="SLIM_5_TX_Voice Mixer QCHAT" value="0" />
+	<ctl name="SLIM_5_RX_Voice Mixer QCHAT" value="0" />
 	<ctl name="SLIM_6_TX_Voice Mixer QCHAT" value="0" />
 	<ctl name="SLIM_6_RX_Voice Mixer QCHAT" value="0" />
 	<ctl name="QCHAT_TX Mixer SLIM_0_TX_QCHAT" value="0" />
 	<ctl name="QCHAT_RX Mixer SLIM_0_RX_QCHAT" value="0" />
+	<ctl name="QCHAT_TX Mixer SLIM_1_TX_QCHAT" value="0" />
+	<ctl name="QCHAT_RX Mixer SLIM_1_RX_QCHAT" value="0" />
+	<ctl name="QCHAT_TX Mixer SLIM_2_TX_QCHAT" value="0" />
+	<ctl name="QCHAT_RX Mixer SLIM_2_RX_QCHAT" value="0" />
+	<ctl name="QCHAT_TX Mixer SLIM_3_TX_QCHAT" value="0" />
+	<ctl name="QCHAT_RX Mixer SLIM_3_RX_QCHAT" value="0" />
+	<ctl name="QCHAT_TX Mixer SLIM_4_TX_QCHAT" value="0" />
+	<ctl name="QCHAT_RX Mixer SLIM_4_RX_QCHAT" value="0" />
+	<ctl name="QCHAT_TX Mixer SLIM_5_TX_QCHAT" value="0" />
+	<ctl name="QCHAT_RX Mixer SLIM_5_RX_QCHAT" value="0" />
+	<ctl name="QCHAT_TX Mixer SLIM_6_TX_QCHAT" value="0" />
+	<ctl name="QCHAT_RX Mixer SLIM_6_RX_QCHAT" value="0" />
 	<ctl name="AUX_PCM_TX_Voice Mixer QCHAT" value="0" />
 	<ctl name="AUX_PCM_RX_Voice Mixer QCHAT" value="0" />
 	<ctl name="QCHAT_TX Mixer AUX_PCM_TX_QCHAT" value="0" />
@@ -6125,10 +6169,32 @@
 	
 	<ctl name="SLIM_0_TX_Voice Mixer Voip" value="0" />
 	<ctl name="SLIM_0_RX_Voice Mixer Voip" value="0" />
+	<ctl name="SLIM_1_TX_Voice Mixer Voip" value="0" />
+	<ctl name="SLIM_1_RX_Voice Mixer Voip" value="0" />
+	<ctl name="SLIM_2_TX_Voice Mixer Voip" value="0" />
+	<ctl name="SLIM_2_RX_Voice Mixer Voip" value="0" />
+	<ctl name="SLIM_3_TX_Voice Mixer Voip" value="0" />
+	<ctl name="SLIM_3_RX_Voice Mixer Voip" value="0" />
+	<ctl name="SLIM_4_TX_Voice Mixer Voip" value="0" />
+	<ctl name="SLIM_4_RX_Voice Mixer Voip" value="0" />
+	<ctl name="SLIM_5_TX_Voice Mixer Voip" value="0" />
+	<ctl name="SLIM_5_RX_Voice Mixer Voip" value="0" />
 	<ctl name="SLIM_6_TX_Voice Mixer Voip" value="0" />
 	<ctl name="SLIM_6_RX_Voice Mixer Voip" value="0" />
 	<ctl name="Voip_TX Mixer SLIM_0_TX_Voip" value="0" />
 	<ctl name="Voip_RX Mixer SLIM_0_RX_Voip" value="0" />
+	<ctl name="Voip_TX Mixer SLIM_1_TX_Voip" value="0" />
+	<ctl name="Voip_RX Mixer SLIM_1_RX_Voip" value="0" />
+	<ctl name="Voip_TX Mixer SLIM_2_TX_Voip" value="0" />
+	<ctl name="Voip_RX Mixer SLIM_2_RX_Voip" value="0" />
+	<ctl name="Voip_TX Mixer SLIM_3_TX_Voip" value="0" />
+	<ctl name="Voip_RX Mixer SLIM_3_RX_Voip" value="0" />
+	<ctl name="Voip_TX Mixer SLIM_4_TX_Voip" value="0" />
+	<ctl name="Voip_RX Mixer SLIM_4_RX_Voip" value="0" />
+	<ctl name="Voip_TX Mixer SLIM_5_TX_Voip" value="0" />
+	<ctl name="Voip_RX Mixer SLIM_5_RX_Voip" value="0" />
+	<ctl name="Voip_TX Mixer SLIM_6_TX_Voip" value="0" />
+	<ctl name="Voip_RX Mixer SLIM_6_RX_Voip" value="0" />
 	<ctl name="AUX_PCM_TX_Voice Mixer Voip" value="0" />
 	<ctl name="AUX_PCM_RX_Voice Mixer Voip" value="0" />
 	<ctl name="Voip_TX Mixer AUX_PCM_TX_Voip" value="0" />
@@ -6188,10 +6254,32 @@
 	
 	<ctl name="SLIM_0_TX_Voice Mixer CSVoice" value="0" />
 	<ctl name="SLIM_0_RX_Voice Mixer CSVoice" value="0" />
+	<ctl name="SLIM_1_TX_Voice Mixer CSVoice" value="0" />
+	<ctl name="SLIM_1_RX_Voice Mixer CSVoice" value="0" />
+	<ctl name="SLIM_2_TX_Voice Mixer CSVoice" value="0" />
+	<ctl name="SLIM_2_RX_Voice Mixer CSVoice" value="0" />
+	<ctl name="SLIM_3_TX_Voice Mixer CSVoice" value="0" />
+	<ctl name="SLIM_3_RX_Voice Mixer CSVoice" value="0" />
+	<ctl name="SLIM_4_TX_Voice Mixer CSVoice" value="0" />
+	<ctl name="SLIM_4_RX_Voice Mixer CSVoice" value="0" />
+	<ctl name="SLIM_5_TX_Voice Mixer CSVoice" value="0" />
+	<ctl name="SLIM_5_RX_Voice Mixer CSVoice" value="0" />
 	<ctl name="SLIM_6_TX_Voice Mixer CSVoice" value="0" />
 	<ctl name="SLIM_6_RX_Voice Mixer CSVoice" value="0" />
 	<ctl name="Voice_TX Mixer SLIM_0_TX_Voice" value="0" />
 	<ctl name="Voice_RX Mixer SLIM_0_RX_Voice" value="0" />
+	<ctl name="Voice_TX Mixer SLIM_1_TX_Voice" value="0" />
+	<ctl name="Voice_RX Mixer SLIM_1_RX_Voice" value="0" />
+	<ctl name="Voice_TX Mixer SLIM_2_TX_Voice" value="0" />
+	<ctl name="Voice_RX Mixer SLIM_2_RX_Voice" value="0" />
+	<ctl name="Voice_TX Mixer SLIM_3_TX_Voice" value="0" />
+	<ctl name="Voice_RX Mixer SLIM_3_RX_Voice" value="0" />
+	<ctl name="Voice_TX Mixer SLIM_4_TX_Voice" value="0" />
+	<ctl name="Voice_RX Mixer SLIM_4_RX_Voice" value="0" />
+	<ctl name="Voice_TX Mixer SLIM_5_TX_Voice" value="0" />
+	<ctl name="Voice_RX Mixer SLIM_5_RX_Voice" value="0" />
+	<ctl name="Voice_TX Mixer SLIM_6_TX_Voice" value="0" />
+	<ctl name="Voice_RX Mixer SLIM_6_RX_Voice" value="0" />
 	<!-- Voice HDMI -->
 	<ctl name="HDMI_TX_Voice Mixer CSVoice" value="0" />
 	<ctl name="HDMI_RX_Voice Mixer CSVoice" value="0" />
@@ -6213,10 +6301,32 @@
 	
 	<ctl name="SLIM_0_TX_Voice Mixer Voice2" value="0" />
 	<ctl name="SLIM_0_RX_Voice Mixer Voice2" value="0" />
+	<ctl name="SLIM_1_TX_Voice Mixer Voice2" value="0" />
+	<ctl name="SLIM_1_RX_Voice Mixer Voice2" value="0" />
+	<ctl name="SLIM_2_TX_Voice Mixer Voice2" value="0" />
+	<ctl name="SLIM_2_RX_Voice Mixer Voice2" value="0" />
+	<ctl name="SLIM_3_TX_Voice Mixer Voice2" value="0" />
+	<ctl name="SLIM_3_RX_Voice Mixer Voice2" value="0" />
+	<ctl name="SLIM_4_TX_Voice Mixer Voice2" value="0" />
+	<ctl name="SLIM_4_RX_Voice Mixer Voice2" value="0" />
+	<ctl name="SLIM_5_TX_Voice Mixer Voice2" value="0" />
+	<ctl name="SLIM_5_RX_Voice Mixer Voice2" value="0" />
 	<ctl name="SLIM_6_TX_Voice Mixer Voice2" value="0" />
 	<ctl name="SLIM_6_RX_Voice Mixer Voice2" value="0" />
 	<ctl name="Voice2_TX Mixer SLIM_0_TX_Voice2" value="0" />
 	<ctl name="Voice2_RX Mixer SLIM_0_RX_Voice2" value="0" />
+	<ctl name="Voice2_TX Mixer SLIM_1_TX_Voice2" value="0" />
+	<ctl name="Voice2_RX Mixer SLIM_1_RX_Voice2" value="0" />
+	<ctl name="Voice2_TX Mixer SLIM_2_TX_Voice2" value="0" />
+	<ctl name="Voice2_RX Mixer SLIM_2_RX_Voice2" value="0" />
+	<ctl name="Voice2_TX Mixer SLIM_3_TX_Voice2" value="0" />
+	<ctl name="Voice2_RX Mixer SLIM_3_RX_Voice2" value="0" />
+	<ctl name="Voice2_TX Mixer SLIM_4_TX_Voice2" value="0" />
+	<ctl name="Voice2_RX Mixer SLIM_4_RX_Voice2" value="0" />
+	<ctl name="Voice2_TX Mixer SLIM_5_TX_Voice2" value="0" />
+	<ctl name="Voice2_RX Mixer SLIM_5_RX_Voice2" value="0" />
+	<ctl name="Voice2_TX Mixer SLIM_6_TX_Voice2" value="0" />
+	<ctl name="Voice2_RX Mixer SLIM_6_RX_Voice2" value="0" />
 	<!-- Voice2 HDMI -->
 	<ctl name="HDMI_TX_Voice Mixer Voice2" value="0" />
 	<ctl name="HDMI_RX_Voice Mixer Voice2" value="0" />
@@ -6237,10 +6347,32 @@
 	
 	<ctl name="SLIM_0_TX_Voice Mixer VoLTE" value="0" />
 	<ctl name="SLIM_0_RX_Voice Mixer VoLTE" value="0" />
+	<ctl name="SLIM_1_TX_Voice Mixer VoLTE" value="0" />
+	<ctl name="SLIM_1_RX_Voice Mixer VoLTE" value="0" />
+	<ctl name="SLIM_2_TX_Voice Mixer VoLTE" value="0" />
+	<ctl name="SLIM_2_RX_Voice Mixer VoLTE" value="0" />
+	<ctl name="SLIM_3_TX_Voice Mixer VoLTE" value="0" />
+	<ctl name="SLIM_3_RX_Voice Mixer VoLTE" value="0" />
+	<ctl name="SLIM_4_TX_Voice Mixer VoLTE" value="0" />
+	<ctl name="SLIM_4_RX_Voice Mixer VoLTE" value="0" />
+	<ctl name="SLIM_5_TX_Voice Mixer VoLTE" value="0" />
+	<ctl name="SLIM_5_RX_Voice Mixer VoLTE" value="0" />
 	<ctl name="SLIM_6_TX_Voice Mixer VoLTE" value="0" />
 	<ctl name="SLIM_6_RX_Voice Mixer VoLTE" value="0" />
 	<ctl name="VoLTE_TX Mixer SLIM_0_TX_VoLTE" value="0" />
 	<ctl name="VoLTE_RX Mixer SLIM_0_RX_VoLTE" value="0" />
+	<ctl name="VoLTE_TX Mixer SLIM_1_TX_VoLTE" value="0" />
+	<ctl name="VoLTE_RX Mixer SLIM_1_RX_VoLTE" value="0" />
+	<ctl name="VoLTE_TX Mixer SLIM_2_TX_VoLTE" value="0" />
+	<ctl name="VoLTE_RX Mixer SLIM_2_RX_VoLTE" value="0" />
+	<ctl name="VoLTE_TX Mixer SLIM_3_TX_VoLTE" value="0" />
+	<ctl name="VoLTE_RX Mixer SLIM_3_RX_VoLTE" value="0" />
+	<ctl name="VoLTE_TX Mixer SLIM_4_TX_VoLTE" value="0" />
+	<ctl name="VoLTE_RX Mixer SLIM_4_RX_VoLTE" value="0" />
+	<ctl name="VoLTE_TX Mixer SLIM_5_TX_VoLTE" value="0" />
+	<ctl name="VoLTE_RX Mixer SLIM_5_RX_VoLTE" value="0" />
+	<ctl name="VoLTE_TX Mixer SLIM_6_TX_VoLTE" value="0" />
+	<ctl name="VoLTE_RX Mixer SLIM_6_RX_VoLTE" value="0" />
 	<!-- VoLTE HDMI -->
 	<ctl name="HDMI_TX_Voice Mixer VoLTE" value="0" />
 	<ctl name="HDMI_RX_Voice Mixer VoLTE" value="0" />
@@ -6261,10 +6393,32 @@
 	
 	<ctl name="SLIM_0_TX_Voice Mixer VoiceMMode1" value="0" />
 	<ctl name="SLIM_0_RX_Voice Mixer VoiceMMode1" value="0" />
+	<ctl name="SLIM_1_TX_Voice Mixer VoiceMMode1" value="0" />
+	<ctl name="SLIM_1_RX_Voice Mixer VoiceMMode1" value="0" />
+	<ctl name="SLIM_2_TX_Voice Mixer VoiceMMode1" value="0" />
+	<ctl name="SLIM_2_RX_Voice Mixer VoiceMMode1" value="0" />
+	<ctl name="SLIM_3_TX_Voice Mixer VoiceMMode1" value="0" />
+	<ctl name="SLIM_3_RX_Voice Mixer VoiceMMode1" value="0" />
+	<ctl name="SLIM_4_TX_Voice Mixer VoiceMMode1" value="0" />
+	<ctl name="SLIM_4_RX_Voice Mixer VoiceMMode1" value="0" />
+	<ctl name="SLIM_5_TX_Voice Mixer VoiceMMode1" value="0" />
+	<ctl name="SLIM_5_RX_Voice Mixer VoiceMMode1" value="0" />
 	<ctl name="SLIM_6_TX_Voice Mixer VoiceMMode1" value="0" />
 	<ctl name="SLIM_6_RX_Voice Mixer VoiceMMode1" value="0" />
 	<ctl name="VoiceMMode1_TX Mixer SLIM_0_TX_MMode1" value="0" />
 	<ctl name="VoiceMMode1_RX Mixer SLIM_0_RX_MMode1" value="0" />
+	<ctl name="VoiceMMode1_TX Mixer SLIM_1_TX_MMode1" value="0" />
+	<ctl name="VoiceMMode1_RX Mixer SLIM_1_RX_MMode1" value="0" />
+	<ctl name="VoiceMMode1_TX Mixer SLIM_2_TX_MMode1" value="0" />
+	<ctl name="VoiceMMode1_RX Mixer SLIM_2_RX_MMode1" value="0" />
+	<ctl name="VoiceMMode1_TX Mixer SLIM_3_TX_MMode1" value="0" />
+	<ctl name="VoiceMMode1_RX Mixer SLIM_3_RX_MMode1" value="0" />
+	<ctl name="VoiceMMode1_TX Mixer SLIM_4_TX_MMode1" value="0" />
+	<ctl name="VoiceMMode1_RX Mixer SLIM_4_RX_MMode1" value="0" />
+	<ctl name="VoiceMMode1_TX Mixer SLIM_5_TX_MMode1" value="0" />
+	<ctl name="VoiceMMode1_RX Mixer SLIM_5_RX_MMode1" value="0" />
+	<ctl name="VoiceMMode1_TX Mixer SLIM_6_TX_MMode1" value="0" />
+	<ctl name="VoiceMMode1_RX Mixer SLIM_6_RX_MMode1" value="0" />
 	<!-- Multimode Voice1 HDMI -->
 	<ctl name="HDMI_TX_Voice Mixer VoiceMMode1" value="0" />
 	<ctl name="HDMI_RX_Voice Mixer VoiceMMode1" value="0" />
@@ -6285,10 +6439,32 @@
 	
 	<ctl name="SLIM_0_TX_Voice Mixer VoiceMMode2" value="0" />
 	<ctl name="SLIM_0_RX_Voice Mixer VoiceMMode2" value="0" />
+	<ctl name="SLIM_1_TX_Voice Mixer VoiceMMode2" value="0" />
+	<ctl name="SLIM_1_RX_Voice Mixer VoiceMMode2" value="0" />
+	<ctl name="SLIM_2_TX_Voice Mixer VoiceMMode2" value="0" />
+	<ctl name="SLIM_2_RX_Voice Mixer VoiceMMode2" value="0" />
+	<ctl name="SLIM_3_TX_Voice Mixer VoiceMMode2" value="0" />
+	<ctl name="SLIM_3_RX_Voice Mixer VoiceMMode2" value="0" />
+	<ctl name="SLIM_4_TX_Voice Mixer VoiceMMode2" value="0" />
+	<ctl name="SLIM_4_RX_Voice Mixer VoiceMMode2" value="0" />
+	<ctl name="SLIM_5_TX_Voice Mixer VoiceMMode2" value="0" />
+	<ctl name="SLIM_5_RX_Voice Mixer VoiceMMode2" value="0" />
 	<ctl name="SLIM_6_TX_Voice Mixer VoiceMMode2" value="0" />
 	<ctl name="SLIM_6_RX_Voice Mixer VoiceMMode2" value="0" />
 	<ctl name="VoiceMMode2_TX Mixer SLIM_0_TX_MMode2" value="0" />
 	<ctl name="VoiceMMode2_RX Mixer SLIM_0_RX_MMode2" value="0" />
+	<ctl name="VoiceMMode2_TX Mixer SLIM_1_TX_MMode2" value="0" />
+	<ctl name="VoiceMMode2_RX Mixer SLIM_1_RX_MMode2" value="0" />
+	<ctl name="VoiceMMode2_TX Mixer SLIM_2_TX_MMode2" value="0" />
+	<ctl name="VoiceMMode2_RX Mixer SLIM_2_RX_MMode2" value="0" />
+	<ctl name="VoiceMMode2_TX Mixer SLIM_3_TX_MMode2" value="0" />
+	<ctl name="VoiceMMode2_RX Mixer SLIM_3_RX_MMode2" value="0" />
+	<ctl name="VoiceMMode2_TX Mixer SLIM_4_TX_MMode2" value="0" />
+	<ctl name="VoiceMMode2_RX Mixer SLIM_4_RX_MMode2" value="0" />
+	<ctl name="VoiceMMode2_TX Mixer SLIM_5_TX_MMode2" value="0" />
+	<ctl name="VoiceMMode2_RX Mixer SLIM_5_RX_MMode2" value="0" />
+	<ctl name="VoiceMMode2_TX Mixer SLIM_6_TX_MMode2" value="0" />
+	<ctl name="VoiceMMode2_RX Mixer SLIM_6_RX_MMode2" value="0" />
 	<!-- Multimode Voice2 HDMI -->
 	<ctl name="HDMI_TX_Voice Mixer VoiceMMode2" value="0" />
 	<ctl name="HDMI_RX_Voice Mixer VoiceMMode2" value="0" />
