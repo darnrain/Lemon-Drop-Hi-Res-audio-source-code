@@ -88,7 +88,7 @@ Tab all lines:<br>
  sed 's/^/\t/'
 </pre>
 
-The mixer_paths.xml file must have zero duplicates, or your phone will not boot. This is how you can check:
+The mixer_paths.xml file must have zero duplicates, or your phone will not boot. The initial mixer settings is the most important part, there should be zero duplicates, zero mistakes, zero errors. Or it will effect the audio qualty of the QuadDAC. This is how you can check:
 <pre>
 sort mixer_paths_tasha.xml | uniq -D
 </pre>
