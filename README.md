@@ -69,6 +69,8 @@ I can't say for absolutely certain, I can say for certain that the True Native M
 ### I want to add this True Native Mode code, to my Android phone?
 My theory is that the two files responsible for making this all happen are, audio_platform_info.xml and mixer_paths_tasha.xml. All the other files are associated with the Android mixer and are the left over reminisce of my previous attempts of trying to increase the audio quality on the Lgv20 without avail. Duplicate all the changes I made leaving intact your unique settings in your mixer_paths.xml file. This will take you some time, it took me months upon months to program 18,000 lines of code in the mixer_paths file. I made notes in both files, to help you along the way. This is not for the novice computer user. The mixer_paths file must have zero typos, zero mistakes, zero errors. The QuadDAC also needs Enable System wide QuadDAC support v8.2 aka build.prop audio tweaks.<br>
 
+The initial mixer settings is the most important part of the QuadDAC. If there are duplicates or errors or mistakes in that location. Then it will effect the audio quality of the QuadDAC. There are over 14,000 lines of code in that location. If you are attempting to add my code to your mixer_paths file. Just remember that this is a puzzle, and someone threw away most of the peaces. So you need to make them yourself.<br>
+
 When programing the mixer_paths file, I only use the tab key not the spacebar, it's just a pet peeve. ;)<br>
 
 I cant program with how disorganized the original mixer_paths file is. This is how I tabbed all lines and fixed it. I use arch linux.<br>
