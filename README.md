@@ -68,7 +68,7 @@ My theory is that the two files responsible for making this all happen are, audi
 
 It may just be easier to just buy an Lgv20. I heard Lemon Drop Hi-Res is a good rom for music. ;)<br>
 
-The QuadDAC also needs Enable System wide QuadDAC support v8.2 aka build.prop audio tweaks. The QuadDAC needs about 4mb a second cache size, I programed that into the build.prop tweaks.<br>
+The QuadDAC also needs Enable System wide QuadDAC support v8.2 aka build.prop audio tweaks. The QuadDAC needs about 4mb a second cache size. This also will enable Hardware Offloaded Audio Processing. In other words all audio is routed through the QuadDAC. Android has no say, when it has to do with the audio. This also means that the QuadDAC must stay enabled at all times.<br>
 
 When programing the mixer_paths file, I only use the tab key not the spacebar, it's just a pet peeve. ;)<br>
 
