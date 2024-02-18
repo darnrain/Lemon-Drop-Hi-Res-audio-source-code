@@ -94,7 +94,7 @@ This is how I debugged the code. I copied a section, pasted into a file test.txt
  cat test.txt | grep TX > test1.txt
 </pre>
 
-The mixer_paths.xml file must have zero duplicates, or your phone will not boot. The initial mixer settings is the most important part, there should be zero duplicates, zero mistakes, zero errors. Copy a section, paste it into a file test.txt. This is how you can check:
+The mixer_paths.xml file must have zero duplicates, or your phone will not boot. The initial mixer settings is the most important part, there should be zero duplicates, zero mistakes, zero errors. Copy a section, paste it into a file test.txt. This command will print all duplicates including all the spaces.
 <pre>
 sort test.txt | uniq -D
 </pre>
