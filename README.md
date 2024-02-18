@@ -89,7 +89,7 @@ Tab all lines:<br>
  sed 's/^/\t/'
 </pre>
 
-This is how I deguged the code. I copyed a section, pasted into a file test.txt then removed all the lines that have RX. Then I just looked over test1.txt there should be groups of 4 or 3 or so on. If not then I knew I messed up.<br>
+This is how I debugged the code. I copied a section, pasted into a file test.txt then removed all the lines that have RX. Then I looked over test1.txt there should be groups of 4 or 3 and so on. If not then I knew I messed up. I did the same thing with RX.<br>
 <pre>
  cat test.txt | grep TX > test1.txt
 </pre>
