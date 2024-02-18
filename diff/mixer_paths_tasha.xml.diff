@@ -3,7 +3,7 @@
 < 	
 < 	<!-- Top of page -->
 < 	
-< 	<!-- Lemon Drop Hi-Res treble v217.1 -->
+< 	<!-- Lemon Drop Hi-Res treble v217.2 -->
 < 	<!-- The worlds first 24/32bit QuadDAC in True Stereo! -->
 < 	<!-- Designed and created by darnrain @GitHub -->
 < 	<!-- Proudly Made In America -->
@@ -16,11 +16,11 @@
 < 	<!-- I would imagine it should work as long as you have a QuadDAC in your phone -->
 < 	
 < 	<!-- First thing -->
-< 	<!-- Copy all lines of code line number 1 through 14328 paste in your mixer_paths file at very top -->
-< 	<!-- I added a note where to copy from at line 14328 -->
+< 	<!-- Copy all lines of code line number 1 through 14330 paste in your mixer_paths file at very top -->
+< 	<!-- I added a note where to copy from at line 14330 -->
 < 	
 < 	<!-- Second thing -->
-< 	<!-- Search for "lemon drop" after line 14328 to start -->
+< 	<!-- Search for "lemon drop" after line 14330 to start -->
 < 	
 < 	<!-- Third thing -->
 < 	<!-- Duplicate all code from "Lemon Drop Hi-Res start of mods" to "Lemon Drop Hi-Res end of mods" -->
@@ -37,7 +37,7 @@
 < 	<!-- <ctl name="Es9018 AVC Volume" value="0" /> -->
 < 	<!-- <ctl name="Es9018 HEADSET TYPE" value="0" /> -->
 < 	<!-- <ctl name="Es9218 Bypass" value="0" /> -->
-< 	<!-- Line number 4857 to 4860 change the names also change the names under volume control -->
+< 	<!-- Line number 4859 to 4862 change the names also change the names under volume control -->
 < 	<!-- If they are not the same as the Lgv20 -->
 < 	
 < 	<!-- There can not be any duplicates like "<path name="speaker">" and "<path name="speaker">" -->
