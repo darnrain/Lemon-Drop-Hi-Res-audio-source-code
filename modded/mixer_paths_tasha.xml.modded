@@ -28,7 +28,7 @@
 	
 	<!-- Top of page -->
 	
-	<!-- Lemon Drop Hi-Res treble v216.3 -->
+	<!-- Lemon Drop Hi-Res treble v217.1 -->
 	<!-- The worlds first 24/32bit QuadDAC in True Stereo! -->
 	<!-- Designed and created by darnrain @GitHub -->
 	<!-- Proudly Made In America -->
@@ -4809,6 +4809,8 @@
 	<ctl name="SLIM_3_RX SampleRate" value="ZERO" />
 	<ctl name="SLIM_3_TX Format" value="ZERO" />
 	<ctl name="SLIM_3_RX Format" value="ZERO" />
+	<ctl name="SLIM_4_TX Channels" value="ZERO" />
+	<ctl name="SLIM_4_RX Channels" value="ZERO" />
 	<ctl name="SLIM_4_TX SampleRate" value="ZERO" />
 	<ctl name="SLIM_4_RX SampleRate" value="ZERO" />
 	<ctl name="SLIM_4_TX Format" value="ZERO" />
