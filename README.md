@@ -95,6 +95,9 @@ The mixer_paths.xml file must have zero duplicates, or your phone will not boot.
 sort mixer_paths_tasha.xml | uniq -D
 </pre>
 
+Credits, A Special Thank You<br>
+at the people that made audio-offset-finder GitHub<br>
+
 MIT License<br>
 
 Copyright (c) 2023 darnrain<br>
