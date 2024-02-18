@@ -94,7 +94,7 @@ This is how I debugged the code. I copied a section, pasted into a file test.txt
  cat test.txt | grep TX > test1.txt
 </pre>
 
-The mixer_paths.xml file must have zero duplicates, or your phone will not boot. The initial mixer settings is the most important part, there should be zero duplicates, zero mistakes, zero errors. Or QuadDAC may blow up, no just joking. lol This is how you can check:
+The mixer_paths.xml file must have zero duplicates, or your phone will not boot. The initial mixer settings is the most important part, there should be zero duplicates, zero mistakes, zero errors. Or your QuadDAC may blow up, no just joking. lol This is how you can check:
 <pre>
 sort mixer_paths_tasha.xml | uniq -D
 </pre>
