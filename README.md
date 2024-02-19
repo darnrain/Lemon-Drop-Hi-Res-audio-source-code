@@ -28,7 +28,7 @@ I’m not going to beat around the bush. I reinvented stereo. I also invented th
 "We live in a crooked world, with crooked people, with crooked music."<br>
 — darnrain<br>
 
-“Once you eliminate the impossible, whatever remains, no matter how improbable, must be the truth”
+“Once you eliminate the impossible, whatever remains, no matter how improbable, must be the truth”<br>
 — Sir Arthur Conan Doyle<br>
 
 “I have not failed. I've just found 10,000 ways that won't work.”<br>
