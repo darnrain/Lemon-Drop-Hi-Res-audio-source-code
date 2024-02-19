@@ -28,6 +28,9 @@ I’m not going to beat around the bush. I reinvented stereo. I also invented th
 "We live in a crooked world, with crooked people, with crooked music."<br>
 — darnrain<br>
 
+“Once you eliminate the impossible, whatever remains, no matter how improbable, must be the truth”
+— Sir Arthur Conan Doyle<br>
+
 “I have not failed. I've just found 10,000 ways that won't work.”<br>
 — Thomas Edison<br>
 
@@ -89,9 +92,6 @@ The mixer_paths.xml file must have zero duplicates, or your phone will not boot.
 <pre>
 sort test.txt | uniq -D
 </pre>
-
-Credits, A Special Thank You<br>
-at the people that made audio-offset-finder GitHub<br>
 
 MIT License<br>
 
