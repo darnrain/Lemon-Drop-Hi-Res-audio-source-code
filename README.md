@@ -56,12 +56,6 @@ When programing a QuadDAC you do not have visual gauges to view to see if you ha
 
 I was always seeing LO in the True Native Mode code. I was like what is LO??? Then it hit me it's low-range. I came up with MI and HI for mid-range and high-range myself and it worked!!! Also I was always seeing RX everywhere I looked, I was like well if there is an RX there has to be a TX. It was just dumb luck, that the TX must be on top of RX. I guess you could say it was trial, error, logic and my advanced Linux computer skills, is how I programed the Saber ESS 9218 DAC. The devs that programed the Saber ESS DAC chip are professionals, you need to think like how they think. They would not make it to complicated to program the QuadDAC. For me it was the worlds ultimate puzzle.<br>
 
-### What's the audio offset to the worlds audio?
-Keep in mind this may not be the correct offset, this is what sounded best to me. I think I got the correct offset this time. The music sounds great!<br>
-
-L = -14.4<br>
-R = -28.4<br>
-
 ### Will this True Native Mode code work on other Android phones other than the Lgv20?
 I can't say for absolutely certain, I can say for certain that the True Native Mode code runs excellent, on both of my Lgv20's, my main phone DeGoogled and the spare one with Google intact both running Stock Oreo ezV2020 v1.0 Kernel.  Who knows this True Native Mode code may work universally across all QuadDACs on all Android phones. It's up to you guys to beta test this code, my job is all done, I just had to recreate the True Native Mode code and make it work. The LG V series of phones, will have the best chance of this True Native Mode code working. Also keep in mind that I officially got True Native Mode working in v169.1, on 01-17-24 phones manufactured after that date may have True Native Mode disabled on the QuadDAC chip.<br>
 
