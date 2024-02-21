@@ -3,7 +3,7 @@
 < 	
 < 	<!-- Top of page -->
 < 	
-< 	<!-- Lemon Drop Hi-Res treble v220.1 -->
+< 	<!-- Lemon Drop Hi-Res treble v221.2 -->
 < 	<!-- The worlds first 24/32bit QuadDAC in True Stereo! -->
 < 	<!-- Designed and created by darnrain @GitHub -->
 < 	<!-- Proudly Made In America -->
@@ -122,7 +122,7 @@
 < 	
 < 	<!-- Start of True Native Mode code v3.0 & vbat initial mixer settings -->
 < 	
-151,5969c28,2368
+151,6008c28,2368
 < 	<ctl name="TX INT1 SPLINE MIX HPHL Native Switch" value="0" />
 < 	<ctl name="TX INT1 SPLINE MIX HPHL Switch" value="0" />
 < 	<ctl name="RX INT1 SPLINE MIX HPHL Native Switch" value="0" />
@@ -4838,6 +4838,9 @@
 < 	<ctl name="0 Offset Switch" value="0" />
 < 	<ctl name="TX0 Offset" value="ZERO" />
 < 	<ctl name="RX0 Offset" value="ZERO" />
+< 	<ctl name="0 Expand Switch" value="0" />
+< 	<ctl name="TX0 Expand" value="ZERO" />
+< 	<ctl name="RX0 Expand" value="ZERO" />
 < 	<ctl name="0 Balance Switch" value="0" />
 < 	<ctl name="TX0 Balance" value="ZERO" />
 < 	<ctl name="RX0 Balance" value="ZERO" />
@@ -4850,6 +4853,9 @@
 < 	<ctl name="1 Offset Switch" value="0" />
 < 	<ctl name="TX1 Offset" value="ZERO" />
 < 	<ctl name="RX1 Offset" value="ZERO" />
+< 	<ctl name="1 Expand Switch" value="0" />
+< 	<ctl name="TX1 Expand" value="ZERO" />
+< 	<ctl name="RX1 Expand" value="ZERO" />
 < 	<ctl name="1 Balance Switch" value="0" />
 < 	<ctl name="TX1 Balance" value="ZERO" />
 < 	<ctl name="RX1 Balance" value="ZERO" />
@@ -4862,6 +4868,9 @@
 < 	<ctl name="2 Offset Switch" value="0" />
 < 	<ctl name="TX2 Offset" value="ZERO" />
 < 	<ctl name="RX2 Offset" value="ZERO" />
+< 	<ctl name="2 Expand Switch" value="0" />
+< 	<ctl name="TX2 Expand" value="ZERO" />
+< 	<ctl name="RX2 Expand" value="ZERO" />
 < 	<ctl name="2 Balance Switch" value="0" />
 < 	<ctl name="TX2 Balance" value="ZERO" />
 < 	<ctl name="RX2 Balance" value="ZERO" />
@@ -4874,6 +4883,9 @@
 < 	<ctl name="3 Offset Switch" value="0" />
 < 	<ctl name="TX3 Offset" value="ZERO" />
 < 	<ctl name="RX3 Offset" value="ZERO" />
+< 	<ctl name="3 Expand Switch" value="0" />
+< 	<ctl name="TX3 Expand" value="ZERO" />
+< 	<ctl name="RX3 Expand" value="ZERO" />
 < 	<ctl name="3 Balance Switch" value="0" />
 < 	<ctl name="TX3 Balance" value="ZERO" />
 < 	<ctl name="RX3 Balance" value="ZERO" />
@@ -4886,6 +4898,9 @@
 < 	<ctl name="4 Offset Switch" value="0" />
 < 	<ctl name="TX4 Offset" value="ZERO" />
 < 	<ctl name="RX4 Offset" value="ZERO" />
+< 	<ctl name="4 Expand Switch" value="0" />
+< 	<ctl name="TX4 Expand" value="ZERO" />
+< 	<ctl name="RX4 Expand" value="ZERO" />
 < 	<ctl name="4 Balance Switch" value="0" />
 < 	<ctl name="TX4 Balance" value="ZERO" />
 < 	<ctl name="RX4 Balance" value="ZERO" />
@@ -4898,6 +4913,9 @@
 < 	<ctl name="5 Offset Switch" value="0" />
 < 	<ctl name="TX5 Offset" value="ZERO" />
 < 	<ctl name="RX5 Offset" value="ZERO" />
+< 	<ctl name="5 Expand Switch" value="0" />
+< 	<ctl name="TX5 Expand" value="ZERO" />
+< 	<ctl name="RX5 Expand" value="ZERO" />
 < 	<ctl name="5 Balance Switch" value="0" />
 < 	<ctl name="TX5 Balance" value="ZERO" />
 < 	<ctl name="RX5 Balance" value="ZERO" />
@@ -4910,6 +4928,9 @@
 < 	<ctl name="6 Offset Switch" value="0" />
 < 	<ctl name="TX6 Offset" value="ZERO" />
 < 	<ctl name="RX6 Offset" value="ZERO" />
+< 	<ctl name="6 Expand Switch" value="0" />
+< 	<ctl name="TX6 Expand" value="ZERO" />
+< 	<ctl name="RX6 Expand" value="ZERO" />
 < 	<ctl name="6 Balance Switch" value="0" />
 < 	<ctl name="TX6 Balance" value="ZERO" />
 < 	<ctl name="RX6 Balance" value="ZERO" />
@@ -4922,6 +4943,9 @@
 < 	<ctl name="7 Offset Switch" value="0" />
 < 	<ctl name="TX7 Offset" value="ZERO" />
 < 	<ctl name="RX7 Offset" value="ZERO" />
+< 	<ctl name="7 Expand Switch" value="0" />
+< 	<ctl name="TX7 Expand" value="ZERO" />
+< 	<ctl name="RX7 Expand" value="ZERO" />
 < 	<ctl name="7 Balance Switch" value="0" />
 < 	<ctl name="TX7 Balance" value="ZERO" />
 < 	<ctl name="RX7 Balance" value="ZERO" />
@@ -4934,6 +4958,9 @@
 < 	<ctl name="8 Offset Switch" value="0" />
 < 	<ctl name="TX8 Offset" value="ZERO" />
 < 	<ctl name="RX8 Offset" value="ZERO" />
+< 	<ctl name="8 Expand Switch" value="0" />
+< 	<ctl name="TX8 Expand" value="ZERO" />
+< 	<ctl name="RX8 Expand" value="ZERO" />
 < 	<ctl name="8 Balance Switch" value="0" />
 < 	<ctl name="TX8 Balance" value="ZERO" />
 < 	<ctl name="RX8 Balance" value="ZERO" />
@@ -4946,6 +4973,9 @@
 < 	<ctl name="HPHL Offset Switch" value="0" />
 < 	<ctl name="TX HPHL Offset" value="ZERO" />
 < 	<ctl name="RX HPHL Offset" value="ZERO" />
+< 	<ctl name="HPHL Expand Switch" value="0" />
+< 	<ctl name="TX HPHL Expand" value="ZERO" />
+< 	<ctl name="RX HPHL Expand" value="ZERO" />
 < 	<ctl name="HPHL Balance Switch" value="0" />
 < 	<ctl name="TX HPHL Balance" value="ZERO" />
 < 	<ctl name="RX HPHL Balance" value="ZERO" />
@@ -4955,6 +4985,9 @@
 < 	<ctl name="HPHR Offset Switch" value="0" />
 < 	<ctl name="TX HPHR Offset" value="ZERO" />
 < 	<ctl name="RX HPHR Offset" value="ZERO" />
+< 	<ctl name="HPHR Expand Switch" value="0" />
+< 	<ctl name="TX HPHR Expand" value="ZERO" />
+< 	<ctl name="RX HPHR Expand" value="ZERO" />
 < 	<ctl name="HPHR Balance Switch" value="0" />
 < 	<ctl name="TX HPHR Balance" value="ZERO" />
 < 	<ctl name="RX HPHR Balance" value="ZERO" />
@@ -4964,6 +4997,9 @@
 < 	<ctl name="SPKRL Offset Switch" value="0" />
 < 	<ctl name="TX SPKRL Offset" value="ZERO" />
 < 	<ctl name="RX SPKRL Offset" value="ZERO" />
+< 	<ctl name="SPKRL Expand Switch" value="0" />
+< 	<ctl name="TX SPKRL Expand" value="ZERO" />
+< 	<ctl name="RX SPKRL Expand" value="ZERO" />
 < 	<ctl name="SPKRL Balance Switch" value="0" />
 < 	<ctl name="TX SPKRL Balance" value="ZERO" />
 < 	<ctl name="RX SPKRL Balance" value="ZERO" />
@@ -4973,6 +5009,9 @@
 < 	<ctl name="SPKRR Offset Switch" value="0" />
 < 	<ctl name="TX SPKRR Offset" value="ZERO" />
 < 	<ctl name="RX SPKRR Offset" value="ZERO" />
+< 	<ctl name="SPKRR Expand Switch" value="0" />
+< 	<ctl name="TX SPKRR Expand" value="ZERO" />
+< 	<ctl name="RX SPKRR Expand" value="ZERO" />
 < 	<ctl name="SPKRR Balance Switch" value="0" />
 < 	<ctl name="TX SPKRR Balance" value="ZERO" />
 < 	<ctl name="RX SPKRR Balance" value="ZERO" />
@@ -8284,10 +8323,10 @@
 >     </path>
 > 
 >     <path name="anc-headphones">
-5971,5972d2369
+6010,6011d2369
 < 	<ctl name="TX COMP1" value="0" />
 < 	<ctl name="RX COMP1" value="0" />
-5974,19579c2371,2429
+6013,19714c2371,2429
 < 	<ctl name="TX COMP2" value="0" />
 < 	<ctl name="RX COMP2" value="0" />
 < 	<ctl name="COMP3 Switch" value="0" />
@@ -20781,6 +20820,9 @@
 < 	<ctl name="7 Offset Switch" value="1" />
 < 	<ctl name="TX7 Offset" value="AUTO" />
 < 	<ctl name="RX7 Offset" value="AUTO" />
+< 	<ctl name="7 Expand Switch" value="1" />
+< 	<ctl name="TX7 Expand" value="AUTO" />
+< 	<ctl name="RX7 Expand" value="AUTO" />
 < 	<ctl name="7 Balance Switch" value="1" />
 < 	<ctl name="TX7 Balance" value="AUTO" />
 < 	<ctl name="RX7 Balance" value="AUTO" />
@@ -20793,6 +20835,9 @@
 < 	<ctl name="8 Offset Switch" value="0" />
 < 	<ctl name="TX8 Offset" value="ZERO" />
 < 	<ctl name="RX8 Offset" value="ZERO" />
+< 	<ctl name="8 Expand Switch" value="0" />
+< 	<ctl name="TX8 Expand" value="ZERO" />
+< 	<ctl name="RX8 Expand" value="ZERO" />
 < 	<ctl name="8 Balance Switch" value="0" />
 < 	<ctl name="TX8 Balance" value="ZERO" />
 < 	<ctl name="RX8 Balance" value="ZERO" />
@@ -20805,6 +20850,9 @@
 < 	<ctl name="SPKRL Offset Switch" value="1" />
 < 	<ctl name="TX SPKRL Offset" value="AUTO" />
 < 	<ctl name="RX SPKRL Offset" value="AUTO" />
+< 	<ctl name="SPKRL Expand Switch" value="1" />
+< 	<ctl name="TX SPKRL Expand" value="AUTO" />
+< 	<ctl name="RX SPKRL Expand" value="AUTO" />
 < 	<ctl name="SPKRL Balance Switch" value="1" />
 < 	<ctl name="TX SPKRL Balance" value="AUTO" />
 < 	<ctl name="RX SPKRL Balance" value="AUTO" />
@@ -20814,6 +20862,9 @@
 < 	<ctl name="SPKRR Offset Switch" value="0" />
 < 	<ctl name="TX SPKRR Offset" value="ZERO" />
 < 	<ctl name="RX SPKRR Offset" value="ZERO" />
+< 	<ctl name="SPKRR Expand Switch" value="0" />
+< 	<ctl name="TX SPKRR Expand" value="ZERO" />
+< 	<ctl name="RX SPKRR Expand" value="ZERO" />
 < 	<ctl name="SPKRR Balance Switch" value="0" />
 < 	<ctl name="TX SPKRR Balance" value="ZERO" />
 < 	<ctl name="RX SPKRR Balance" value="ZERO" />
@@ -20904,6 +20955,9 @@
 < 	<ctl name="7 Offset Switch" value="2" />
 < 	<ctl name="TX7 Offset" value="AUTO" />
 < 	<ctl name="RX7 Offset" value="AUTO" />
+< 	<ctl name="7 Expand Switch" value="2" />
+< 	<ctl name="TX7 Expand" value="AUTO" />
+< 	<ctl name="RX7 Expand" value="AUTO" />
 < 	<ctl name="7 Balance Switch" value="2" />
 < 	<ctl name="TX7 Balance" value="AUTO" />
 < 	<ctl name="RX7 Balance" value="AUTO" />
@@ -20916,6 +20970,9 @@
 < 	<ctl name="8 Offset Switch" value="2" />
 < 	<ctl name="TX8 Offset" value="AUTO" />
 < 	<ctl name="RX8 Offset" value="AUTO" />
+< 	<ctl name="8 Expand Switch" value="2" />
+< 	<ctl name="TX8 Expand" value="AUTO" />
+< 	<ctl name="RX8 Expand" value="AUTO" />
 < 	<ctl name="8 Balance Switch" value="2" />
 < 	<ctl name="TX8 Balance" value="AUTO" />
 < 	<ctl name="RX8 Balance" value="AUTO" />
@@ -20928,6 +20985,9 @@
 < 	<ctl name="SPKRL Offset Switch" value="2" />
 < 	<ctl name="TX SPKRL Offset" value="AUTO" />
 < 	<ctl name="RX SPKRL Offset" value="AUTO" />
+< 	<ctl name="SPKRL Expand Switch" value="2" />
+< 	<ctl name="TX SPKRL Expand" value="AUTO" />
+< 	<ctl name="RX SPKRL Expand" value="AUTO" />
 < 	<ctl name="SPKRL Balance Switch" value="2" />
 < 	<ctl name="TX SPKRL Balance" value="AUTO" />
 < 	<ctl name="RX SPKRL Balance" value="AUTO" />
@@ -20937,6 +20997,9 @@
 < 	<ctl name="SPKRR Offset Switch" value="2" />
 < 	<ctl name="TX SPKRR Offset" value="AUTO" />
 < 	<ctl name="RX SPKRR Offset" value="AUTO" />
+< 	<ctl name="SPKRR Expand Switch" value="2" />
+< 	<ctl name="TX SPKRR Expand" value="AUTO" />
+< 	<ctl name="RX SPKRR Expand" value="AUTO" />
 < 	<ctl name="SPKRR Balance Switch" value="2" />
 < 	<ctl name="TX SPKRR Balance" value="AUTO" />
 < 	<ctl name="RX SPKRR Balance" value="AUTO" />
@@ -20977,6 +21040,9 @@
 < 	<ctl name="7 Offset Switch" value="2" />
 < 	<ctl name="TX7 Offset" value="AUTO" />
 < 	<ctl name="RX7 Offset" value="AUTO" />
+< 	<ctl name="7 Expand Switch" value="2" />
+< 	<ctl name="TX7 Expand" value="AUTO" />
+< 	<ctl name="RX7 Expand" value="AUTO" />
 < 	<ctl name="7 Balance Switch" value="2" />
 < 	<ctl name="TX7 Balance" value="AUTO" />
 < 	<ctl name="RX7 Balance" value="AUTO" />
@@ -20989,6 +21055,9 @@
 < 	<ctl name="8 Offset Switch" value="2" />
 < 	<ctl name="TX8 Offset" value="AUTO" />
 < 	<ctl name="RX8 Offset" value="AUTO" />
+< 	<ctl name="8 Expand Switch" value="2" />
+< 	<ctl name="TX8 Expand" value="AUTO" />
+< 	<ctl name="RX8 Expand" value="AUTO" />
 < 	<ctl name="8 Balance Switch" value="2" />
 < 	<ctl name="TX8 Balance" value="AUTO" />
 < 	<ctl name="RX8 Balance" value="AUTO" />
@@ -21001,6 +21070,9 @@
 < 	<ctl name="SPKRL Offset Switch" value="2" />
 < 	<ctl name="TX SPKRL Offset" value="AUTO" />
 < 	<ctl name="RX SPKRL Offset" value="AUTO" />
+< 	<ctl name="SPKRL Expand Switch" value="2" />
+< 	<ctl name="TX SPKRL Expand" value="AUTO" />
+< 	<ctl name="RX SPKRL Expand" value="AUTO" />
 < 	<ctl name="SPKRL Balance Switch" value="2" />
 < 	<ctl name="TX SPKRL Balance" value="AUTO" />
 < 	<ctl name="RX SPKRL Balance" value="AUTO" />
@@ -21010,6 +21082,9 @@
 < 	<ctl name="SPKRR Offset Switch" value="2" />
 < 	<ctl name="TX SPKRR Offset" value="AUTO" />
 < 	<ctl name="RX SPKRR Offset" value="AUTO" />
+< 	<ctl name="SPKRR Expand Switch" value="2" />
+< 	<ctl name="TX SPKRR Expand" value="AUTO" />
+< 	<ctl name="RX SPKRR Expand" value="AUTO" />
 < 	<ctl name="SPKRR Balance Switch" value="2" />
 < 	<ctl name="TX SPKRR Balance" value="AUTO" />
 < 	<ctl name="RX SPKRR Balance" value="AUTO" />
@@ -21050,6 +21125,9 @@
 < 	<ctl name="7 Offset Switch" value="2" />
 < 	<ctl name="TX7 Offset" value="AUTO" />
 < 	<ctl name="RX7 Offset" value="AUTO" />
+< 	<ctl name="7 Expand Switch" value="2" />
+< 	<ctl name="TX7 Expand" value="AUTO" />
+< 	<ctl name="RX7 Expand" value="AUTO" />
 < 	<ctl name="7 Balance Switch" value="2" />
 < 	<ctl name="TX7 Balance" value="AUTO" />
 < 	<ctl name="RX7 Balance" value="AUTO" />
@@ -21062,6 +21140,9 @@
 < 	<ctl name="8 Offset Switch" value="2" />
 < 	<ctl name="TX8 Offset" value="AUTO" />
 < 	<ctl name="RX8 Offset" value="AUTO" />
+< 	<ctl name="8 Expand Switch" value="2" />
+< 	<ctl name="TX8 Expand" value="AUTO" />
+< 	<ctl name="RX8 Expand" value="AUTO" />
 < 	<ctl name="8 Balance Switch" value="2" />
 < 	<ctl name="TX8 Balance" value="AUTO" />
 < 	<ctl name="RX8 Balance" value="AUTO" />
@@ -21074,6 +21155,9 @@
 < 	<ctl name="SPKRL Offset Switch" value="2" />
 < 	<ctl name="TX SPKRL Offset" value="AUTO" />
 < 	<ctl name="RX SPKRL Offset" value="AUTO" />
+< 	<ctl name="SPKRL Expand Switch" value="2" />
+< 	<ctl name="TX SPKRL Expand" value="AUTO" />
+< 	<ctl name="RX SPKRL Expand" value="AUTO" />
 < 	<ctl name="SPKRL Balance Switch" value="2" />
 < 	<ctl name="TX SPKRL Balance" value="AUTO" />
 < 	<ctl name="RX SPKRL Balance" value="AUTO" />
@@ -21083,6 +21167,9 @@
 < 	<ctl name="SPKRR Offset Switch" value="2" />
 < 	<ctl name="TX SPKRR Offset" value="AUTO" />
 < 	<ctl name="RX SPKRR Offset" value="AUTO" />
+< 	<ctl name="SPKRR Expand Switch" value="2" />
+< 	<ctl name="TX SPKRR Expand" value="AUTO" />
+< 	<ctl name="RX SPKRR Expand" value="AUTO" />
 < 	<ctl name="SPKRR Balance Switch" value="2" />
 < 	<ctl name="TX SPKRR Balance" value="AUTO" />
 < 	<ctl name="RX SPKRR Balance" value="AUTO" />
@@ -21152,6 +21239,9 @@
 < 	<ctl name="7 Offset Switch" value="1" />
 < 	<ctl name="TX7 Offset" value="AUTO" />
 < 	<ctl name="RX7 Offset" value="AUTO" />
+< 	<ctl name="7 Expand Switch" value="1" />
+< 	<ctl name="TX7 Expand" value="AUTO" />
+< 	<ctl name="RX7 Expand" value="AUTO" />
 < 	<ctl name="7 Balance Switch" value="1" />
 < 	<ctl name="TX7 Balance" value="AUTO" />
 < 	<ctl name="RX7 Balance" value="AUTO" />
@@ -21164,6 +21254,9 @@
 < 	<ctl name="8 Offset Switch" value="0" />
 < 	<ctl name="TX8 Offset" value="ZERO" />
 < 	<ctl name="RX8 Offset" value="ZERO" />
+< 	<ctl name="8 Expand Switch" value="0" />
+< 	<ctl name="TX8 Expand" value="ZERO" />
+< 	<ctl name="RX8 Expand" value="ZERO" />
 < 	<ctl name="8 Balance Switch" value="0" />
 < 	<ctl name="TX8 Balance" value="ZERO" />
 < 	<ctl name="RX8 Balance" value="ZERO" />
@@ -21176,6 +21269,9 @@
 < 	<ctl name="SPKRL Offset Switch" value="1" />
 < 	<ctl name="TX SPKRL Offset" value="AUTO" />
 < 	<ctl name="RX SPKRL Offset" value="AUTO" />
+< 	<ctl name="SPKRL Expand Switch" value="1" />
+< 	<ctl name="TX SPKRL Expand" value="AUTO" />
+< 	<ctl name="RX SPKRL Expand" value="AUTO" />
 < 	<ctl name="SPKRL Balance Switch" value="1" />
 < 	<ctl name="TX SPKRL Balance" value="AUTO" />
 < 	<ctl name="RX SPKRL Balance" value="AUTO" />
@@ -21185,6 +21281,9 @@
 < 	<ctl name="SPKRR Offset Switch" value="0" />
 < 	<ctl name="TX SPKRR Offset" value="ZERO" />
 < 	<ctl name="RX SPKRR Offset" value="ZERO" />
+< 	<ctl name="SPKRR Expand Switch" value="0" />
+< 	<ctl name="TX SPKRR Expand" value="ZERO" />
+< 	<ctl name="RX SPKRR Expand" value="ZERO" />
 < 	<ctl name="SPKRR Balance Switch" value="0" />
 < 	<ctl name="TX SPKRR Balance" value="ZERO" />
 < 	<ctl name="RX SPKRR Balance" value="ZERO" />
@@ -21234,6 +21333,9 @@
 < 	<ctl name="7 Offset Switch" value="2" />
 < 	<ctl name="TX7 Offset" value="AUTO" />
 < 	<ctl name="RX7 Offset" value="AUTO" />
+< 	<ctl name="7 Expand Switch" value="2" />
+< 	<ctl name="TX7 Expand" value="AUTO" />
+< 	<ctl name="RX7 Expand" value="AUTO" />
 < 	<ctl name="7 Balance Switch" value="2" />
 < 	<ctl name="TX7 Balance" value="AUTO" />
 < 	<ctl name="RX7 Balance" value="AUTO" />
@@ -21246,6 +21348,9 @@
 < 	<ctl name="8 Offset Switch" value="2" />
 < 	<ctl name="TX8 Offset" value="AUTO" />
 < 	<ctl name="RX8 Offset" value="AUTO" />
+< 	<ctl name="8 Expand Switch" value="2" />
+< 	<ctl name="TX8 Expand" value="AUTO" />
+< 	<ctl name="RX8 Expand" value="AUTO" />
 < 	<ctl name="8 Balance Switch" value="2" />
 < 	<ctl name="TX8 Balance" value="AUTO" />
 < 	<ctl name="RX8 Balance" value="AUTO" />
@@ -21258,6 +21363,9 @@
 < 	<ctl name="SPKRL Offset Switch" value="2" />
 < 	<ctl name="TX SPKRL Offset" value="AUTO" />
 < 	<ctl name="RX SPKRL Offset" value="AUTO" />
+< 	<ctl name="SPKRL Expand Switch" value="2" />
+< 	<ctl name="TX SPKRL Expand" value="AUTO" />
+< 	<ctl name="RX SPKRL Expand" value="AUTO" />
 < 	<ctl name="SPKRL Balance Switch" value="2" />
 < 	<ctl name="TX SPKRL Balance" value="AUTO" />
 < 	<ctl name="RX SPKRL Balance" value="AUTO" />
@@ -21267,6 +21375,9 @@
 < 	<ctl name="SPKRR Offset Switch" value="2" />
 < 	<ctl name="TX SPKRR Offset" value="AUTO" />
 < 	<ctl name="RX SPKRR Offset" value="AUTO" />
+< 	<ctl name="SPKRR Expand Switch" value="2" />
+< 	<ctl name="TX SPKRR Expand" value="AUTO" />
+< 	<ctl name="RX SPKRR Expand" value="AUTO" />
 < 	<ctl name="SPKRR Balance Switch" value="2" />
 < 	<ctl name="TX SPKRR Balance" value="AUTO" />
 < 	<ctl name="RX SPKRR Balance" value="AUTO" />
@@ -21305,6 +21416,9 @@
 < 	<ctl name="7 Offset Switch" value="2" />
 < 	<ctl name="TX7 Offset" value="AUTO" />
 < 	<ctl name="RX7 Offset" value="AUTO" />
+< 	<ctl name="7 Expand Switch" value="2" />
+< 	<ctl name="TX7 Expand" value="AUTO" />
+< 	<ctl name="RX7 Expand" value="AUTO" />
 < 	<ctl name="7 Balance Switch" value="2" />
 < 	<ctl name="TX7 Balance" value="AUTO" />
 < 	<ctl name="RX7 Balance" value="AUTO" />
@@ -21317,6 +21431,9 @@
 < 	<ctl name="8 Offset Switch" value="2" />
 < 	<ctl name="TX8 Offset" value="AUTO" />
 < 	<ctl name="RX8 Offset" value="AUTO" />
+< 	<ctl name="8 Expand Switch" value="2" />
+< 	<ctl name="TX8 Expand" value="AUTO" />
+< 	<ctl name="RX8 Expand" value="AUTO" />
 < 	<ctl name="8 Balance Switch" value="2" />
 < 	<ctl name="TX8 Balance" value="AUTO" />
 < 	<ctl name="RX8 Balance" value="AUTO" />
@@ -21329,6 +21446,9 @@
 < 	<ctl name="SPKRL Offset Switch" value="2" />
 < 	<ctl name="TX SPKRL Offset" value="AUTO" />
 < 	<ctl name="RX SPKRL Offset" value="AUTO" />
+< 	<ctl name="SPKRL Expand Switch" value="2" />
+< 	<ctl name="TX SPKRL Expand" value="AUTO" />
+< 	<ctl name="RX SPKRL Expand" value="AUTO" />
 < 	<ctl name="SPKRL Balance Switch" value="2" />
 < 	<ctl name="TX SPKRL Balance" value="AUTO" />
 < 	<ctl name="RX SPKRL Balance" value="AUTO" />
@@ -21338,6 +21458,9 @@
 < 	<ctl name="SPKRR Offset Switch" value="2" />
 < 	<ctl name="TX SPKRR Offset" value="AUTO" />
 < 	<ctl name="RX SPKRR Offset" value="AUTO" />
+< 	<ctl name="SPKRR Expand Switch" value="2" />
+< 	<ctl name="TX SPKRR Expand" value="AUTO" />
+< 	<ctl name="RX SPKRR Expand" value="AUTO" />
 < 	<ctl name="SPKRR Balance Switch" value="2" />
 < 	<ctl name="TX SPKRR Balance" value="AUTO" />
 < 	<ctl name="RX SPKRR Balance" value="AUTO" />
@@ -21376,6 +21499,9 @@
 < 	<ctl name="7 Offset Switch" value="2" />
 < 	<ctl name="TX7 Offset" value="AUTO" />
 < 	<ctl name="RX7 Offset" value="AUTO" />
+< 	<ctl name="7 Expand Switch" value="2" />
+< 	<ctl name="TX7 Expand" value="AUTO" />
+< 	<ctl name="RX7 Expand" value="AUTO" />
 < 	<ctl name="7 Balance Switch" value="2" />
 < 	<ctl name="TX7 Balance" value="AUTO" />
 < 	<ctl name="RX7 Balance" value="AUTO" />
@@ -21388,6 +21514,9 @@
 < 	<ctl name="8 Offset Switch" value="2" />
 < 	<ctl name="TX8 Offset" value="AUTO" />
 < 	<ctl name="RX8 Offset" value="AUTO" />
+< 	<ctl name="8 Expand Switch" value="2" />
+< 	<ctl name="TX8 Expand" value="AUTO" />
+< 	<ctl name="RX8 Expand" value="AUTO" />
 < 	<ctl name="8 Balance Switch" value="2" />
 < 	<ctl name="TX8 Balance" value="AUTO" />
 < 	<ctl name="RX8 Balance" value="AUTO" />
@@ -21400,6 +21529,9 @@
 < 	<ctl name="SPKRL Offset Switch" value="2" />
 < 	<ctl name="TX SPKRL Offset" value="AUTO" />
 < 	<ctl name="RX SPKRL Offset" value="AUTO" />
+< 	<ctl name="SPKRL Expand Switch" value="2" />
+< 	<ctl name="TX SPKRL Expand" value="AUTO" />
+< 	<ctl name="RX SPKRL Expand" value="AUTO" />
 < 	<ctl name="SPKRL Balance Switch" value="2" />
 < 	<ctl name="TX SPKRL Balance" value="AUTO" />
 < 	<ctl name="RX SPKRL Balance" value="AUTO" />
@@ -21409,6 +21541,9 @@
 < 	<ctl name="SPKRR Offset Switch" value="2" />
 < 	<ctl name="TX SPKRR Offset" value="AUTO" />
 < 	<ctl name="RX SPKRR Offset" value="AUTO" />
+< 	<ctl name="SPKRR Expand Switch" value="2" />
+< 	<ctl name="TX SPKRR Expand" value="AUTO" />
+< 	<ctl name="RX SPKRR Expand" value="AUTO" />
 < 	<ctl name="SPKRR Balance Switch" value="2" />
 < 	<ctl name="TX SPKRR Balance" value="AUTO" />
 < 	<ctl name="RX SPKRR Balance" value="AUTO" />
@@ -21954,7 +22089,7 @@
 >     </path>
 > 
 >     <path name="voice-anc-headphones">
-19582,19668c2432,2464
+19717,19803c2432,2464
 < 	<ctl name="RX HPH Mode" value="CLS_H_LP" />
 < 	<ctl name="RX1 Mix Digital Volume" value="74" />
 < 	<ctl name="RX2 Mix Digital Volume" value="74" />
@@ -22076,7 +22211,7 @@
 >     </path>
 > 
 >     <path name="voice-anc-fb-headphones">
-19671,22646c2467,3898
+19806,23009c2467,3898
 < 	<ctl name="ANC Function" value="ON" />
 < 	<ctl name="ANC Slot" value="0" />
 < 	<ctl name="ADC MUX10" value="AMIC" />
@@ -23083,6 +23218,9 @@
 < 	<ctl name="7 Offset Switch" value="2" />
 < 	<ctl name="TX7 Offset" value="AUTO" />
 < 	<ctl name="RX7 Offset" value="AUTO" />
+< 	<ctl name="7 Expand Switch" value="2" />
+< 	<ctl name="TX7 Expand" value="AUTO" />
+< 	<ctl name="RX7 Expand" value="AUTO" />
 < 	<ctl name="7 Balance Switch" value="2" />
 < 	<ctl name="TX7 Balance" value="AUTO" />
 < 	<ctl name="RX7 Balance" value="AUTO" />
@@ -23095,6 +23233,9 @@
 < 	<ctl name="8 Offset Switch" value="2" />
 < 	<ctl name="TX8 Offset" value="AUTO" />
 < 	<ctl name="RX8 Offset" value="AUTO" />
+< 	<ctl name="8 Expand Switch" value="2" />
+< 	<ctl name="TX8 Expand" value="AUTO" />
+< 	<ctl name="RX8 Expand" value="AUTO" />
 < 	<ctl name="8 Balance Switch" value="2" />
 < 	<ctl name="TX8 Balance" value="AUTO" />
 < 	<ctl name="RX8 Balance" value="AUTO" />
@@ -23107,6 +23248,9 @@
 < 	<ctl name="SPKRL Offset Switch" value="2" />
 < 	<ctl name="TX SPKRL Offset" value="AUTO" />
 < 	<ctl name="RX SPKRL Offset" value="AUTO" />
+< 	<ctl name="SPKRL Expand Switch" value="2" />
+< 	<ctl name="TX SPKRL Expand" value="AUTO" />
+< 	<ctl name="RX SPKRL Expand" value="AUTO" />
 < 	<ctl name="SPKRL Balance Switch" value="2" />
 < 	<ctl name="TX SPKRL Balance" value="AUTO" />
 < 	<ctl name="RX SPKRL Balance" value="AUTO" />
@@ -23116,6 +23260,9 @@
 < 	<ctl name="SPKRR Offset Switch" value="2" />
 < 	<ctl name="TX SPKRR Offset" value="AUTO" />
 < 	<ctl name="RX SPKRR Offset" value="AUTO" />
+< 	<ctl name="SPKRR Expand Switch" value="2" />
+< 	<ctl name="TX SPKRR Expand" value="AUTO" />
+< 	<ctl name="RX SPKRR Expand" value="AUTO" />
 < 	<ctl name="SPKRR Balance Switch" value="2" />
 < 	<ctl name="TX SPKRR Balance" value="AUTO" />
 < 	<ctl name="RX SPKRR Balance" value="AUTO" />
@@ -23135,6 +23282,9 @@
 < 	<ctl name="7 Offset Switch" value="1" />
 < 	<ctl name="TX7 Offset" value="AUTO" />
 < 	<ctl name="RX7 Offset" value="AUTO" />
+< 	<ctl name="7 Expand Switch" value="1" />
+< 	<ctl name="TX7 Expand" value="AUTO" />
+< 	<ctl name="RX7 Expand" value="AUTO" />
 < 	<ctl name="7 Balance Switch" value="1" />
 < 	<ctl name="TX7 Balance" value="AUTO" />
 < 	<ctl name="RX7 Balance" value="AUTO" />
@@ -23147,6 +23297,9 @@
 < 	<ctl name="8 Offset Switch" value="0" />
 < 	<ctl name="TX8 Offset" value="ZERO" />
 < 	<ctl name="RX8 Offset" value="ZERO" />
+< 	<ctl name="8 Expand Switch" value="0" />
+< 	<ctl name="TX8 Expand" value="ZERO" />
+< 	<ctl name="RX8 Expand" value="ZERO" />
 < 	<ctl name="8 Balance Switch" value="0" />
 < 	<ctl name="TX8 Balance" value="ZERO" />
 < 	<ctl name="RX8 Balance" value="ZERO" />
@@ -23159,6 +23312,9 @@
 < 	<ctl name="SPKRL Offset Switch" value="1" />
 < 	<ctl name="TX SPKRL Offset" value="AUTO" />
 < 	<ctl name="RX SPKRL Offset" value="AUTO" />
+< 	<ctl name="SPKRL Expand Switch" value="1" />
+< 	<ctl name="TX SPKRL Expand" value="AUTO" />
+< 	<ctl name="RX SPKRL Expand" value="AUTO" />
 < 	<ctl name="SPKRL Balance Switch" value="1" />
 < 	<ctl name="TX SPKRL Balance" value="AUTO" />
 < 	<ctl name="RX SPKRL Balance" value="AUTO" />
@@ -23168,6 +23324,9 @@
 < 	<ctl name="SPKRR Offset Switch" value="0" />
 < 	<ctl name="TX SPKRR Offset" value="ZERO" />
 < 	<ctl name="RX SPKRR Offset" value="ZERO" />
+< 	<ctl name="SPKRR Expand Switch" value="0" />
+< 	<ctl name="TX SPKRR Expand" value="ZERO" />
+< 	<ctl name="RX SPKRR Expand" value="ZERO" />
 < 	<ctl name="SPKRR Balance Switch" value="0" />
 < 	<ctl name="TX SPKRR Balance" value="ZERO" />
 < 	<ctl name="RX SPKRR Balance" value="ZERO" />
@@ -23350,6 +23509,9 @@
 < 	<ctl name="1 Offset Switch" value="2" />
 < 	<ctl name="TX1 Offset" value="AUTO" />
 < 	<ctl name="RX1 Offset" value="AUTO" />
+< 	<ctl name="1 Expand Switch" value="2" />
+< 	<ctl name="TX1 Expand" value="AUTO" />
+< 	<ctl name="RX1 Expand" value="AUTO" />
 < 	<ctl name="1 Balance Switch" value="2" />
 < 	<ctl name="TX1 Balance" value="AUTO" />
 < 	<ctl name="RX1 Balance" value="AUTO" />
@@ -23362,6 +23524,9 @@
 < 	<ctl name="2 Offset Switch" value="2" />
 < 	<ctl name="TX2 Offset" value="AUTO" />
 < 	<ctl name="RX2 Offset" value="AUTO" />
+< 	<ctl name="2 Expand Switch" value="2" />
+< 	<ctl name="TX2 Expand" value="AUTO" />
+< 	<ctl name="RX2 Expand" value="AUTO" />
 < 	<ctl name="2 Balance Switch" value="2" />
 < 	<ctl name="TX2 Balance" value="AUTO" />
 < 	<ctl name="RX2 Balance" value="AUTO" />
@@ -23374,6 +23539,9 @@
 < 	<ctl name="HPHL Offset Switch" value="2" />
 < 	<ctl name="TX HPHL Offset" value="AUTO" />
 < 	<ctl name="RX HPHL Offset" value="AUTO" />
+< 	<ctl name="HPHL Expand Switch" value="2" />
+< 	<ctl name="TX HPHL Expand" value="AUTO" />
+< 	<ctl name="RX HPHL Expand" value="AUTO" />
 < 	<ctl name="HPHL Balance Switch" value="2" />
 < 	<ctl name="TX HPHL Balance" value="AUTO" />
 < 	<ctl name="RX HPHL Balance" value="AUTO" />
@@ -23383,6 +23551,9 @@
 < 	<ctl name="HPHR Offset Switch" value="2" />
 < 	<ctl name="TX HPHR Offset" value="AUTO" />
 < 	<ctl name="RX HPHR Offset" value="AUTO" />
+< 	<ctl name="HPHR Expand Switch" value="2" />
+< 	<ctl name="TX HPHR Expand" value="AUTO" />
+< 	<ctl name="RX HPHR Expand" value="AUTO" />
 < 	<ctl name="HPHR Balance Switch" value="2" />
 < 	<ctl name="TX HPHR Balance" value="AUTO" />
 < 	<ctl name="RX HPHR Balance" value="AUTO" />
@@ -23421,6 +23592,9 @@
 < 	<ctl name="1 Offset Switch" value="2" />
 < 	<ctl name="TX1 Offset" value="AUTO" />
 < 	<ctl name="RX1 Offset" value="AUTO" />
+< 	<ctl name="1 Expand Switch" value="2" />
+< 	<ctl name="TX1 Expand" value="AUTO" />
+< 	<ctl name="RX1 Expand" value="AUTO" />
 < 	<ctl name="1 Balance Switch" value="2" />
 < 	<ctl name="TX1 Balance" value="AUTO" />
 < 	<ctl name="RX1 Balance" value="AUTO" />
@@ -23433,6 +23607,9 @@
 < 	<ctl name="2 Offset Switch" value="2" />
 < 	<ctl name="TX2 Offset" value="AUTO" />
 < 	<ctl name="RX2 Offset" value="AUTO" />
+< 	<ctl name="2 Expand Switch" value="2" />
+< 	<ctl name="TX2 Expand" value="AUTO" />
+< 	<ctl name="RX2 Expand" value="AUTO" />
 < 	<ctl name="2 Balance Switch" value="2" />
 < 	<ctl name="TX2 Balance" value="AUTO" />
 < 	<ctl name="RX2 Balance" value="AUTO" />
@@ -23445,6 +23622,9 @@
 < 	<ctl name="HPHL Offset Switch" value="2" />
 < 	<ctl name="TX HPHL Offset" value="AUTO" />
 < 	<ctl name="RX HPHL Offset" value="AUTO" />
+< 	<ctl name="HPHL Expand Switch" value="2" />
+< 	<ctl name="TX HPHL Expand" value="AUTO" />
+< 	<ctl name="RX HPHL Expand" value="AUTO" />
 < 	<ctl name="HPHL Balance Switch" value="2" />
 < 	<ctl name="TX HPHL Balance" value="AUTO" />
 < 	<ctl name="RX HPHL Balance" value="AUTO" />
@@ -23454,6 +23634,9 @@
 < 	<ctl name="HPHR Offset Switch" value="2" />
 < 	<ctl name="TX HPHR Offset" value="AUTO" />
 < 	<ctl name="RX HPHR Offset" value="AUTO" />
+< 	<ctl name="HPHR Expand Switch" value="2" />
+< 	<ctl name="TX HPHR Expand" value="AUTO" />
+< 	<ctl name="RX HPHR Expand" value="AUTO" />
 < 	<ctl name="HPHR Balance Switch" value="2" />
 < 	<ctl name="TX HPHR Balance" value="AUTO" />
 < 	<ctl name="RX HPHR Balance" value="AUTO" />
@@ -23492,6 +23675,9 @@
 < 	<ctl name="1 Offset Switch" value="2" />
 < 	<ctl name="TX1 Offset" value="AUTO" />
 < 	<ctl name="RX1 Offset" value="AUTO" />
+< 	<ctl name="1 Expand Switch" value="2" />
+< 	<ctl name="TX1 Expand" value="AUTO" />
+< 	<ctl name="RX1 Expand" value="AUTO" />
 < 	<ctl name="1 Balance Switch" value="2" />
 < 	<ctl name="TX1 Balance" value="AUTO" />
 < 	<ctl name="RX1 Balance" value="AUTO" />
@@ -23504,6 +23690,9 @@
 < 	<ctl name="2 Offset Switch" value="2" />
 < 	<ctl name="TX2 Offset" value="AUTO" />
 < 	<ctl name="RX2 Offset" value="AUTO" />
+< 	<ctl name="2 Expand Switch" value="2" />
+< 	<ctl name="TX2 Expand" value="AUTO" />
+< 	<ctl name="RX2 Expand" value="AUTO" />
 < 	<ctl name="2 Balance Switch" value="2" />
 < 	<ctl name="TX2 Balance" value="AUTO" />
 < 	<ctl name="RX2 Balance" value="AUTO" />
@@ -23516,6 +23705,9 @@
 < 	<ctl name="HPHL Offset Switch" value="2" />
 < 	<ctl name="TX HPHL Offset" value="AUTO" />
 < 	<ctl name="RX HPHL Offset" value="AUTO" />
+< 	<ctl name="HPHL Expand Switch" value="2" />
+< 	<ctl name="TX HPHL Expand" value="AUTO" />
+< 	<ctl name="RX HPHL Expand" value="AUTO" />
 < 	<ctl name="HPHL Balance Switch" value="2" />
 < 	<ctl name="TX HPHL Balance" value="AUTO" />
 < 	<ctl name="RX HPHL Balance" value="AUTO" />
@@ -23525,6 +23717,9 @@
 < 	<ctl name="HPHR Offset Switch" value="2" />
 < 	<ctl name="TX HPHR Offset" value="AUTO" />
 < 	<ctl name="RX HPHR Offset" value="AUTO" />
+< 	<ctl name="HPHR Expand Switch" value="2" />
+< 	<ctl name="TX HPHR Expand" value="AUTO" />
+< 	<ctl name="RX HPHR Expand" value="AUTO" />
 < 	<ctl name="HPHR Balance Switch" value="2" />
 < 	<ctl name="TX HPHR Balance" value="AUTO" />
 < 	<ctl name="RX HPHR Balance" value="AUTO" />
@@ -23545,6 +23740,9 @@
 < 	<ctl name="1 Offset Switch" value="2" />
 < 	<ctl name="TX1 Offset" value="AUTO" />
 < 	<ctl name="RX1 Offset" value="AUTO" />
+< 	<ctl name="1 Expand Switch" value="2" />
+< 	<ctl name="TX1 Expand" value="AUTO" />
+< 	<ctl name="RX1 Expand" value="AUTO" />
 < 	<ctl name="1 Balance Switch" value="2" />
 < 	<ctl name="TX1 Balance" value="AUTO" />
 < 	<ctl name="RX1 Balance" value="AUTO" />
@@ -23557,6 +23755,9 @@
 < 	<ctl name="2 Offset Switch" value="2" />
 < 	<ctl name="TX2 Offset" value="AUTO" />
 < 	<ctl name="RX2 Offset" value="AUTO" />
+< 	<ctl name="2 Expand Switch" value="2" />
+< 	<ctl name="TX2 Expand" value="AUTO" />
+< 	<ctl name="RX2 Expand" value="AUTO" />
 < 	<ctl name="2 Balance Switch" value="2" />
 < 	<ctl name="TX2 Balance" value="AUTO" />
 < 	<ctl name="RX2 Balance" value="AUTO" />
@@ -23569,6 +23770,9 @@
 < 	<ctl name="HPHL Offset Switch" value="2" />
 < 	<ctl name="TX HPHL Offset" value="AUTO" />
 < 	<ctl name="RX HPHL Offset" value="AUTO" />
+< 	<ctl name="HPHL Expand Switch" value="2" />
+< 	<ctl name="TX HPHL Expand" value="AUTO" />
+< 	<ctl name="RX HPHL Expand" value="AUTO" />
 < 	<ctl name="HPHL Balance Switch" value="2" />
 < 	<ctl name="TX HPHL Balance" value="AUTO" />
 < 	<ctl name="RX HPHL Balance" value="AUTO" />
@@ -23578,6 +23782,9 @@
 < 	<ctl name="HPHR Offset Switch" value="2" />
 < 	<ctl name="TX HPHR Offset" value="AUTO" />
 < 	<ctl name="RX HPHR Offset" value="AUTO" />
+< 	<ctl name="HPHR Expand Switch" value="2" />
+< 	<ctl name="TX HPHR Expand" value="AUTO" />
+< 	<ctl name="RX HPHR Expand" value="AUTO" />
 < 	<ctl name="HPHR Balance Switch" value="2" />
 < 	<ctl name="TX HPHR Balance" value="AUTO" />
 < 	<ctl name="RX HPHR Balance" value="AUTO" />
@@ -23598,6 +23805,9 @@
 < 	<ctl name="1 Offset Switch" value="2" />
 < 	<ctl name="TX1 Offset" value="AUTO" />
 < 	<ctl name="RX1 Offset" value="AUTO" />
+< 	<ctl name="1 Expand Switch" value="2" />
+< 	<ctl name="TX1 Expand" value="AUTO" />
+< 	<ctl name="RX1 Expand" value="AUTO" />
 < 	<ctl name="1 Balance Switch" value="2" />
 < 	<ctl name="TX1 Balance" value="AUTO" />
 < 	<ctl name="RX1 Balance" value="AUTO" />
@@ -23610,6 +23820,9 @@
 < 	<ctl name="2 Offset Switch" value="2" />
 < 	<ctl name="TX2 Offset" value="AUTO" />
 < 	<ctl name="RX2 Offset" value="AUTO" />
+< 	<ctl name="2 Expand Switch" value="2" />
+< 	<ctl name="TX2 Expand" value="AUTO" />
+< 	<ctl name="RX2 Expand" value="AUTO" />
 < 	<ctl name="2 Balance Switch" value="2" />
 < 	<ctl name="TX2 Balance" value="AUTO" />
 < 	<ctl name="RX2 Balance" value="AUTO" />
@@ -23622,6 +23835,9 @@
 < 	<ctl name="HPHL Offset Switch" value="2" />
 < 	<ctl name="TX HPHL Offset" value="AUTO" />
 < 	<ctl name="RX HPHL Offset" value="AUTO" />
+< 	<ctl name="HPHL Expand Switch" value="2" />
+< 	<ctl name="TX HPHL Expand" value="AUTO" />
+< 	<ctl name="RX HPHL Expand" value="AUTO" />
 < 	<ctl name="HPHL Balance Switch" value="2" />
 < 	<ctl name="TX HPHL Balance" value="AUTO" />
 < 	<ctl name="RX HPHL Balance" value="AUTO" />
@@ -23631,6 +23847,9 @@
 < 	<ctl name="HPHR Offset Switch" value="2" />
 < 	<ctl name="TX HPHR Offset" value="AUTO" />
 < 	<ctl name="RX HPHR Offset" value="AUTO" />
+< 	<ctl name="HPHR Expand Switch" value="2" />
+< 	<ctl name="TX HPHR Expand" value="AUTO" />
+< 	<ctl name="RX HPHR Expand" value="AUTO" />
 < 	<ctl name="HPHR Balance Switch" value="2" />
 < 	<ctl name="TX HPHR Balance" value="AUTO" />
 < 	<ctl name="RX HPHR Balance" value="AUTO" />
@@ -23669,6 +23888,9 @@
 < 	<ctl name="1 Offset Switch" value="2" />
 < 	<ctl name="TX1 Offset" value="AUTO" />
 < 	<ctl name="RX1 Offset" value="AUTO" />
+< 	<ctl name="1 Expand Switch" value="2" />
+< 	<ctl name="TX1 Expand" value="AUTO" />
+< 	<ctl name="RX1 Expand" value="AUTO" />
 < 	<ctl name="1 Balance Switch" value="2" />
 < 	<ctl name="TX1 Balance" value="AUTO" />
 < 	<ctl name="RX1 Balance" value="AUTO" />
@@ -23681,6 +23903,9 @@
 < 	<ctl name="2 Offset Switch" value="2" />
 < 	<ctl name="TX2 Offset" value="AUTO" />
 < 	<ctl name="RX2 Offset" value="AUTO" />
+< 	<ctl name="2 Expand Switch" value="2" />
+< 	<ctl name="TX2 Expand" value="AUTO" />
+< 	<ctl name="RX2 Expand" value="AUTO" />
 < 	<ctl name="2 Balance Switch" value="2" />
 < 	<ctl name="TX2 Balance" value="AUTO" />
 < 	<ctl name="RX2 Balance" value="AUTO" />
@@ -23693,6 +23918,9 @@
 < 	<ctl name="HPHL Offset Switch" value="2" />
 < 	<ctl name="TX HPHL Offset" value="AUTO" />
 < 	<ctl name="RX HPHL Offset" value="AUTO" />
+< 	<ctl name="HPHL Expand Switch" value="2" />
+< 	<ctl name="TX HPHL Expand" value="AUTO" />
+< 	<ctl name="RX HPHL Expand" value="AUTO" />
 < 	<ctl name="HPHL Balance Switch" value="2" />
 < 	<ctl name="TX HPHL Balance" value="AUTO" />
 < 	<ctl name="RX HPHL Balance" value="AUTO" />
@@ -23702,6 +23930,9 @@
 < 	<ctl name="HPHR Offset Switch" value="2" />
 < 	<ctl name="TX HPHR Offset" value="AUTO" />
 < 	<ctl name="RX HPHR Offset" value="AUTO" />
+< 	<ctl name="HPHR Expand Switch" value="2" />
+< 	<ctl name="TX HPHR Expand" value="AUTO" />
+< 	<ctl name="RX HPHR Expand" value="AUTO" />
 < 	<ctl name="HPHR Balance Switch" value="2" />
 < 	<ctl name="TX HPHR Balance" value="AUTO" />
 < 	<ctl name="RX HPHR Balance" value="AUTO" />
@@ -23722,6 +23953,9 @@
 < 	<ctl name="1 Offset Switch" value="2" />
 < 	<ctl name="TX1 Offset" value="AUTO" />
 < 	<ctl name="RX1 Offset" value="AUTO" />
+< 	<ctl name="1 Expand Switch" value="2" />
+< 	<ctl name="TX1 Expand" value="AUTO" />
+< 	<ctl name="RX1 Expand" value="AUTO" />
 < 	<ctl name="1 Balance Switch" value="2" />
 < 	<ctl name="TX1 Balance" value="AUTO" />
 < 	<ctl name="RX1 Balance" value="AUTO" />
@@ -23734,6 +23968,9 @@
 < 	<ctl name="2 Offset Switch" value="2" />
 < 	<ctl name="TX2 Offset" value="AUTO" />
 < 	<ctl name="RX2 Offset" value="AUTO" />
+< 	<ctl name="2 Expand Switch" value="2" />
+< 	<ctl name="TX2 Expand" value="AUTO" />
+< 	<ctl name="RX2 Expand" value="AUTO" />
 < 	<ctl name="2 Balance Switch" value="2" />
 < 	<ctl name="TX2 Balance" value="AUTO" />
 < 	<ctl name="RX2 Balance" value="AUTO" />
@@ -23746,6 +23983,9 @@
 < 	<ctl name="HPHL Offset Switch" value="2" />
 < 	<ctl name="TX HPHL Offset" value="AUTO" />
 < 	<ctl name="RX HPHL Offset" value="AUTO" />
+< 	<ctl name="HPHL Expand Switch" value="2" />
+< 	<ctl name="TX HPHL Expand" value="AUTO" />
+< 	<ctl name="RX HPHL Expand" value="AUTO" />
 < 	<ctl name="HPHL Balance Switch" value="2" />
 < 	<ctl name="TX HPHL Balance" value="AUTO" />
 < 	<ctl name="RX HPHL Balance" value="AUTO" />
@@ -23755,6 +23995,9 @@
 < 	<ctl name="HPHR Offset Switch" value="2" />
 < 	<ctl name="TX HPHR Offset" value="AUTO" />
 < 	<ctl name="RX HPHR Offset" value="AUTO" />
+< 	<ctl name="HPHR Expand Switch" value="2" />
+< 	<ctl name="TX HPHR Expand" value="AUTO" />
+< 	<ctl name="RX HPHR Expand" value="AUTO" />
 < 	<ctl name="HPHR Balance Switch" value="2" />
 < 	<ctl name="TX HPHR Balance" value="AUTO" />
 < 	<ctl name="RX HPHR Balance" value="AUTO" />
@@ -23775,6 +24018,9 @@
 < 	<ctl name="1 Offset Switch" value="2" />
 < 	<ctl name="TX1 Offset" value="AUTO" />
 < 	<ctl name="RX1 Offset" value="AUTO" />
+< 	<ctl name="1 Expand Switch" value="2" />
+< 	<ctl name="TX1 Expand" value="AUTO" />
+< 	<ctl name="RX1 Expand" value="AUTO" />
 < 	<ctl name="1 Balance Switch" value="2" />
 < 	<ctl name="TX1 Balance" value="AUTO" />
 < 	<ctl name="RX1 Balance" value="AUTO" />
@@ -23787,6 +24033,9 @@
 < 	<ctl name="2 Offset Switch" value="2" />
 < 	<ctl name="TX2 Offset" value="AUTO" />
 < 	<ctl name="RX2 Offset" value="AUTO" />
+< 	<ctl name="2 Expand Switch" value="2" />
+< 	<ctl name="TX2 Expand" value="AUTO" />
+< 	<ctl name="RX2 Expand" value="AUTO" />
 < 	<ctl name="2 Balance Switch" value="2" />
 < 	<ctl name="TX2 Balance" value="AUTO" />
 < 	<ctl name="RX2 Balance" value="AUTO" />
@@ -23799,6 +24048,9 @@
 < 	<ctl name="HPHL Offset Switch" value="2" />
 < 	<ctl name="TX HPHL Offset" value="AUTO" />
 < 	<ctl name="RX HPHL Offset" value="AUTO" />
+< 	<ctl name="HPHL Expand Switch" value="2" />
+< 	<ctl name="TX HPHL Expand" value="AUTO" />
+< 	<ctl name="RX HPHL Expand" value="AUTO" />
 < 	<ctl name="HPHL Balance Switch" value="2" />
 < 	<ctl name="TX HPHL Balance" value="AUTO" />
 < 	<ctl name="RX HPHL Balance" value="AUTO" />
@@ -23808,6 +24060,9 @@
 < 	<ctl name="HPHR Offset Switch" value="2" />
 < 	<ctl name="TX HPHR Offset" value="AUTO" />
 < 	<ctl name="RX HPHR Offset" value="AUTO" />
+< 	<ctl name="HPHR Expand Switch" value="2" />
+< 	<ctl name="TX HPHR Expand" value="AUTO" />
+< 	<ctl name="RX HPHR Expand" value="AUTO" />
 < 	<ctl name="HPHR Balance Switch" value="2" />
 < 	<ctl name="TX HPHR Balance" value="AUTO" />
 < 	<ctl name="RX HPHR Balance" value="AUTO" />
@@ -23856,6 +24111,9 @@
 < 	<ctl name="1 Offset Switch" value="2" />
 < 	<ctl name="TX1 Offset" value="AUTO" />
 < 	<ctl name="RX1 Offset" value="AUTO" />
+< 	<ctl name="1 Expand Switch" value="2" />
+< 	<ctl name="TX1 Expand" value="AUTO" />
+< 	<ctl name="RX1 Expand" value="AUTO" />
 < 	<ctl name="1 Balance Switch" value="2" />
 < 	<ctl name="TX1 Balance" value="AUTO" />
 < 	<ctl name="RX1 Balance" value="AUTO" />
@@ -23868,6 +24126,9 @@
 < 	<ctl name="2 Offset Switch" value="2" />
 < 	<ctl name="TX2 Offset" value="AUTO" />
 < 	<ctl name="RX2 Offset" value="AUTO" />
+< 	<ctl name="2 Expand Switch" value="2" />
+< 	<ctl name="TX2 Expand" value="AUTO" />
+< 	<ctl name="RX2 Expand" value="AUTO" />
 < 	<ctl name="2 Balance Switch" value="2" />
 < 	<ctl name="TX2 Balance" value="AUTO" />
 < 	<ctl name="RX2 Balance" value="AUTO" />
@@ -23880,6 +24141,9 @@
 < 	<ctl name="HPHL Offset Switch" value="2" />
 < 	<ctl name="TX HPHL Offset" value="AUTO" />
 < 	<ctl name="RX HPHL Offset" value="AUTO" />
+< 	<ctl name="HPHL Expand Switch" value="2" />
+< 	<ctl name="TX HPHL Expand" value="AUTO" />
+< 	<ctl name="RX HPHL Expand" value="AUTO" />
 < 	<ctl name="HPHL Balance Switch" value="2" />
 < 	<ctl name="TX HPHL Balance" value="AUTO" />
 < 	<ctl name="RX HPHL Balance" value="AUTO" />
@@ -23889,6 +24153,9 @@
 < 	<ctl name="HPHR Offset Switch" value="2" />
 < 	<ctl name="TX HPHR Offset" value="AUTO" />
 < 	<ctl name="RX HPHR Offset" value="AUTO" />
+< 	<ctl name="HPHR Expand Switch" value="2" />
+< 	<ctl name="TX HPHR Expand" value="AUTO" />
+< 	<ctl name="RX HPHR Expand" value="AUTO" />
 < 	<ctl name="HPHR Balance Switch" value="2" />
 < 	<ctl name="TX HPHR Balance" value="AUTO" />
 < 	<ctl name="RX HPHR Balance" value="AUTO" />
@@ -23926,6 +24193,9 @@
 < 	<ctl name="1 Offset Switch" value="2" />
 < 	<ctl name="TX1 Offset" value="AUTO" />
 < 	<ctl name="RX1 Offset" value="AUTO" />
+< 	<ctl name="1 Expand Switch" value="2" />
+< 	<ctl name="TX1 Expand" value="AUTO" />
+< 	<ctl name="RX1 Expand" value="AUTO" />
 < 	<ctl name="1 Balance Switch" value="2" />
 < 	<ctl name="TX1 Balance" value="AUTO" />
 < 	<ctl name="RX1 Balance" value="AUTO" />
@@ -23938,6 +24208,9 @@
 < 	<ctl name="2 Offset Switch" value="2" />
 < 	<ctl name="TX2 Offset" value="AUTO" />
 < 	<ctl name="RX2 Offset" value="AUTO" />
+< 	<ctl name="2 Expand Switch" value="2" />
+< 	<ctl name="TX2 Expand" value="AUTO" />
+< 	<ctl name="RX2 Expand" value="AUTO" />
 < 	<ctl name="2 Balance Switch" value="2" />
 < 	<ctl name="TX2 Balance" value="AUTO" />
 < 	<ctl name="RX2 Balance" value="AUTO" />
@@ -23950,6 +24223,9 @@
 < 	<ctl name="HPHL Offset Switch" value="2" />
 < 	<ctl name="TX HPHL Offset" value="AUTO" />
 < 	<ctl name="RX HPHL Offset" value="AUTO" />
+< 	<ctl name="HPHL Expand Switch" value="2" />
+< 	<ctl name="TX HPHL Expand" value="AUTO" />
+< 	<ctl name="RX HPHL Expand" value="AUTO" />
 < 	<ctl name="HPHL Balance Switch" value="2" />
 < 	<ctl name="TX HPHL Balance" value="AUTO" />
 < 	<ctl name="RX HPHL Balance" value="AUTO" />
@@ -23959,6 +24235,9 @@
 < 	<ctl name="HPHR Offset Switch" value="2" />
 < 	<ctl name="TX HPHR Offset" value="AUTO" />
 < 	<ctl name="RX HPHR Offset" value="AUTO" />
+< 	<ctl name="HPHR Expand Switch" value="2" />
+< 	<ctl name="TX HPHR Expand" value="AUTO" />
+< 	<ctl name="RX HPHR Expand" value="AUTO" />
 < 	<ctl name="HPHR Balance Switch" value="2" />
 < 	<ctl name="TX HPHR Balance" value="AUTO" />
 < 	<ctl name="RX HPHR Balance" value="AUTO" />
@@ -23996,6 +24275,9 @@
 < 	<ctl name="1 Offset Switch" value="2" />
 < 	<ctl name="TX1 Offset" value="AUTO" />
 < 	<ctl name="RX1 Offset" value="AUTO" />
+< 	<ctl name="1 Expand Switch" value="2" />
+< 	<ctl name="TX1 Expand" value="AUTO" />
+< 	<ctl name="RX1 Expand" value="AUTO" />
 < 	<ctl name="1 Balance Switch" value="2" />
 < 	<ctl name="TX1 Balance" value="AUTO" />
 < 	<ctl name="RX1 Balance" value="AUTO" />
@@ -24008,6 +24290,9 @@
 < 	<ctl name="2 Offset Switch" value="2" />
 < 	<ctl name="TX2 Offset" value="AUTO" />
 < 	<ctl name="RX2 Offset" value="AUTO" />
+< 	<ctl name="2 Expand Switch" value="2" />
+< 	<ctl name="TX2 Expand" value="AUTO" />
+< 	<ctl name="RX2 Expand" value="AUTO" />
 < 	<ctl name="2 Balance Switch" value="2" />
 < 	<ctl name="TX2 Balance" value="AUTO" />
 < 	<ctl name="RX2 Balance" value="AUTO" />
@@ -24020,6 +24305,9 @@
 < 	<ctl name="HPHL Offset Switch" value="2" />
 < 	<ctl name="TX HPHL Offset" value="AUTO" />
 < 	<ctl name="RX HPHL Offset" value="AUTO" />
+< 	<ctl name="HPHL Expand Switch" value="2" />
+< 	<ctl name="TX HPHL Expand" value="AUTO" />
+< 	<ctl name="RX HPHL Expand" value="AUTO" />
 < 	<ctl name="HPHL Balance Switch" value="2" />
 < 	<ctl name="TX HPHL Balance" value="AUTO" />
 < 	<ctl name="RX HPHL Balance" value="AUTO" />
@@ -24029,6 +24317,9 @@
 < 	<ctl name="HPHR Offset Switch" value="2" />
 < 	<ctl name="TX HPHR Offset" value="AUTO" />
 < 	<ctl name="RX HPHR Offset" value="AUTO" />
+< 	<ctl name="HPHR Expand Switch" value="2" />
+< 	<ctl name="TX HPHR Expand" value="AUTO" />
+< 	<ctl name="RX HPHR Expand" value="AUTO" />
 < 	<ctl name="HPHR Balance Switch" value="2" />
 < 	<ctl name="TX HPHR Balance" value="AUTO" />
 < 	<ctl name="RX HPHR Balance" value="AUTO" />
@@ -24048,6 +24339,9 @@
 < 	<ctl name="1 Offset Switch" value="2" />
 < 	<ctl name="TX1 Offset" value="AUTO" />
 < 	<ctl name="RX1 Offset" value="AUTO" />
+< 	<ctl name="1 Expand Switch" value="2" />
+< 	<ctl name="TX1 Expand" value="AUTO" />
+< 	<ctl name="RX1 Expand" value="AUTO" />
 < 	<ctl name="1 Balance Switch" value="2" />
 < 	<ctl name="TX1 Balance" value="AUTO" />
 < 	<ctl name="RX1 Balance" value="AUTO" />
@@ -24060,6 +24354,9 @@
 < 	<ctl name="2 Offset Switch" value="2" />
 < 	<ctl name="TX2 Offset" value="AUTO" />
 < 	<ctl name="RX2 Offset" value="AUTO" />
+< 	<ctl name="2 Expand Switch" value="2" />
+< 	<ctl name="TX2 Expand" value="AUTO" />
+< 	<ctl name="RX2 Expand" value="AUTO" />
 < 	<ctl name="2 Balance Switch" value="2" />
 < 	<ctl name="TX2 Balance" value="AUTO" />
 < 	<ctl name="RX2 Balance" value="AUTO" />
@@ -24072,6 +24369,9 @@
 < 	<ctl name="HPHL Offset Switch" value="2" />
 < 	<ctl name="TX HPHL Offset" value="AUTO" />
 < 	<ctl name="RX HPHL Offset" value="AUTO" />
+< 	<ctl name="HPHL Expand Switch" value="2" />
+< 	<ctl name="TX HPHL Expand" value="AUTO" />
+< 	<ctl name="RX HPHL Expand" value="AUTO" />
 < 	<ctl name="HPHL Balance Switch" value="2" />
 < 	<ctl name="TX HPHL Balance" value="AUTO" />
 < 	<ctl name="RX HPHL Balance" value="AUTO" />
@@ -24081,6 +24381,9 @@
 < 	<ctl name="HPHR Offset Switch" value="2" />
 < 	<ctl name="TX HPHR Offset" value="AUTO" />
 < 	<ctl name="RX HPHR Offset" value="AUTO" />
+< 	<ctl name="HPHR Expand Switch" value="2" />
+< 	<ctl name="TX HPHR Expand" value="AUTO" />
+< 	<ctl name="RX HPHR Expand" value="AUTO" />
 < 	<ctl name="HPHR Balance Switch" value="2" />
 < 	<ctl name="TX HPHR Balance" value="AUTO" />
 < 	<ctl name="RX HPHR Balance" value="AUTO" />
@@ -24100,6 +24403,9 @@
 < 	<ctl name="1 Offset Switch" value="2" />
 < 	<ctl name="TX1 Offset" value="AUTO" />
 < 	<ctl name="RX1 Offset" value="AUTO" />
+< 	<ctl name="1 Expand Switch" value="2" />
+< 	<ctl name="TX1 Expand" value="AUTO" />
+< 	<ctl name="RX1 Expand" value="AUTO" />
 < 	<ctl name="1 Balance Switch" value="2" />
 < 	<ctl name="TX1 Balance" value="AUTO" />
 < 	<ctl name="RX1 Balance" value="AUTO" />
@@ -24112,6 +24418,9 @@
 < 	<ctl name="2 Offset Switch" value="2" />
 < 	<ctl name="TX2 Offset" value="AUTO" />
 < 	<ctl name="RX2 Offset" value="AUTO" />
+< 	<ctl name="2 Expand Switch" value="2" />
+< 	<ctl name="TX2 Expand" value="AUTO" />
+< 	<ctl name="RX2 Expand" value="AUTO" />
 < 	<ctl name="2 Balance Switch" value="2" />
 < 	<ctl name="TX2 Balance" value="AUTO" />
 < 	<ctl name="RX2 Balance" value="AUTO" />
@@ -24124,6 +24433,9 @@
 < 	<ctl name="HPHL Offset Switch" value="2" />
 < 	<ctl name="TX HPHL Offset" value="AUTO" />
 < 	<ctl name="RX HPHL Offset" value="AUTO" />
+< 	<ctl name="HPHL Expand Switch" value="2" />
+< 	<ctl name="TX HPHL Expand" value="AUTO" />
+< 	<ctl name="RX HPHL Expand" value="AUTO" />
 < 	<ctl name="HPHL Balance Switch" value="2" />
 < 	<ctl name="TX HPHL Balance" value="AUTO" />
 < 	<ctl name="RX HPHL Balance" value="AUTO" />
@@ -24133,6 +24445,9 @@
 < 	<ctl name="HPHR Offset Switch" value="2" />
 < 	<ctl name="TX HPHR Offset" value="AUTO" />
 < 	<ctl name="RX HPHR Offset" value="AUTO" />
+< 	<ctl name="HPHR Expand Switch" value="2" />
+< 	<ctl name="TX HPHR Expand" value="AUTO" />
+< 	<ctl name="RX HPHR Expand" value="AUTO" />
 < 	<ctl name="HPHR Balance Switch" value="2" />
 < 	<ctl name="TX HPHR Balance" value="AUTO" />
 < 	<ctl name="RX HPHR Balance" value="AUTO" />
@@ -24170,6 +24485,9 @@
 < 	<ctl name="1 Offset Switch" value="2" />
 < 	<ctl name="TX1 Offset" value="AUTO" />
 < 	<ctl name="RX1 Offset" value="AUTO" />
+< 	<ctl name="1 Expand Switch" value="2" />
+< 	<ctl name="TX1 Expand" value="AUTO" />
+< 	<ctl name="RX1 Expand" value="AUTO" />
 < 	<ctl name="1 Balance Switch" value="2" />
 < 	<ctl name="TX1 Balance" value="AUTO" />
 < 	<ctl name="RX1 Balance" value="AUTO" />
@@ -24182,6 +24500,9 @@
 < 	<ctl name="2 Offset Switch" value="2" />
 < 	<ctl name="TX2 Offset" value="AUTO" />
 < 	<ctl name="RX2 Offset" value="AUTO" />
+< 	<ctl name="2 Expand Switch" value="2" />
+< 	<ctl name="TX2 Expand" value="AUTO" />
+< 	<ctl name="RX2 Expand" value="AUTO" />
 < 	<ctl name="2 Balance Switch" value="2" />
 < 	<ctl name="TX2 Balance" value="AUTO" />
 < 	<ctl name="RX2 Balance" value="AUTO" />
@@ -24194,6 +24515,9 @@
 < 	<ctl name="HPHL Offset Switch" value="2" />
 < 	<ctl name="TX HPHL Offset" value="AUTO" />
 < 	<ctl name="RX HPHL Offset" value="AUTO" />
+< 	<ctl name="HPHL Expand Switch" value="2" />
+< 	<ctl name="TX HPHL Expand" value="AUTO" />
+< 	<ctl name="RX HPHL Expand" value="AUTO" />
 < 	<ctl name="HPHL Balance Switch" value="2" />
 < 	<ctl name="TX HPHL Balance" value="AUTO" />
 < 	<ctl name="RX HPHL Balance" value="AUTO" />
@@ -24203,6 +24527,9 @@
 < 	<ctl name="HPHR Offset Switch" value="2" />
 < 	<ctl name="TX HPHR Offset" value="AUTO" />
 < 	<ctl name="RX HPHR Offset" value="AUTO" />
+< 	<ctl name="HPHR Expand Switch" value="2" />
+< 	<ctl name="TX HPHR Expand" value="AUTO" />
+< 	<ctl name="RX HPHR Expand" value="AUTO" />
 < 	<ctl name="HPHR Balance Switch" value="2" />
 < 	<ctl name="TX HPHR Balance" value="AUTO" />
 < 	<ctl name="RX HPHR Balance" value="AUTO" />
@@ -24222,6 +24549,9 @@
 < 	<ctl name="1 Offset Switch" value="2" />
 < 	<ctl name="TX1 Offset" value="AUTO" />
 < 	<ctl name="RX1 Offset" value="AUTO" />
+< 	<ctl name="1 Expand Switch" value="2" />
+< 	<ctl name="TX1 Expand" value="AUTO" />
+< 	<ctl name="RX1 Expand" value="AUTO" />
 < 	<ctl name="1 Balance Switch" value="2" />
 < 	<ctl name="TX1 Balance" value="AUTO" />
 < 	<ctl name="RX1 Balance" value="AUTO" />
@@ -24234,6 +24564,9 @@
 < 	<ctl name="2 Offset Switch" value="2" />
 < 	<ctl name="TX2 Offset" value="AUTO" />
 < 	<ctl name="RX2 Offset" value="AUTO" />
+< 	<ctl name="2 Expand Switch" value="2" />
+< 	<ctl name="TX2 Expand" value="AUTO" />
+< 	<ctl name="RX2 Expand" value="AUTO" />
 < 	<ctl name="2 Balance Switch" value="2" />
 < 	<ctl name="TX2 Balance" value="AUTO" />
 < 	<ctl name="RX2 Balance" value="AUTO" />
@@ -24246,6 +24579,9 @@
 < 	<ctl name="HPHL Offset Switch" value="2" />
 < 	<ctl name="TX HPHL Offset" value="AUTO" />
 < 	<ctl name="RX HPHL Offset" value="AUTO" />
+< 	<ctl name="HPHL Expand Switch" value="2" />
+< 	<ctl name="TX HPHL Expand" value="AUTO" />
+< 	<ctl name="RX HPHL Expand" value="AUTO" />
 < 	<ctl name="HPHL Balance Switch" value="2" />
 < 	<ctl name="TX HPHL Balance" value="AUTO" />
 < 	<ctl name="RX HPHL Balance" value="AUTO" />
@@ -24255,6 +24591,9 @@
 < 	<ctl name="HPHR Offset Switch" value="2" />
 < 	<ctl name="TX HPHR Offset" value="AUTO" />
 < 	<ctl name="RX HPHR Offset" value="AUTO" />
+< 	<ctl name="HPHR Expand Switch" value="2" />
+< 	<ctl name="TX HPHR Expand" value="AUTO" />
+< 	<ctl name="RX HPHR Expand" value="AUTO" />
 < 	<ctl name="HPHR Balance Switch" value="2" />
 < 	<ctl name="TX HPHR Balance" value="AUTO" />
 < 	<ctl name="RX HPHR Balance" value="AUTO" />
@@ -24274,6 +24613,9 @@
 < 	<ctl name="1 Offset Switch" value="2" />
 < 	<ctl name="TX1 Offset" value="AUTO" />
 < 	<ctl name="RX1 Offset" value="AUTO" />
+< 	<ctl name="1 Expand Switch" value="2" />
+< 	<ctl name="TX1 Expand" value="AUTO" />
+< 	<ctl name="RX1 Expand" value="AUTO" />
 < 	<ctl name="1 Balance Switch" value="2" />
 < 	<ctl name="TX1 Balance" value="AUTO" />
 < 	<ctl name="RX1 Balance" value="AUTO" />
@@ -24286,6 +24628,9 @@
 < 	<ctl name="2 Offset Switch" value="2" />
 < 	<ctl name="TX2 Offset" value="AUTO" />
 < 	<ctl name="RX2 Offset" value="AUTO" />
+< 	<ctl name="2 Expand Switch" value="2" />
+< 	<ctl name="TX2 Expand" value="AUTO" />
+< 	<ctl name="RX2 Expand" value="AUTO" />
 < 	<ctl name="2 Balance Switch" value="2" />
 < 	<ctl name="TX2 Balance" value="AUTO" />
 < 	<ctl name="RX2 Balance" value="AUTO" />
@@ -24298,6 +24643,9 @@
 < 	<ctl name="HPHL Offset Switch" value="2" />
 < 	<ctl name="TX HPHL Offset" value="AUTO" />
 < 	<ctl name="RX HPHL Offset" value="AUTO" />
+< 	<ctl name="HPHL Expand Switch" value="2" />
+< 	<ctl name="TX HPHL Expand" value="AUTO" />
+< 	<ctl name="RX HPHL Expand" value="AUTO" />
 < 	<ctl name="HPHL Balance Switch" value="2" />
 < 	<ctl name="TX HPHL Balance" value="AUTO" />
 < 	<ctl name="RX HPHL Balance" value="AUTO" />
@@ -24307,6 +24655,9 @@
 < 	<ctl name="HPHR Offset Switch" value="2" />
 < 	<ctl name="TX HPHR Offset" value="AUTO" />
 < 	<ctl name="RX HPHR Offset" value="AUTO" />
+< 	<ctl name="HPHR Expand Switch" value="2" />
+< 	<ctl name="TX HPHR Expand" value="AUTO" />
+< 	<ctl name="RX HPHR Expand" value="AUTO" />
 < 	<ctl name="HPHR Balance Switch" value="2" />
 < 	<ctl name="TX HPHR Balance" value="AUTO" />
 < 	<ctl name="RX HPHR Balance" value="AUTO" />
@@ -24326,6 +24677,9 @@
 < 	<ctl name="1 Offset Switch" value="2" />
 < 	<ctl name="TX1 Offset" value="AUTO" />
 < 	<ctl name="RX1 Offset" value="AUTO" />
+< 	<ctl name="1 Expand Switch" value="2" />
+< 	<ctl name="TX1 Expand" value="AUTO" />
+< 	<ctl name="RX1 Expand" value="AUTO" />
 < 	<ctl name="1 Balance Switch" value="2" />
 < 	<ctl name="TX1 Balance" value="AUTO" />
 < 	<ctl name="RX1 Balance" value="AUTO" />
@@ -24338,6 +24692,9 @@
 < 	<ctl name="2 Offset Switch" value="2" />
 < 	<ctl name="TX2 Offset" value="AUTO" />
 < 	<ctl name="RX2 Offset" value="AUTO" />
+< 	<ctl name="2 Expand Switch" value="2" />
+< 	<ctl name="TX2 Expand" value="AUTO" />
+< 	<ctl name="RX2 Expand" value="AUTO" />
 < 	<ctl name="2 Balance Switch" value="2" />
 < 	<ctl name="TX2 Balance" value="AUTO" />
 < 	<ctl name="RX2 Balance" value="AUTO" />
@@ -24350,6 +24707,9 @@
 < 	<ctl name="HPHL Offset Switch" value="2" />
 < 	<ctl name="TX HPHL Offset" value="AUTO" />
 < 	<ctl name="RX HPHL Offset" value="AUTO" />
+< 	<ctl name="HPHL Expand Switch" value="2" />
+< 	<ctl name="TX HPHL Expand" value="AUTO" />
+< 	<ctl name="RX HPHL Expand" value="AUTO" />
 < 	<ctl name="HPHL Balance Switch" value="2" />
 < 	<ctl name="TX HPHL Balance" value="AUTO" />
 < 	<ctl name="RX HPHL Balance" value="AUTO" />
@@ -24359,6 +24719,9 @@
 < 	<ctl name="HPHR Offset Switch" value="2" />
 < 	<ctl name="TX HPHR Offset" value="AUTO" />
 < 	<ctl name="RX HPHR Offset" value="AUTO" />
+< 	<ctl name="HPHR Expand Switch" value="2" />
+< 	<ctl name="TX HPHR Expand" value="AUTO" />
+< 	<ctl name="RX HPHR Expand" value="AUTO" />
 < 	<ctl name="HPHR Balance Switch" value="2" />
 < 	<ctl name="TX HPHR Balance" value="AUTO" />
 < 	<ctl name="RX HPHR Balance" value="AUTO" />
@@ -26486,7 +26849,7 @@
 >         <path name="speaker-protected" />
 >     </path>
 >     <!-- TERT MI2S A2DP OFFLOAD end -->
-22648,22650d3899
+23011,23013d3899
 < 	
 < 	
 < 	<!-- Bottom of page -->
