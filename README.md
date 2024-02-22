@@ -1,5 +1,5 @@
 ![294729981-1fd80758-cdef-4be1-afb5-1d6666d383a0](https://github.com/darnrain/Lemon-Drop-Hi-Res-audio-source-code/assets/60840489/c7f73ce2-8e2e-4c9c-955c-38dced1bd54c)
-## It's only a matter of time. Everyone needs to prepare for the inevitable. I'm not stopping tell I have the worlds best!
+## The world needs to prepare for the inevitable. This will absolutely change the world, as you know it. Some will be happy, some will not be happy. I have made the executive decision. The open source community will have the very best audio, known to man kind. It's only a matter of time.
 ### Lemon Drop Hi-Res audio source code
 Welcome to the worlds best & first 24/32bit QuadDAC in True Stereo!<br>
 The 16bit side is set at: 64bit, 176.4kHz with 6411 channels and upsampled 4X from 16bit, 44.1Khz<br>
@@ -27,6 +27,9 @@ I’m not going to beat around the bush. I reinvented stereo. I also invented th
 
 "We live in a crooked world, with crooked people, with crooked music."<br>
 — darnrain<br>
+
+"The measure of intelligence is the ability to change"<br>
+— Albert Einstein<br>
 
 “Once you eliminate the impossible, whatever remains, no matter how improbable, must be the truth”<br>
 — Sir Arthur Conan Doyle<br>
