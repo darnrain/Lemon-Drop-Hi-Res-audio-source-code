@@ -28,7 +28,7 @@
 	
 	<!-- Top of page -->
 	
-	<!-- Lemon Drop Hi-Res treble v223.1 -->
+	<!-- Lemon Drop Hi-Res treble v224.1 -->
 	<!-- The worlds first 24/32bit QuadDAC in True Stereo! -->
 	<!-- Designed and created by darnrain @GitHub -->
 	<!-- Proudly Made In America -->
@@ -18807,13 +18807,13 @@
 	<!-- speaker-16bit & speaker-24bit are the QuadDAC 16bit & 24bit side -->
 	
 	<!-- This is how I calculated the amount of channels for speaker-16bit -->
-	<!-- 6144 -->
+	<!-- 6144 X 4 = 24576 -->
 	
 	<!-- This is how I calculated the kilohertz for speaker-16bit -->
-	<!-- 176.4 -->
+	<!-- 176.4 X 4 = 705.6 -->
 	
 	<!-- This is how I calculated the bit rate for speaker-16bit -->
-	<!-- 64 -->
+	<!-- 64 X 4 = 256 -->
 	
 	<!-- This is how I calculated the amount of channels for speaker-24bit -->
 	<!-- 6144 X 4 = 24576 -->
@@ -19070,12 +19070,12 @@
 	
 	<path name="speaker-16bit">
 	<path name="true-native-mode-SPKR" />
-	<ctl name="SLIM_3_TX Channels" value="Sixthousandonehundredfortyfour" />
-	<ctl name="SLIM_3_RX Channels" value="Sixthousandonehundredfortyfour" />
-	<ctl name="SLIM_3_TX SampleRate" value="KHZ_176P4" />
-	<ctl name="SLIM_3_RX SampleRate" value="KHZ_176P4" />
-	<ctl name="SLIM_3_TX Format" value="PACKED_64B" />
-	<ctl name="SLIM_3_RX Format" value="PACKED_64B" />
+	<ctl name="SLIM_3_TX Channels" value="Twentyfourthousandfivehundredseventysix" />
+	<ctl name="SLIM_3_RX Channels" value="Twentyfourthousandfivehundredseventysix" />
+	<ctl name="SLIM_3_TX SampleRate" value="KHZ_705P6" />
+	<ctl name="SLIM_3_RX SampleRate" value="KHZ_705P6" />
+	<ctl name="SLIM_3_TX Format" value="PACKED_256B" />
+	<ctl name="SLIM_3_RX Format" value="PACKED_256B" />
 	<ctl name="SPKRL LDAC Switch" value="2" />
 	<ctl name="TX SPKRL LDAC" value="2" />
 	<ctl name="RX SPKRL LDAC" value="2" />
@@ -19880,12 +19880,12 @@
 	<!-- Added -->
 	<path name="vbat_speaker-16bit">
 	<path name="true-native-mode-SPKR-vbat" />
-	<ctl name="SLIM_3_TX Channels" value="Sixthousandonehundredfortyfour" />
-	<ctl name="SLIM_3_RX Channels" value="Sixthousandonehundredfortyfour" />
-	<ctl name="SLIM_3_TX SampleRate" value="KHZ_176P4" />
-	<ctl name="SLIM_3_RX SampleRate" value="KHZ_176P4" />
-	<ctl name="SLIM_3_TX Format" value="PACKED_64B" />
-	<ctl name="SLIM_3_RX Format" value="PACKED_64B" />
+	<ctl name="SLIM_3_TX Channels" value="Twentyfourthousandfivehundredseventysix" />
+	<ctl name="SLIM_3_RX Channels" value="Twentyfourthousandfivehundredseventysix" />
+	<ctl name="SLIM_3_TX SampleRate" value="KHZ_705P6" />
+	<ctl name="SLIM_3_RX SampleRate" value="KHZ_705P6" />
+	<ctl name="SLIM_3_TX Format" value="PACKED_256B" />
+	<ctl name="SLIM_3_RX Format" value="PACKED_256B" />
 	<ctl name="SPKRL LDAC Switch" value="2" />
 	<ctl name="TX SPKRL LDAC" value="2" />
 	<ctl name="RX SPKRL LDAC" value="2" />
@@ -21822,7 +21822,76 @@
 	<ctl name="SEC_MI2S_RX Audio Mixer MultiMedia16" value="2" />
 	</path>
 	
-	<!-- Welcome to the QuadDAC direct output -->
+	<!-- Welcome to the QuadDAC direct output 16bit -->
+	
+	<!-- DAC 0 = low-range -->
+	<!-- DAC 1 = mid-range -->
+	<!-- DAC 2 = high-range -->
+	<!-- DAC 3 = offload -->
+	
+	<!-- You must divide everything by 4 from speaker-16bit -->
+	
+	<!-- speaker-16bit is set to channels: 24576 -->
+	<!-- 24576 divided by 4 = 6144 -->
+	
+	<!-- speaker-16bit is set to kilohertz: 705.6 -->
+	<!-- 705.6 divided by 4 = 176.4 -->
+	
+	<!-- speaker-16bit is set to bit rate: 256 -->
+	<!-- 256 divided by 4 = 64 -->
+	
+	<path name="dop_playback-16bit tert-mi2s-headphones">
+	<ctl name="SEC_TDM_TX_0 Audio Mixer MultiMedia1" value="2" />
+	<ctl name="SEC_TDM_RX_0 Audio Mixer MultiMedia1" value="2" />
+	<ctl name="SEC_TDM_TX_0 Channels" value="Sixthousandonehundredfortyfour" />
+	<ctl name="SEC_TDM_RX_0 Channels" value="Sixthousandonehundredfortyfour" />
+	<ctl name="SEC_TDM_TX_0 SampleRate" value="KHZ_176P4" />
+	<ctl name="SEC_TDM_RX_0 SampleRate" value="KHZ_176P4" />
+	<ctl name="SEC_TDM_TX_0 Format" value="S64_LE" />
+	<ctl name="SEC_TDM_RX_0 Format" value="S64_LE" />
+	<ctl name="SEC_TDM_TX_1 Audio Mixer MultiMedia3" value="2" />
+	<ctl name="SEC_TDM_RX_1 Audio Mixer MultiMedia3" value="2" />
+	<ctl name="SEC_TDM_TX_1 Channels" value="Sixthousandonehundredfortyfour" />
+	<ctl name="SEC_TDM_RX_1 Channels" value="Sixthousandonehundredfortyfour" />
+	<ctl name="SEC_TDM_TX_1 SampleRate" value="KHZ_176P4" />
+	<ctl name="SEC_TDM_RX_1 SampleRate" value="KHZ_176P4" />
+	<ctl name="SEC_TDM_TX_1 Format" value="S64_LE" />
+	<ctl name="SEC_TDM_RX_1 Format" value="S64_LE" />
+	<ctl name="SEC_TDM_TX_2 Audio Mixer MultiMedia5" value="2" />
+	<ctl name="SEC_TDM_RX_2 Audio Mixer MultiMedia5" value="2" />
+	<ctl name="SEC_TDM_TX_2 Channels" value="Sixthousandonehundredfortyfour" />
+	<ctl name="SEC_TDM_RX_2 Channels" value="Sixthousandonehundredfortyfour" />
+	<ctl name="SEC_TDM_TX_2 SampleRate" value="KHZ_176P4" />
+	<ctl name="SEC_TDM_RX_2 SampleRate" value="KHZ_176P4" />
+	<ctl name="SEC_TDM_TX_2 Format" value="S64_LE" />
+	<ctl name="SEC_TDM_RX_2 Format" value="S64_LE" />
+	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia4" value="2" />
+	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia4" value="2" />
+	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia7" value="2" />
+	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia7" value="2" />
+	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia10" value="2" />
+	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia10" value="2" />
+	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia11" value="2" />
+	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia11" value="2" />
+	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia12" value="2" />
+	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia12" value="2" />
+	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia13" value="2" />
+	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia13" value="2" />
+	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia14" value="2" />
+	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia14" value="2" />
+	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia15" value="2" />
+	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia15" value="2" />
+	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia16" value="2" />
+	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia16" value="2" />
+	<ctl name="SEC_TDM_TX_3 Channels" value="Sixthousandonehundredfortyfour" />
+	<ctl name="SEC_TDM_RX_3 Channels" value="Sixthousandonehundredfortyfour" />
+	<ctl name="SEC_TDM_TX_3 SampleRate" value="KHZ_176P4" />
+	<ctl name="SEC_TDM_RX_3 SampleRate" value="KHZ_176P4" />
+	<ctl name="SEC_TDM_TX_3 Format" value="S64_LE" />
+	<ctl name="SEC_TDM_RX_3 Format" value="S64_LE" />
+	</path>
+	
+	<!-- Welcome to the QuadDAC direct output 24bit -->
 	
 	<!-- DAC 0 = low-range -->
 	<!-- DAC 1 = mid-range -->
@@ -21840,7 +21909,7 @@
 	<!-- speaker-24bit is set to bit rate: 384 -->
 	<!-- 384 divided by 4 = 96 -->
 	
-	<path name="dop_playback tert-mi2s-headphones">
+	<path name="dop_playback-24bit tert-mi2s-headphones">
 	<ctl name="SEC_TDM_TX_0 Audio Mixer MultiMedia1" value="2" />
 	<ctl name="SEC_TDM_RX_0 Audio Mixer MultiMedia1" value="2" />
 	<ctl name="SEC_TDM_TX_0 Channels" value="Sixthousandonehundredfortyfour" />
