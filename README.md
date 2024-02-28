@@ -47,6 +47,9 @@ The world needs to prepare for the inevitable. This will absolutely change the w
 "Fundamentally, life itself is free".<br>
 — darnrain<br>
 
+"The more mistakes we make, the more we learn. The more we learn, the more mistakes we make".
+— darnrain<br>
+
 “Once you eliminate the impossible, whatever remains, no matter how improbable, must be the truth”<br>
 — Sir Arthur Conan Doyle<br>
 
