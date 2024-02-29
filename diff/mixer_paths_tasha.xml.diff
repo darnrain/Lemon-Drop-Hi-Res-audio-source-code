@@ -3,7 +3,7 @@
 < 	
 < 	<!-- Top of page -->
 < 	
-< 	<!-- Lemon Drop Hi-Res treble v226.1 -->
+< 	<!-- Lemon Drop Hi-Res treble v227.1 -->
 < 	<!-- The worlds best & first 24/32bit QuadDAC in True Stereo! -->
 < 	<!-- Designed and created by darnrain @GitHub -->
 < 	<!-- Proudly Made In America -->
@@ -8677,7 +8677,7 @@
 6361,6362d2369
 < 	<ctl name="TX COMP1" value="0" />
 < 	<ctl name="RX COMP1" value="0" />
-6364,20929c2371,2429
+6364,20917c2371,2429
 < 	<ctl name="TX COMP2" value="0" />
 < 	<ctl name="RX COMP2" value="0" />
 < 	<ctl name="COMP3 Switch" value="0" />
@@ -22800,15 +22800,12 @@
 < 	<!-- PC Speaker -->
 < 	
 < 	<path name="speaker-protected">
-< 	<ctl name="VI_FEED_TX Channels" value="One" />
-< 	<ctl name="VI_FEED_RX Channels" value="One" />
-< 	<ctl name="SLIM_4_TX SampleRate" value="KHZ_44P1" />
-< 	<ctl name="SLIM_4_RX SampleRate" value="KHZ_44P1" />
-< 	<ctl name="SLIM_4_TX Format" value="PACKED_16B" />
-< 	<ctl name="SLIM_4_RX Format" value="PACKED_16B" />
-< 	<ctl name="AIF4_VI Mixer SPKR_VI_1" value="1" />
-< 	<ctl name="SLIM0_TX_VI_FB_LCH_MUX"  value="SLIM4_TX" />
-< 	<ctl name="SLIM0_RX_VI_FB_LCH_MUX"  value="SLIM4_RX" />
+< 	<ctl name="SLIM_4_TX Channels" value="Four" />
+< 	<ctl name="SLIM_4_RX Channels" value="Four" />
+< 	<ctl name="SLIM_4_TX SampleRate" value="KHZ_176P4" />
+< 	<ctl name="SLIM_4_RX SampleRate" value="KHZ_176P4" />
+< 	<ctl name="SLIM_4_TX Format" value="PACKED_64B" />
+< 	<ctl name="SLIM_4_RX Format" value="PACKED_64B" />
 < 	<ctl name="SPKRL LDAC Switch" value="1" />
 < 	<ctl name="TX SPKRL LDAC" value="1" />
 < 	<ctl name="RX SPKRL LDAC" value="1" />
@@ -22834,16 +22831,13 @@
 < 	
 < 	<!-- PC Speaker for voice -->
 < 	
-< 	<path name="voice-speaker-protected">
-< 	<ctl name="VI_FEED_TX Channels" value="One" />
-< 	<ctl name="VI_FEED_RX Channels" value="One" />
-< 	<ctl name="SLIM_4_TX SampleRate" value="KHZ_44P1" />
-< 	<ctl name="SLIM_4_RX SampleRate" value="KHZ_44P1" />
-< 	<ctl name="SLIM_4_TX Format" value="PACKED_16B" />
-< 	<ctl name="SLIM_4_RX Format" value="PACKED_16B" />
-< 	<ctl name="AIF4_VI Mixer SPKR_VI_1" value="1" />
-< 	<ctl name="SLIM0_TX_VI_FB_LCH_MUX"  value="SLIM4_TX" />
-< 	<ctl name="SLIM0_RX_VI_FB_LCH_MUX"  value="SLIM4_RX" />
+< 	<path name="speaker-voice-protected">
+< 	<ctl name="SLIM_4_TX Channels" value="Four" />
+< 	<ctl name="SLIM_4_RX Channels" value="Four" />
+< 	<ctl name="SLIM_4_TX SampleRate" value="KHZ_176P4" />
+< 	<ctl name="SLIM_4_RX SampleRate" value="KHZ_176P4" />
+< 	<ctl name="SLIM_4_TX Format" value="PACKED_64B" />
+< 	<ctl name="SLIM_4_RX Format" value="PACKED_64B" />
 < 	<ctl name="SPKRL LDAC Switch" value="1" />
 < 	<ctl name="TX SPKRL LDAC" value="1" />
 < 	<ctl name="RX SPKRL LDAC" value="1" />
@@ -22893,15 +22887,12 @@
 < 	<ctl name="RX INT7 VBAT SPKRL VBAT Enable" value="1" />
 < 	<ctl name="TX INT8 VBAT SPKRR VBAT Enable" value="0" />
 < 	<ctl name="RX INT8 VBAT SPKRR VBAT Enable" value="0" />
-< 	<ctl name="VI_FEED_TX Channels" value="One" />
-< 	<ctl name="VI_FEED_RX Channels" value="One" />
-< 	<ctl name="SLIM_4_TX SampleRate" value="KHZ_44P1" />
-< 	<ctl name="SLIM_4_RX SampleRate" value="KHZ_44P1" />
-< 	<ctl name="SLIM_4_TX Format" value="PACKED_16B" />
-< 	<ctl name="SLIM_4_RX Format" value="PACKED_16B" />
-< 	<ctl name="AIF4_VI Mixer SPKR_VI_1" value="1" />
-< 	<ctl name="SLIM0_TX_VI_FB_LCH_MUX"  value="SLIM4_TX" />
-< 	<ctl name="SLIM0_RX_VI_FB_LCH_MUX"  value="SLIM4_RX" />
+< 	<ctl name="SLIM_4_TX Channels" value="Four" />
+< 	<ctl name="SLIM_4_RX Channels" value="Four" />
+< 	<ctl name="SLIM_4_TX SampleRate" value="KHZ_176P4" />
+< 	<ctl name="SLIM_4_RX SampleRate" value="KHZ_176P4" />
+< 	<ctl name="SLIM_4_TX Format" value="PACKED_64B" />
+< 	<ctl name="SLIM_4_RX Format" value="PACKED_64B" />
 < 	<ctl name="SPKRL LDAC Switch" value="1" />
 < 	<ctl name="TX SPKRL LDAC" value="1" />
 < 	<ctl name="RX SPKRL LDAC" value="1" />
@@ -22925,20 +22916,17 @@
 < 	</path>
 < 	
 < 	<!-- Added -->
-< 	<path name="vbat_voice-speaker-protected">
+< 	<path name="vbat_speaker-voice-protected">
 < 	<ctl name="TX INT7 VBAT SPKRL VBAT Enable" value="1" />
 < 	<ctl name="RX INT7 VBAT SPKRL VBAT Enable" value="1" />
 < 	<ctl name="TX INT8 VBAT SPKRR VBAT Enable" value="0" />
 < 	<ctl name="RX INT8 VBAT SPKRR VBAT Enable" value="0" />
-< 	<ctl name="VI_FEED_TX Channels" value="One" />
-< 	<ctl name="VI_FEED_RX Channels" value="One" />
-< 	<ctl name="SLIM_4_TX SampleRate" value="KHZ_44P1" />
-< 	<ctl name="SLIM_4_RX SampleRate" value="KHZ_44P1" />
-< 	<ctl name="SLIM_4_TX Format" value="PACKED_16B" />
-< 	<ctl name="SLIM_4_RX Format" value="PACKED_16B" />
-< 	<ctl name="AIF4_VI Mixer SPKR_VI_1" value="1" />
-< 	<ctl name="SLIM0_TX_VI_FB_LCH_MUX"  value="SLIM4_TX" />
-< 	<ctl name="SLIM0_RX_VI_FB_LCH_MUX"  value="SLIM4_RX" />
+< 	<ctl name="SLIM_4_TX Channels" value="Four" />
+< 	<ctl name="SLIM_4_RX Channels" value="Four" />
+< 	<ctl name="SLIM_4_TX SampleRate" value="KHZ_176P4" />
+< 	<ctl name="SLIM_4_RX SampleRate" value="KHZ_176P4" />
+< 	<ctl name="SLIM_4_TX Format" value="PACKED_64B" />
+< 	<ctl name="SLIM_4_RX Format" value="PACKED_64B" />
 < 	<ctl name="SPKRL LDAC Switch" value="1" />
 < 	<ctl name="TX SPKRL LDAC" value="1" />
 < 	<ctl name="RX SPKRL LDAC" value="1" />
@@ -22946,9 +22934,9 @@
 < 	<ctl name="TX SPKRR RDAC" value="0" />
 < 	<ctl name="RX SPKRR RDAC" value="0" />
 < 	<ctl name="TX7 Digital Volume" value="84" />
-< 	<ctl name="RX7 Digital Volume" value="68" />
+< 	<ctl name="RX7 Digital Volume" value="86" />
 < 	<ctl name="TX7 Mix Digital Volume" value="84" />
-< 	<ctl name="RX7 Mix Digital Volume" value="68" />
+< 	<ctl name="RX7 Mix Digital Volume" value="86" />
 < 	<ctl name="TX8 Digital Volume" value="0" />
 < 	<ctl name="RX8 Digital Volume" value="0" />
 < 	<ctl name="TX8 Mix Digital Volume" value="0" />
@@ -23304,7 +23292,7 @@
 >     </path>
 > 
 >     <path name="voice-anc-headphones">
-20932,21018c2432,2464
+20920,21006c2432,2464
 < 	<ctl name="RX HPH Mode" value="CLS_H_LP" />
 < 	<ctl name="RX1 Mix Digital Volume" value="74" />
 < 	<ctl name="RX2 Mix Digital Volume" value="74" />
@@ -23426,7 +23414,7 @@
 >     </path>
 > 
 >     <path name="voice-anc-fb-headphones">
-21021,26483c2467,3898
+21009,26599c2467,3898
 < 	<ctl name="ANC Function" value="ON" />
 < 	<ctl name="ANC Slot" value="0" />
 < 	<ctl name="ADC MUX10" value="AMIC" />
@@ -24507,6 +24495,144 @@
 < 	<ctl name="SEC_TDM_RX_3 Format" value="S24_LE" />
 < 	</path>
 < 	
+< 	<!-- Welcome to the QuadDAC direct output speaker-protected -->
+< 	
+< 	<!-- DAC 0 = low-range -->
+< 	<!-- DAC 1 = mid-range -->
+< 	<!-- DAC 2 = high-range -->
+< 	<!-- DAC 3 = offload -->
+< 	
+< 	<!-- You must divide everything by 4 from speaker-protected -->
+< 	
+< 	<!-- speaker-protected is set to channels: 4 -->
+< 	<!-- 4 divided by 4 = 1 -->
+< 	
+< 	<!-- speaker-protected is set to kilohertz: 176.4 -->
+< 	<!-- 176.4 divided by 4 = 44.1 -->
+< 	
+< 	<!-- speaker-protected is set to bit rate: 64 -->
+< 	<!-- 64 divided by 4 = 16 -->
+< 	
+< 	<path name="dop_playback-speaker-protected tert-mi2s-headphones">
+< 	<ctl name="SEC_TDM_TX_0 Audio Mixer MultiMedia1" value="1" />
+< 	<ctl name="SEC_TDM_RX_0 Audio Mixer MultiMedia1" value="1" />
+< 	<ctl name="SEC_TDM_TX_0 Channels" value="One" />
+< 	<ctl name="SEC_TDM_RX_0 Channels" value="One" />
+< 	<ctl name="SEC_TDM_TX_0 SampleRate" value="KHZ_44P1" />
+< 	<ctl name="SEC_TDM_RX_0 SampleRate" value="KHZ_44P1" />
+< 	<ctl name="SEC_TDM_TX_0 Format" value="S16_LE" />
+< 	<ctl name="SEC_TDM_RX_0 Format" value="S16_LE" />
+< 	<ctl name="SEC_TDM_TX_1 Audio Mixer MultiMedia3" value="1" />
+< 	<ctl name="SEC_TDM_RX_1 Audio Mixer MultiMedia3" value="1" />
+< 	<ctl name="SEC_TDM_TX_1 Channels" value="One" />
+< 	<ctl name="SEC_TDM_RX_1 Channels" value="One" />
+< 	<ctl name="SEC_TDM_TX_1 SampleRate" value="KHZ_44P1" />
+< 	<ctl name="SEC_TDM_RX_1 SampleRate" value="KHZ_44P1" />
+< 	<ctl name="SEC_TDM_TX_1 Format" value="S16_LE" />
+< 	<ctl name="SEC_TDM_RX_1 Format" value="S16_LE" />
+< 	<ctl name="SEC_TDM_TX_2 Audio Mixer MultiMedia5" value="1" />
+< 	<ctl name="SEC_TDM_RX_2 Audio Mixer MultiMedia5" value="1" />
+< 	<ctl name="SEC_TDM_TX_2 Channels" value="One" />
+< 	<ctl name="SEC_TDM_RX_2 Channels" value="One" />
+< 	<ctl name="SEC_TDM_TX_2 SampleRate" value="KHZ_44P1" />
+< 	<ctl name="SEC_TDM_RX_2 SampleRate" value="KHZ_44P1" />
+< 	<ctl name="SEC_TDM_TX_2 Format" value="S16_LE" />
+< 	<ctl name="SEC_TDM_RX_2 Format" value="S16_LE" />
+< 	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia4" value="1" />
+< 	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia4" value="1" />
+< 	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia7" value="1" />
+< 	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia7" value="1" />
+< 	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia10" value="1" />
+< 	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia10" value="1" />
+< 	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia11" value="1" />
+< 	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia11" value="1" />
+< 	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia12" value="1" />
+< 	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia12" value="1" />
+< 	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia13" value="1" />
+< 	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia13" value="1" />
+< 	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia14" value="1" />
+< 	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia14" value="1" />
+< 	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia15" value="1" />
+< 	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia15" value="1" />
+< 	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia16" value="1" />
+< 	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia16" value="1" />
+< 	<ctl name="SEC_TDM_TX_3 Channels" value="One" />
+< 	<ctl name="SEC_TDM_RX_3 Channels" value="One" />
+< 	<ctl name="SEC_TDM_TX_3 SampleRate" value="KHZ_44P1" />
+< 	<ctl name="SEC_TDM_RX_3 SampleRate" value="KHZ_44P1" />
+< 	<ctl name="SEC_TDM_TX_3 Format" value="S16_LE" />
+< 	<ctl name="SEC_TDM_RX_3 Format" value="S16_LE" />
+< 	</path>
+< 	
+< 	<!-- Welcome to the QuadDAC direct output speaker-voice-protected -->
+< 	
+< 	<!-- DAC 0 = low-range -->
+< 	<!-- DAC 1 = mid-range -->
+< 	<!-- DAC 2 = high-range -->
+< 	<!-- DAC 3 = offload -->
+< 	
+< 	<!-- You must divide everything by 4 from speaker-voice-protected -->
+< 	
+< 	<!-- speaker-voice-protected is set to channels: 4 -->
+< 	<!-- 4 divided by 4 = 1 -->
+< 	
+< 	<!-- speaker-voice-protected is set to kilohertz: 176.4 -->
+< 	<!-- 176.4 divided by 4 = 44.1 -->
+< 	
+< 	<!-- speaker-voice-protected is set to bit rate: 64 -->
+< 	<!-- 64 divided by 4 = 16 -->
+< 	
+< 	<path name="dop_playback-speaker-voice-protected tert-mi2s-headphones">
+< 	<ctl name="SEC_TDM_TX_0 Audio Mixer MultiMedia1" value="1" />
+< 	<ctl name="SEC_TDM_RX_0 Audio Mixer MultiMedia1" value="1" />
+< 	<ctl name="SEC_TDM_TX_0 Channels" value="One" />
+< 	<ctl name="SEC_TDM_RX_0 Channels" value="One" />
+< 	<ctl name="SEC_TDM_TX_0 SampleRate" value="KHZ_44P1" />
+< 	<ctl name="SEC_TDM_RX_0 SampleRate" value="KHZ_44P1" />
+< 	<ctl name="SEC_TDM_TX_0 Format" value="S16_LE" />
+< 	<ctl name="SEC_TDM_RX_0 Format" value="S16_LE" />
+< 	<ctl name="SEC_TDM_TX_1 Audio Mixer MultiMedia3" value="1" />
+< 	<ctl name="SEC_TDM_RX_1 Audio Mixer MultiMedia3" value="1" />
+< 	<ctl name="SEC_TDM_TX_1 Channels" value="One" />
+< 	<ctl name="SEC_TDM_RX_1 Channels" value="One" />
+< 	<ctl name="SEC_TDM_TX_1 SampleRate" value="KHZ_44P1" />
+< 	<ctl name="SEC_TDM_RX_1 SampleRate" value="KHZ_44P1" />
+< 	<ctl name="SEC_TDM_TX_1 Format" value="S16_LE" />
+< 	<ctl name="SEC_TDM_RX_1 Format" value="S16_LE" />
+< 	<ctl name="SEC_TDM_TX_2 Audio Mixer MultiMedia5" value="1" />
+< 	<ctl name="SEC_TDM_RX_2 Audio Mixer MultiMedia5" value="1" />
+< 	<ctl name="SEC_TDM_TX_2 Channels" value="One" />
+< 	<ctl name="SEC_TDM_RX_2 Channels" value="One" />
+< 	<ctl name="SEC_TDM_TX_2 SampleRate" value="KHZ_44P1" />
+< 	<ctl name="SEC_TDM_RX_2 SampleRate" value="KHZ_44P1" />
+< 	<ctl name="SEC_TDM_TX_2 Format" value="S16_LE" />
+< 	<ctl name="SEC_TDM_RX_2 Format" value="S16_LE" />
+< 	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia4" value="1" />
+< 	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia4" value="1" />
+< 	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia7" value="1" />
+< 	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia7" value="1" />
+< 	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia10" value="1" />
+< 	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia10" value="1" />
+< 	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia11" value="1" />
+< 	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia11" value="1" />
+< 	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia12" value="1" />
+< 	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia12" value="1" />
+< 	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia13" value="1" />
+< 	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia13" value="1" />
+< 	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia14" value="1" />
+< 	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia14" value="1" />
+< 	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia15" value="1" />
+< 	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia15" value="1" />
+< 	<ctl name="SEC_TDM_TX_3 Audio Mixer MultiMedia16" value="1" />
+< 	<ctl name="SEC_TDM_RX_3 Audio Mixer MultiMedia16" value="1" />
+< 	<ctl name="SEC_TDM_TX_3 Channels" value="One" />
+< 	<ctl name="SEC_TDM_RX_3 Channels" value="One" />
+< 	<ctl name="SEC_TDM_TX_3 SampleRate" value="KHZ_44P1" />
+< 	<ctl name="SEC_TDM_RX_3 SampleRate" value="KHZ_44P1" />
+< 	<ctl name="SEC_TDM_TX_3 Format" value="S16_LE" />
+< 	<ctl name="SEC_TDM_RX_3 Format" value="S16_LE" />
+< 	</path>
+< 	
 < 	<!-- Lemon Drop Hi-Res end of mods -->
 < 	
 < 	<path name="incall-music headphones tert-mi2s-headphones">
@@ -24616,7 +24742,7 @@
 < 	</path>
 < 	
 < 	<path name="speaker-vc">
-< 	<path name="voice-speaker-protected" />
+< 	<path name="speaker-voice-protected" />
 < 	<ctl name="RX7 Digital Volume" value="84" />
 < 	</path>
 < 	
@@ -28308,16 +28434,6 @@
 < 	<!-- <ctl name="RX7 Digital Volume" value="84" /> -->
 < 	<!-- </path> -->
 < 	
-< 	<!-- Added -->
-< 	<path name="loopback_speaker-mono">
-< 	<ctl name="HPHL LDAC Switch" value="1" />
-< 	<ctl name="TX HPHL LDAC" value="1" />
-< 	<ctl name="RX HPHL LDAC" value="1" />
-< 	<ctl name="HPHR RDAC Switch" value="0" />
-< 	<ctl name="TX HPHR RDAC" value="0" />
-< 	<ctl name="RX HPHR RDAC" value="0" />
-< 	</path>
-< 	
 < 	<!-- Deleted -->
 < 	<!--  <path name="loopback-headphones"> -->
 < 	<!--     <path name="voice-headphones" /> -->
@@ -28358,7 +28474,7 @@
 < 	</path>
 < 	
 < 	<path name="voip-speaker">
-< 	<path name="voice-speaker-protected" />
+< 	<path name="speaker-voice-protected" />
 < 	<ctl name="RX7 Digital Volume" value="84" />
 < 	</path>
 < 	
@@ -30323,7 +30439,7 @@
 >         <path name="speaker-protected" />
 >     </path>
 >     <!-- TERT MI2S A2DP OFFLOAD end -->
-26485,26487d3899
+26601,26603d3899
 < 	
 < 	
 < 	<!-- Bottom of page -->
