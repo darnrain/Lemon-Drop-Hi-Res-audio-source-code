@@ -3,7 +3,7 @@
 < 	
 < 	<!-- Top of page -->
 < 	
-< 	<!-- Lemon Drop Hi-Res treble v227.1 -->
+< 	<!-- Lemon Drop Hi-Res treble v228.1 -->
 < 	<!-- The worlds best & first 24/32bit QuadDAC in True Stereo! -->
 < 	<!-- Designed and created by darnrain @GitHub -->
 < 	<!-- Proudly Made In America -->
@@ -108,7 +108,7 @@
 < 	<!-- SLIM_1_RX SLIM_1_TX = echo -->
 < 	<!-- SLIM_2_RX SLIM_2_TX = speaker-mono 16bit internal speaker -->
 < 	<!-- SLIM_3_RX SLIM_3_TX = speaker-16bit aka 16bit DAC side -->
-< 	<!-- SLIM_4_RX SLIM_4_TX = speaker-protected non offloaded 16bit mono internal speaker -->
+< 	<!-- SLIM_4_RX SLIM_4_TX = speaker-protected speaker-protected-voice -->
 < 	<!-- SLIM_5_RX SLIM_5_TX = not in use -->
 < 	<!-- SLIM_6_RX SLIM_6_TX = headphones aka wired headphones 16bit FM Radio & headphones-phone -->
 < 	<!-- SLIM_7_RX SLIM_7_TX = bluetooth-16bit True Native Mode -->
@@ -22831,7 +22831,7 @@
 < 	
 < 	<!-- PC Speaker for voice -->
 < 	
-< 	<path name="speaker-voice-protected">
+< 	<path name="speaker-protected-voice">
 < 	<ctl name="SLIM_4_TX Channels" value="Four" />
 < 	<ctl name="SLIM_4_RX Channels" value="Four" />
 < 	<ctl name="SLIM_4_TX SampleRate" value="KHZ_176P4" />
@@ -22916,7 +22916,7 @@
 < 	</path>
 < 	
 < 	<!-- Added -->
-< 	<path name="vbat_speaker-voice-protected">
+< 	<path name="vbat_speaker-protected-voice">
 < 	<ctl name="TX INT7 VBAT SPKRL VBAT Enable" value="1" />
 < 	<ctl name="RX INT7 VBAT SPKRL VBAT Enable" value="1" />
 < 	<ctl name="TX INT8 VBAT SPKRR VBAT Enable" value="0" />
@@ -24564,25 +24564,25 @@
 < 	<ctl name="SEC_TDM_RX_3 Format" value="S16_LE" />
 < 	</path>
 < 	
-< 	<!-- Welcome to the QuadDAC direct output speaker-voice-protected -->
+< 	<!-- Welcome to the QuadDAC direct output speaker-protected-voice -->
 < 	
 < 	<!-- DAC 0 = low-range -->
 < 	<!-- DAC 1 = mid-range -->
 < 	<!-- DAC 2 = high-range -->
 < 	<!-- DAC 3 = offload -->
 < 	
-< 	<!-- You must divide everything by 4 from speaker-voice-protected -->
+< 	<!-- You must divide everything by 4 from speaker-protected-voice -->
 < 	
-< 	<!-- speaker-voice-protected is set to channels: 4 -->
+< 	<!-- speaker-protected-voice is set to channels: 4 -->
 < 	<!-- 4 divided by 4 = 1 -->
 < 	
-< 	<!-- speaker-voice-protected is set to kilohertz: 176.4 -->
+< 	<!-- speaker-protected-voice is set to kilohertz: 176.4 -->
 < 	<!-- 176.4 divided by 4 = 44.1 -->
 < 	
-< 	<!-- speaker-voice-protected is set to bit rate: 64 -->
+< 	<!-- speaker-protected-voice is set to bit rate: 64 -->
 < 	<!-- 64 divided by 4 = 16 -->
 < 	
-< 	<path name="dop_playback-speaker-voice-protected tert-mi2s-headphones">
+< 	<path name="dop_playback-speaker-protected-voice tert-mi2s-headphones">
 < 	<ctl name="SEC_TDM_TX_0 Audio Mixer MultiMedia1" value="1" />
 < 	<ctl name="SEC_TDM_RX_0 Audio Mixer MultiMedia1" value="1" />
 < 	<ctl name="SEC_TDM_TX_0 Channels" value="One" />
@@ -24742,7 +24742,7 @@
 < 	</path>
 < 	
 < 	<path name="speaker-vc">
-< 	<path name="speaker-voice-protected" />
+< 	<path name="speaker-protected-voice" />
 < 	<ctl name="RX7 Digital Volume" value="84" />
 < 	</path>
 < 	
@@ -28474,7 +28474,7 @@
 < 	</path>
 < 	
 < 	<path name="voip-speaker">
-< 	<path name="speaker-voice-protected" />
+< 	<path name="speaker-protected-voice" />
 < 	<ctl name="RX7 Digital Volume" value="84" />
 < 	</path>
 < 	
