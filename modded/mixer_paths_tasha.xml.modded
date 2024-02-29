@@ -28,7 +28,7 @@
 	
 	<!-- Top of page -->
 	
-	<!-- Lemon Drop Hi-Res treble v228.1 -->
+	<!-- Lemon Drop Hi-Res treble v229.1 -->
 	<!-- The worlds best & first 24/32bit QuadDAC in True Stereo! -->
 	<!-- Designed and created by darnrain @GitHub -->
 	<!-- Proudly Made In America -->
@@ -21810,7 +21810,7 @@
 	<ctl name="SEC_MI2S_RX Audio Mixer MultiMedia16" value="2" />
 	</path>
 	
-	<!-- Welcome to the QuadDAC direct output 16bit -->
+	<!-- Welcome to the QuadDAC direct output speaker-16bit -->
 	
 	<!-- DAC 0 = low-range -->
 	<!-- DAC 1 = mid-range -->
@@ -21828,7 +21828,7 @@
 	<!-- speaker-16bit is set to bit rate: 256 -->
 	<!-- 256 divided by 4 = 64 -->
 	
-	<path name="dop_playback-16bit tert-mi2s-headphones">
+	<path name="dop_playback-speaker-16bit tert-mi2s-headphones">
 	<ctl name="SEC_TDM_TX_0 Audio Mixer MultiMedia1" value="2" />
 	<ctl name="SEC_TDM_RX_0 Audio Mixer MultiMedia1" value="2" />
 	<ctl name="SEC_TDM_TX_0 Channels" value="Sixthousandonehundredfortyfour" />
@@ -21879,7 +21879,7 @@
 	<ctl name="SEC_TDM_RX_3 Format" value="S64_LE" />
 	</path>
 	
-	<!-- Welcome to the QuadDAC direct output 24bit -->
+	<!-- Welcome to the QuadDAC direct output speaker-24bit -->
 	
 	<!-- DAC 0 = low-range -->
 	<!-- DAC 1 = mid-range -->
@@ -21897,7 +21897,7 @@
 	<!-- speaker-24bit is set to bit rate: 384 -->
 	<!-- 384 divided by 4 = 96 -->
 	
-	<path name="dop_playback-24bit tert-mi2s-headphones">
+	<path name="dop_playback-speaker-24bit tert-mi2s-headphones">
 	<ctl name="SEC_TDM_TX_0 Audio Mixer MultiMedia1" value="2" />
 	<ctl name="SEC_TDM_RX_0 Audio Mixer MultiMedia1" value="2" />
 	<ctl name="SEC_TDM_TX_0 Channels" value="Sixthousandonehundredfortyfour" />
